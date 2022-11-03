@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_mammuthus_primigenius_blumenbach"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Mammuthus"
+            },
+            {
+              "item": "primigenius"
+            },
+            {
+              "item": "Blumenbach"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_mammuthus_primigenius_blumenbach"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_mammuthus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]
