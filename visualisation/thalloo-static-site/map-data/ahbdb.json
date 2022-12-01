@@ -1,0 +1,142 @@
+{
+    "Name": "Shrub growth and expansion in the Arctic tundra",
+    "Description": "An assessment of controlling factors using an evidence-based approach",
+    "Publication": "Martin et al (2017)",
+    "Logos": [
+        { "File": "oxford", "Name": "University of Oxford", "ExternalUrl": "ox.ac.uk" },
+        { "File": "nerc", "Name": "Natural Environment Research Council", "ExternalUrl": "nerc.ac.uk" }
+    ],
+    "Projection": "arctic",
+    "DisplayMode": "cluster",
+    "DisplayUnit": "DisplayUnit",
+    "MaxPieSize": 110,
+    "ClusterDistance": 250,
+    "BaseLayers": [{
+        "File": "subzones",
+        "Name": "Bioclimate Subzones",
+        "Description": "Arctic zonation defined by the Circumpolar Arctic Vegetation Atlas."
+    }],
+    "Fields": [{
+            "Column": "Control",
+            "Name": "Control",
+            "DataType": "string",
+            "Description": "A proximal or ultimate control"
+        },
+        {
+            "Column": "Category",
+            "Name": "Category",
+            "DataType": "string",
+            "Description": "Broad categorisation of proximal and ultimate controls."
+        },
+        {
+            "Column": "ControlType",
+            "Name": "Control Type",
+            "DataType": "string",
+            "Description": "The proximity of the control to shrub growth and expansion"
+        },
+        {
+            "Column": "NatureOfMeasurement",
+            "Name": "Experimental Design",
+            "DataType": "string",
+            "Description": "Experimental design, as defined in the paper"
+        },
+        {
+            "Column": "Temporal Extent (y)",
+            "Name": "Temporal Extent",
+            "DataType": "float",
+            "Unit": "years",
+            "Description": "Length of analysis, if the analysis was temporal in nature"
+        },
+        {
+            "Column": "Temporal Resolution Finest (y)",
+            "Name": "Temporal Resolution - Finest",
+            "DataType": "float",
+            "Unit": "years",
+            "Description": "Maximum temporal resolution of analysis, if the analysis was temporal in nature"
+        }
+    ],
+    "DataPalettes": [{
+        "Column": "DisplayUnit",
+        "Palette": [{
+                "Name": "2 Air Temperature",
+                "Hex": "015ce6"
+            },
+            {
+                "Name": "3 Carbon Dioxide",
+                "Hex": "ff2fc5"
+            },
+            {
+                "Name": "4 Fire",
+                "Hex": "ff2501"
+            },
+            {
+                "Name": "5 Humidity",
+                "Hex": "ebc2fd"
+            },
+            {
+                "Name": "6 Ice and Frost",
+                "Hex": "befee8"
+            },
+            {
+                "Name": "7 Light",
+                "Hex": "fdfc02"
+            },
+            {
+                "Name": "8 Snow",
+                "Hex": "white"
+            },
+            {
+                "Name": "9 Herbivory",
+                "Hex": "38a801"
+            },
+            {
+                "Name": "10 Fungal",
+                "Hex": "8ee458"
+            },
+            {
+                "Name": "11 Soil Surface",
+                "Hex": "ff8c22"
+            },
+            {
+                "Name": "12 Active Layer Depth",
+                "Hex": "e5bd73"
+            },
+            {
+                "Name": "12 Soil Belowground Conditions",
+                "Hex": "a87000"
+            },
+            {
+                "Name": "13 Soil Moisture",
+                "Hex": "73b2ff"
+            },
+            {
+                "Name": "14 Soil Belowground Resources",
+                "Hex": "664402"
+            },
+            {
+                "Name": "Ecosystem Structure",
+                "Hex": "8ee458"
+            },
+            {
+                "Name": "Soil Nutrients",
+                "Hex": "664402"
+            },
+            {
+                "Name": "Topography",
+                "Hex": "ff8c22"
+            },
+            {
+                "Name": "Human",
+                "Hex": "ff2fc5"
+            },
+            {
+                "Name": "Glacial and Periglacial",
+                "Hex": "befee8"
+            },
+            {
+                "Name": "Sea Ice Extent",
+                "Hex": "fff"
+            }
+        ]
+    }]
+}
