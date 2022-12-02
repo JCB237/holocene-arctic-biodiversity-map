@@ -4,13 +4,13 @@
 # Configure the basic settings below to configure your copy.
 
 # Your site settings
-title: Thalloo Maps
+title: Holocene Arctic Biodiversity Map
 description: > # this means to ignore newlines until "baseurl:"
-  A range of environmental datasets that can be visualised across space and through time.
+  Visualisations and data exploration for the systematic map 'What evidence exists for temporal variability in Arctic terrestrial and freshwater biodiversity throughout the Holocene?'
 baseurl: "/thalloo-starter" # the subpath of your site, e.g. /blog
 url: "http://acm.im" # the base hostname & protocol for your site
-ownername: "Your Website Name"
-ownerurl: "https://your.website.url"
+ownername: "CHARTER - a Horizon 2020 consortium"
+ownerurl: "http://charter-arctic.org"
 
 # Internal configuration
 plugins:
@@ -20,7 +20,7 @@ markdown: kramdown
 collections:
   maps:
     output: true
-    permalink: /:path/
+    permalink: /:path
 defaults:
   -
     scope:
