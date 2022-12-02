@@ -13,4 +13,8 @@
     <ProjectReference Include="paket-files\AndrewIOM\biodiversity-graph-db\src\BiodiversityCoder.Core\BiodiversityCoder.Core.fsproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="FSharp.Data" Version="5.0.2" />
+  </ItemGroup>
+
 </Project>
