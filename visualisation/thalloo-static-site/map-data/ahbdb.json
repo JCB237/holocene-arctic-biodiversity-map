@@ -1,10 +1,10 @@
 {
-    "Name": "Shrub growth and expansion in the Arctic tundra",
-    "Description": "An assessment of controlling factors using an evidence-based approach",
-    "Publication": "Martin et al (2017)",
+    "Name": "[Work in Progress] Arctic Holocene Biodiversity Map",
+    "Description": "Note. This dataset is not complete, as work is ongoing.",
+    "Publication": "Martin, A.C., Assmann, J.J., Bradshaw, R.H.W., Kuoppamaa, M., Kuosmanen, N.I., Normand, S., Speed, J.D.M., Macias- Fauria, M., 2022. What evidence exists for temporal variability in Arctic terrestrial and freshwater biodiversity throughout the Holocene? A systematic map protocol. Environ Evid 11, 13 (2022). https://doi.org/10.1186/s13750-022-00267-x",
     "Logos": [
-        { "File": "oxford", "Name": "University of Oxford", "ExternalUrl": "ox.ac.uk" },
-        { "File": "nerc", "Name": "Natural Environment Research Council", "ExternalUrl": "nerc.ac.uk" }
+        { "File": "charter", "Name": "CHARTER - A Horizon 2020 consortium", "ExternalUrl": "charter-arctic.org" },
+        { "File": "oxford", "Name": "University of Oxford", "ExternalUrl": "ox.ac.uk" }
     ],
     "Projection": "arctic",
     "DisplayMode": "cluster",
@@ -16,126 +16,44 @@
         "Name": "Bioclimate Subzones",
         "Description": "Arctic zonation defined by the Circumpolar Arctic Vegetation Atlas."
     }],
-    "Fields": [{
-            "Column": "Control",
-            "Name": "Control",
+    "Fields": [
+        {
+            "Column": "inferred_as",
+            "Name": "Taxon (inferred as)",
             "DataType": "string",
-            "Description": "A proximal or ultimate control"
+            "Description": "The taxon / taxa that the biotic proxy has been inferred as."
         },
         {
-            "Column": "Category",
-            "Name": "Category",
+            "Column": "inferred_from",
+            "Name": "Biotic Proxy (inferred from)",
             "DataType": "string",
-            "Description": "Broad categorisation of proximal and ultimate controls."
+            "Description": "The biotic proxy that was recorded, from which a true taxon / taxa have been inferred."
         },
         {
-            "Column": "ControlType",
-            "Name": "Control Type",
+            "Column": "inferred_using",
+            "Name": "Inference method",
             "DataType": "string",
-            "Description": "The proximity of the control to shrub growth and expansion"
+            "Description": "The inference method used to connect the biotic proxy to a true taxon / taxa."
         },
         {
-            "Column": "NatureOfMeasurement",
-            "Name": "Experimental Design",
+            "Column": "biodiversity_measure",
+            "Name": "Biodiversity Dimension",
             "DataType": "string",
-            "Description": "Experimental design, as defined in the paper"
+            "Description": "The dimension of biodiversity (or 'measure') interpreted from the biotic proxy."
         },
         {
-            "Column": "Temporal Extent (y)",
-            "Name": "Temporal Extent",
+            "Column": "source_year",
+            "Name": "Publication Year",
             "DataType": "float",
             "Unit": "years",
-            "Description": "Length of analysis, if the analysis was temporal in nature"
-        },
-        {
-            "Column": "Temporal Resolution Finest (y)",
-            "Name": "Temporal Resolution - Finest",
-            "DataType": "float",
-            "Unit": "years",
-            "Description": "Maximum temporal resolution of analysis, if the analysis was temporal in nature"
+            "Description": "The year in which the source was published"
         }
     ],
     "DataPalettes": [{
-        "Column": "DisplayUnit",
+        "Column": "inferred_as",
         "Palette": [{
                 "Name": "2 Air Temperature",
                 "Hex": "015ce6"
-            },
-            {
-                "Name": "3 Carbon Dioxide",
-                "Hex": "ff2fc5"
-            },
-            {
-                "Name": "4 Fire",
-                "Hex": "ff2501"
-            },
-            {
-                "Name": "5 Humidity",
-                "Hex": "ebc2fd"
-            },
-            {
-                "Name": "6 Ice and Frost",
-                "Hex": "befee8"
-            },
-            {
-                "Name": "7 Light",
-                "Hex": "fdfc02"
-            },
-            {
-                "Name": "8 Snow",
-                "Hex": "white"
-            },
-            {
-                "Name": "9 Herbivory",
-                "Hex": "38a801"
-            },
-            {
-                "Name": "10 Fungal",
-                "Hex": "8ee458"
-            },
-            {
-                "Name": "11 Soil Surface",
-                "Hex": "ff8c22"
-            },
-            {
-                "Name": "12 Active Layer Depth",
-                "Hex": "e5bd73"
-            },
-            {
-                "Name": "12 Soil Belowground Conditions",
-                "Hex": "a87000"
-            },
-            {
-                "Name": "13 Soil Moisture",
-                "Hex": "73b2ff"
-            },
-            {
-                "Name": "14 Soil Belowground Resources",
-                "Hex": "664402"
-            },
-            {
-                "Name": "Ecosystem Structure",
-                "Hex": "8ee458"
-            },
-            {
-                "Name": "Soil Nutrients",
-                "Hex": "664402"
-            },
-            {
-                "Name": "Topography",
-                "Hex": "ff8c22"
-            },
-            {
-                "Name": "Human",
-                "Hex": "ff2fc5"
-            },
-            {
-                "Name": "Glacial and Periglacial",
-                "Hex": "befee8"
-            },
-            {
-                "Name": "Sea Ice Extent",
-                "Hex": "fff"
             }
         ]
     }]
