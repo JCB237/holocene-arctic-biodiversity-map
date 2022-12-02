@@ -1,5 +1,5 @@
 ---
 name: "Arctic Holocene Biodiversity Database"
-mapname: arcticholbiodb
+mapname: ahbdb
 layout: map
 ---
