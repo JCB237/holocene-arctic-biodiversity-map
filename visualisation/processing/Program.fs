@@ -4,8 +4,8 @@ open BiodiversityCoder.Core.GraphStructure
 open FSharp.Data
 
 type IndividualMeasureCsv = CsvProvider<
-    Sample = "source_id, source_title, source_year, site_name, LatDD, LonDD, inferred_from, inferred_using, biodiversity_measure, inferred_as",
-    Schema = "source_id (string option), source_title (string option), source_year (int option), site_name (string), LatDD (float), LonDD (float), inferred_from (string option), inferred_using (string option), biodiversity_measure (string option), inferred_as (string)", HasHeaders = true>
+    Sample = "source_id, source_title, source_year, site_name, LatDD, LonDD, inferred_from, inferred_using, biodiversity_measure, inferred_as, sample_origin",
+    Schema = "source_id (string option), source_title (string option), source_year (int option), site_name (string), LatDD (float), LonDD (float), inferred_from (string option), inferred_using (string option), biodiversity_measure (string option), inferred_as (string), sample_origin (string)", HasHeaders = true>
 
 let unwrap (f:float<_>) = float f
 
@@ -166,7 +166,7 @@ let run () =
                         biodiversityOutcomes
                         |> Result.lift(fun ls ->
                             ls |> List.map(fun (from, using, by, taxon) ->
-                                sId, sourceName, year, context.Name.Value, unwrap lat.Value, unwrap lon.Value, from, using, by, taxon)
+                                sId, sourceName, year, context.Name.Value, unwrap lat.Value, unwrap lon.Value, from, using, by, taxon, context.SampleOrigin.ToString())
                         )
                     | _ -> Ok [])
                 |> Result.lift(fun l -> l)

@@ -8,7 +8,7 @@
     ],
     "Projection": "arctic",
     "DisplayMode": "cluster",
-    "DisplayUnit": "inferred_as",
+    "DisplayUnit": "sample_origin",
     "MaxPieSize": 110,
     "ClusterDistance": 250,
     "BaseLayers": [{
@@ -42,6 +42,12 @@
             "Description": "The dimension of biodiversity (or 'measure') interpreted from the biotic proxy."
         },
         {
+            "Column": "sample_origin",
+            "Name": "Origin of Sample",
+            "DataType": "string",
+            "Description": "The parent material from which the biodiversity measure was observed."
+        },
+        {
             "Column": "source_year",
             "Name": "Publication Year",
             "DataType": "float",
@@ -50,10 +56,27 @@
         }
     ],
     "DataPalettes": [{
-        "Column": "inferred_as",
-        "Palette": [{
-                "Name": "2 Air Temperature",
-                "Hex": "015ce6"
+        "Column": "sample_origin",
+        "Palette": [
+            {
+                "Name": "LakeSediment",
+                "Hex": "648FFF"
+            },
+            {
+                "Name": "PeatCore",
+                "Hex": "785EF0"
+            },
+            {
+                "Name": "Subfossil",
+                "Hex": "DC267F"
+            },
+            {
+                "Name": "LivingOrganism",
+                "Hex": "FE6100"
+            },
+            {
+                "Name": "Other",
+                "Hex": "000"
             }
         ]
     }]
