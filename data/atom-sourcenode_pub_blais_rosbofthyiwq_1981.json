@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Blais, J. R."
-            },
-            "Title": {
-              "item": "Recurrence of spruce budworm outbreaks for two hundred years in western Quebec"
-            },
-            "Year": 1981,
-            "Volume": 57,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Blais, J. R."
+              },
+              "Title": {
+                "item": "Recurrence of spruce budworm outbreaks for two hundred years in western Quebec"
+              },
+              "Year": 1981,
+              "Volume": 57,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Occurs in the Dumoine River and Coulonge River watersheds."
           }
-        }
+        ]
       }
     }
   ],
