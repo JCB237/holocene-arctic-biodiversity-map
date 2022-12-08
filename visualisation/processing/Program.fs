@@ -34,6 +34,8 @@ let run () =
                         match s2 with
                         | Sources.SourceNode.Included (i,prog) ->
                             match prog with
+                            | Sources.CodingProgress.InProgress _
+                            | Sources.CodingProgress.Stalled _
                             | Sources.CodingProgress.CompletedAll -> Some (s |> fst, i, s |> snd)
                             | _ -> None
                         | _ -> None

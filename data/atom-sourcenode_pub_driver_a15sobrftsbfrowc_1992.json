@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Driver, J. C.; Hobson, K. A."
-            },
-            "Title": {
-              "item": "A 10 500-Year Sequence of Bird Remains from the Southern Boreal Forest Region of Western Canada"
-            },
-            "Year": 1992,
-            "Volume": 45,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Driver, J. C.; Hobson, K. A."
+              },
+              "Title": {
+                "item": "A 10 500-Year Sequence of Bird Remains from the Southern Boreal Forest Region of Western Canada"
+              },
+              "Year": 1992,
+              "Volume": 45,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "None"
           }
-        }
+        ]
       }
     }
   ],

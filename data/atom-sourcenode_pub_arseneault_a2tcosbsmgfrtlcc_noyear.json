@@ -8,19 +8,51 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Arseneault, D.; Asselin, H.; Delwaide, A.; Lavoie, C.; Payette, S."
-            },
-            "Title": {
-              "item": "A 2233-year tree-ring chronology of subarctic black spruce (Picea mariana): growth forms response to long-term climate change"
-            },
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Arseneault, D.; Asselin, H.; Delwaide, A.; Lavoie, C.; Payette, S."
+              },
+              "Title": {
+                "item": "A 2233-year tree-ring chronology of subarctic black spruce (Picea mariana): growth forms response to long-term climate change"
+              },
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "Stalled": [
+              [],
+              {
+                "item": "source-primary-or-secondary"
+              },
+              {
+                "item": "This is a complex synthesis paper, that includes three chronologies (one rw-dated, two radiocarbon). Need to link to existing primary sources, as well as code as a primary source. Waiting for all screening to be complete for ease of entry."
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_arseneault_a2tcosbsmgfrtlcc_noyear"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "cf2bbc21-93c8-4651-9f9f-824d3ab02fa0"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

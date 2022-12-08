@@ -92,6 +92,26 @@
   {
     "NodeId": {
       "FriendlyKey": [
+        "bioticproxynode",
+        "direct_picea mariana (mill.) b.s.p."
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Contemporaneous Whole Organism: Picea mariana (Mill.) B.S.P."
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_megafossil_aves_bone"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Macrofossil: Aves (bone of)"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
         "calyearnode",
         "-10ybp"
       ]
@@ -140833,6 +140853,16 @@
     "NodeId": {
       "UUID": [
         "contextnode",
+        "25fec038-4d20-4028-b3a6-db46a09d2af2"
+      ]
+    },
+    "NodeTypeName": "ContextNode",
+    "PrettyName": "Site: Rivière Boniface / Lac Bush"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "contextnode",
         "421d947d-7fb2-44c3-aadc-123c478f7755"
       ]
     },
@@ -140863,6 +140893,16 @@
     "NodeId": {
       "UUID": [
         "contextnode",
+        "d3145853-3f57-44a6-bec1-c8efc3d41fc6"
+      ]
+    },
+    "NodeTypeName": "ContextNode",
+    "PrettyName": "Site: Site 31 and Site 36 (composite)"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "contextnode",
         "ef4d744d-59ec-4f7f-9184-c630880aa174"
       ]
     },
@@ -140883,7 +140923,47 @@
     "NodeId": {
       "UUID": [
         "individualdatenode",
+        "1519ff29-ee1e-4b7b-a6cf-adfe691665d3"
+      ]
+    },
+    "NodeTypeName": "IndividualDateNode",
+    "PrettyName": "An individual date"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "individualdatenode",
+        "1f4ab6cc-538b-47e7-8571-3f84a0943643"
+      ]
+    },
+    "NodeTypeName": "IndividualDateNode",
+    "PrettyName": "An individual date"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "individualdatenode",
+        "21f6603c-6253-4ee6-b44c-ffa83f34118a"
+      ]
+    },
+    "NodeTypeName": "IndividualDateNode",
+    "PrettyName": "An individual date"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "individualdatenode",
         "3025d87b-d27c-46af-9427-60ef7cb269e2"
+      ]
+    },
+    "NodeTypeName": "IndividualDateNode",
+    "PrettyName": "An individual date"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "individualdatenode",
+        "8e854465-fe6d-4e8d-b461-a5a9e2163fa1"
       ]
     },
     "NodeTypeName": "IndividualDateNode",
@@ -140904,6 +140984,16 @@
       "UUID": [
         "individualdatenode",
         "f04db4de-dbbc-4539-9365-b7b042074320"
+      ]
+    },
+    "NodeTypeName": "IndividualDateNode",
+    "PrettyName": "An individual date"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "individualdatenode",
+        "f48c3113-0bd5-4729-b5ef-bf9b10fd6106"
       ]
     },
     "NodeTypeName": "IndividualDateNode",
@@ -140953,11 +141043,51 @@
     "NodeId": {
       "UUID": [
         "individualtimelinenode",
+        "6a3c9236-d245-4ddc-bbd6-3d4a8fa03538"
+      ]
+    },
+    "NodeTypeName": "IndividualTimelineNode",
+    "PrettyName": "A study timeline"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "individualtimelinenode",
         "92880a4d-660d-4ed3-a024-c79f570656e8"
       ]
     },
     "NodeTypeName": "IndividualTimelineNode",
     "PrettyName": "A study timeline"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "individualtimelinenode",
+        "cf2bbc21-93c8-4651-9f9f-824d3ab02fa0"
+      ]
+    },
+    "NodeTypeName": "IndividualTimelineNode",
+    "PrettyName": "A study timeline"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "inferencemethodnode",
+        "atlas_siegel-causey, d. 1988. phylogeny of the phalacrocoracidae. condor 90:885-905. "
+      ]
+    },
+    "NodeTypeName": "InferenceMethodNode",
+    "PrettyName": "Explicit: Atlas or Key - Siegel-Causey, D. 1988. Phylogeny of the Phalacrocoracidae. Condor 90:885-905. "
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "inferencemethodnode",
+        "atlas_siegel-causey, d. 199 1. systematics and biogeography of north pacific shags, with a description of a new species. oct. pap. univ. kansas mus. nat. hist. 140:1-17."
+      ]
+    },
+    "NodeTypeName": "InferenceMethodNode",
+    "PrettyName": "Explicit: Atlas or Key - Siegel-Causey, D. 199 1. Systematics and biogeography of North Pacific shags, with a description of a new species. Oct. Pap. Univ. Kansas Mus. Nat. Hist. 140:1-17."
   },
   {
     "NodeId": {
@@ -140973,7 +141103,57 @@
     "NodeId": {
       "UUID": [
         "proxiedtaxonnode",
+        "366697df-e748-47c2-9c47-092c8f70106a"
+      ]
+    },
+    "NodeTypeName": "ProxiedTaxonNode",
+    "PrettyName": "[Proxied taxon hyper-edge]"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "proxiedtaxonnode",
+        "39157351-1851-4abe-adb0-8789bf5a183d"
+      ]
+    },
+    "NodeTypeName": "ProxiedTaxonNode",
+    "PrettyName": "[Proxied taxon hyper-edge]"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "proxiedtaxonnode",
+        "5339aa12-9fd5-4caf-81c4-a4100ab2a8f8"
+      ]
+    },
+    "NodeTypeName": "ProxiedTaxonNode",
+    "PrettyName": "[Proxied taxon hyper-edge]"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "proxiedtaxonnode",
         "6a882f72-0e15-49f8-bc54-2fe6c58b28a0"
+      ]
+    },
+    "NodeTypeName": "ProxiedTaxonNode",
+    "PrettyName": "[Proxied taxon hyper-edge]"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "proxiedtaxonnode",
+        "8dc78b07-0c01-4ac8-80d5-eb9bcbaaf9bf"
+      ]
+    },
+    "NodeTypeName": "ProxiedTaxonNode",
+    "PrettyName": "[Proxied taxon hyper-edge]"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "proxiedtaxonnode",
+        "97c5add3-afea-4de0-81f9-9ca00c6f5986"
       ]
     },
     "NodeTypeName": "ProxiedTaxonNode",
@@ -140994,6 +141174,26 @@
       "UUID": [
         "proxiedtaxonnode",
         "bf60be94-1058-433d-a594-49bfd8c85a56"
+      ]
+    },
+    "NodeTypeName": "ProxiedTaxonNode",
+    "PrettyName": "[Proxied taxon hyper-edge]"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "proxiedtaxonnode",
+        "cbea1f0b-4fac-4cd0-84d7-42e4190c2196"
+      ]
+    },
+    "NodeTypeName": "ProxiedTaxonNode",
+    "PrettyName": "[Proxied taxon hyper-edge]"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "proxiedtaxonnode",
+        "d2ea3891-8569-441a-a930-9c75f3c1687e"
       ]
     },
     "NodeTypeName": "ProxiedTaxonNode",
@@ -164503,6 +164703,16 @@
     "NodeId": {
       "FriendlyKey": [
         "taxonnode",
+        "class_aves"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Aves [Class]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
         "class_mammalia"
       ]
     },
@@ -164543,6 +164753,16 @@
     "NodeId": {
       "FriendlyKey": [
         "taxonnode",
+        "family_phalacrocoracidae"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Phalacrocoracidae [Family]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
         "family_pinaceae"
       ]
     },
@@ -164563,11 +164783,31 @@
     "NodeId": {
       "FriendlyKey": [
         "taxonnode",
+        "genus_compsohalieus"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Compsohalieus [Genus]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
         "genus_diapensia"
       ]
     },
     "NodeTypeName": "TaxonNode",
     "PrettyName": "Diapensia [Genus]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "genus_hypoleucus"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Hypoleucus [Genus]"
   },
   {
     "NodeId": {
@@ -164593,11 +164833,41 @@
     "NodeId": {
       "FriendlyKey": [
         "taxonnode",
+        "genus_phalacrocorax"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Phalacrocorax [Genus]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
         "genus_picea"
       ]
     },
     "NodeTypeName": "TaxonNode",
     "PrettyName": "Picea [Genus]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "genus_stictocarbo"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Stictocarbo [Genus]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "genus_urile"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Urile [Genus]"
   },
   {
     "NodeId": {
@@ -164643,6 +164913,16 @@
     "NodeId": {
       "FriendlyKey": [
         "taxonnode",
+        "order_suliformes"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Suliformes [Order]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
         "phylum_chordata"
       ]
     },
@@ -164663,11 +164943,31 @@
     "NodeId": {
       "FriendlyKey": [
         "taxonnode",
+        "species_compsohalieus_perspicillatus_pallas"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Compsohalieus perspicillatus Pallas [Species]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
         "species_diapensia_lapponica_l."
       ]
     },
     "NodeTypeName": "TaxonNode",
     "PrettyName": "Diapensia lapponica L. [Species]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_hypoleucus_auritus_lesson"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Hypoleucus auritus Lesson [Species]"
   },
   {
     "NodeId": {
@@ -164693,10 +164993,60 @@
     "NodeId": {
       "FriendlyKey": [
         "taxonnode",
+        "species_phalacrocorax_capillatus_temminck &amp; schlegel"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Phalacrocorax capillatus Temminck & Schlegel [Species]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
         "species_picea_glauca_(moench) voss"
       ]
     },
     "NodeTypeName": "TaxonNode",
     "PrettyName": "Picea glauca (Moench) Voss [Species]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_picea_mariana_(mill.) britton, sterns &amp; poggenb."
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Picea mariana (Mill.) Britton, Sterns & Poggenb. [Species]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_stictocarbo_kenyoni_siegel-causey"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Stictocarbo kenyoni Siegel-Causey [Species]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_stictocarbo_pelagicus_pallas"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Stictocarbo pelagicus Pallas [Species]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_stictocarbo_urile_gmelin"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Stictocarbo urile Gmelin [Species]"
   }
 ]
