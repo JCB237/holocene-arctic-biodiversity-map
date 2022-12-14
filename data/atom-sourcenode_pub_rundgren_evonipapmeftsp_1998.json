@@ -8,21 +8,88 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Rundgren, M."
-            },
-            "Title": {
-              "item": "Early-Holocene vegetation of northern Iceland: pollen and plant macrofossil evidence from the Skagi peninsula"
-            },
-            "Year": 1998,
-            "Volume": 8,
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Rundgren, M."
+              },
+              "Title": {
+                "item": "Early-Holocene vegetation of northern Iceland: pollen and plant macrofossil evidence from the Skagi peninsula"
+              },
+              "Year": 1998,
+              "Volume": 8,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "exposure"
+              },
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_rundgren_evonipapmeftsp_1998"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0054c69e-451f-4f4f-84e2-d37a16304f60"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_rundgren_evonipapmeftsp_1998"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "3c4d76f1-7c42-48de-a0aa-6b3c7b8b6e93"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_rundgren_evonipapmeftsp_1998"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_rundgren_beotadoini_1995"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]
