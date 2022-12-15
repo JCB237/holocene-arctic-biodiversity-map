@@ -113,6 +113,36 @@
     "NodeId": {
       "FriendlyKey": [
         "bioticproxynode",
+        "morphotype_megafossil_betula nana_catkin"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Macrofossil: Betula nana"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_megafossil_betula nana_fruit"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Macrofossil: Betula nana"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
+        "morphotype_megafossil_betula pubescens_catkin"
+      ]
+    },
+    "NodeTypeName": "BioticProxyNode",
+    "PrettyName": "Macrofossil: Betula pubescens"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "bioticproxynode",
         "morphotype_plantmacrofossil_angelica sylvestris"
       ]
     },
@@ -141283,6 +141313,16 @@
     "NodeId": {
       "UUID": [
         "contextnode",
+        "c13214cf-0757-4622-b279-33af2d644ad0"
+      ]
+    },
+    "NodeTypeName": "ContextNode",
+    "PrettyName": "Site: Bruvatnet"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "contextnode",
         "d3145853-3f57-44a6-bec1-c8efc3d41fc6"
       ]
     },
@@ -141573,11 +141613,31 @@
     "NodeId": {
       "UUID": [
         "individualtimelinenode",
+        "c3e5493d-cdde-48ce-96ed-e0565a16123b"
+      ]
+    },
+    "NodeTypeName": "IndividualTimelineNode",
+    "PrettyName": "A study timeline"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "individualtimelinenode",
         "cf2bbc21-93c8-4651-9f9f-824d3ab02fa0"
       ]
     },
     "NodeTypeName": "IndividualTimelineNode",
     "PrettyName": "A study timeline"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "inferencemethodnode",
+        "atlas_m&#228;kel&#228; (1998) birch pollen measurements and the history of birch at bruvatnet, norwegian lapland, grana, 37:6, 358-3"
+      ]
+    },
+    "NodeTypeName": "InferenceMethodNode",
+    "PrettyName": "Explicit: Atlas or Key - Mäkelä (1998) Birch pollen measurements and the history of birch at Bruvatnet, Norwegian Lapland, Grana, 37:6, 358-3"
   },
   {
     "NodeId": {
@@ -141628,6 +141688,16 @@
     },
     "NodeTypeName": "InferenceMethodNode",
     "PrettyName": "Implicit"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "proxiedtaxonnode",
+        "0c3c7eb1-634e-4581-b9fe-7497c4b4eb12"
+      ]
+    },
+    "NodeTypeName": "ProxiedTaxonNode",
+    "PrettyName": "[Proxied taxon hyper-edge]"
   },
   {
     "NodeId": {
@@ -141753,6 +141823,16 @@
     "NodeId": {
       "UUID": [
         "proxiedtaxonnode",
+        "31de5e9e-1925-4fcb-8f1c-a67fa38ba27e"
+      ]
+    },
+    "NodeTypeName": "ProxiedTaxonNode",
+    "PrettyName": "[Proxied taxon hyper-edge]"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "proxiedtaxonnode",
         "343462bf-8cc1-493f-ae9d-26c133259b19"
       ]
     },
@@ -141764,6 +141844,16 @@
       "UUID": [
         "proxiedtaxonnode",
         "366697df-e748-47c2-9c47-092c8f70106a"
+      ]
+    },
+    "NodeTypeName": "ProxiedTaxonNode",
+    "PrettyName": "[Proxied taxon hyper-edge]"
+  },
+  {
+    "NodeId": {
+      "UUID": [
+        "proxiedtaxonnode",
+        "367ccee8-a78e-4d53-920c-28dbba849b0e"
       ]
     },
     "NodeTypeName": "ProxiedTaxonNode",
@@ -166663,11 +166753,31 @@
     "NodeId": {
       "FriendlyKey": [
         "taxonnode",
+        "species_betula_pendula_roth"
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Betula pendula Roth [Species]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
         "species_betula_pubescens_ehrh."
       ]
     },
     "NodeTypeName": "TaxonNode",
     "PrettyName": "Betula pubescens Ehrh. [Species]"
+  },
+  {
+    "NodeId": {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_betula_tortuosa_ledeb."
+      ]
+    },
+    "NodeTypeName": "TaxonNode",
+    "PrettyName": "Betula tortuosa Ledeb. [Species]"
   },
   {
     "NodeId": {

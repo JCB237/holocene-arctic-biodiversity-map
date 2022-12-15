@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_betula_pendula_roth"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Betula"
+            },
+            {
+              "item": "pendula"
+            },
+            {
+              "item": "Roth"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_betula_pendula_roth"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_betula"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]
