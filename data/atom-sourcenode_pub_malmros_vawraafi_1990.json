@@ -8,21 +8,78 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Malmros, C."
-            },
-            "Title": {
-              "item": "Viking Age Wood Resources at Argisbrekka, Faroe Islands"
-            },
-            "Year": 1990,
-            "Volume": 23,
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Malmros, C."
+              },
+              "Title": {
+                "item": "Viking Age Wood Resources at Argisbrekka, Faroe Islands"
+              },
+              "Year": 1990,
+              "Volume": 23,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "Stalled": [
+              [
+                {
+                  "item": "outcome"
+                },
+                {
+                  "item": "source-primary-or-secondary"
+                }
+              ],
+              {
+                "item": "exposure"
+              },
+              {
+                "item": "Need to modify model so that you can add in measurement error to individual dates (aside from that specified by the author i.e. in their calibrated dates)."
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_malmros_vawraafi_1990"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "38ef0cf6-aec7-46c5-82b4-b1b19e09136b"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_malmros_vawraafi_1990"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "d5282bf3-72ab-43d1-b54c-161024771094"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]
