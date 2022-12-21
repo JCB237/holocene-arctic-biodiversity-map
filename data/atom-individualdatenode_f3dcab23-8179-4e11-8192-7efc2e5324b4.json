@@ -3,18 +3,20 @@
     {
       "UUID": [
         "individualdatenode",
-        "1f4ab6cc-538b-47e7-8571-3f84a0943643"
+        "f3dcab23-8179-4e11-8192-7efc2e5324b4"
       ]
     },
     {
       "ExposureNode": {
         "DateNode": {
           "Date": {
-            "CollectionDate": 2005.0
+            "RadiocarbonUncalibrated": 1710.0
           },
-          "MeasurementError": "NoDatingErrorSpecified",
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 70.0
+          },
           "MaterialDated": {
-            "item": "wood ring increments"
+            "item": "2x branches"
           },
           "Discarded": false
         }
@@ -26,20 +28,20 @@
       {
         "UUID": [
           "individualdatenode",
-          "1f4ab6cc-538b-47e7-8571-3f84a0943643"
+          "f3dcab23-8179-4e11-8192-7efc2e5324b4"
         ]
       },
       {
         "FriendlyKey": [
           "calyearnode",
-          "-55ybp"
+          "1710ybp"
         ]
       },
       1,
       {
         "Exposure": {
           "TimeEstimate": {
-            "HistoryYearAD": 2005.0
+            "BP": 1710.0
           }
         }
       }

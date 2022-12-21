@@ -3,18 +3,20 @@
     {
       "UUID": [
         "individualdatenode",
-        "1fb70ec1-2bca-4e34-a6f6-8c3927e5e872"
+        "ae729620-b4b3-4960-a72c-bee926166b0e"
       ]
     },
     {
       "ExposureNode": {
         "DateNode": {
           "Date": {
-            "RadiocarbonUncalibrated": 800.0
+            "RadiocarbonUncalibrated": 1190.0
           },
-          "MeasurementError": "NoDatingErrorSpecified",
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 70.0
+          },
           "MaterialDated": {
-            "item": "18x twigs"
+            "item": "6x twigs"
           },
           "Discarded": false
         }
@@ -26,13 +28,13 @@
       {
         "UUID": [
           "individualdatenode",
-          "1fb70ec1-2bca-4e34-a6f6-8c3927e5e872"
+          "ae729620-b4b3-4960-a72c-bee926166b0e"
         ]
       },
       {
         "FriendlyKey": [
           "calyearnode",
-          "990ybp"
+          "1055ybp"
         ]
       },
       1,
@@ -40,7 +42,7 @@
         "Exposure": {
           "UncertaintyYoungest": {
             "CalYrBP": [
-              990.0,
+              1055.0,
               null
             ]
           }
@@ -51,13 +53,13 @@
       {
         "UUID": [
           "individualdatenode",
-          "1fb70ec1-2bca-4e34-a6f6-8c3927e5e872"
+          "ae729620-b4b3-4960-a72c-bee926166b0e"
         ]
       },
       {
         "FriendlyKey": [
           "calyearnode",
-          "1140ybp"
+          "1225ybp"
         ]
       },
       1,
@@ -65,7 +67,7 @@
         "Exposure": {
           "UncertaintyOldest": {
             "CalYrBP": [
-              1140.0,
+              1225.0,
               null
             ]
           }
@@ -76,13 +78,13 @@
       {
         "UUID": [
           "individualdatenode",
-          "1fb70ec1-2bca-4e34-a6f6-8c3927e5e872"
+          "ae729620-b4b3-4960-a72c-bee926166b0e"
         ]
       },
       {
         "FriendlyKey": [
           "calyearnode",
-          "1060ybp"
+          "1090ybp"
         ]
       },
       1,
@@ -90,7 +92,7 @@
         "Exposure": {
           "TimeEstimate": {
             "CalYrBP": [
-              1060.0,
+              1090.0,
               null
             ]
           }
