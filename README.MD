@@ -35,3 +35,28 @@ To perform coding, the following steps are required:
 5. To run the data coding software, look in the 'dist' folder of the repository in the macos and windows folders to find the appropriate app. When running the app, you need to paste in the directory path for where the 'data' folder is. On macos you can right click a folder in finder while holding the option key to get the option to 'copy path'. Similar happens on windows with ctrl or alt (can't remember which).
 
 6. To code for real, switch to the 'main' branch in the github app and get coding. Commit and push changes every so often.
+
+Data specification
+---
+
+The database schema is being aligned with the Dublin Core and its extensions (*DCMI metadata terms*).
+
+### Defining a Timeline
+
+| Property | Metadata URI | Values | Description |
+| --- | --- | --- | --- |
+| Type | ... | Continuous; Discontinuous | A continuous timeline has no hiatuses (breaks) within the temporal sequence over the temporal resolution. For example, a growth ring series is continuous with annual timesteps. |
+| Resolution | ... | Regular; Irregular | A time-series is *Regular* when time-steps are even (i.e. the same width in time). For example, sedimentary layers are generally irregular, but may be regular if varves are present. Tree growth rings are also regular. 
+| Timestep | ... | float(year) | If a regular resolution, a value representing the fractional years for each time-step. Most often 1.0 for annual. |
+| Feature | ... | Wood anatomical feature; Varves; Bone or tooth growth; other | If *other*, a short text label for the morphological feature (excluding taxon names if present). |
+| Temporal Extent (yongest and oldest dates, and associated uncertainty brackets) | ... | An 'old date' (see below table) | Dates in one of the available dating expressions: calendar dates as AD or BC; radiocarbon dates that are calibrated (in calibrated years before present - cal yr BP) or uncalibrated (BP). Dates should be entered as expressed by the authors of the source. If there are calibrated radiocarbon dates, these should be used over uncalibrated radiocarbon dates. *Note: dates will convert automatically to the best representation on our common timeline when you click 'Link'.*
+
+### Old Dates
+
+| Property | Metadata URI | Values | Description |
+| --- | --- | --- | --- |
+| B - bpDate | ... | integer | An uncalibrated radiocarbon date expressed as 'Before Present'. |
+| CalYrBP - calibratedDate | ... | integer | An calibrated radiocarbon date that has been calibrated. |
+| CalYrBP - calibrationTechnique | ... | short text (optional) | If specified, enter the name of the calibration curve used to calibrate the date e.g. IntCalXX |
+| HistoryYearAD - calendarYear | http://purl.org/dc/terms/date | integer | A calendar year in AD |
+| HistoryYearBC - calendarYear | http://purl.org/dc/terms/date | integer | A calendar year in BC |
