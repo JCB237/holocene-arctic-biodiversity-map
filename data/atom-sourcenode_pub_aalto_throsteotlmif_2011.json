@@ -8,21 +8,49 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Aalto, T.; Jalkanen, R.; Lindholm, M.; Ogurtsov, M.; Salminen, H."
-            },
-            "Title": {
-              "item": "The height-increment record of summer temperature extended over the last millennium in Fennoscandia"
-            },
-            "Year": 2011,
-            "Volume": 21,
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Aalto, T.; Jalkanen, R.; Lindholm, M.; Ogurtsov, M.; Salminen, H."
+              },
+              "Title": {
+                "item": "The height-increment record of summer temperature extended over the last millennium in Fennoscandia"
+              },
+              "Year": 2011,
+              "Volume": 21,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_aalto_throsteotlmif_2011"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "092b1c0a-c3b1-469d-8f2c-19eeafa89483"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]
