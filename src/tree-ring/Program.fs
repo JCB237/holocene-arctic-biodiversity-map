@@ -23,9 +23,10 @@ let addStudy graph (row:Data.Row) = result {
 
     // Only process data if source has no data attached.
     if 
-        sourceNode |> snd |> Seq.exists(fun (_,_,_,r) -> r = GraphStructure.Relation.Source Sources.SourceRelation.HasTemporalExtent)
+        row.Added
+        // sourceNode |> snd |> Seq.exists(fun (_,_,_,r) -> r = GraphStructure.Relation.Source Sources.SourceRelation.HasTemporalExtent)
         then 
-            printfn "Skipping %s as there is already a timeline on this source." row.StudyId
+            printfn "Skipping %s as it is marked as already entered." row.StudyId
             return! Ok graph
     else
 
@@ -70,6 +71,11 @@ let addStudy graph (row:Data.Row) = result {
                 | _ -> Error "Not a taxon node"
             | _ -> Error "Not a taxon node"
 
+        let! startDateNode = Storage.atomByKey (Graph.UniqueKey.FriendlyKey("calyearnode", sprintf "%iybp" <| 1950 - row.EarliestYear)) graph |> Result.ofOption ""
+        let! endDateNode = Storage.atomByKey (Graph.UniqueKey.FriendlyKey("calyearnode", sprintf "%iybp" <|1950 - row.LatestYear)) graph |> Result.ofOption ""
+        let! collectionDateNode = Storage.atomByKey (Graph.UniqueKey.FriendlyKey("calyearnode", sprintf "%iybp" <|1950 - row.CollectionYear)) graph |> Result.ofOption ""
+        let! measureNode = Storage.atomByKey (Graph.UniqueKey.FriendlyKey("biodiversitydimensionnode", "presence")) graph |> Result.ofOption ""
+
         // Add things now, only after checks are complete.
         let! newGraph = 
             graph
@@ -78,9 +84,16 @@ let addStudy graph (row:Data.Row) = result {
                 individualDate
                 contextNode ]
             |> Result.bind(fun (g, addedNodes) -> 
-                Storage.addRelation sourceNode addedNodes.Head (ProposedRelation.Source Sources.SourceRelation.HasTemporalExtent) g
-                |> Result.bind(fun g -> Storage.addRelation addedNodes.Head addedNodes.[1] (ProposedRelation.Exposure Exposure.ExposureRelation.ConstructedWithDate) g )
-                |> Result.bind(fun g -> Storage.addRelation addedNodes.Head addedNodes.[2] (ProposedRelation.Exposure Exposure.ExposureRelation.IsLocatedAt) g )
+                let timelineNode = addedNodes |> Seq.find(fun s -> (s |> fst |> snd).NodeType() = "IndividualTimelineNode")
+                let dateNode = addedNodes |> Seq.find(fun s -> (s |> fst |> snd).NodeType() = "IndividualDateNode")
+                let contextNode = addedNodes |> Seq.find(fun s -> (s |> fst |> snd).NodeType() = "ContextNode")
+                
+                Storage.addRelation sourceNode timelineNode (ProposedRelation.Source Sources.SourceRelation.HasTemporalExtent) g
+                |> Result.bind(fun g -> Storage.addRelation timelineNode startDateNode (ProposedRelation.Exposure Exposure.ExposureRelation.ExtentEarliest) g )
+                |> Result.bind(fun g -> Storage.addRelation timelineNode endDateNode (ProposedRelation.Exposure Exposure.ExposureRelation.ExtentLatest) g )
+                |> Result.bind(fun g -> Storage.addRelation dateNode collectionDateNode (ProposedRelation.Exposure <| Exposure.ExposureRelation.TimeEstimate (OldDate.OldDateSimple.HistoryYearAD ((float row.CollectionYear) * 1.<OldDate.AD>))) g )
+                |> Result.bind(fun g -> Storage.addRelation timelineNode dateNode (ProposedRelation.Exposure Exposure.ExposureRelation.ConstructedWithDate) g )
+                |> Result.bind(fun g -> Storage.addRelation timelineNode contextNode (ProposedRelation.Exposure Exposure.ExposureRelation.IsLocatedAt) g )
                 |> Result.bind(fun g -> 
                     Storage.addProxiedTaxon
                         proxyTaxon
@@ -90,7 +103,10 @@ let addStudy graph (row:Data.Row) = result {
                         g
                 )
                 |> Result.bind(fun (g, proxiedKey) -> 
-                    Storage.addRelationByKey g (addedNodes.Head |> fst |> fst) proxiedKey (ProposedRelation.Exposure Exposure.ExposureRelation.HasProxyInfo))
+                    Storage.addRelationByKey g (timelineNode |> fst |> fst) proxiedKey (ProposedRelation.Exposure Exposure.ExposureRelation.HasProxyInfo)
+                    |> Result.lift(fun r -> r, proxiedKey))
+                |> Result.bind(fun (g, proxiedKey) -> 
+                    Storage.addRelationByKey g proxiedKey (measureNode |> fst |> fst) (ProposedRelation.Population <| Population.PopulationRelation.MeasuredBy) )
             )
         return! Ok newGraph
 }
