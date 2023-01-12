@@ -168,8 +168,14 @@ let run () =
                         biodiversityOutcomes
                         |> Result.lift(fun ls ->
                             ls |> List.map(fun (from, using, by, taxon) ->
-                                sId, sourceName, year, context.Name.Value, unwrap lat.Value, unwrap lon.Value, from, using, by, taxon, context.SampleOrigin.ToString())
-                        )
+                                sId, sourceName, year, context.Name.Value, unwrap lat.Value, unwrap lon.Value, from, using, by, taxon, context.SampleOrigin.ToString()))
+                    | FieldDataTypes.Geography.Area poly ->
+                        let lat = poly.Value |> List.map fst |> List.averageBy(fun v -> v.Value |> unwrap)
+                        let lon = poly.Value |> List.map snd |> List.averageBy(fun v -> v.Value |> unwrap)
+                        biodiversityOutcomes
+                        |> Result.lift(fun ls ->
+                            ls |> List.map(fun (from, using, by, taxon) ->
+                                sId, sourceName, year, context.Name.Value, lat, lon, from, using, by, taxon, context.SampleOrigin.ToString()))
                     | _ -> Ok [])
                 |> Result.lift(fun l -> l)
             ) |> List.choose Result.toOption |> List.concat
