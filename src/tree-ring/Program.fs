@@ -3,24 +3,7 @@ open BiodiversityCoder.Core
 open BiodiversityCoder.Core.GraphStructure
 open FSharp.Data
 
-// Editable variables
-let studyId = "pub_alia_tgdctawddfstsae_2020"
-
-let siteName = "Laanila"
-let latDD = 69.0
-let lonDD = 72.4
-// The Laanila site in northern Finland is located at 68°28′–68°31′N; 27°16′–27°24′E; 220–310 m a.s.l.
-
-let collectionYear = 2008
-let latestYear = 2007
-let earliestYear = 745
-
-let genus = "Pinus" // NB As given by author.
-let species = "sylvestris" // NB As given by author.
-let auth = "L." // NB As given by author.
-
-// Make sure each is only added once
-let alreadyAdded = false
+type Data = CsvProvider<"input-list.csv">
 
 // Steps required.
 // 1. Make a timeline in the study.
@@ -30,19 +13,21 @@ open FieldDataTypes
 open Population.Context
 open Population
 
-let addStudy () = result {
-    if alreadyAdded then return Ok ()
+let addStudy graph (row:Data.Row) = result {
+    printfn "Finding source"
+
+    let! sourceNode = 
+        graph
+        |> Storage.atomByKey<Sources.SourceNode> (Graph.UniqueKey.FriendlyKey ("sourcenode", row.StudyId))
+        |> Result.ofOption "Could not load sources"
+
+    // Only process data if source has no data attached.
+    if 
+        sourceNode |> snd |> Seq.exists(fun (_,_,_,r) -> r = GraphStructure.Relation.Source Sources.SourceRelation.HasTemporalExtent)
+        then 
+            printfn "Skipping %s as there is already a timeline on this source." row.StudyId
+            return! Ok graph
     else
-        
-        printfn "Loading graph"
-        let! graph = Storage.loadOrInitGraph "../../data/"
-
-        printfn "Finding source"
-
-        let! sourceNode = 
-            graph
-            |> Storage.atomByKey<Sources.SourceNode> (Graph.UniqueKey.FriendlyKey ("sourcenode", studyId))
-            |> Result.ofOption "Could not load sources"
 
         let timelineNode =
             ExposureNode <|
@@ -52,25 +37,30 @@ let addStudy () = result {
         let individualDate =
             ExposureNode <|
             Exposure.ExposureNode.DateNode {
-                Date = OldDate.OldDatingMethod.CollectionDate <| (float collectionYear) * 1.<FieldDataTypes.OldDate.AD>
+                Date = OldDate.OldDatingMethod.CollectionDate <| (float row.CollectionYear) * 1.<FieldDataTypes.OldDate.AD>
                 MaterialDated = FieldDataTypes.Text.createShort "wood increment" |> Result.forceOk
                 SampleDepth = None
                 Discarded = false
                 MeasurementError = OldDate.MeasurementError.NoDatingErrorSpecified
             }
 
+        let samplingLocation =
+            match row.IsPoly with
+            | false -> Geography.Site((Geography.createLatitude row.LatDD |> Result.forceOk), (Geography.createLongitude row.LonDD |> Result.forceOk))
+            | true -> Geography.Area(Geography.Polygon.TryCreate (SimpleValue.Text row.PolyWKT) |> Result.ofOption "Bad WKT" |> Result.forceOk)
+
         let contextNode = Node.PopulationNode <| PopulationNode.ContextNode {
-            Name = Text.createShort siteName |> Result.forceOk
-            SamplingLocation = Geography.Site((Geography.createLatitude latDD |> Result.forceOk), (Geography.createLongitude lonDD |> Result.forceOk))
+            Name = Text.createShort row.SiteName |> Result.forceOk
+            SamplingLocation = samplingLocation
             SampleOrigin = LivingOrganism
             SampleLocationDescription = None
         }
 
-        let! proxyTaxon = (sprintf "%s %s %s" genus species auth) |> Text.createShort |> Result.lift BioticProxies.ContemporaneousWholeOrganism
+        let! proxyTaxon = (sprintf "%s %s %s" row.Genus row.Species row.Auth) |> Text.createShort |> Result.lift BioticProxies.ContemporaneousWholeOrganism
         let! existingTaxonNode = 
-            let key = makeUniqueKey(Node.PopulationNode (PopulationNode.TaxonomyNode (Taxonomy.TaxonNode.Species(Text.createShort genus |> Result.forceOk, Text.createShort species |> Result.forceOk, Text.createShort auth |> Result.forceOk))))
+            let key = makeUniqueKey(Node.PopulationNode (PopulationNode.TaxonomyNode (Taxonomy.TaxonNode.Species(Text.createShort row.Genus |> Result.forceOk, Text.createShort row.Species |> Result.forceOk, Text.createShort row.Auth |> Result.forceOk))))
             Storage.atomByKey key graph 
-            |> Result.ofOption (sprintf "Cannot find taxon. Create %s %s %s first in BiodiversityCoder." genus species auth)
+            |> Result.ofOption (sprintf "Cannot find taxon. Create %s %s %s first in BiodiversityCoder." row.Genus row.Species row.Auth)
 
         let! existingTaxon =
             match fst existingTaxonNode |> snd with
@@ -80,9 +70,7 @@ let addStudy () = result {
                 | _ -> Error "Not a taxon node"
             | _ -> Error "Not a taxon node"
 
-        // Add timeline to source.
-        // Add date into timeline.
-        // Add proxy info.
+        // Add things now, only after checks are complete.
         let! newGraph = 
             graph
             |> fun g -> Storage.addNodes g [ 
@@ -104,13 +92,27 @@ let addStudy () = result {
                 |> Result.bind(fun (g, proxiedKey) -> 
                     Storage.addRelationByKey g (addedNodes.Head |> fst |> fst) proxiedKey (ProposedRelation.Exposure Exposure.ExposureRelation.HasProxyInfo))
             )
-
-
-        return Ok ()
+        return! Ok newGraph
 }
 
-match addStudy () with
-| Ok _ -> printfn "Success"
-| Error e -> 
-    printfn "Error: %s" e
+let data = Data.Load "input-list.csv"
+printfn "Loading graph"
+let graph = Storage.loadOrInitGraph "../../data/"
+match graph with
+| Ok g ->
+    match (
+        Seq.fold(fun graph row ->
+            graph |> Result.bind(fun g ->
+                match addStudy g row with
+                | Ok g -> 
+                    
+                    Ok g
+                | Error e -> Error e )
+            ) (Ok g) data.Rows ) with
+    | Ok _ -> ()
+    | Error e ->
+        printfn "Error: %s" e
+        exit 1
+| Error _ -> 
+    printfn "Could not load graph"
     exit 1
