@@ -1,0 +1,132 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "e4142def-7569-4daf-a26e-7d6ef64d1b91"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": {
+            "Regular": [
+              1.0,
+              "WoodAnatomicalFeatures"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "e4142def-7569-4daf-a26e-7d6ef64d1b91"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "d8b57f4f-8b1e-47d9-930c-a2626e0cda3b"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "e4142def-7569-4daf-a26e-7d6ef64d1b91"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "3a0e014f-673d-4ebb-8c59-ac2998bc6bd0"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "e4142def-7569-4daf-a26e-7d6ef64d1b91"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "9032a153-c1a6-4a10-bc86-a8d215206639"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "e4142def-7569-4daf-a26e-7d6ef64d1b91"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "33e33af7-5bbd-4a27-bba6-231f3583e403"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "e4142def-7569-4daf-a26e-7d6ef64d1b91"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "-57ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "e4142def-7569-4daf-a26e-7d6ef64d1b91"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "130ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliest"
+      }
+    ]
+  ]
+]

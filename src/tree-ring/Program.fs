@@ -57,9 +57,15 @@ let addStudy graph (row:Data.Row) = result {
             SampleLocationDescription = None
         }
 
-        let! proxyTaxon = (sprintf "%s %s %s" row.Genus row.Species row.Auth) |> Text.createShort |> Result.lift BioticProxies.ContemporaneousWholeOrganism
+        let! proxyTaxon = 
+            if System.String.IsNullOrEmpty row.Subspecies
+            then (sprintf "%s %s %s" row.Genus row.Species row.Auth) |> Text.createShort |> Result.lift BioticProxies.ContemporaneousWholeOrganism
+            else (sprintf "%s %s ssp. %s" row.Genus row.Species row.Subspecies) |> Text.createShort |> Result.lift BioticProxies.ContemporaneousWholeOrganism
         let! existingTaxonNode = 
-            let key = makeUniqueKey(Node.PopulationNode (PopulationNode.TaxonomyNode (Taxonomy.TaxonNode.Species(Text.createShort row.Genus |> Result.forceOk, Text.createShort row.Species |> Result.forceOk, Text.createShort row.Auth |> Result.forceOk))))
+            let key = 
+                if System.String.IsNullOrEmpty row.Subspecies
+                then makeUniqueKey(Node.PopulationNode (PopulationNode.TaxonomyNode (Taxonomy.TaxonNode.Species(Text.createShort row.Genus |> Result.forceOk, Text.createShort row.Species |> Result.forceOk, Text.createShort row.Auth |> Result.forceOk))))
+                else makeUniqueKey(Node.PopulationNode (PopulationNode.TaxonomyNode (Taxonomy.TaxonNode.Subspecies(Text.createShort row.Genus |> Result.forceOk, Text.createShort row.Species |> Result.forceOk, Text.createShort row.Subspecies |> Result.forceOk, Text.createShort row.Auth |> Result.forceOk))))
             Storage.atomByKey key graph 
             |> Result.ofOption (sprintf "Cannot find taxon. Create %s %s %s first in BiodiversityCoder." row.Genus row.Species row.Auth)
 
