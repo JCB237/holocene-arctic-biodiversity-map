@@ -1,0 +1,119 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "f0974eb0-8362-4ed3-b5d0-99be9c6ec56d"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 2270.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 105.0
+          },
+          "MaterialDated": {
+            "item": "leaves and twigs of betula and salix"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 90.0
+              },
+              {
+                "_depth": 88.0
+              }
+            ]
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "f0974eb0-8362-4ed3-b5d0-99be9c6ec56d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "2156ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "CalYrBP": [
+              2156.0,
+              {
+                "item": "CalibETH 1.5b"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "f0974eb0-8362-4ed3-b5d0-99be9c6ec56d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "2456ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "CalYrBP": [
+              2456.0,
+              {
+                "item": "CalibETH 1.5b"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "f0974eb0-8362-4ed3-b5d0-99be9c6ec56d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "2306ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              2306.0,
+              {
+                "item": "CalibETH 1.5b"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

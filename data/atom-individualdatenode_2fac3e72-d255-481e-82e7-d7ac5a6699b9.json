@@ -1,0 +1,119 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "2fac3e72-d255-481e-82e7-d7ac5a6699b9"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 440.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 75.0
+          },
+          "MaterialDated": {
+            "item": "Salix leaf"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 28.0
+              },
+              {
+                "_depth": 25.0
+              }
+            ]
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "2fac3e72-d255-481e-82e7-d7ac5a6699b9"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "365ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "CalYrBP": [
+              365.0,
+              {
+                "item": "CalibETH 1.5b"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "2fac3e72-d255-481e-82e7-d7ac5a6699b9"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "531ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "CalYrBP": [
+              531.0,
+              {
+                "item": "CalibETH 1.5b"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "2fac3e72-d255-481e-82e7-d7ac5a6699b9"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "448ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              448.0,
+              {
+                "item": "CalibETH 1.5b"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]
