@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_larix_sibirica_ledeb"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Larix"
+            },
+            {
+              "item": "sibirica"
+            },
+            {
+              "item": "Ledeb."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_larix_sibirica_ledeb"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_larix"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

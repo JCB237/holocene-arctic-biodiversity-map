@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_picea_obovata_ledeb"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Picea"
+            },
+            {
+              "item": "obovata"
+            },
+            {
+              "item": "Ledeb."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_picea_obovata_ledeb"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_picea"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

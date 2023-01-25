@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_pinus_balfouriana_balf"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Pinus"
+            },
+            {
+              "item": "balfouriana"
+            },
+            {
+              "item": "Balf."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_pinus_balfouriana_balf"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_pinus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

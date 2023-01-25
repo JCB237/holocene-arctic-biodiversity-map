@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_picea_abies_lhkarst"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Picea"
+            },
+            {
+              "item": "abies"
+            },
+            {
+              "item": "(L.) H. Karst."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_picea_abies_lhkarst"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_picea"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

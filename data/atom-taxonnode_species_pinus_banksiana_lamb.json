@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_pinus_banksiana_lamb"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Pinus"
+            },
+            {
+              "item": "banksiana"
+            },
+            {
+              "item": "Lamb."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_pinus_banksiana_lamb"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_pinus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

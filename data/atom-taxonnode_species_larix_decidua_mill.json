@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_larix_decidua_mill"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Larix"
+            },
+            {
+              "item": "decidua"
+            },
+            {
+              "item": "Mill."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_larix_decidua_mill"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_larix"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]
