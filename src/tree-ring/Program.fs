@@ -12,14 +12,46 @@ open Exposure.StudyTimeline
 open FieldDataTypes
 open Population.Context
 open Population
+open Sources
 
 let addStudy graph (row:Data.Row) = result {
     printfn "Finding source"
 
-    let! sourceNode = 
-        graph
-        |> Storage.atomByKey<Sources.SourceNode> (Graph.UniqueKey.FriendlyKey ("sourcenode", row.StudyId))
-        |> Result.ofOption "Could not load sources"
+    // If a database entry, make the database entry node here with updated graph.
+    // If a bibliographic source, load the source node with original graph.
+    let! graph, sourceNode = 
+        if row.StudyId.StartsWith "database_"
+        then
+            // Is a database entry. Make the database entry here.
+            // a) get the database itself.
+            let databaseCode = row.StudyId.Split("_").[1]
+            let databaseNode = 
+                graph
+                |> Storage.atomByKey<Sources.SourceNode> (Graph.UniqueKey.FriendlyKey ("sourcenode", sprintf "database_%s" databaseCode))
+                |> Result.ofOption "Could not load sources"
+                |> Result.forceOk
+            // b) make the database entry node.
+            let databaseEntryNode = {
+                DatabaseAbbreviation = databaseCode |> Text.createShort |> Result.forceOk
+                UniqueIdentifierInDatabase = row.StudyId.Split("_").[2] |> Text.createShort |> Result.forceOk
+                Investigators = row.Investigators.Split(";") |> Array.map(fun s -> { FirstName = s.Split(",").[1].Trim() |> Text.createShort |> Result.forceOk; LastName = s.Split(",").[0].Trim() |> Text.createShort |> Result.forceOk }) |> Array.toList
+                Title = if row.StudyTitle.Length = 0 then None else row.StudyTitle |> Text.createShort |> Result.forceOk |> Some
+                WebLocation = if row.WebLocation.Length = 0 then None else System.Uri(row.WebLocation) |> Some
+            }
+            let node = Node.SourceNode(Sources.SourceNode.Included(Source.DatabaseEntry databaseEntryNode, CodingProgress.CompletedAll))
+            // c) add relation from database to database entry.
+            Storage.addNodes graph [ node ]
+            |> Result.bind(fun (graph,nodes) -> Storage.addRelation databaseNode nodes.Head (ProposedRelation.Source(Sources.SourceRelation.HasDataset)) graph )
+            |> Result.bind(fun graph ->
+                match Storage.atomByKey (GraphStructure.makeUniqueKey node) graph with
+                | Some a -> Ok (graph, a)
+                | None -> Error "Could not load database entry node" )
+
+        else
+            graph
+            |> Storage.atomByKey<Sources.SourceNode> (Graph.UniqueKey.FriendlyKey ("sourcenode", row.StudyId))
+            |> Result.ofOption "Could not load sources"
+            |> Result.lift(fun r -> graph, r)
 
     // Only process data if source has no data attached.
     if 
@@ -117,6 +149,16 @@ let addStudy graph (row:Data.Row) = result {
         return! Ok newGraph
 }
 
+// 1. Import ITRDB Data
+// ---
+// match ImportITRDB.import () with
+// | Ok _-> ()
+// | Error e ->
+//     printfn "Error: %s" e
+//     exit 1
+
+// 2. Import from input-list.csv
+// ---
 let data = Data.Load "input-list.csv"
 printfn "Loading graph"
 let graph = Storage.loadOrInitGraph "../../data/"
