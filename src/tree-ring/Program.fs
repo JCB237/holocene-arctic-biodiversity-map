@@ -90,16 +90,22 @@ let addStudy graph (row:Data.Row) = result {
         }
 
         let! proxyTaxon = 
-            if System.String.IsNullOrEmpty row.Subspecies
-            then (sprintf "%s %s %s" row.Genus row.Species row.Auth) |> Text.createShort |> Result.lift BioticProxies.ContemporaneousWholeOrganism
-            else (sprintf "%s %s ssp. %s" row.Genus row.Species row.Subspecies) |> Text.createShort |> Result.lift BioticProxies.ContemporaneousWholeOrganism
+            if System.String.IsNullOrEmpty row.Species
+            then sprintf "%s sp." row.Genus |> Text.createShort |> Result.lift BioticProxies.ContemporaneousWholeOrganism
+            else 
+                if System.String.IsNullOrEmpty row.Subspecies
+                then (sprintf "%s %s %s" row.Genus row.Species row.Auth) |> Text.createShort |> Result.lift BioticProxies.ContemporaneousWholeOrganism
+                else (sprintf "%s %s ssp. %s" row.Genus row.Species row.Subspecies) |> Text.createShort |> Result.lift BioticProxies.ContemporaneousWholeOrganism
         let! existingTaxonNode = 
             let key = 
-                if System.String.IsNullOrEmpty row.Subspecies
-                then makeUniqueKey(Node.PopulationNode (PopulationNode.TaxonomyNode (Taxonomy.TaxonNode.Species(Text.createShort row.Genus |> Result.forceOk, Text.createShort row.Species |> Result.forceOk, Text.createShort row.Auth |> Result.forceOk))))
-                else makeUniqueKey(Node.PopulationNode (PopulationNode.TaxonomyNode (Taxonomy.TaxonNode.Subspecies(Text.createShort row.Genus |> Result.forceOk, Text.createShort row.Species |> Result.forceOk, Text.createShort row.Subspecies |> Result.forceOk, Text.createShort row.Auth |> Result.forceOk))))
+                if System.String.IsNullOrEmpty row.Species
+                then makeUniqueKey(Node.PopulationNode (PopulationNode.TaxonomyNode (Taxonomy.TaxonNode.Genus(Text.createShort row.Genus |> Result.forceOk))))
+                else 
+                    if System.String.IsNullOrEmpty row.Subspecies
+                    then makeUniqueKey(Node.PopulationNode (PopulationNode.TaxonomyNode (Taxonomy.TaxonNode.Species(Text.createShort row.Genus |> Result.forceOk, Text.createShort row.Species |> Result.forceOk, Text.createShort row.Auth |> Result.forceOk))))
+                    else makeUniqueKey(Node.PopulationNode (PopulationNode.TaxonomyNode (Taxonomy.TaxonNode.Subspecies(Text.createShort row.Genus |> Result.forceOk, Text.createShort row.Species |> Result.forceOk, Text.createShort row.Subspecies |> Result.forceOk, Text.createShort row.Auth |> Result.forceOk))))
             Storage.atomByKey key graph 
-            |> Result.ofOption (sprintf "Cannot find taxon. Create %s %s %s first in BiodiversityCoder." row.Genus row.Species row.Auth)
+            |> Result.ofOption (sprintf "Cannot find taxon (%A). Create %s %s %s first in BiodiversityCoder." key row.Genus row.Species row.Auth)
 
         let! existingTaxon =
             match fst existingTaxonNode |> snd with
@@ -113,6 +119,8 @@ let addStudy graph (row:Data.Row) = result {
         let! endDateNode = Storage.atomByKey (Graph.UniqueKey.FriendlyKey("calyearnode", sprintf "%iybp" <|1950 - row.LatestYear)) graph |> Result.ofOption ""
         let! collectionDateNode = Storage.atomByKey (Graph.UniqueKey.FriendlyKey("calyearnode", sprintf "%iybp" <|1950 - row.CollectionYear)) graph |> Result.ofOption ""
         let! measureNode = Storage.atomByKey (Graph.UniqueKey.FriendlyKey("biodiversitydimensionnode", "presence")) graph |> Result.ofOption ""
+
+        printfn "Proxy taxon is %A" proxyTaxon
 
         // Add things now, only after checks are complete.
         let! newGraph = 

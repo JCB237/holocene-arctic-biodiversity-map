@@ -9,7 +9,7 @@ type Data = CsvProvider<"input-list.csv">
 let itrdbIndex = "data/itrdb-import-20220112.csv"
 
 type ITRDBIndex = CsvProvider<Sample = itrdbIndex>
-type ITRDBStudy = JsonProvider<"noaa-sample.json">
+type ITRDBStudy = JsonProvider<"noaa-sample.json", Encoding = "UTF-8">
 
 let dataDir = "../../data/"
 let itrdbStudy i = sprintf "https://www.ncei.noaa.gov/pub/data/metadata/published/paleo/json/noaa-tree-%i.json" i
