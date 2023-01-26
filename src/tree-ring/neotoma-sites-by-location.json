@@ -1,0 +1,90 @@
+{
+  "status": "success",
+  "data": [
+    {
+      "siteid": 3430,
+      "sitename": "Solnechnoe",
+      "sitedescription": "Mire. Surrounding vegetation: Pinus.",
+      "geography": "{\"type\":\"Point\",\"crs\":{\"type\":\"name\",\"properties\":{\"name\":\"EPSG:4326\"}},\"coordinates\":[34.33333,65.83333]}",
+      "altitude": 10,
+      "collectionunits": [
+        {
+          "handle": "SOLNECH",
+          "datasets": [
+            {
+              "datasetid": 4443,
+              "datasettype": "pollen"
+            }
+          ],
+          "collectionunit": null,
+          "collectionunitid": 4301,
+          "collectionunittype": "Core"
+        }
+      ]
+    },
+    {
+      "siteid": 13384,
+      "sitename": "Lake Ifjord",
+      "sitedescription": "Physiography: Bowl-shaped basin. Surrounding vegetation: Treeless, alpine.",
+      "geography": "{\"type\":\"Point\",\"crs\":{\"type\":\"name\",\"properties\":{\"name\":\"EPSG:4326\"}},\"coordinates\":[27.63333,70.43333]}",
+      "altitude": 317,
+      "collectionunits": [
+        {
+          "handle": "IFJORD",
+          "datasets": [
+            {
+              "datasetid": 20020,
+              "datasettype": "pollen"
+            }
+          ],
+          "collectionunit": "core 1",
+          "collectionunitid": 14984,
+          "collectionunittype": "Core"
+        }
+      ]
+    },
+    {
+      "siteid": 25998,
+      "sitename": "Myrvatnet",
+      "sitedescription": "Glacial orgin lake. Surrounding vegetation: Trees and shrubs. Vegetation formation: North-Boreal.",
+      "geography": "{\"type\":\"Polygon\",\"crs\":{\"type\":\"name\",\"properties\":{\"name\":\"EPSG:4326\"}},\"coordinates\":[[[16.37673,68.6586],[16.38607,68.6586],[16.38607,68.66229],[16.37673,68.66229],[16.37673,68.6586]]]}",
+      "altitude": 197,
+      "collectionunits": [
+        {
+          "handle": "KILOMYR",
+          "datasets": [
+            {
+              "datasetid": 44941,
+              "datasettype": "pollen"
+            }
+          ],
+          "collectionunit": "Myrvatnet",
+          "collectionunitid": 31848,
+          "collectionunittype": "Core"
+        }
+      ]
+    },
+    {
+      "siteid": 26167,
+      "sitename": "Litlvatnet",
+      "sitedescription": "Lake. Physiography: Fjord area. Surrounding vegetation: Trees and shrubs. Vegetation formation: North-Boreal.",
+      "geography": "{\"type\":\"Polygon\",\"crs\":{\"type\":\"name\",\"properties\":{\"name\":\"EPSG:4326\"}},\"coordinates\":[[[14.92872,68.52608],[14.93306,68.52608],[14.93306,68.52774],[14.92872,68.52774],[14.92872,68.52608]]]}",
+      "altitude": 106,
+      "collectionunits": [
+        {
+          "handle": "KILOLIT",
+          "datasets": [
+            {
+              "datasetid": 45636,
+              "datasettype": "pollen"
+            }
+          ],
+          "collectionunit": "Litlvatnet",
+          "collectionunitid": 32444,
+          "collectionunittype": "Core"
+        }
+      ]
+    }
+  ],
+  "message": "Retrieved all tables"
+}
