@@ -65,107 +65,110 @@ let import () = result {
 
     let! (graph: Storage.FileBasedGraph<GraphStructure.Node,GraphStructure.Relation>) = Storage.loadOrInitGraph dataDir
     
-    // // 1. All datasets within our Arctic region that intersect 12500ybp to 0ybp
-    // let arcticDatasets =
-    //     proxies
-    //     |> List.allPairs databases
-    //     |> List.collect(fun (db, proxy) ->
-    //         let response = NeotomaSites.Load(neotomaSitesBy db proxy)
-    //         if response.Status <> "success" then failwithf "Neotoma returned an error: %s" response.Message
-    //         response.Data |> Array.collect(fun d -> 
-    //             d.Collectionunits
-    //             |> Array.collect(fun c -> c.Datasets |> Array.map(fun d -> d.Datasetid))
-    //         ) |> Array.toList
-    //     )
+    // 1. All datasets within our Arctic region that intersect 12500ybp to 0ybp
+    let arcticDatasets =
+        proxies
+        |> List.allPairs databases
+        |> List.collect(fun (db, proxy) ->
+            let response = NeotomaSites.Load(neotomaSitesBy db proxy)
+            if response.Status <> "success" then failwithf "Neotoma returned an error: %s" response.Message
+            response.Data |> Array.collect(fun d -> 
+                d.Collectionunits
+                |> Array.collect(fun c -> c.Datasets |> Array.map(fun d -> d.Datasetid))
+            ) |> Array.toList
+        )
 
-    // printfn "Neotoma: found %i relevant datasets" arcticDatasets.Length
+    printfn "Neotoma: found %i relevant datasets" arcticDatasets.Length
 
-    // // 2. All publications associated with each dataset
-    // let arcticDatasetsWithPublications = 
-    //     arcticDatasets
-    //     |> List.collect(fun datasetId ->
-    //         let response = NeotomaPublications.Load(sprintf "https://api.neotomadb.org/v2.0/data/datasets/%i/publications" datasetId)
-    //         if response.Status <> "success" then failwithf "Neotoma returned an error: %s" response.Message
-    //         if response.Data.Length = 0 then [ datasetId, None ]
-    //         else response.Data |> Array.map(fun d -> datasetId, Some d.Publication) |> Array.toList ) 
-    //     |> List.groupBy snd
+    // 2. All publications associated with each dataset
+    let arcticDatasetsWithPublications = 
+        arcticDatasets
+        |> List.collect(fun datasetId ->
+            let response = NeotomaPublications.Load(sprintf "https://api.neotomadb.org/v2.0/data/datasets/%i/publications" datasetId)
+            if response.Status <> "success" then failwithf "Neotoma returned an error: %s" response.Message
+            if response.Data.Length = 0 then [ datasetId, None ]
+            else response.Data |> Array.map(fun d -> datasetId, Some d.Publication) |> Array.toList ) 
+        |> List.groupBy snd
 
-    // printfn "Neotoma: found %i relevant publications" arcticDatasetsWithPublications.Length
+    printfn "Neotoma: found %i relevant publications" arcticDatasetsWithPublications.Length
 
-    // // 3. Match publications to keys in our database
-    // let sourceAtoms = 
-    //     (graph.Nodes<Sources.SourceNode> ()).Value
-    //     |> Map.toList |> List.map fst
-    //     |> Storage.atomsByKey<Sources.SourceNode> graph
+    // 3. Match publications to keys in our database
+    let sourceAtoms = 
+        (graph.Nodes<Sources.SourceNode> ()).Value
+        |> Map.toList |> List.map fst
+        |> Storage.atomsByKey<Sources.SourceNode> graph
 
-    // let! (sources: (Graph.UniqueKey * Sources.SourceNode) list) = 
-    //     sourceAtoms
-    //     |> Seq.map (fun a -> 
-    //         match a |> fst |> snd with
-    //         | GraphStructure.Node.SourceNode s -> Ok (a |> fst |> fst, s)
-    //         | _ -> Error "Not a source node" )
-    //     |> Seq.toList
-    //     |> Result.ofList
+    let! (sources: (Graph.UniqueKey * Sources.SourceNode) list) = 
+        sourceAtoms
+        |> Seq.map (fun a -> 
+            match a |> fst |> snd with
+            | GraphStructure.Node.SourceNode s -> Ok (a |> fst |> fst, s)
+            | _ -> Error "Not a source node" )
+        |> Seq.toList
+        |> Result.ofList
     
-    // // Make a list of graph sourceIDs and their title and year
-    // let sourceTitleByKey =
-    //     sources |> List.choose(fun s ->
-    //         match snd s with
-    //         | Sources.SourceNode.Unscreened u ->
-    //             match u with
-    //             | Sources.Source.Bibliographic b ->
-    //                 match b.Title with
-    //                 | Some t -> Some (fst s, t.Value, b.Year)
-    //                 | None -> None
-    //             | _ -> None
-    //         | _ -> None )
+    // Make a list of graph sourceIDs and their title and year
+    let sourceTitleByKey =
+        sources |> List.choose(fun s ->
+            match snd s with
+            | Sources.SourceNode.Unscreened u ->
+                match u with
+                | Sources.Source.Bibliographic b ->
+                    match b.Title with
+                    | Some t -> Some (fst s, t.Value, b.Year)
+                    | None -> None
+                | _ -> None
+            | _ -> None )
     
-    // // For each database entry, load the metadaa file to find out the study.
-    // // Find the match between our database and the ITRDB.
-    // let matches =
-    //     arcticDatasetsWithPublications |> Seq.collect(fun (publication, datasets) ->
+    // For each database entry, load the metadaa file to find out the study.
+    // Find the match between our database and the ITRDB.
+    let matches =
+        arcticDatasetsWithPublications |> Seq.collect(fun (publication, datasets) ->
 
-    //         let pubName, pubYear, isOrphaned =
-    //             match publication with
-    //             | Some pub ->
-    //                 match pub.Pubtype with
-    //                 | "Authored Book" -> pub.Booktitle, pub.Year, false
-    //                 | "Book Chapter" -> pub.Articletitle, pub.Year, false
-    //                 | "Journal Article" -> pub.Articletitle, pub.Year, false
-    //                 | _ -> pub.Articletitle, 0, false
-    //             | _ -> "neotoma dataset", 0, true
+            let pubName, pubYear, isOrphaned =
+                match publication with
+                | Some pub ->
+                    match pub.Pubtype with
+                    | "Edited Book"
+                    | "Authored Book" -> pub.Booktitle, pub.Year, false
+                    | "Book Chapter" -> pub.Articletitle, pub.Year, false
+                    | "Journal Article" -> pub.Articletitle, pub.Year, false
+                    | "Legacy" -> pub.Citation, pub.Year, false
+                    | _ -> pub.Articletitle, 0, false
+                | _ -> "neotoma dataset", 0, true
+            if pubName.Length = 0 then failwithf "Publication did not have a name?? %A" publication
 
-    //         printfn "Processing Neotoma publication: %s" pubName
+            printfn "Processing Neotoma publication: %s" pubName
 
-    //         if isOrphaned then
-    //             // Is a dataset without a publication.
-    //             datasets
-    //             |> Seq.map(fun (x,_) ->
-    //                 (x, (Graph.UniqueKey.FriendlyKey("sourcenode", sprintf "database_neotoma_%i" x), sprintf "neotoma_%i" x, None)))
-    //         else
-    //             // Search in our graph for a matching title
-    //             sourceTitleByKey
-    //             |> List.tryFind(fun (k,title,year) ->
-    //                 if year.IsSome then 
-    //                     Regex.Replace(title.ToLower(), @"[^aA-zZ0-9]", replacement = "") = Regex.Replace(pubName.ToLower(), @"[^aA-zZ0-9]", replacement = "")
-    //                         && pubYear = year.Value
-    //                 else Regex.Replace(title.ToLower(), @"[^aA-zZ0-9]", replacement = "") = Regex.Replace(pubName.ToLower(), @"[^aA-zZ0-9]", replacement = ""))
-    //             |> fun s -> 
-    //                 match s with
-    //                 | Some (a,b,c) -> 
-    //                     printfn "Matched in graph: %s" b
-    //                     datasets |> Seq.map(fun (x,_) -> (x, (a, b, c)))
-    //                 | None -> 
-    //                     printfn "Not matched in graph."
-    //                     datasets |> Seq.map(fun (x,_) -> (x, (Graph.UniqueKey.FriendlyKey("sourcenode", sprintf "grey_%s" pubName), pubName, None)))
-    //     )
+            if isOrphaned then
+                // Is a dataset without a publication.
+                datasets
+                |> Seq.map(fun (x,_) ->
+                    (x, (Graph.UniqueKey.FriendlyKey("sourcenode", sprintf "database_neotoma_%i" x), sprintf "neotoma_%i" x, None)))
+            else
+                // Search in our graph for a matching title
+                sourceTitleByKey
+                |> List.tryFind(fun (k,title,year) ->
+                    if year.IsSome then 
+                        Regex.Replace(title.ToLower(), @"[^aA-zZ0-9]", replacement = "") = Regex.Replace(pubName.ToLower(), @"[^aA-zZ0-9]", replacement = "")
+                            && pubYear = year.Value
+                    else Regex.Replace(title.ToLower(), @"[^aA-zZ0-9]", replacement = "") = Regex.Replace(pubName.ToLower(), @"[^aA-zZ0-9]", replacement = ""))
+                |> fun s -> 
+                    match s with
+                    | Some (a,b,c) -> 
+                        printfn "Matched in graph: %s" b
+                        datasets |> Seq.map(fun (x,_) -> (x, (a, b, c)))
+                    | None -> 
+                        printfn "Not matched in graph."
+                        datasets |> Seq.map(fun (x,_) -> (x, (Graph.UniqueKey.FriendlyKey("sourcenode", sprintf "grey_%s" pubName), pubName, None)))
+        )
 
-    // let matchesString = Microsoft.FSharpLu.Json.Compact.serialize(matches)
-    // System.IO.File.WriteAllText("neotoma-cached-results.json", matchesString)
+    let matchesString = Microsoft.FSharpLu.Json.Compact.serialize(matches)
+    System.IO.File.WriteAllText("neotoma-cached-results.json", matchesString)
 
-    let matches : seq<int * (Graph.UniqueKey * string * int option)> =
-        System.IO.File.ReadAllText("neotoma-cached-results.json")
-        |> Microsoft.FSharpLu.Json.Compact.deserialize
+    // let matches : seq<int * (Graph.UniqueKey * string * int option)> =
+    //     System.IO.File.ReadAllText("neotoma-cached-results.json")
+    //     |> Microsoft.FSharpLu.Json.Compact.deserialize
 
     // What do we need to know?
     // Temporal extent:
@@ -201,16 +204,35 @@ let import () = result {
                 None
             | _ ->
                 let earliestExtentBP, latestExtentBP =
-                    match data.Site.Collectionunit.Dataset.Agerange |> Seq.tryFind(fun x -> x.Units = "Radiocarbon years BP") with
-                    | Some bpDate -> bpDate.Ageold, bpDate.Ageyoung
-                    | None -> failwithf "Does not contain BP dates: %A" data.Site.Collectionunit.Dataset.Agerange
+                    match data.Site.Collectionunit.Dataset.Agerange |> Seq.tryFind(fun x -> x.Units = "Calibrated radiocarbon years BP") with
+                    | Some bpDate -> 
+                        // Cap ages to Holocene (limitation of our database).
+                        (if float bpDate.Ageold > 11700. then 11700 else int bpDate.Ageold),
+                        (if float bpDate.Ageyoung < -70. then -70 else int bpDate.Ageyoung)
+                    | None -> 
+                        // TODO Add in "Radiocarbon years BP"
+                        match data.Site.Collectionunit.Dataset.Agerange |> Seq.tryFind(fun x -> x.Units = "Calendar years BP") with
+                        | Some bpDate ->
+                            (if float bpDate.Ageold > 11700. then 11700 else int bpDate.Ageold),
+                            (if float bpDate.Ageyoung < -70. then -70 else int bpDate.Ageyoung)
+                        | None ->
+                            printfn "Warning: Skipping entry as it does not contain BP dates or cal yr BP dates: %A" data.Site.Collectionunit.Dataset.Agerange
+                            22000, 21000 // Some dates out of our timeline, so that it is skipped.
                 match data.Site.Collectionunit.Collunittype with
+                | "Animal midden" -> Some (Population.Context.OtherOrigin("Midden" |> Text.createShort |> forceOk))
+                | "Composite" -> Some (Population.Context.OtherOrigin("Composite" |> Text.createShort |> forceOk))
+                | "Excavation" -> Some (Population.Context.OtherOrigin("Excavation" |> Text.createShort |> forceOk))
                 | "Section"
                 | "Core" ->
                     match data.Site.Collectionunit.Depositionalenvironment with
                     | s when s.ToLower().Contains("mire") -> Some Population.Context.PeatCore
                     | "Mire" -> Some Population.Context.PeatCore
                     | _ -> Some Population.Context.LakeSediment
+                | "Modern"
+                | "Plot"
+                | "Surface float"
+                | "Trap"
+                | "Unknown"
                 | "Isolated specimen" -> None
                 | _ -> failwithf "unknown col unit type: %s" data.Site.Collectionunit.Collunittype
                 |> Option.bind(fun s ->
@@ -255,10 +277,20 @@ let import () = result {
                         match d.Elementtype with
                         | "pollen"
                         | "pollen/spore"
-                        | "spore" -> Population.BioticProxies.Morphotype(Population.BioticProxies.Microfossil (Population.BioticProxies.Pollen, d.Variablename |> Text.createShort |> Result.forceOk))
-                        | _ -> failwithf "Unknown proxy type: %s" d.Elementtype
+                        | "spore" -> Some <| Population.BioticProxies.Morphotype(Population.BioticProxies.Microfossil (Population.BioticProxies.Pollen, d.Variablename |> Text.createShort |> Result.forceOk))
+                        | "volume"
+                        | "counted"
+                        | "quantity added"
+                        | "concentration" -> None
+                        | "palynomorph" -> Some <| Population.BioticProxies.Morphotype(Population.BioticProxies.Microfossil (Population.BioticProxies.OtherMicrofossilGroup("Palynomorph" |> Text.createShort |> forceOk), d.Variablename |> Text.createShort |> Result.forceOk))
+                        | "colony" -> Some <| Population.BioticProxies.Morphotype(Population.BioticProxies.Microfossil (Population.BioticProxies.OtherMicrofossilGroup("Colony" |> Text.createShort |> forceOk), d.Variablename |> Text.createShort |> Result.forceOk))
+                        | "trichoblast" ->  Some <| Population.BioticProxies.Morphotype(Population.BioticProxies.Microfossil (Population.BioticProxies.OtherMicrofossilGroup("Trichoblast" |> Text.createShort |> forceOk), d.Variablename |> Text.createShort |> Result.forceOk))
+                        | "suberized basal cells" -> Some <| Population.BioticProxies.Morphotype(Population.BioticProxies.Microfossil (Population.BioticProxies.OtherMicrofossilGroup("Suberised Basal Cells" |> Text.createShort |> forceOk), d.Variablename |> Text.createShort |> Result.forceOk))
+                        | _ -> 
+                            printfn "[Warning] Unknown proxy type: %s" d.Elementtype
+                            None
                         )
-                    ) |> Seq.distinct
+                ) |> Seq.distinct |> Seq.choose id
 
             let authors =
                 data.Site.Collectionunit.Dataset.Datasetpi |> Seq.map(fun pi ->
