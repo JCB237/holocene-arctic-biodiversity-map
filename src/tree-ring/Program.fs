@@ -167,32 +167,32 @@ let addStudy graph (row:Data.Row) = result {
 
 // 2. Import Neotoma data
 // ---
-match ImportNeotoma.import () with
-| Ok _-> ()
-| Error e ->
-    printfn "Error: %s" e
-    exit 1
+// match ImportNeotoma.import () with
+// | Ok _-> ()
+// | Error e ->
+//     printfn "Error: %s" e
+//     exit 1
 
 // 3. Import from input-list.csv
 // ---
-// let data = Data.Load "input-list.csv"
-// printfn "Loading graph"
-// let graph = Storage.loadOrInitGraph "../../data/"
-// match graph with
-// | Ok g ->
-//     match (
-//         Seq.fold(fun graph row ->
-//             graph |> Result.bind(fun g ->
-//                 match addStudy g row with
-//                 | Ok g -> 
+let data = Data.Load "input-list.csv"
+printfn "Loading graph"
+let graph = Storage.loadOrInitGraph "../../data/"
+match graph with
+| Ok g ->
+    match (
+        Seq.fold(fun graph row ->
+            graph |> Result.bind(fun g ->
+                match addStudy g row with
+                | Ok g -> 
                     
-//                     Ok g
-//                 | Error e -> Error e )
-//             ) (Ok g) data.Rows ) with
-//     | Ok _ -> ()
-//     | Error e ->
-//         printfn "Error: %s" e
-//         exit 1
-// | Error _ -> 
-//     printfn "Could not load graph"
-//     exit 1
+                    Ok g
+                | Error e -> Error e )
+            ) (Ok g) data.Rows ) with
+    | Ok _ -> ()
+    | Error e ->
+        printfn "Error: %s" e
+        exit 1
+| Error _ -> 
+    printfn "Could not load graph"
+    exit 1
