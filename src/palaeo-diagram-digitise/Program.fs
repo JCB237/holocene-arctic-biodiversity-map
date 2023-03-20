@@ -28,58 +28,63 @@ let datasetFromDirectory path =
 
 let inputDataset = datasetFromDirectory pendingPath
 
-printfn "%A" inputDataset
-
 /// Get the names of each pollen 
 let preprocessDiagram (jsonName:string) imgFile =
 
-    // 1. Turn pollen diagram into morphotype names
-    let img = Pix.LoadFromFile(System.IO.Path.Combine(pendingPath, imgFile))
-    let rotatedImg = img.Rotate(angleInRadians = float32 0.785)
-    let page = engine.Process rotatedImg
-    let meanConfidence = page.GetMeanConfidence ()
-    let iter = page.GetIterator()
-    iter.Begin()
-    let result = Seq.toList (seq {
-        yield! doWhile (fun _ ->
-            doWhile (fun _ ->
-                doWhile (fun _ -> seq {
-                    yield! doWhile (fun _ ->
-                        seq {
-                            if iter.IsAtBeginningOf PageIteratorLevel.Block 
-                                then yield "<BLOCK>"
-                            let confidence = iter.GetConfidence(PageIteratorLevel.Word)
-                            if confidence >= meanConfidence then yield iter.GetText(PageIteratorLevel.Word)
-                            yield "[space]"
-                            if iter.IsAtFinalOf(PageIteratorLevel.TextLine, PageIteratorLevel.Word)
-                                then yield "[end line]"
-                        }
-                    ) (fun _ -> iter.Next(PageIteratorLevel.TextLine, PageIteratorLevel.Word))
-                    if iter.IsAtFinalOf(PageIteratorLevel.Para, PageIteratorLevel.TextLine)
-                        then yield "[end paragraph]"
-                }) (fun _ -> iter.Next(PageIteratorLevel.Para, PageIteratorLevel.TextLine))
-            ) (fun _ -> iter.Next(PageIteratorLevel.Block, PageIteratorLevel.Para))
-        ) (fun _ -> iter.Next(PageIteratorLevel.Block))
-    })
+    printfn "Preprocessing %s..." imgFile
 
-    printfn "%A" <| System.IO.Path.Combine(pendingPath, jsonName.Replace(".json", "") + "_taxa.json")
+    let newTaxonJsonFile = System.IO.Path.Combine(pendingPath, jsonName.Replace(".json", "") + "_taxa.json")
+    if System.IO.File.Exists newTaxonJsonFile then 
+        printfn "Skipping (already done)."
+        ()
+    else
+        // 1. Turn pollen diagram into morphotype names
+        let img = Pix.LoadFromFile(System.IO.Path.Combine(pendingPath, imgFile))
+        let rotatedImg = img.Rotate(angleInRadians = float32 0.785)
+        let page = engine.Process rotatedImg
+        let meanConfidence = page.GetMeanConfidence ()
+        let iter = page.GetIterator()
+        iter.Begin()
+        let result = Seq.toList (seq {
+            yield! doWhile (fun _ ->
+                doWhile (fun _ ->
+                    doWhile (fun _ -> seq {
+                        yield! doWhile (fun _ ->
+                            seq {
+                                if iter.IsAtBeginningOf PageIteratorLevel.Block 
+                                    then yield "<BLOCK>"
+                                let confidence = iter.GetConfidence(PageIteratorLevel.Word)
+                                if confidence >= meanConfidence then yield iter.GetText(PageIteratorLevel.Word)
+                                yield "[space]"
+                                if iter.IsAtFinalOf(PageIteratorLevel.TextLine, PageIteratorLevel.Word)
+                                    then yield "[end line]"
+                            }
+                        ) (fun _ -> iter.Next(PageIteratorLevel.TextLine, PageIteratorLevel.Word))
+                        if iter.IsAtFinalOf(PageIteratorLevel.Para, PageIteratorLevel.TextLine)
+                            then yield "[end paragraph]"
+                    }) (fun _ -> iter.Next(PageIteratorLevel.Para, PageIteratorLevel.TextLine))
+                ) (fun _ -> iter.Next(PageIteratorLevel.Block, PageIteratorLevel.Para))
+            ) (fun _ -> iter.Next(PageIteratorLevel.Block))
+        })
 
-    let groupedIntoTaxa =
-        List.fold (fun (state,currentName) i ->
-            if i = "[space]" then (state, currentName + " ")
-            else if i = "[end line]" || i = "<BLOCK>" || i = "[end paragraph]" 
-            then (currentName :: state, "")
-            else (state, currentName + i)
-            ) ([],"") result 
-        |> fst
-        |> List.map(fun s -> s.Trim())
-        |> List.where(fun s -> s.Length > 0)
-        |> List.map(fun s -> { MicrofossilType = "pollen"; Morphotype = s; Measure = "abundance"; KeyUsed = "unknown" })
-        |> List.rev
+        let groupedIntoTaxa =
+            List.fold (fun (state,currentName) i ->
+                if i = "[space]" then (state, currentName + " ")
+                else if i = "[end line]" || i = "<BLOCK>" || i = "[end paragraph]" 
+                then (currentName :: state, "")
+                else (state, currentName + i)
+                ) ([],"") result 
+            |> fst
+            |> List.map(fun s -> s.Trim())
+            |> List.where(fun s -> s.Length > 0)
+            |> List.map(fun s -> { MicrofossilType = "pollen"; Morphotype = s; Measure = "abundance"; KeyUsed = "unknown" })
+            |> List.rev
 
-    groupedIntoTaxa
-    |> System.Text.Json.JsonSerializer.Serialize
-    |> fun t -> System.IO.File.WriteAllText(System.IO.Path.Combine(pendingPath, jsonName.Replace(".json", "") + "_taxa.json"), t)
+        printfn "Identified %i taxa." groupedIntoTaxa.Length
+
+        groupedIntoTaxa
+        |> System.Text.Json.JsonSerializer.Serialize
+        |> fun t -> System.IO.File.WriteAllText(newTaxonJsonFile, t)
 
 
 module AddToGraph =
@@ -103,13 +108,22 @@ module AddToGraph =
             graph
             |> Storage.atomByKey<Sources.SourceNode> (Graph.UniqueKey.FriendlyKey ("sourcenode", row.StudyId))
             |> Result.ofOption ("Could not load source: " + row.StudyId)
+        printfn "Found source."
 
         let timelineNode =
             ExposureNode <|
             Exposure.ExposureNode.TimelineNode(Continuous <| Irregular)
 
         let earliestExtentBP = row.Site.EarliestYearYbp
+        let earliestExtentAgeEarlyLate =
+            if row.Site.EarliestYearYbpUncertainty <> 0
+            then Some(row.Site.EarliestYearYbp + row.Site.EarliestYearYbpUncertainty, row.Site.EarliestYearYbp - row.Site.EarliestYearYbpUncertainty)
+            else None
         let latestExtentBP = row.Site.LatestYearYbp
+        let latestExtentAgeEarlyLate =
+            if row.Site.LatestYearYbpUncertainty <> 0
+            then Some(row.Site.LatestYearYbp + row.Site.LatestYearYbpUncertainty, row.Site.LatestYearYbp - row.Site.LatestYearYbpUncertainty)
+            else None
 
         let individualDates =
             row.Dates |> Seq.map(fun date ->
@@ -184,8 +198,10 @@ module AddToGraph =
                     proxy |> BioticProxies.Morphotype, measure)
             ) |> Result.ofList
 
-        let mayOrMayNotExistTaxon = (Population.Taxonomy.Kingdom("Uknown (not yet coded)" |> Text.createShort |> Result.forceOk))
+        let mayOrMayNotExistTaxon = (Population.Taxonomy.Kingdom("Unknown (not yet coded)" |> Text.createShort |> Result.forceOk))
         let existingInference = Population.BioticProxies.InferenceMethodNode.IdentificationKeyOrAtlas (Text.create "Unknown (not yet coded)" |> forceOk)
+
+        printfn "Validated input data. Adding nodes and relations to graph..."
 
         return! result {
 
@@ -193,24 +209,47 @@ module AddToGraph =
             let! endDateNode = Storage.atomByKey (Graph.UniqueKey.FriendlyKey("calyearnode", sprintf "%iybp" <| latestExtentBP)) graph |> Result.ofOption ""
             let! measureNode = Storage.atomByKey (Graph.UniqueKey.FriendlyKey("biodiversitydimensionnode", "abundance")) graph |> Result.ofOption ""
 
-            // ----------------
-            // TODO Add individual dates. !!!
-            // ----------------
-
             // Add things now, only after checks are complete.
             let! (graphWithDatasetEntry,addedTimelineNode) = 
                 graph
-                |> fun g -> Storage.addNodes g [ 
+                |> fun g -> Storage.addNodes g (Seq.append [ 
                     timelineNode
-                    contextNode ]
+                    contextNode ] individualDates)
                 |> Result.bind(fun (g, addedNodes) -> 
                     let timelineNode = addedNodes |> Seq.find(fun s -> (s |> fst |> snd).NodeType() = "IndividualTimelineNode")
                     let contextNode = addedNodes |> Seq.find(fun s -> (s |> fst |> snd).NodeType() = "ContextNode")
+                    let dateNodes = addedNodes |> Seq.where(fun s -> (s |> fst |> snd).NodeType() = "IndividualDateNode")
 
                     Storage.addRelation sourceNode timelineNode (ProposedRelation.Source Sources.SourceRelation.HasTemporalExtent) g
                     |> Result.bind(fun g -> Storage.addRelation timelineNode startDateNode (ProposedRelation.Exposure Exposure.ExposureRelation.ExtentEarliest) g )
                     |> Result.bind(fun g -> Storage.addRelation timelineNode endDateNode (ProposedRelation.Exposure Exposure.ExposureRelation.ExtentLatest) g )
                     |> Result.bind(fun g -> Storage.addRelation timelineNode contextNode (ProposedRelation.Exposure Exposure.ExposureRelation.IsLocatedAt) g )
+                    |> Result.bind(fun g ->
+                        match earliestExtentAgeEarlyLate with
+                        | Some (early, late) -> 
+                            let early = Storage.atomByKey (Graph.UniqueKey.FriendlyKey("calyearnode", sprintf "%iybp" <| early)) graph
+                            let late = Storage.atomByKey (Graph.UniqueKey.FriendlyKey("calyearnode", sprintf "%iybp" <| late)) graph
+                            Storage.addRelation timelineNode early.Value (ProposedRelation.Exposure Exposure.ExposureRelation.ExtentEarliestUncertainty) g
+                            |> Result.bind(fun g ->
+                                    Storage.addRelation timelineNode late.Value (ProposedRelation.Exposure Exposure.ExposureRelation.ExtentEarliestUncertainty) g )
+                        | None -> Ok g )
+                    |> Result.bind(fun g ->
+                        match latestExtentAgeEarlyLate with
+                        | Some (early, late) -> 
+                            let early = Storage.atomByKey (Graph.UniqueKey.FriendlyKey("calyearnode", sprintf "%iybp" <| early)) graph
+                            let late = Storage.atomByKey (Graph.UniqueKey.FriendlyKey("calyearnode", sprintf "%iybp" <| late)) graph
+                            Storage.addRelation timelineNode early.Value (ProposedRelation.Exposure Exposure.ExposureRelation.ExtentLatestUncertainty) g
+                            |> Result.bind(fun g ->
+                                    Storage.addRelation timelineNode late.Value (ProposedRelation.Exposure Exposure.ExposureRelation.ExtentLatestUncertainty) g )
+                        | None -> Ok g )
+                    |> Result.bind(fun g ->
+                        // Add a relation from the timeline to each date node.
+                        Seq.fold(fun state dateNode ->
+                            state
+                            |> Result.bind(fun g ->
+                                Storage.addRelation timelineNode dateNode (ProposedRelation.Exposure Exposure.ExposureRelation.ConstructedWithDate) g )
+                        ) (Ok g) dateNodes
+                        )
                     |> Result.lift(fun r -> r, timelineNode)
                 )
 
@@ -258,6 +297,7 @@ System.Console.ReadLine() |> ignore
 
 // Step 2. Add un-added datasets into graph
 open BiodiversityCoder.Core
+open BiodiversityCoder.Core.FieldDataTypes
 
 printfn "Loading graph"
 
@@ -271,15 +311,24 @@ let loadedData =
             jsonFile.Replace(".json", "_taxa.json")
             |> System.IO.File.ReadAllText
             |> System.Text.Json.JsonSerializer.Deserialize<list<MicrofossilRecord>>
-        json, json2 )
+        json, json2, [jsonFile; imgName; jsonFile.Replace(".json", "_taxa.json")])
 
 match graph with
 | Ok g ->
+
+    let mayOrMayNotExistTaxon = (Population.Taxonomy.Kingdom("Unknown (not yet coded)" |> Text.createShort |> Result.forceOk))
+    let existingInference = Population.BioticProxies.InferenceMethodNode.IdentificationKeyOrAtlas (Text.create "Unknown (not yet coded)" |> forceOk)
+    let g = Storage.addNodes g [ 
+        GraphStructure.Node.PopulationNode <| GraphStructure.TaxonomyNode mayOrMayNotExistTaxon
+        GraphStructure.Node.PopulationNode <| GraphStructure.InferenceMethodNode existingInference ] |> Result.forceOk |> fst
+
     match (
-        Seq.fold(fun graph (json, microfossils) ->
+        Seq.fold(fun graph (json, microfossils, files) ->
             graph |> Result.bind(fun g ->
                 match AddToGraph.addSite g microfossils json with
-                | Ok g -> Ok g
+                | Ok g -> 
+                    files |> List.iter(fun f -> System.IO.File.Move(f, f.Replace(pendingPath, donePath)))
+                    Ok g
                 | Error e -> Error e )
             ) (Ok g) loadedData ) with
     | Ok _ -> ()
