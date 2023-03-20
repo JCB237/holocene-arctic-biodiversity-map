@@ -1,0 +1,27 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <RootNamespace>palaeo_diagram_digitise</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FSharp.Data" Version="5.0.2" />
+    <PackageReference Include="Tesseract" Version="5.2.0" />
+  </ItemGroup>
+
+  <Target Name="link_deps" AfterTargets="AfterBuild">
+    <Exec Command="ln -sf /usr/local/lib/liblept.dylib $(OutDir)x64/libleptonica-1.82.0.dylib" />
+    <Exec Command="ln -sf /usr/local/lib/libtesseract.dylib $(OutDir)x64/libtesseract50.dylib" />
+  </Target>
+
+  <ItemGroup>
+    <ProjectReference Include="..\tree-ring\paket-files\AndrewIOM\biodiversity-graph-db\src\BiodiversityCoder.Core\BiodiversityCoder.Core.fsproj" />
+  </ItemGroup>
+
+</Project>

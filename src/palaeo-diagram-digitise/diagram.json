@@ -1,0 +1,31 @@
+{
+    "StudyId": "some_id",
+    "Site": {
+        "Name": "Some site",
+        "IsPoly": false,
+        "LatDD": -12.4,
+        "LonDD": 12.23,
+        "PolyWKT": "Some_STRING",
+        "EarliestYearYBP": 1243,
+        "LatestYearYBP": 12,
+        "EarliestYearYBPUncertainty": 100,
+        "LatestYearYBPUncertainty": 100,
+        "Origin": "LakeSediment"
+    },
+    "Dates": [
+        {
+            "Year": 1254,
+            "YearError": 0,
+            "Unit": "YBP",
+            "MaterialDated": "shell",
+            "CalCurve": "IntCal13",
+            "UncalDate": 1200,
+            "Uncertainty": 100,
+            "Type": "Radiocarbon",
+            "DepthCmMin": 20,
+            "DepthCmMax": 22,
+            "Discarded": false
+        }
+    ]
+
+}
