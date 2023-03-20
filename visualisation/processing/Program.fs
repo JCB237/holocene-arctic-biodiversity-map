@@ -4,8 +4,8 @@ open BiodiversityCoder.Core.GraphStructure
 open FSharp.Data
 
 type IndividualMeasureCsv = CsvProvider<
-    Sample = "source_id, source_title, source_year, site_name, LatDD, LonDD, inferred_from, inferred_using, biodiversity_measure, inferred_as, sample_origin",
-    Schema = "source_id (string option), source_title (string option), source_year (int option), site_name (string), LatDD (float), LonDD (float), inferred_from (string option), inferred_using (string option), biodiversity_measure (string option), inferred_as (string), sample_origin (string)", HasHeaders = true>
+    Sample = "source_id, source_title, source_year, site_name, LatDD, LonDD, inferred_from, inferred_using, biodiversity_measure, inferred_as, sample_origin, earliest_extent, latest_extent",
+    Schema = "source_id (string option), source_title (string option), source_year (int option), site_name (string), LatDD (float), LonDD (float), inferred_from (string option), inferred_using (string option), biodiversity_measure (string option), inferred_as (string), sample_origin (string), earliest_extent (int option), latest_extent (int option)", HasHeaders = true>
 
 let unwrap (f:float<_>) = float f
 
@@ -75,6 +75,28 @@ let run () =
             temporalExtents
             |> List.collect id
             |> List.map(fun (sId, sourceName, year, extent) ->
+
+                // Get temporal extent values. Based on links that are always present.
+                let earliestExtent = 
+                    extent |> snd |> List.tryFind(fun (_,_,_,r) ->
+                        match r with
+                        | GraphStructure.Relation.Exposure r ->
+                            match r with
+                            | Exposure.ExposureRelation.ExtentEarliest -> true
+                            | _ -> false
+                        | _ -> false)
+                    |> Option.map(fun (_,sink,_,_) ->
+                        System.Text.RegularExpressions.Regex.Replace(sink.AsString, "[aA-zZ]", "") |> int)
+                let latestExtent = 
+                    extent |> snd |> List.tryFind(fun (_,_,_,r) ->
+                        match r with
+                        | GraphStructure.Relation.Exposure r ->
+                            match r with
+                            | Exposure.ExposureRelation.ExtentEarliest -> true
+                            | _ -> false
+                        | _ -> false)
+                    |> Option.map(fun (_,sink,_,_) ->
+                        System.Text.RegularExpressions.Regex.Replace(sink.AsString, "[aA-zZ]", "") |> int)
 
                 // Load single context node
                 let spatialRelation = 
@@ -168,14 +190,14 @@ let run () =
                         biodiversityOutcomes
                         |> Result.lift(fun ls ->
                             ls |> List.map(fun (from, using, by, taxon) ->
-                                sId, sourceName, year, context.Name.Value, unwrap lat.Value, unwrap lon.Value, from, using, by, taxon, context.SampleOrigin.ToString()))
+                                sId, sourceName, year, context.Name.Value, unwrap lat.Value, unwrap lon.Value, from, using, by, taxon, context.SampleOrigin.ToString(), earliestExtent, latestExtent))
                     | FieldDataTypes.Geography.Area poly ->
                         let lat = poly.Value |> List.map fst |> List.averageBy(fun v -> v.Value |> unwrap)
                         let lon = poly.Value |> List.map snd |> List.averageBy(fun v -> v.Value |> unwrap)
                         biodiversityOutcomes
                         |> Result.lift(fun ls ->
                             ls |> List.map(fun (from, using, by, taxon) ->
-                                sId, sourceName, year, context.Name.Value, lat, lon, from, using, by, taxon, context.SampleOrigin.ToString()))
+                                sId, sourceName, year, context.Name.Value, lat, lon, from, using, by, taxon, context.SampleOrigin.ToString(), earliestExtent, latestExtent))
                     | _ -> Ok [])
                 |> Result.lift(fun l -> l)
             ) |> List.choose Result.toOption |> List.concat
