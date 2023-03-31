@@ -8,18 +8,24 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Golubchikov, O.; Thornbush, M. J."
-            },
-            "Title": {
-              "item": "On Shaky Ground: Arctic Communities in Uneasy Transition to a New Climatic Order"
-            },
-            "Year": 2009,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Golubchikov, O.; Thornbush, M. J."
+              },
+              "Title": {
+                "item": "On Shaky Ground: Arctic Communities in Uneasy Transition to a New Climatic Order"
+              },
+              "Year": 2009,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "general socio-ecological review chapter"
           }
-        }
+        ]
       }
     }
   ],
