@@ -1,6 +1,8 @@
 What evidence exists for temporal variability in Arctic terrestrial and freshwater biodiversity throughout the Holocene? A systematic map.
 ===
 
+[![deploy thalloo maps](https://github.com/AndrewIOM/holocene-arctic-biodiversity-map/actions/workflows/thalloo.yml/badge.svg)](https://github.com/AndrewIOM/holocene-arctic-biodiversity-map/actions/workflows/thalloo.yml)
+
 **Note. This repository contains the systematic map database, into which information is currently being coded. You may view the current progress in the visualisations linked to below.**
 
 ### [View the latest maps here](http://acm.im/holocene-arctic-biodiversity-map/)
