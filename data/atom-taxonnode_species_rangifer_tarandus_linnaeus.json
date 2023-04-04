@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_rangifer_tarandus_linnaeus"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Rangifer"
+            },
+            {
+              "item": "tarandus"
+            },
+            {
+              "item": "Linnaeus"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_rangifer_tarandus_linnaeus"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_rangifer"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

@@ -8,21 +8,43 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Mohl, J."
-            },
-            "Title": {
-              "item": "Dog Remains from a Paleoeskimo Settlement in West Greenland"
-            },
-            "Year": 1986,
-            "Volume": 23,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Mohl, J."
+              },
+              "Title": {
+                "item": "Dog Remains from a Paleoeskimo Settlement in West Greenland"
+              },
+              "Year": 1986,
+              "Volume": 23,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedAll"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mohl_drfapsiwg_1986"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "b696575c-e025-42da-9175-6e7955c426d3"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]
