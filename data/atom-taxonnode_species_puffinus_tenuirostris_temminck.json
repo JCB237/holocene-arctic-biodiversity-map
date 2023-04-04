@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_puffinus_tenuirostris_temminck"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Puffinus"
+            },
+            {
+              "item": "tenuirostris"
+            },
+            {
+              "item": "Temminck"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_puffinus_tenuirostris_temminck"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_puffinus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

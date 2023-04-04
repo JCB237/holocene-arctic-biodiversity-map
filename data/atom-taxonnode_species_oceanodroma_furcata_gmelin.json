@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_oceanodroma_furcata_gmelin"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Oceanodroma"
+            },
+            {
+              "item": "furcata"
+            },
+            {
+              "item": "Gmelin"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_oceanodroma_furcata_gmelin"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_oceanodroma"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

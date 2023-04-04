@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_leptocottus_armatus_girard"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Leptocottus"
+            },
+            {
+              "item": "armatus"
+            },
+            {
+              "item": "Girard"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_leptocottus_armatus_girard"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_leptocottus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

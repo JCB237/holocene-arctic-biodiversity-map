@@ -1,0 +1,99 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "12098cd0-3297-423e-9ee6-9244d7c70852"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 335.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 15.0
+          },
+          "MaterialDated": {
+            "item": "Ptarmigan bone"
+          },
+          "SampleDepth": {
+            "DepthQualitativeLevel": {
+              "item": "Unit 1 Level 1 Midden"
+            }
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "12098cd0-3297-423e-9ee6-9244d7c70852"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "320ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 320.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "12098cd0-3297-423e-9ee6-9244d7c70852"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "350ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 350.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "12098cd0-3297-423e-9ee6-9244d7c70852"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "335ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 335.0
+          }
+        }
+      }
+    ]
+  ]
+]

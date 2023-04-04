@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_melospiza_melodia_wilson"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Melospiza"
+            },
+            {
+              "item": "melodia"
+            },
+            {
+              "item": "Wilson"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_melospiza_melodia_wilson"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_melospiza"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]
