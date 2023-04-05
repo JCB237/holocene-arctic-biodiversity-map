@@ -1,0 +1,115 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "3ebda8ed-1094-4262-b934-6e17186b8b2e"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 7450.0,
+              "CalibrationCurve": {
+                "item": "LE-4534"
+              },
+              "UncalibratedDateError": "NoDatingErrorSpecified"
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 220.0
+          },
+          "MaterialDated": {
+            "item": "Wood"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "3ebda8ed-1094-4262-b934-6e17186b8b2e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "7450ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "CalYrBP": [
+              7450.0,
+              {
+                "item": "LE-4534"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "3ebda8ed-1094-4262-b934-6e17186b8b2e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "7890ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "CalYrBP": [
+              7890.0,
+              {
+                "item": "LE-4534"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "3ebda8ed-1094-4262-b934-6e17186b8b2e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "7450ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              7450.0,
+              {
+                "item": "LE-4534"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

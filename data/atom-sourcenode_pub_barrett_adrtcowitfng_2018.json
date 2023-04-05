@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Barrett, J. H.; Boessenkool, S.; Gondek, A. T.; Star, B."
-            },
-            "Title": {
-              "item": "Ancient DNA reveals the chronology of walrus ivory trade from Norse Greenland"
-            },
-            "Year": 2018,
-            "Volume": 285,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Barrett, J. H.; Boessenkool, S.; Gondek, A. T.; Star, B."
+              },
+              "Title": {
+                "item": "Ancient DNA reveals the chronology of walrus ivory trade from Norse Greenland"
+              },
+              "Year": 2018,
+              "Volume": 285,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "Re-analysis of museum / historical specimens"
           }
-        }
+        ]
       }
     }
   ],

@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_ursus_maritimus_phipps"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Ursus"
+            },
+            {
+              "item": "maritimus"
+            },
+            {
+              "item": "Phipps"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_ursus_maritimus_phipps"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_ursus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]
