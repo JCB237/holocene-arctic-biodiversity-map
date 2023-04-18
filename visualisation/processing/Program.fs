@@ -207,6 +207,24 @@ let run () =
         let csv = new IndividualMeasureCsv (withSpatialContextAndOutcomes |> List.map IndividualMeasureCsv.Row)
         let csvStr = csv.SaveToString('\t')
         System.IO.File.WriteAllText("../thalloo-static-site/map-data/ahbdb.txt", csvStr)
+
+        // Make a new row for each site
+        let asSiteGroups =
+            withSpatialContextAndOutcomes
+            |> Seq.groupBy(fun (a,_,_,d,_,_,_,_,_,_,_,_,_) -> a,d)
+            |> Seq.map(fun (_,rows) ->
+                let (a,b,c,d,e,f,g,h,i,j,k,l,m) = rows |> Seq.head
+                let inferredFrom = rows |> Seq.map(fun (a,b,c,d,e,f,g,h,i,j,k,l,m) -> g) |> Seq.choose id |> Seq.distinct |> String.concat ";"
+                let inferredUsing = rows |> Seq.map(fun (a,b,c,d,e,f,g,h,i,j,k,l,m) -> h) |> Seq.choose id |> Seq.distinct |> String.concat ";"
+                let biodiversityMeasure = rows |> Seq.map(fun (a,b,c,d,e,f,g,h,i,j,k,l,m) -> i) |> Seq.choose id |> Seq.distinct |> String.concat ";"
+                let inferredAs = rows |> Seq.map(fun (a,b,c,d,e,f,g,h,i,j,k,l,m) -> j) |> Seq.distinct |> String.concat ";"
+                (a,b,c,d,e,f,Some inferredFrom, Some inferredUsing, Some biodiversityMeasure, inferredAs, k, l, m)
+            ) |> Seq.toList
+        printfn "Generated %i sites(s)" asSiteGroups.Length
+        let csv = new IndividualMeasureCsv (asSiteGroups |> List.map IndividualMeasureCsv.Row)
+        let csvStr = csv.SaveToString('\t')
+        System.IO.File.WriteAllText("../thalloo-static-site/map-data/ahbdb.txt", csvStr)
+
         return Ok
     }
 

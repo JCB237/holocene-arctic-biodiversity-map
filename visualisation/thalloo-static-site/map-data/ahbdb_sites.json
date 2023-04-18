@@ -1,0 +1,83 @@
+{
+    "Name": "Sites in the Arctic Holocene Biodiversity Database",
+    "Description": "Note. This dataset is not complete, as work is ongoing.",
+    "Publication": "Martin, A.C., Assmann, J.J., Bradshaw, R.H.W., Kuoppamaa, M., Kuosmanen, N.I., Normand, S., Speed, J.D.M., Macias- Fauria, M., 2022. What evidence exists for temporal variability in Arctic terrestrial and freshwater biodiversity throughout the Holocene? A systematic map protocol. Environ Evid 11, 13 (2022). https://doi.org/10.1186/s13750-022-00267-x",
+    "Logos": [
+        { "File": "charter", "Name": "CHARTER - A Horizon 2020 consortium", "ExternalUrl": "charter-arctic.org" },
+        { "File": "oxford", "Name": "University of Oxford", "ExternalUrl": "ox.ac.uk" }
+    ],
+    "Projection": "arctic",
+    "DisplayMode": "cluster",
+    "DisplayUnit": "sample_origin",
+    "MaxPieSize": 40,
+    "ClusterDistance": 250,
+    "BaseLayers": [{
+        "File": "subzones",
+        "Name": "Bioclimate Subzones",
+        "Description": "Arctic zonation defined by the Circumpolar Arctic Vegetation Atlas."
+    }],
+    "Fields": [
+        {
+            "Column": "inferred_as",
+            "Name": "Taxon (inferred as)",
+            "DataType": "string",
+            "Description": "The taxon / taxa that the biotic proxy has been inferred as."
+        },
+        {
+            "Column": "inferred_from",
+            "Name": "Biotic Proxy (inferred from)",
+            "DataType": "string",
+            "Description": "The biotic proxy that was recorded, from which a true taxon / taxa have been inferred."
+        },
+        {
+            "Column": "inferred_using",
+            "Name": "Inference method",
+            "DataType": "string",
+            "Description": "The inference method used to connect the biotic proxy to a true taxon / taxa."
+        },
+        {
+            "Column": "biodiversity_measure",
+            "Name": "Biodiversity Dimension",
+            "DataType": "string",
+            "Description": "The dimension of biodiversity (or 'measure') interpreted from the biotic proxy."
+        },
+        {
+            "Column": "sample_origin",
+            "Name": "Origin of Sample",
+            "DataType": "string",
+            "Description": "The parent material from which the biodiversity measure was observed."
+        },
+        {
+            "Column": "source_year",
+            "Name": "Publication Year",
+            "DataType": "float",
+            "Unit": "years",
+            "Description": "The year in which the source was published"
+        }
+    ],
+    "DataPalettes": [{
+        "Column": "sample_origin",
+        "Palette": [
+            {
+                "Name": "LakeSediment",
+                "Hex": "648FFF"
+            },
+            {
+                "Name": "PeatCore",
+                "Hex": "785EF0"
+            },
+            {
+                "Name": "Subfossil",
+                "Hex": "DC267F"
+            },
+            {
+                "Name": "LivingOrganism",
+                "Hex": "FE6100"
+            },
+            {
+                "Name": "Other",
+                "Hex": "000"
+            }
+        ]
+    }]
+}
