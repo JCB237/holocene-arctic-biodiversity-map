@@ -223,7 +223,7 @@ let run () =
         printfn "Generated %i sites(s)" asSiteGroups.Length
         let csv = new IndividualMeasureCsv (asSiteGroups |> List.map IndividualMeasureCsv.Row)
         let csvStr = csv.SaveToString('\t')
-        System.IO.File.WriteAllText("../thalloo-static-site/map-data/ahbdb.txt", csvStr)
+        System.IO.File.WriteAllText("../thalloo-static-site/map-data/ahbdb_sites.txt", csvStr)
 
         return Ok
     }
