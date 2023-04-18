@@ -1,0 +1,114 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "b1ca628c-1625-4537-bdc8-542483065411"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 7930.0,
+              "CalibrationCurve": {
+                "item": "GIN-6400"
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 40.0
+          },
+          "MaterialDated": {
+            "item": "Bone"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "b1ca628c-1625-4537-bdc8-542483065411"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "7890ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "CalYrBP": [
+              7890.0,
+              {
+                "item": "GIN-6400"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "b1ca628c-1625-4537-bdc8-542483065411"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "7970ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "CalYrBP": [
+              7970.0,
+              {
+                "item": "GIN-6400"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "b1ca628c-1625-4537-bdc8-542483065411"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "7930ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              7930.0,
+              {
+                "item": "GIN-6400"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

@@ -1,0 +1,114 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "84cbb78b-faba-4e0c-9997-7506e0e78010"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 7940.0,
+              "CalibrationCurve": {
+                "item": "LU-4533a"
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 170.0
+          },
+          "MaterialDated": {
+            "item": "Bone"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "84cbb78b-faba-4e0c-9997-7506e0e78010"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "7770ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "CalYrBP": [
+              7770.0,
+              {
+                "item": "LU-4533a"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "84cbb78b-faba-4e0c-9997-7506e0e78010"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8110ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "CalYrBP": [
+              8110.0,
+              {
+                "item": "LU-4533a"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "84cbb78b-faba-4e0c-9997-7506e0e78010"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "7940ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              7940.0,
+              {
+                "item": "LU-4533a"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

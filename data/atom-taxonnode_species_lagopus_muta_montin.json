@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_lagopus_muta_montin"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Lagopus"
+            },
+            {
+              "item": "muta"
+            },
+            {
+              "item": "Montin"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_lagopus_muta_montin"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_lagopus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

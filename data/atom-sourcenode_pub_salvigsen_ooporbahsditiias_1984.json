@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Salvigsen, O."
-            },
-            "Title": {
-              "item": "Occurrence of pumice on raised beaches and Holocene shoreline displacement in the inner Isfjorden area, Svalbard"
-            },
-            "Year": 1984,
-            "Volume": 2,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Salvigsen, O."
+              },
+              "Title": {
+                "item": "Occurrence of pumice on raised beaches and Holocene shoreline displacement in the inner Isfjorden area, Svalbard"
+              },
+              "Year": 1984,
+              "Volume": 2,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Single piece of driftwood (~10,000BP); no other biological sources identified to specific taxa"
           }
-        }
+        ]
       }
     }
   ],

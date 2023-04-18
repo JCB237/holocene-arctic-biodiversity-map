@@ -1,0 +1,58 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "68514294-1387-4cf3-a9e2-2bfe2ac64fe6"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 2365.0,
+              "CalibrationCurve": {
+                "item": "Clark 1975"
+              }
+            }
+          },
+          "MeasurementError": "NoDatingErrorSpecified",
+          "MaterialDated": {
+            "item": "Unknown"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "68514294-1387-4cf3-a9e2-2bfe2ac64fe6"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "2365ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              2365.0,
+              {
+                "item": "Clark 1975"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

@@ -1,0 +1,99 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "9ec9a9a3-be9f-4d59-a7c5-cd180b72c723"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 755.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 72.0
+          },
+          "MaterialDated": {
+            "item": "Fish bone"
+          },
+          "SampleDepth": {
+            "DepthQualitativeLevel": {
+              "item": "Midden 2 Level A"
+            }
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "9ec9a9a3-be9f-4d59-a7c5-cd180b72c723"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "827ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 683.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "9ec9a9a3-be9f-4d59-a7c5-cd180b72c723"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "683ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 827.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "9ec9a9a3-be9f-4d59-a7c5-cd180b72c723"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "755ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 755.0
+          }
+        }
+      }
+    ]
+  ]
+]

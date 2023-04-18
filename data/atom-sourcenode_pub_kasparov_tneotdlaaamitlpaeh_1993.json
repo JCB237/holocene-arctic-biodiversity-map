@@ -8,21 +8,60 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kasparov, A. K.; Makeyev, V. M.; Pitul’ko, V. V."
-            },
-            "Title": {
-              "item": "The natural environment of the de long archipelago and ancient man in the late pleistocene and early holocene"
-            },
-            "Year": 1993,
-            "Volume": 17,
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kasparov, A. K.; Makeyev, V. M.; Pitul’ko, V. V."
+              },
+              "Title": {
+                "item": "The natural environment of the de long archipelago and ancient man in the late pleistocene and early holocene"
+              },
+              "Year": 1993,
+              "Volume": 17,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "Stalled": [
+              [
+                {
+                  "item": "exposure"
+                },
+                {
+                  "item": "source-primary-or-secondary"
+                }
+              ],
+              {
+                "item": "outcome"
+              },
+              {
+                "item": "Literature refers to taxonomic ranks ('Pinnipeds') that can't be input with the current taxonomic categories."
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_kasparov_tneotdlaaamitlpaeh_1993"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "a49f8096-f5b6-4d03-9368-15cd8b9d2b92"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

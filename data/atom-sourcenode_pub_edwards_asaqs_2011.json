@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Edwards, M. E.; Kuzmina, S.; Lister, A. M."
-            },
-            "Title": {
-              "item": "Andrei Sher and Quaternary science"
-            },
-            "Year": 2011,
-            "Volume": 30,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Edwards, M. E.; Kuzmina, S.; Lister, A. M."
+              },
+              "Title": {
+                "item": "Andrei Sher and Quaternary science"
+              },
+              "Year": 2011,
+              "Volume": 30,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "OtherExclusionReason",
+          {
+            "item": "Biography / obituary - meets no inclusion criteria"
           }
-        }
+        ]
       }
     }
   ],
