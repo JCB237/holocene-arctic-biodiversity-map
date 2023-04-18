@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_cyclotella_ocellata_pantocsek"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Cyclotella"
+            },
+            {
+              "item": "ocellata"
+            },
+            {
+              "item": "Pantocsek"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_cyclotella_ocellata_pantocsek"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_cyclotella"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

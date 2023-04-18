@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_diomedea_albatrus_pallas"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Diomedea"
+            },
+            {
+              "item": "albatrus"
+            },
+            {
+              "item": "Pallas"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_diomedea_albatrus_pallas"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_diomedea"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

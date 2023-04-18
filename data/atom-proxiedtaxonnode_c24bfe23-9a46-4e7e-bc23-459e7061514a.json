@@ -1,0 +1,87 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "c24bfe23-9a46-4e7e-bc23-459e7061514a"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c24bfe23-9a46-4e7e-bc23-459e7061514a"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "abundance"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c24bfe23-9a46-4e7e-bc23-459e7061514a"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_uria_lomvia_linnaeus"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c24bfe23-9a46-4e7e-bc23-459e7061514a"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "implicit"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "c24bfe23-9a46-4e7e-bc23-459e7061514a"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_megafossil_uria lomvia_bone"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]

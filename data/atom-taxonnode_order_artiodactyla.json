@@ -1,0 +1,39 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "order_artiodactyla"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Order": {
+            "item": "Artiodactyla"
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "order_artiodactyla"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "class_mammalia"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

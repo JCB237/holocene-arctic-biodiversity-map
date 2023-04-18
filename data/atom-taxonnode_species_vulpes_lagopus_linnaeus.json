@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_vulpes_lagopus_linnaeus"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Vulpes"
+            },
+            {
+              "item": "lagopus"
+            },
+            {
+              "item": "Linnaeus"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_vulpes_lagopus_linnaeus"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_vulpes"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

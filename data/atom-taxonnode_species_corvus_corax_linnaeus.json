@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_corvus_corax_linnaeus"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Corvus"
+            },
+            {
+              "item": "corax"
+            },
+            {
+              "item": "Linnaeus"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_corvus_corax_linnaeus"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_corvus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

@@ -1,0 +1,87 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "f2b37c42-3cf3-4dc7-b272-9f33857fcc25"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "f2b37c42-3cf3-4dc7-b272-9f33857fcc25"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "abundance"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "f2b37c42-3cf3-4dc7-b272-9f33857fcc25"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_larus_glaucoides_meyer"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "f2b37c42-3cf3-4dc7-b272-9f33857fcc25"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "implicit"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "f2b37c42-3cf3-4dc7-b272-9f33857fcc25"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_megafossil_larus glaucoides_bone"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]

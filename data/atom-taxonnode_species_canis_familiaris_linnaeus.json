@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_canis_familiaris_linnaeus"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Canis"
+            },
+            {
+              "item": "familiaris"
+            },
+            {
+              "item": "Linnaeus"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_canis_familiaris_linnaeus"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_canis"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

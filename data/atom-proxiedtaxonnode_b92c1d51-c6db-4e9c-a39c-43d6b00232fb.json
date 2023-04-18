@@ -1,0 +1,87 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "b92c1d51-c6db-4e9c-a39c-43d6b00232fb"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "b92c1d51-c6db-4e9c-a39c-43d6b00232fb"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "abundance"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "b92c1d51-c6db-4e9c-a39c-43d6b00232fb"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_larus_glaucescens_naumann"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "b92c1d51-c6db-4e9c-a39c-43d6b00232fb"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "implicit"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "b92c1d51-c6db-4e9c-a39c-43d6b00232fb"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_megafossil_larus glaucescens_bone"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]

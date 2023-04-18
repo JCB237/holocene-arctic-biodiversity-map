@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_anser_albifrons_scopoli"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Anser"
+            },
+            {
+              "item": "albifrons"
+            },
+            {
+              "item": "Scopoli"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_anser_albifrons_scopoli"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_anser"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

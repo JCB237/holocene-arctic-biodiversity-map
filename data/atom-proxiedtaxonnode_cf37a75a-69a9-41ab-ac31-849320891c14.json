@@ -1,0 +1,87 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "cf37a75a-69a9-41ab-ac31-849320891c14"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "cf37a75a-69a9-41ab-ac31-849320891c14"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "abundance"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "cf37a75a-69a9-41ab-ac31-849320891c14"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_lunda_cirrhata_pallas"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "cf37a75a-69a9-41ab-ac31-849320891c14"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "implicit"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "cf37a75a-69a9-41ab-ac31-849320891c14"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_megafossil_lunda cirrhata_bone"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]

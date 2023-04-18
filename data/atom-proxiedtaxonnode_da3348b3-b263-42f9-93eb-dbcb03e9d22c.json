@@ -1,0 +1,87 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "da3348b3-b263-42f9-93eb-dbcb03e9d22c"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "da3348b3-b263-42f9-93eb-dbcb03e9d22c"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "abundance"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "da3348b3-b263-42f9-93eb-dbcb03e9d22c"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_anas"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "da3348b3-b263-42f9-93eb-dbcb03e9d22c"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "implicit"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "da3348b3-b263-42f9-93eb-dbcb03e9d22c"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_megafossil_anas sp_bone"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]

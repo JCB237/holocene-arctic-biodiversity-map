@@ -1,0 +1,114 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "4b0d7c37-72c8-4b69-b0e3-be4a1018aa74"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 490.0,
+              "CalibrationCurve": {
+                "item": "Not specified (confidence: 2 sigma, 95% probability)"
+              },
+              "UncalibratedDateError": "NoDatingErrorSpecified"
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 40.0
+          },
+          "MaterialDated": {
+            "item": "Charred material"
+          },
+          "SampleDepth": {
+            "DepthQualitativeLevel": {
+              "item": "Unit 1 Level 3"
+            }
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "4b0d7c37-72c8-4b69-b0e3-be4a1018aa74"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "450ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "CalYrBP": [
+              450.0,
+              null
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "4b0d7c37-72c8-4b69-b0e3-be4a1018aa74"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "530ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "CalYrBP": [
+              530.0,
+              null
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "4b0d7c37-72c8-4b69-b0e3-be4a1018aa74"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "490ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              490.0,
+              null
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

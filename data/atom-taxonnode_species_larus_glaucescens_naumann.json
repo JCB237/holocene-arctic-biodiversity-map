@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_larus_glaucescens_naumann"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Larus"
+            },
+            {
+              "item": "glaucescens"
+            },
+            {
+              "item": "Naumann"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_larus_glaucescens_naumann"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_larus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

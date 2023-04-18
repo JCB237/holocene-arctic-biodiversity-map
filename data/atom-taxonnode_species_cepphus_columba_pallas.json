@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_cepphus_columba_pallas"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Cepphus"
+            },
+            {
+              "item": "columba"
+            },
+            {
+              "item": "Pallas"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_cepphus_columba_pallas"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_cepphus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

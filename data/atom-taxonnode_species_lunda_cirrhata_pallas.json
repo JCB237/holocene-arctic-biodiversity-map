@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_lunda_cirrhata_pallas"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Lunda"
+            },
+            {
+              "item": "cirrhata"
+            },
+            {
+              "item": "Pallas"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_lunda_cirrhata_pallas"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_lunda"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]
