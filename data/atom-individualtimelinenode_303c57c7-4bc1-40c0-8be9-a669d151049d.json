@@ -1,0 +1,118 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "303c57c7-4bc1-40c0-8be9-a669d151049d"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": {
+            "Regular": [
+              1.0,
+              {
+                "OtherRegularFeature": {
+                  "item": "Leaf and flower production"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "303c57c7-4bc1-40c0-8be9-a669d151049d"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "d548d057-351f-488d-9f5d-8ad62e37b3c4"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "303c57c7-4bc1-40c0-8be9-a669d151049d"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "49927439-21c8-48c1-9806-e5604f3e889e"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "303c57c7-4bc1-40c0-8be9-a669d151049d"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "eeb5e212-87b7-4063-9949-1fe1cea5fb79"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "303c57c7-4bc1-40c0-8be9-a669d151049d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "340ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "303c57c7-4bc1-40c0-8be9-a669d151049d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "525ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliest"
+      }
+    ]
+  ]
+]
