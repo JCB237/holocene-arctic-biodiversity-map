@@ -1,0 +1,115 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "b520fdbb-3188-4a76-b1a8-2e9b9bfacd2d"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 10879.0,
+              "CalibrationCurve": {
+                "item": "IntCal13"
+              },
+              "UncalibratedDate": {
+                "Date": 9550.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 130.0
+                }
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 341.0
+          },
+          "MaterialDated": {
+            "item": "plant remains"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 372.0
+              },
+              {
+                "_depth": 363.0
+              }
+            ]
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "b520fdbb-3188-4a76-b1a8-2e9b9bfacd2d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "9420ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 9420.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "b520fdbb-3188-4a76-b1a8-2e9b9bfacd2d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "9680ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 9680.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "b520fdbb-3188-4a76-b1a8-2e9b9bfacd2d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "9550ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 9550.0
+          }
+        }
+      }
+    ]
+  ]
+]
