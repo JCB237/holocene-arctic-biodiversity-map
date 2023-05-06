@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Begin, Y.; Robichaud, A."
-            },
-            "Title": {
-              "item": "Development of a raised bog over 9000 years in Atlantic Canada"
-            },
-            "Year": 2009,
-            "Volume": 5,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Begin, Y.; Robichaud, A."
+              },
+              "Title": {
+                "item": "Development of a raised bog over 9000 years in Atlantic Canada"
+              },
+              "Year": 2009,
+              "Volume": 5,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "NA"
           }
-        }
+        ]
       }
     }
   ],
