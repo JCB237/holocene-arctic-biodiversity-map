@@ -1,0 +1,115 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "8957cf5b-dc04-4c94-bb24-890a34ed0734"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 2430.0,
+              "CalibrationCurve": {
+                "item": "Stuiver and Reimer 1993"
+              },
+              "UncalibratedDate": {
+                "Date": 2435.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 55.0
+                }
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 178.0
+          },
+          "MaterialDated": {
+            "item": "Drepanocladus moss"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 61.0
+              },
+              {
+                "_depth": 60.0
+              }
+            ]
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "8957cf5b-dc04-4c94-bb24-890a34ed0734"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "2380ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 2380.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "8957cf5b-dc04-4c94-bb24-890a34ed0734"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "2490ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 2490.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "8957cf5b-dc04-4c94-bb24-890a34ed0734"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "2435ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 2435.0
+          }
+        }
+      }
+    ]
+  ]
+]

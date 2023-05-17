@@ -1,0 +1,115 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "a3ada100-c8e1-4cc7-be17-82451ee007b8"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 425.0,
+              "CalibrationCurve": {
+                "item": "IntCal13"
+              },
+              "UncalibratedDate": {
+                "Date": 400.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 100.0
+                }
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 228.0
+          },
+          "MaterialDated": {
+            "item": "plant remains"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 55.0
+              },
+              {
+                "_depth": 50.0
+              }
+            ]
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "a3ada100-c8e1-4cc7-be17-82451ee007b8"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "300ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 300.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "a3ada100-c8e1-4cc7-be17-82451ee007b8"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "500ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 500.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "a3ada100-c8e1-4cc7-be17-82451ee007b8"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "400ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 400.0
+          }
+        }
+      }
+    ]
+  ]
+]

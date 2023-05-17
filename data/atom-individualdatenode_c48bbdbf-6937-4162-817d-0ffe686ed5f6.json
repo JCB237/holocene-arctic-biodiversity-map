@@ -1,0 +1,99 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "c48bbdbf-6937-4162-817d-0ffe686ed5f6"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 7550.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 60.0
+          },
+          "MaterialDated": {
+            "item": "subfossil wood"
+          },
+          "SampleDepth": {
+            "DepthPoint": {
+              "_depth": 0.0
+            }
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "c48bbdbf-6937-4162-817d-0ffe686ed5f6"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "7490ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 7490.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "c48bbdbf-6937-4162-817d-0ffe686ed5f6"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "7610ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 7610.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "c48bbdbf-6937-4162-817d-0ffe686ed5f6"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "7550ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 7550.0
+          }
+        }
+      }
+    ]
+  ]
+]
