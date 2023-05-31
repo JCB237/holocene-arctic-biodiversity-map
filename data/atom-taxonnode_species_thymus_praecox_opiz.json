@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_thymus_praecox_opiz"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Thymus"
+            },
+            {
+              "item": "praecox"
+            },
+            {
+              "item": "Opiz"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_thymus_praecox_opiz"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_thymus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

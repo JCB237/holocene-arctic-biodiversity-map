@@ -1,0 +1,118 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "2bd0b78e-78b4-40dc-9600-4f0166111fd6"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": {
+            "Regular": [
+              1.0,
+              {
+                "OtherRegularFeature": {
+                  "item": "Diary entries"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "2bd0b78e-78b4-40dc-9600-4f0166111fd6"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "d3303410-1d21-44d6-b0cb-c36501473db2"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "2bd0b78e-78b4-40dc-9600-4f0166111fd6"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "7aca4b03-4fd6-4f4f-a63c-be64842c7b47"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "2bd0b78e-78b4-40dc-9600-4f0166111fd6"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "fa35cd2d-fe90-4a8e-aae4-500adc6ac891"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "2bd0b78e-78b4-40dc-9600-4f0166111fd6"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "11ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "2bd0b78e-78b4-40dc-9600-4f0166111fd6"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "51ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliest"
+      }
+    ]
+  ]
+]

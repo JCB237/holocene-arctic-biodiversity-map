@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bergman, I.; Hornberg, G.; Josefsson, T.; Liedgren, L."
-            },
-            "Title": {
-              "item": "Cereal cultivation from the Iron Age to historical times: evidence from inland and coastal settlements in northernmost Fennoscandia"
-            },
-            "Year": 2017,
-            "Volume": 26,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bergman, I.; Hornberg, G.; Josefsson, T.; Liedgren, L."
+              },
+              "Title": {
+                "item": "Cereal cultivation from the Iron Age to historical times: evidence from inland and coastal settlements in northernmost Fennoscandia"
+              },
+              "Year": 2017,
+              "Volume": 26,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Just South of study Region "
           }
-        }
+        ]
       }
     }
   ],

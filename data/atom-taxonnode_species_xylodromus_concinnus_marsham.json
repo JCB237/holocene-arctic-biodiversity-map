@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_xylodromus_concinnus_marsham"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Xylodromus"
+            },
+            {
+              "item": "concinnus"
+            },
+            {
+              "item": "Marsham"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_xylodromus_concinnus_marsham"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_xylodromus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

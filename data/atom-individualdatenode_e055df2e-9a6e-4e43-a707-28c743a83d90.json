@@ -1,0 +1,60 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "e055df2e-9a6e-4e43-a707-28c743a83d90"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 680.0,
+              "CalibrationCurve": {
+                "item": "OxCal 4.3, IntCal 13"
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 15.0
+          },
+          "MaterialDated": {
+            "item": "caribou bone"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "e055df2e-9a6e-4e43-a707-28c743a83d90"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "680ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              680.0,
+              {
+                "item": "OxCal 4.3, IntCal 13"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

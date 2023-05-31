@@ -1,0 +1,58 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "56adc52d-4767-4230-a94e-b26aeb830527"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 785.0,
+              "CalibrationCurve": {
+                "item": "Calibration Mentioned, not Curve"
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 120.0
+          },
+          "MaterialDated": {
+            "item": "bone collagen of unknown taxa"
+          },
+          "Discarded": true
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "56adc52d-4767-4230-a94e-b26aeb830527"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "785ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              785.0,
+              null
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

@@ -1,0 +1,94 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "d0ce7272-847e-4f1c-94cf-bbbb25d613e8"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 10345.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 55.0
+          },
+          "MaterialDated": {
+            "item": "bones"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "d0ce7272-847e-4f1c-94cf-bbbb25d613e8"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "10400ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 10400.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "d0ce7272-847e-4f1c-94cf-bbbb25d613e8"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "10290ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 10290.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "d0ce7272-847e-4f1c-94cf-bbbb25d613e8"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "10345ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 10345.0
+          }
+        }
+      }
+    ]
+  ]
+]

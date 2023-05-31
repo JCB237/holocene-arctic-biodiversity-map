@@ -1,0 +1,70 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "4ac1cb51-1432-404b-b216-6f78ea87abd7"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 915.0,
+              "CalibrationCurve": {
+                "item": "IntCal09"
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 30.0
+          },
+          "MaterialDated": {
+            "item": "charcoal"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 23.0
+              },
+              {
+                "_depth": 22.0
+              }
+            ]
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "4ac1cb51-1432-404b-b216-6f78ea87abd7"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "915ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              915.0,
+              {
+                "item": "IntCal09"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

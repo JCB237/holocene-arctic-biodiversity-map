@@ -8,21 +8,60 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Norman, L. E. Y."
-            },
-            "Title": {
-              "item": "Comparing fill and floor: A taphonomic framework for understanding depositional histories in a semi-subterranean house in north-west Alaska"
-            },
-            "Year": 2018,
-            "Volume": 28,
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Norman, L. E. Y."
+              },
+              "Title": {
+                "item": "Comparing fill and floor: A taphonomic framework for understanding depositional histories in a semi-subterranean house in north-west Alaska"
+              },
+              "Year": 2018,
+              "Volume": 28,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "Stalled": [
+              [
+                {
+                  "item": "outcome"
+                },
+                {
+                  "item": "source-primary-or-secondary"
+                }
+              ],
+              {
+                "item": "exposure"
+              },
+              {
+                "item": "While putting in the dates I did not notice one final date of 680 BP; it is included amongst the dates which make up the timeline but not in the header timeline"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_norman_cfafatffudhiashina_2018"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "2c963256-6d95-46b7-a152-7df417c9ccd1"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]
