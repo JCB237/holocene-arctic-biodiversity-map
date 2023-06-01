@@ -8,18 +8,24 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Elias, S. A."
-            },
-            "Title": {
-              "item": "Insect analysis"
-            },
-            "Year": 2008,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Elias, S. A."
+              },
+              "Title": {
+                "item": "Insect analysis"
+              },
+              "Year": 2008,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Methods chapter in textbook"
           }
-        }
+        ]
       }
     }
   ],

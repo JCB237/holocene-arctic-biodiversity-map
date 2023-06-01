@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_nysius_groenlandicus_zetterstedt"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Nysius"
+            },
+            {
+              "item": "groenlandicus"
+            },
+            {
+              "item": "Zetterstedt"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_nysius_groenlandicus_zetterstedt"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_nysius"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

@@ -8,18 +8,24 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Waguespack, N. M."
-            },
-            "Title": {
-              "item": "The pleistocene colonization and occupation of the Americas"
-            },
-            "Year": 2015,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Waguespack, N. M."
+              },
+              "Title": {
+                "item": "The pleistocene colonization and occupation of the Americas"
+              },
+              "Year": 2015,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoBiodiversityMeasure",
+          {
+            "item": "no quantitative or presence data"
           }
-        }
+        ]
       }
     }
   ],

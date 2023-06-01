@@ -1,0 +1,58 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "05395088-6292-455d-ab1b-2eeecf738b61"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 495.0,
+              "CalibrationCurve": {
+                "item": "Calibration mentioned, curve not named"
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 15.0
+          },
+          "MaterialDated": {
+            "item": "bone"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "05395088-6292-455d-ab1b-2eeecf738b61"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "495ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              495.0,
+              null
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]
