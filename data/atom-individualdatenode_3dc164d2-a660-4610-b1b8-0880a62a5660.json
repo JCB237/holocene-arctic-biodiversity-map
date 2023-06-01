@@ -1,0 +1,60 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "3dc164d2-a660-4610-b1b8-0880a62a5660"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 600.0,
+              "CalibrationCurve": {
+                "item": "OxCal 4.3, IntCal 13."
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 30.0
+          },
+          "MaterialDated": {
+            "item": "spruce, outer ring"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "3dc164d2-a660-4610-b1b8-0880a62a5660"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "600ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              600.0,
+              {
+                "item": "OxCal 4.3, IntCal 13."
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

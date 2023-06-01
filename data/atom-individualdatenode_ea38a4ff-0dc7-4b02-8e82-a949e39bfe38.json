@@ -1,0 +1,60 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "ea38a4ff-0dc7-4b02-8e82-a949e39bfe38"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 9404.0,
+              "CalibrationCurve": {
+                "item": "IntCal04"
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 35.0
+          },
+          "MaterialDated": {
+            "item": "burned bone"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "ea38a4ff-0dc7-4b02-8e82-a949e39bfe38"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "9404ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              9404.0,
+              {
+                "item": "CalInt04"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

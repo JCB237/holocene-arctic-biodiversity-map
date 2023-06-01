@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_castor_canadensis_kuhl"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Castor"
+            },
+            {
+              "item": "canadensis"
+            },
+            {
+              "item": "Kuhl"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_castor_canadensis_kuhl"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_castor"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

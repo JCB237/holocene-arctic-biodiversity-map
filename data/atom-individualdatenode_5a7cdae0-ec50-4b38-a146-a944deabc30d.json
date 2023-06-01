@@ -1,0 +1,53 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "5a7cdae0-ec50-4b38-a146-a944deabc30d"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 2600.0,
+              "CalibrationCurve": {
+                "item": "mid-value of 2σ-range"
+              }
+            }
+          },
+          "MeasurementError": "NoDatingErrorSpecified",
+          "MaterialDated": {
+            "item": "in primary source"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "5a7cdae0-ec50-4b38-a146-a944deabc30d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "2600ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "HistoryYearBC": 650.0
+          }
+        }
+      }
+    ]
+  ]
+]

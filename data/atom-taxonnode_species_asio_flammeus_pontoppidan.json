@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_asio_flammeus_pontoppidan"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Asio"
+            },
+            {
+              "item": "flammeus"
+            },
+            {
+              "item": "Pontoppidan"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_asio_flammeus_pontoppidan"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_asio"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

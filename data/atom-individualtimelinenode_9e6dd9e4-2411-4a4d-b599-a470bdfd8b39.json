@@ -1,0 +1,109 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "9e6dd9e4-2411-4a4d-b599-a470bdfd8b39"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9e6dd9e4-2411-4a4d-b599-a470bdfd8b39"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "edcfd7db-5269-477d-b457-94a6d4ad7d61"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9e6dd9e4-2411-4a4d-b599-a470bdfd8b39"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "6ea1819e-1d9a-4100-ae39-944adb39ad10"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9e6dd9e4-2411-4a4d-b599-a470bdfd8b39"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "439d2993-9e49-40a8-a581-283042b0a03d"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9e6dd9e4-2411-4a4d-b599-a470bdfd8b39"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8600ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "9e6dd9e4-2411-4a4d-b599-a470bdfd8b39"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8717ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliest"
+      }
+    ]
+  ]
+]

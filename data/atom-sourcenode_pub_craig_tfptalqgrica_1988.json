@@ -8,21 +8,60 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Craig, J. L.; Hamilton, T. D.; Sellmann, P. V."
-            },
-            "Title": {
-              "item": "The Fox permafrost tunnel: A late Quaternary geologic record in central Alaska"
-            },
-            "Year": 1988,
-            "Volume": 100,
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Craig, J. L.; Hamilton, T. D.; Sellmann, P. V."
+              },
+              "Title": {
+                "item": "The Fox permafrost tunnel: A late Quaternary geologic record in central Alaska"
+              },
+              "Year": 1988,
+              "Volume": 100,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "Stalled": [
+              [
+                {
+                  "item": "outcome"
+                },
+                {
+                  "item": "source-primary-or-secondary"
+                }
+              ],
+              {
+                "item": "exposure"
+              },
+              {
+                "item": "It is not letting me add more pre-Holocene dates"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_craig_tfptalqgrica_1988"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "6f661067-6b25-4998-bf5d-1ca45638cb48"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

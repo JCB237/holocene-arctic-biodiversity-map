@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Yesner, D. R."
-            },
-            "Title": {
-              "item": "Prehistoric maritime adaptations of the subarctic and subantarctic zones: The Aleutian/Fuegian connection reconsidered"
-            },
-            "Year": 2004,
-            "Volume": 41,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Yesner, D. R."
+              },
+              "Title": {
+                "item": "Prehistoric maritime adaptations of the subarctic and subantarctic zones: The Aleutian/Fuegian connection reconsidered"
+              },
+              "Year": 2004,
+              "Volume": 41,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoBiodiversityMeasure",
+          {
+            "item": "Synthesis article without any data, more of a history of a hypothesis "
           }
-        }
+        ]
       }
     }
   ],

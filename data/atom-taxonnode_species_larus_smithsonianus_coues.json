@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_larus_smithsonianus_coues"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Larus"
+            },
+            {
+              "item": "smithsonianus"
+            },
+            {
+              "item": "Coues"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_larus_smithsonianus_coues"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_larus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]
