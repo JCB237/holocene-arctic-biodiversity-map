@@ -39,7 +39,9 @@ let run () =
                             | Sources.CodingProgress.CompletedAll -> Some (s |> fst, i, s |> snd)
                             | _ -> None
                         | _ -> None
-                    | _ -> failwith "Not a source node"
+                    | _ -> 
+                        printfn "Source is %A" (s |> fst |> fst)                        
+                        failwith "Not a source node"
                 ) |> List.choose id
             )
 
