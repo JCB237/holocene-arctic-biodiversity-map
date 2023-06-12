@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kullman, L."
-            },
-            "Title": {
-              "item": "Sequences of Holocene Forest History in the Scandes Sweden Inferred from Megafossil Pinus-Sylvestris"
-            },
-            "Year": 1987,
-            "Volume": 16,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kullman, L."
+              },
+              "Title": {
+                "item": "Sequences of Holocene Forest History in the Scandes Sweden Inferred from Megafossil Pinus-Sylvestris"
+              },
+              "Year": 1987,
+              "Volume": 16,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "NA"
           }
-        }
+        ]
       }
     }
   ],
