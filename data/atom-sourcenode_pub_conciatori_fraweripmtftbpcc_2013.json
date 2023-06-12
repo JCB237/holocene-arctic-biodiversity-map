@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Conciatori, F.; Tardif, J. C.; Waito, J."
-            },
-            "Title": {
-              "item": "Frost rings and white earlywood rings in Picea mariana trees from the boreal plains, central canada"
-            },
-            "Year": 2013,
-            "Volume": 34,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Conciatori, F.; Tardif, J. C.; Waito, J."
+              },
+              "Title": {
+                "item": "Frost rings and white earlywood rings in Picea mariana trees from the boreal plains, central canada"
+              },
+              "Year": 2013,
+              "Volume": 34,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "NA"
           }
-        }
+        ]
       }
     }
   ],
