@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Delwaide, A.; Payette, S.; Simard, M."
-            },
-            "Title": {
-              "item": "Frost-ring chronologies as dendroclimatic proxies of boreal environments"
-            },
-            "Year": 2010,
-            "Volume": 37,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Delwaide, A.; Payette, S.; Simard, M."
+              },
+              "Title": {
+                "item": "Frost-ring chronologies as dendroclimatic proxies of boreal environments"
+              },
+              "Year": 2010,
+              "Volume": 37,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Parc national des Grands-Jardins"
           }
-        }
+        ]
       }
     }
   ],
