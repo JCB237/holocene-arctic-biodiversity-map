@@ -1,0 +1,159 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "31cae563-43a0-41bb-be4f-a005230fe9ba"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 480.0,
+              "CalibrationCurve": {
+                "item": "IntCal98"
+              },
+              "UncalibratedDate": {
+                "Date": 170.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 60.0
+                }
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 53.0
+          },
+          "MaterialDated": {
+            "item": "Well-humified peat"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 7.0
+              },
+              {
+                "_depth": 6.0
+              }
+            ]
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "31cae563-43a0-41bb-be4f-a005230fe9ba"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "350ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 350.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "31cae563-43a0-41bb-be4f-a005230fe9ba"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "110ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 110.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "31cae563-43a0-41bb-be4f-a005230fe9ba"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "510ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 510.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "31cae563-43a0-41bb-be4f-a005230fe9ba"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "230ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 230.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "31cae563-43a0-41bb-be4f-a005230fe9ba"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "430ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 430.0
+          }
+        }
+      }
+    ]
+  ]
+]

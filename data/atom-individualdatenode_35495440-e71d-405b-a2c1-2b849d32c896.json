@@ -1,0 +1,115 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "35495440-e71d-405b-a2c1-2b849d32c896"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 6550.0,
+              "CalibrationCurve": {
+                "item": "IntCal98"
+              },
+              "UncalibratedDate": {
+                "Date": 5740.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 110.0
+                }
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 112.0
+          },
+          "MaterialDated": {
+            "item": "Wood fragment"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 183.0
+              },
+              {
+                "_depth": 182.0
+              }
+            ]
+          },
+          "Discarded": true
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "35495440-e71d-405b-a2c1-2b849d32c896"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "5630ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 5630.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "35495440-e71d-405b-a2c1-2b849d32c896"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "5850ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 5850.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "35495440-e71d-405b-a2c1-2b849d32c896"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "5740ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 5740.0
+          }
+        }
+      }
+    ]
+  ]
+]
