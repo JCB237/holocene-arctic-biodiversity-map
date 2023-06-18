@@ -1,0 +1,39 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "order_perissodactyla"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Order": {
+            "item": "Perissodactyla"
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "order_perissodactyla"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "class_mammalia"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

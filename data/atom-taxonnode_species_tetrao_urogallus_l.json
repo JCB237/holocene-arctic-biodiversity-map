@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_tetrao_urogallus_l"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Tetrao"
+            },
+            {
+              "item": "urogallus"
+            },
+            {
+              "item": "L."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_tetrao_urogallus_l"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_tetrao"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

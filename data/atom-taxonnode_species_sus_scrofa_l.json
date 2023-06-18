@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_sus_scrofa_l"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Sus"
+            },
+            {
+              "item": "scrofa"
+            },
+            {
+              "item": "L."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_sus_scrofa_l"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_sus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]
