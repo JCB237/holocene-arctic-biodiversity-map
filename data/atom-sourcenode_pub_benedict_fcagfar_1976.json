@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Benedict, J. B."
-            },
-            "Title": {
-              "item": "Frost creep and gelifluction features: A review"
-            },
-            "Year": 1976,
-            "Volume": 6,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Benedict, J. B."
+              },
+              "Title": {
+                "item": "Frost creep and gelifluction features: A review"
+              },
+              "Year": 1976,
+              "Volume": 6,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "no biota"
           }
-        }
+        ]
       }
     }
   ],

@@ -1,0 +1,115 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "8f6d7524-8e82-4ea9-94e1-c8ee1a3a72f3"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 6610.0,
+              "CalibrationCurve": {
+                "item": "IntCal98"
+              },
+              "UncalibratedDate": {
+                "Date": 5800.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 110.0
+                }
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 126.0
+          },
+          "MaterialDated": {
+            "item": "Well-humified peat"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 191.0
+              },
+              {
+                "_depth": 190.0
+              }
+            ]
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "8f6d7524-8e82-4ea9-94e1-c8ee1a3a72f3"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "5690ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 5690.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "8f6d7524-8e82-4ea9-94e1-c8ee1a3a72f3"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "5910ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 5910.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "8f6d7524-8e82-4ea9-94e1-c8ee1a3a72f3"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "5800ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 5800.0
+          }
+        }
+      }
+    ]
+  ]
+]

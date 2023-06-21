@@ -1,0 +1,115 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "2fcacaf7-1295-4a06-81b4-e2a796a07cdb"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 6290.0,
+              "CalibrationCurve": {
+                "item": "IntCal98"
+              },
+              "UncalibratedDate": {
+                "Date": 5470.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 110.0
+                }
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 112.0
+          },
+          "MaterialDated": {
+            "item": "Moderately decomposed peat"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 121.0
+              },
+              {
+                "_depth": 120.0
+              }
+            ]
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "2fcacaf7-1295-4a06-81b4-e2a796a07cdb"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "5360ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 5360.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "2fcacaf7-1295-4a06-81b4-e2a796a07cdb"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "5580ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 5580.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "2fcacaf7-1295-4a06-81b4-e2a796a07cdb"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "5470ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 5470.0
+          }
+        }
+      }
+    ]
+  ]
+]
