@@ -8,21 +8,79 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "D'Arrigo, R. D.; Jacoby, G. C."
-            },
-            "Title": {
-              "item": "Tree ring width and density evidence of climatic and potential forest change in Alaska"
-            },
-            "Year": 1995,
-            "Volume": 9,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "D'Arrigo, R. D.; Jacoby, G. C."
+              },
+              "Title": {
+                "item": "Tree ring width and density evidence of climatic and potential forest change in Alaska"
+              },
+              "Year": 1995,
+              "Volume": 9,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedAll"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_d'arrigo_trwadeocapfcia_1995"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "f948e4f1-4671-4bbf-baba-89cba71034d3"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_d'arrigo_trwadeocapfcia_1995"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "d9b7348d-1f14-47e6-9eac-09182b3c5dea"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_d'arrigo_trwadeocapfcia_1995"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_giddings_dina_1941"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]
