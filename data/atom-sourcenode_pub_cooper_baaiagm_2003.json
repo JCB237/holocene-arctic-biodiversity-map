@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Cooper, A.; Shapiro, B."
-            },
-            "Title": {
-              "item": "Beringia as an Ice Age genetic museum"
-            },
-            "Year": 2003,
-            "Volume": 60,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Cooper, A.; Shapiro, B."
+              },
+              "Title": {
+                "item": "Beringia as an Ice Age genetic museum"
+              },
+              "Year": 2003,
+              "Volume": 60,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Pleistocene data"
           }
-        }
+        ]
       }
     }
   ],

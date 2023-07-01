@@ -1,0 +1,118 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "bd24fd48-dc5f-4c37-baed-0c902b495f92"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 4298.0,
+              "CalibrationCurve": {
+                "item": "model calibration curve (Marine 13; Reimer et al. 2013)"
+              },
+              "UncalibratedDate": {
+                "Date": 4265.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 27.0
+                }
+              }
+            }
+          },
+          "MeasurementError": "NoDatingErrorSpecified",
+          "MaterialDated": {
+            "item": "walrus bone"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "bd24fd48-dc5f-4c37-baed-0c902b495f92"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "4231ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "CalYrBP": [
+              4231.0,
+              {
+                "item": "model calibration curve (Marine 13; Reimer et al. 2013)"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "bd24fd48-dc5f-4c37-baed-0c902b495f92"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "4365ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "CalYrBP": [
+              4365.0,
+              {
+                "item": "model calibration curve (Marine 13; Reimer et al. 2013)"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "bd24fd48-dc5f-4c37-baed-0c902b495f92"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "4298ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              4298.0,
+              {
+                "item": "model calibration curve (Marine 13; Reimer et al. 2013)"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

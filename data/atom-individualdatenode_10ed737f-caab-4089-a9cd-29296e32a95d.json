@@ -1,0 +1,92 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "10ed737f-caab-4089-a9cd-29296e32a95d"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 4500.0
+          },
+          "MeasurementError": "NoDatingErrorSpecified",
+          "MaterialDated": {
+            "item": "bone"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "10ed737f-caab-4089-a9cd-29296e32a95d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "4000ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 4000.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "10ed737f-caab-4089-a9cd-29296e32a95d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "5000ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 5000.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "10ed737f-caab-4089-a9cd-29296e32a95d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "4500ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 4500.0
+          }
+        }
+      }
+    ]
+  ]
+]

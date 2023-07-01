@@ -1,0 +1,118 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "a57dd74e-779d-4e66-84a6-ccef87b30ff2"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 11735.0,
+              "CalibrationCurve": {
+                "item": "OxCal 4.2 and IntCal 13"
+              },
+              "UncalibratedDate": {
+                "Date": 10148.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 75.0
+                }
+              }
+            }
+          },
+          "MeasurementError": "NoDatingErrorSpecified",
+          "MaterialDated": {
+            "item": "bone"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "a57dd74e-779d-4e66-84a6-ccef87b30ff2"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "11404ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "CalYrBP": [
+              11404.0,
+              {
+                "item": "OxCal 4.2 and IntCal 13"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "a57dd74e-779d-4e66-84a6-ccef87b30ff2"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "12065ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "CalYrBP": [
+              12065.0,
+              {
+                "item": "OxCal 4.2 and IntCal 13"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "a57dd74e-779d-4e66-84a6-ccef87b30ff2"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "11735ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              11735.0,
+              {
+                "item": "OxCal 4.2 and IntCal 13"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_halichoerus_grypus_o fabricius"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Halichoerus"
+            },
+            {
+              "item": "grypus"
+            },
+            {
+              "item": "O. Fabricius"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_halichoerus_grypus_o fabricius"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_halichoerus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

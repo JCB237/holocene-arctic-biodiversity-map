@@ -8,21 +8,43 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Ekholm, T."
-            },
-            "Title": {
-              "item": "Mesolithic settlement in northernmost Sweden: Economy, technology, chronology"
-            },
-            "Year": 2016,
-            "Volume": 33,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Ekholm, T."
+              },
+              "Title": {
+                "item": "Mesolithic settlement in northernmost Sweden: Economy, technology, chronology"
+              },
+              "Year": 2016,
+              "Volume": 33,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedAll"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_ekholm_msinsetc_2016"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1ffc1c15-5cdf-4d0b-84e6-fc4218c2a527"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

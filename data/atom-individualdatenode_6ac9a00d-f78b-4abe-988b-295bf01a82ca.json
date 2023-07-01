@@ -1,0 +1,113 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "6ac9a00d-f78b-4abe-988b-295bf01a82ca"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 850.0,
+              "CalibrationCurve": {
+                "item": "No Details"
+              },
+              "UncalibratedDate": {
+                "Date": 950.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 20.0
+                }
+              }
+            }
+          },
+          "MeasurementError": "NoDatingErrorSpecified",
+          "MaterialDated": {
+            "item": "Charcoal"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 25.0
+              },
+              {
+                "_depth": 24.0
+              }
+            ]
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "6ac9a00d-f78b-4abe-988b-295bf01a82ca"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "800ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "HistoryYearAD": 1150.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "6ac9a00d-f78b-4abe-988b-295bf01a82ca"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "870ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "HistoryYearAD": 1080.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "6ac9a00d-f78b-4abe-988b-295bf01a82ca"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "850ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "HistoryYearAD": 1100.0
+          }
+        }
+      }
+    ]
+  ]
+]

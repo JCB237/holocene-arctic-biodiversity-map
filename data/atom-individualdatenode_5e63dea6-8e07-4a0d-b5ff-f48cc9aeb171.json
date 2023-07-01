@@ -1,0 +1,118 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "5e63dea6-8e07-4a0d-b5ff-f48cc9aeb171"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 9375.0,
+              "CalibrationCurve": {
+                "item": "IntCal13 curve, assuming a k parameter of 0.6"
+              },
+              "UncalibratedDate": {
+                "Date": 8350.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 25.0
+                }
+              }
+            }
+          },
+          "MeasurementError": "NoDatingErrorSpecified",
+          "MaterialDated": {
+            "item": "bone"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "5e63dea6-8e07-4a0d-b5ff-f48cc9aeb171"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "9295ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "CalYrBP": [
+              9295.0,
+              {
+                "item": "IntCal13 curve, assuming a k parameter of 0.6"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "5e63dea6-8e07-4a0d-b5ff-f48cc9aeb171"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "9455ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "CalYrBP": [
+              9455.0,
+              {
+                "item": "IntCal13 curve, assuming a k parameter of 0.6"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "5e63dea6-8e07-4a0d-b5ff-f48cc9aeb171"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "9375ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              9375.0,
+              {
+                "item": "IntCal13 curve, assuming a k parameter of 0.6"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]
