@@ -8,18 +8,24 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Sitko, R.; Skvarenina, J.; Srncova, N.; Vido, J."
-            },
-            "Title": {
-              "item": "Effect of different sources of climate databases on the assessment of growth response in dendroclimatic analyses"
-            },
-            "Year": 2014,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Sitko, R.; Skvarenina, J.; Srncova, N.; Vido, J."
+              },
+              "Title": {
+                "item": "Effect of different sources of climate databases on the assessment of growth response in dendroclimatic analyses"
+              },
+              "Year": 2014,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "no dates"
           }
-        }
+        ]
       }
     }
   ],
