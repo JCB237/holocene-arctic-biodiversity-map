@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Arnold, J. E.; Braje, T. J.; DeLong, R. L.; Des Lauriers, M. R.; Erlandson, J. M.; Hildebrandt, W. R.; Jones, T. L.; Kennett, D. J.; Rick, T. C.; Vellanoweth, R. L.; Wake, T. A."
-            },
-            "Title": {
-              "item": "Where were the northern elephant seals? Holocene archaeology and biogeography of Mirounga angustirostris"
-            },
-            "Year": 2011,
-            "Volume": 21,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Arnold, J. E.; Braje, T. J.; DeLong, R. L.; Des Lauriers, M. R.; Erlandson, J. M.; Hildebrandt, W. R.; Jones, T. L.; Kennett, D. J.; Rick, T. C.; Vellanoweth, R. L.; Wake, T. A."
+              },
+              "Title": {
+                "item": "Where were the northern elephant seals? Holocene archaeology and biogeography of Mirounga angustirostris"
+              },
+              "Year": 2011,
+              "Volume": 21,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Californian and Mexican locations"
           }
-        }
+        ]
       }
     }
   ],

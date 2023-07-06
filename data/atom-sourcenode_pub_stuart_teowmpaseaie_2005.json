@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Stuart, A. J."
-            },
-            "Title": {
-              "item": "The extinction of woolly mammoth (Mammuthus primigenius) and straight-tusked elephant (Palaeoloxodon antiquus) in Europe"
-            },
-            "Year": 2005,
-            "Volume": 126,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Stuart, A. J."
+              },
+              "Title": {
+                "item": "The extinction of woolly mammoth (Mammuthus primigenius) and straight-tusked elephant (Palaeoloxodon antiquus) in Europe"
+              },
+              "Year": 2005,
+              "Volume": 126,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Review paper without measured dates "
           }
-        }
+        ]
       }
     }
   ],

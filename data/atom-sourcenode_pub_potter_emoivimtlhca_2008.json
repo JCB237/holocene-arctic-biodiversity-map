@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Potter, B. A."
-            },
-            "Title": {
-              "item": "Exploratory Models of Intersite Variability in Mid to Late Holocene Central Alaska"
-            },
-            "Year": 2008,
-            "Volume": 61,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Potter, B. A."
+              },
+              "Title": {
+                "item": "Exploratory Models of Intersite Variability in Mid to Late Holocene Central Alaska"
+              },
+              "Year": 2008,
+              "Volume": 61,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "It provides biota over time in the Holocene but does not provide any of the individual dates which are used to construct this time series, instead linking to other papers which constructed it "
           }
-        }
+        ]
       }
     }
   ],

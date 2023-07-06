@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Prach, K.; Rachlewicz, G."
-            },
-            "Title": {
-              "item": "Succession of vascular plants in front of retreating glaciers in central Spitsbergen"
-            },
-            "Year": 2012,
-            "Volume": 33,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Prach, K.; Rachlewicz, G."
+              },
+              "Title": {
+                "item": "Succession of vascular plants in front of retreating glaciers in central Spitsbergen"
+              },
+              "Year": 2012,
+              "Volume": 33,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "A succession study which uses deglaciation as a proxy for time, but everything was collected at the same time"
           }
-        }
+        ]
       }
     }
   ],

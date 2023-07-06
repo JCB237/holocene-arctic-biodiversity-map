@@ -1,0 +1,64 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "2f5e9e86-e156-41fe-8b42-bada30c4ca55"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 572.0,
+              "CalibrationCurve": {
+                "item": " Heinemeier, 2003"
+              },
+              "UncalibratedDate": {
+                "Date": 890.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 50.0
+                }
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 50.0
+          },
+          "MaterialDated": {
+            "item": "human bone"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "2f5e9e86-e156-41fe-8b42-bada30c4ca55"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "572ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              572.0,
+              null
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

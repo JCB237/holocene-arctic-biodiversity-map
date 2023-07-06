@@ -1,0 +1,64 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "e985816a-ca3f-4af4-bc65-4b09d674b777"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 818.0,
+              "CalibrationCurve": {
+                "item": "none"
+              },
+              "UncalibratedDate": {
+                "Date": 959.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 38.0
+                }
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 38.0
+          },
+          "MaterialDated": {
+            "item": "human remains"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "e985816a-ca3f-4af4-bc65-4b09d674b777"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "818ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              818.0,
+              null
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

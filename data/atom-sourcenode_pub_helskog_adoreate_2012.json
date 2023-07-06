@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Helskog, K."
-            },
-            "Title": {
-              "item": "Ancient depictions of reindeer enclosures and their environment"
-            },
-            "Year": 2012,
-            "Volume": 29,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Helskog, K."
+              },
+              "Title": {
+                "item": "Ancient depictions of reindeer enclosures and their environment"
+              },
+              "Year": 2012,
+              "Volume": 29,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "Has artwork but no biological proxy "
           }
-        }
+        ]
       }
     }
   ],

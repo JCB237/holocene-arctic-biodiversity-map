@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Basilyan, A. E.; Ivanova, V. V.; Nikolskiy, P. A."
-            },
-            "Title": {
-              "item": "Stratigraphic interpretation of rare earth element signatures in Pleistocene mammal bones: A case study from Kharabai site, East Siberia"
-            },
-            "Year": 2017,
-            "Volume": 445,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Basilyan, A. E.; Ivanova, V. V.; Nikolskiy, P. A."
+              },
+              "Title": {
+                "item": "Stratigraphic interpretation of rare earth element signatures in Pleistocene mammal bones: A case study from Kharabai site, East Siberia"
+              },
+              "Year": 2017,
+              "Volume": 445,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Purely Pleistocene"
           }
-        }
+        ]
       }
     }
   ],
