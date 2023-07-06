@@ -1,0 +1,113 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "d535ebb2-d98b-49a2-a3e6-3cd50f8a6e12"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 1280.0,
+              "CalibrationCurve": {
+                "item": "No Details"
+              },
+              "UncalibratedDate": {
+                "Date": 1340.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 20.0
+                }
+              }
+            }
+          },
+          "MeasurementError": "NoDatingErrorSpecified",
+          "MaterialDated": {
+            "item": "Plant pieces"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 47.0
+              },
+              {
+                "_depth": 46.0
+              }
+            ]
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "d535ebb2-d98b-49a2-a3e6-3cd50f8a6e12"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "1260ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "HistoryYearAD": 690.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "d535ebb2-d98b-49a2-a3e6-3cd50f8a6e12"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "1300ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "HistoryYearAD": 650.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "d535ebb2-d98b-49a2-a3e6-3cd50f8a6e12"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "1280ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "HistoryYearAD": 670.0
+          }
+        }
+      }
+    ]
+  ]
+]

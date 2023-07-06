@@ -1,0 +1,60 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "5b2f034e-5a03-4030-acf0-b174858b9160"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 4739.0,
+              "CalibrationCurve": {
+                "item": "IntCal13"
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 42.0
+          },
+          "MaterialDated": {
+            "item": "Beaver"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "5b2f034e-5a03-4030-acf0-b174858b9160"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "4739ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              4739.0,
+              {
+                "item": "IntCal13"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

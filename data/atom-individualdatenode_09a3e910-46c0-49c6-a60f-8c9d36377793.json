@@ -1,0 +1,60 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "09a3e910-46c0-49c6-a60f-8c9d36377793"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 7427.0,
+              "CalibrationCurve": {
+                "item": "IntCal13"
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 48.0
+          },
+          "MaterialDated": {
+            "item": "Reindeer"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "09a3e910-46c0-49c6-a60f-8c9d36377793"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "7427ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              7427.0,
+              {
+                "item": "IntCal13"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

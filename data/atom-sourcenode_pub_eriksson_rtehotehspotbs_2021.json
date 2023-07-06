@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Eriksson, G.; Glykou, A.; Liden, K.; Lougas, L.; Piliciauskiene, G.; Schmoelcke, U."
-            },
-            "Title": {
-              "item": "Reconstructing the ecological history of the extinct harp seal population of the Baltic Sea"
-            },
-            "Year": 2021,
-            "Volume": 251,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Eriksson, G.; Glykou, A.; Liden, K.; Lougas, L.; Piliciauskiene, G.; Schmoelcke, U."
+              },
+              "Title": {
+                "item": "Reconstructing the ecological history of the extinct harp seal population of the Baltic Sea"
+              },
+              "Year": 2021,
+              "Volume": 251,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "In the Baltic"
           }
-        }
+        ]
       }
     }
   ],

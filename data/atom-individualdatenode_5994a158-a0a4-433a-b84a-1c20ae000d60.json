@@ -1,0 +1,113 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "5994a158-a0a4-433a-b84a-1c20ae000d60"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 180.0,
+              "CalibrationCurve": {
+                "item": "No Details"
+              },
+              "UncalibratedDate": {
+                "Date": 475.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 20.0
+                }
+              }
+            }
+          },
+          "MeasurementError": "NoDatingErrorSpecified",
+          "MaterialDated": {
+            "item": "Plant pieces"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 16.0
+              },
+              {
+                "_depth": 15.0
+              }
+            ]
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "5994a158-a0a4-433a-b84a-1c20ae000d60"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "140ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "HistoryYearAD": 1810.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "5994a158-a0a4-433a-b84a-1c20ae000d60"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "210ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "HistoryYearAD": 1740.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "5994a158-a0a4-433a-b84a-1c20ae000d60"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "180ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "HistoryYearAD": 1770.0
+          }
+        }
+      }
+    ]
+  ]
+]

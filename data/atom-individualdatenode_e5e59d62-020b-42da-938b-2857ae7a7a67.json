@@ -1,0 +1,60 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "e5e59d62-020b-42da-938b-2857ae7a7a67"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 6146.0,
+              "CalibrationCurve": {
+                "item": "IntCal13"
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 44.0
+          },
+          "MaterialDated": {
+            "item": "Ringed sea"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "e5e59d62-020b-42da-938b-2857ae7a7a67"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "6146ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              6146.0,
+              {
+                "item": "IntCal13"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

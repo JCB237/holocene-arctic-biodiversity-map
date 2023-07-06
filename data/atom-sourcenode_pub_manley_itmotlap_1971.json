@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Manley, G."
-            },
-            "Title": {
-              "item": "Interpreting the meteorology of the late and post-glacial"
-            },
-            "Year": 1971,
-            "Volume": 10,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Manley, G."
+              },
+              "Title": {
+                "item": "Interpreting the meteorology of the late and post-glacial"
+              },
+              "Year": 1971,
+              "Volume": 10,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Climate and in the Baltics"
           }
-        }
+        ]
       }
     }
   ],
