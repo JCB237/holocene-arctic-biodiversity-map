@@ -1,0 +1,99 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "2e571d55-2291-4f5a-bc28-e8ca7a5dbe85"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 320.0,
+              "CalibrationCurve": {
+                "item": "BGS-522"
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 100.0
+          },
+          "MaterialDated": {
+            "item": "Buried Woody Vegetation"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "2e571d55-2291-4f5a-bc28-e8ca7a5dbe85"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "220ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 220.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "2e571d55-2291-4f5a-bc28-e8ca7a5dbe85"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "420ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 420.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "2e571d55-2291-4f5a-bc28-e8ca7a5dbe85"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "320ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 320.0
+          }
+        }
+      }
+    ]
+  ]
+]

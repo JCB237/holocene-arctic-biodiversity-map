@@ -1,0 +1,104 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "bead56c2-4757-46c9-9144-ac87587a0cb0"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 800.0,
+              "CalibrationCurve": {
+                "item": "BGS-547"
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 100.0
+          },
+          "MaterialDated": {
+            "item": "Peat layers which occurred within sand and gravel alluvium"
+          },
+          "SampleDepth": {
+            "DepthPoint": {
+              "_depth": 0.95
+            }
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "bead56c2-4757-46c9-9144-ac87587a0cb0"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "700ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 700.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "bead56c2-4757-46c9-9144-ac87587a0cb0"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "900ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 900.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "bead56c2-4757-46c9-9144-ac87587a0cb0"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "800ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 800.0
+          }
+        }
+      }
+    ]
+  ]
+]

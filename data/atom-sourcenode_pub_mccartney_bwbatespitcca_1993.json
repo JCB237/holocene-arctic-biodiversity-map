@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "McCartney, A. P.; Savelle, J. M."
-            },
-            "Title": {
-              "item": "Bowhead whale bones and Thule Eskimo subsistence-settlement patterns in the central Canadian Arctic"
-            },
-            "Year": 1993,
-            "Volume": 29,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "McCartney, A. P.; Savelle, J. M."
+              },
+              "Title": {
+                "item": "Bowhead whale bones and Thule Eskimo subsistence-settlement patterns in the central Canadian Arctic"
+              },
+              "Year": 1993,
+              "Volume": 29,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "No dating for any remains or sites before present"
           }
-        }
+        ]
       }
     }
   ],

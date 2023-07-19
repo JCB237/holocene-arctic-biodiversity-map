@@ -1,0 +1,87 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "df2ae15c-f21f-4bf1-ba4a-94a5efb380f6"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "df2ae15c-f21f-4bf1-ba4a-94a5efb380f6"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "presence"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "df2ae15c-f21f-4bf1-ba4a-94a5efb380f6"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_alectoria_minuscula_nylander"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "df2ae15c-f21f-4bf1-ba4a-94a5efb380f6"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "implicit"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "df2ae15c-f21f-4bf1-ba4a-94a5efb380f6"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "direct_alectoria minuscula"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]
