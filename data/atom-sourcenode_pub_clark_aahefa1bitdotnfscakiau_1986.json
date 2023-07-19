@@ -22,10 +22,53 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedNone"
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
+          }
         ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_clark_aahefa1bitdotnfscakiau_1986"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "560b47cd-c8ff-4fbd-8761-a368f4c8e1e3"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_clark_aahefa1bitdotnfscakiau_1986"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_clark_tlktatsacpkia_1970"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]
