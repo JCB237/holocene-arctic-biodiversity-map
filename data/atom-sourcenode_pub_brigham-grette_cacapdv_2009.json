@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Brigham-Grette, J."
-            },
-            "Title": {
-              "item": "Contemporary Arctic change: A paleoclimate deja vu?"
-            },
-            "Year": 2009,
-            "Volume": 106,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Brigham-Grette, J."
+              },
+              "Title": {
+                "item": "Contemporary Arctic change: A paleoclimate deja vu?"
+              },
+              "Year": 2009,
+              "Volume": 106,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "OtherExclusionReason",
+          {
+            "item": "Commentary on another paper"
           }
-        }
+        ]
       }
     }
   ],
