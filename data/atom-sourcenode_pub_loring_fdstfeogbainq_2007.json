@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Loring, S.; Spiess, A."
-            },
-            "Title": {
-              "item": "Further documentation supporting the former existence of grizzly bears (Ursus arctos) in northern Quebec-Labrador"
-            },
-            "Year": 2007,
-            "Volume": 60,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Loring, S.; Spiess, A."
+              },
+              "Title": {
+                "item": "Further documentation supporting the former existence of grizzly bears (Ursus arctos) in northern Quebec-Labrador"
+              },
+              "Year": 2007,
+              "Volume": 60,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Further, excluded as only single measurement via proxy method (photograph) that is acceptable (otherwise all anecdotal or oral history)"
           }
-        }
+        ]
       }
     }
   ],
