@@ -1,0 +1,106 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "032eb790-f26a-4932-b7a0-12f310a93087"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 692.0,
+              "CalibrationCurve": {
+                "item": "2 sigma"
+              }
+            }
+          },
+          "MeasurementError": "NoDatingErrorSpecified",
+          "MaterialDated": {
+            "item": "bone"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "032eb790-f26a-4932-b7a0-12f310a93087"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "551ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "CalYrBP": [
+              551.0,
+              null
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "032eb790-f26a-4932-b7a0-12f310a93087"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "846ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "CalYrBP": [
+              846.0,
+              null
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "032eb790-f26a-4932-b7a0-12f310a93087"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "692ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              692.0,
+              null
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

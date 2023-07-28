@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_lepus_americanus_erxleben"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Lepus"
+            },
+            {
+              "item": "americanus"
+            },
+            {
+              "item": "Erxleben"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_lepus_americanus_erxleben"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_lepus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

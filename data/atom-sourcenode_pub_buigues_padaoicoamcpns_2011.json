@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Buigues, B.; Duivenvoorden, J. F.; Fisher, D. C.; Gravendeel, B.; Nieman, A. M.; Rountrey, A. N.; Tikhonov, A. N.; van Arkel, J.; van Geel, B.; van Reenen, G. B. A."
-            },
-            "Title": {
-              "item": "Palaeo-environmental and dietary analysis of intestinal contents of a mammoth calf (Yamal Peninsula, northwest Siberia)"
-            },
-            "Year": 2011,
-            "Volume": 30,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Buigues, B.; Duivenvoorden, J. F.; Fisher, D. C.; Gravendeel, B.; Nieman, A. M.; Rountrey, A. N.; Tikhonov, A. N.; van Arkel, J.; van Geel, B.; van Reenen, G. B. A."
+              },
+              "Title": {
+                "item": "Palaeo-environmental and dietary analysis of intestinal contents of a mammoth calf (Yamal Peninsula, northwest Siberia)"
+              },
+              "Year": 2011,
+              "Volume": 30,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "41,910BP"
           }
-        }
+        ]
       }
     }
   ],

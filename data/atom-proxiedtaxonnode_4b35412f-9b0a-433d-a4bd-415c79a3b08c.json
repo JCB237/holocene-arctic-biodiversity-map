@@ -1,0 +1,87 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "4b35412f-9b0a-433d-a4bd-415c79a3b08c"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "4b35412f-9b0a-433d-a4bd-415c79a3b08c"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "presence"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "4b35412f-9b0a-433d-a4bd-415c79a3b08c"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_poa"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "4b35412f-9b0a-433d-a4bd-415c79a3b08c"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "implicit"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "4b35412f-9b0a-433d-a4bd-415c79a3b08c"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "adna_poa"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]

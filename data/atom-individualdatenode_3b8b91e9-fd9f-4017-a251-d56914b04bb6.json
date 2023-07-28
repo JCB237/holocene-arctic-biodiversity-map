@@ -1,0 +1,60 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "3b8b91e9-fd9f-4017-a251-d56914b04bb6"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 2840.0,
+              "CalibrationCurve": {
+                "item": "IntCal20"
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 40.0
+          },
+          "MaterialDated": {
+            "item": "Faeces"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "3b8b91e9-fd9f-4017-a251-d56914b04bb6"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "2840ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              2840.0,
+              {
+                "item": "IntCal20"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

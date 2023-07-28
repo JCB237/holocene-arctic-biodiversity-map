@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_alexandromys_oeconomus_pallas"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Alexandromys"
+            },
+            {
+              "item": "oeconomus"
+            },
+            {
+              "item": "Pallas"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_alexandromys_oeconomus_pallas"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_alexandromys"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

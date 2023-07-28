@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_stellaria_graminea_l"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Stellaria"
+            },
+            {
+              "item": "graminea"
+            },
+            {
+              "item": "L."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_stellaria_graminea_l"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_stellaria"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

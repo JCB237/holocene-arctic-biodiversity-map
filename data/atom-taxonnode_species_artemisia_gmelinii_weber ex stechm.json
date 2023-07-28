@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_artemisia_gmelinii_weber ex stechm"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Artemisia"
+            },
+            {
+              "item": "gmelinii"
+            },
+            {
+              "item": "Weber ex Stechm."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_artemisia_gmelinii_weber ex stechm"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_artemisia"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

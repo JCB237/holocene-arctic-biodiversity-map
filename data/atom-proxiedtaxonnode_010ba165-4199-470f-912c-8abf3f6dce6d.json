@@ -1,0 +1,87 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "010ba165-4199-470f-912c-8abf3f6dce6d"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "010ba165-4199-470f-912c-8abf3f6dce6d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "abundance"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "010ba165-4199-470f-912c-8abf3f6dce6d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_stellaria"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "010ba165-4199-470f-912c-8abf3f6dce6d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "atlas_prcotpluoa"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "010ba165-4199-470f-912c-8abf3f6dce6d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_plantmacrofossil_stellaria undiff"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]

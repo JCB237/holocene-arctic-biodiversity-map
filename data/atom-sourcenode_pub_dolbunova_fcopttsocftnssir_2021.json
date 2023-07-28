@@ -8,21 +8,57 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Dolbunova, E.; Le Bailly, M.; Maicher, C.; Maigrot, Y.; Mazurkevich, A."
-            },
-            "Title": {
-              "item": "First contribution of paleoparasitology to the study of coprolites from the Neolithic site Serteya II (NW Russia)"
-            },
-            "Year": 2021,
-            "Volume": 38,
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Dolbunova, E.; Le Bailly, M.; Maicher, C.; Maigrot, Y.; Mazurkevich, A."
+              },
+              "Title": {
+                "item": "First contribution of paleoparasitology to the study of coprolites from the Neolithic site Serteya II (NW Russia)"
+              },
+              "Year": 2021,
+              "Volume": 38,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "Stalled": [
+              [
+                {
+                  "item": "source-primary-or-secondary"
+                }
+              ],
+              {
+                "item": "exposure"
+              },
+              {
+                "item": "accidently included, meant to exclude for out of Arctic region, but misread Russian map. Please exclude from further analysis"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_dolbunova_fcopttsocftnssir_2021"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "e1bf3347-96f1-45a5-8b7f-0a47be55044e"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

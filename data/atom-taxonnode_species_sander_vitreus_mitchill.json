@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_sander_vitreus_mitchill"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Sander"
+            },
+            {
+              "item": "vitreus"
+            },
+            {
+              "item": "Mitchill"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_sander_vitreus_mitchill"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_sander"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

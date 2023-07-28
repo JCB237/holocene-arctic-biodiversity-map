@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_koeleria_asiatica_boissier"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Koeleria"
+            },
+            {
+              "item": "asiatica"
+            },
+            {
+              "item": "Boissier"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_koeleria_asiatica_boissier"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_koeleria"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

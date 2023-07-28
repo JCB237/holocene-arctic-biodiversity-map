@@ -1,0 +1,87 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "a2a5b91d-eed9-4cd5-a0f0-ffbfd4af9ecd"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "a2a5b91d-eed9-4cd5-a0f0-ffbfd4af9ecd"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "abundance"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "a2a5b91d-eed9-4cd5-a0f0-ffbfd4af9ecd"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_poa"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "a2a5b91d-eed9-4cd5-a0f0-ffbfd4af9ecd"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "atlas_prcotpluoa"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "a2a5b91d-eed9-4cd5-a0f0-ffbfd4af9ecd"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_pollen_poa"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]

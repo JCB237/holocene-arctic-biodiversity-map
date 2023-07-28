@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_podiceps_auritus_l"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Podiceps"
+            },
+            {
+              "item": "auritus"
+            },
+            {
+              "item": "L."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_podiceps_auritus_l"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_podiceps"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

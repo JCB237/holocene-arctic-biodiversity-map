@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_taxus_canadensis_marshall"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Taxus"
+            },
+            {
+              "item": "canadensis"
+            },
+            {
+              "item": "Marshall"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_taxus_canadensis_marshall"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_taxus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]
