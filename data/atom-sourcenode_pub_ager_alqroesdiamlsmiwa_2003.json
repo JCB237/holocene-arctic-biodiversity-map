@@ -8,21 +8,49 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Ager, T. A.; Been, J.; Bradbury, J. P.; Dean, W. E.; Muhs, D. R."
-            },
-            "Title": {
-              "item": "A late Quaternary record of eolian silt deposition in a maar lake, St. Michael Island, western Alaska"
-            },
-            "Year": 2003,
-            "Volume": 60,
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Ager, T. A.; Been, J.; Bradbury, J. P.; Dean, W. E.; Muhs, D. R."
+              },
+              "Title": {
+                "item": "A late Quaternary record of eolian silt deposition in a maar lake, St. Michael Island, western Alaska"
+              },
+              "Year": 2003,
+              "Volume": 60,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_ager_alqroesdiamlsmiwa_2003"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "f33f24d9-2445-4f39-b048-67432470084a"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

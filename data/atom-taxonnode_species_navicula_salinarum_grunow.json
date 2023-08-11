@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_navicula_salinarum_grunow"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Navicula"
+            },
+            {
+              "item": "salinarum"
+            },
+            {
+              "item": "Grunow"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_navicula_salinarum_grunow"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_navicula"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

@@ -1,0 +1,123 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "64447fae-e054-4f7e-ab56-07bc5d65f6c2"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 3390.0,
+              "CalibrationCurve": {
+                "item": "IntCal04"
+              },
+              "UncalibratedDate": {
+                "Date": 3150.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 40.0
+                }
+              }
+            }
+          },
+          "MeasurementError": "NoDatingErrorSpecified",
+          "MaterialDated": {
+            "item": "Grass leaves"
+          },
+          "SampleDepth": {
+            "DepthPoint": {
+              "_depth": 202.0
+            }
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "64447fae-e054-4f7e-ab56-07bc5d65f6c2"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "3330ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "CalYrBP": [
+              3330.0,
+              {
+                "item": "IntCal04"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "64447fae-e054-4f7e-ab56-07bc5d65f6c2"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "3450ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "CalYrBP": [
+              3450.0,
+              {
+                "item": "IntCal04"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "64447fae-e054-4f7e-ab56-07bc5d65f6c2"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "3390ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              3390.0,
+              {
+                "item": "IntCal04"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

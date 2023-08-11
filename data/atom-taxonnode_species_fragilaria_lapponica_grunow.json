@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_fragilaria_lapponica_grunow"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Fragilaria"
+            },
+            {
+              "item": "lapponica"
+            },
+            {
+              "item": "Grunow"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_fragilaria_lapponica_grunow"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_fragilaria"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

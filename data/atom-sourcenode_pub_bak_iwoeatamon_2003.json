@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bak, M.; Radziejewska, T."
-            },
-            "Title": {
-              "item": "International workshop on \"Diatom Ecology and Taxonomy: A Marriage of Necessity\""
-            },
-            "Year": 2003,
-            "Volume": 18,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bak, M.; Radziejewska, T."
+              },
+              "Title": {
+                "item": "International workshop on \"Diatom Ecology and Taxonomy: A Marriage of Necessity\""
+              },
+              "Year": 2003,
+              "Volume": 18,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "OtherExclusionReason",
+          {
+            "item": "Meeting report of workshop"
           }
-        }
+        ]
       }
     }
   ],
