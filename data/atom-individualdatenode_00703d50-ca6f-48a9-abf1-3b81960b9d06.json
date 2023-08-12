@@ -1,0 +1,99 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "00703d50-ca6f-48a9-abf1-3b81960b9d06"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 530.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 60.0
+          },
+          "MaterialDated": {
+            "item": "Wood"
+          },
+          "SampleDepth": {
+            "DepthQualitativeLevel": {
+              "item": "Level 3"
+            }
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "00703d50-ca6f-48a9-abf1-3b81960b9d06"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "470ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 470.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "00703d50-ca6f-48a9-abf1-3b81960b9d06"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "590ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 590.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "00703d50-ca6f-48a9-abf1-3b81960b9d06"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "530ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 530.0
+          }
+        }
+      }
+    ]
+  ]
+]

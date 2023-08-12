@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_panthera_spelaea_goldfuss"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Panthera"
+            },
+            {
+              "item": "spelaea"
+            },
+            {
+              "item": "Goldfuss"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_panthera_spelaea_goldfuss"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_panthera"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

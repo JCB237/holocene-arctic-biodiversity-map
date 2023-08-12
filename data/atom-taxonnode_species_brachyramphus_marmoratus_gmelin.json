@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_brachyramphus_marmoratus_gmelin"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Brachyramphus"
+            },
+            {
+              "item": "marmoratus"
+            },
+            {
+              "item": "Gmelin"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_brachyramphus_marmoratus_gmelin"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_brachyramphus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

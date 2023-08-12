@@ -1,0 +1,94 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "4f30f5cf-a23d-4816-b8d1-fceeff7a3a83"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 10260.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 150.0
+          },
+          "MaterialDated": {
+            "item": "Unknown"
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "4f30f5cf-a23d-4816-b8d1-fceeff7a3a83"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "10110ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 10110.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "4f30f5cf-a23d-4816-b8d1-fceeff7a3a83"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "10410ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 10410.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "4f30f5cf-a23d-4816-b8d1-fceeff7a3a83"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "10260ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 10260.0
+          }
+        }
+      }
+    ]
+  ]
+]
