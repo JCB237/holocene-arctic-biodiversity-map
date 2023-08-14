@@ -1,0 +1,99 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "4eb3370c-5075-4f93-8815-845e718ff17d"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 8400.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 80.0
+          },
+          "MaterialDated": {
+            "item": "Algal mat"
+          },
+          "SampleDepth": {
+            "DepthPoint": {
+              "_depth": 150.0
+            }
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "4eb3370c-5075-4f93-8815-845e718ff17d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8320ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 8320.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "4eb3370c-5075-4f93-8815-845e718ff17d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8480ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 8480.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "4eb3370c-5075-4f93-8815-845e718ff17d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8400ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 8400.0
+          }
+        }
+      }
+    ]
+  ]
+]

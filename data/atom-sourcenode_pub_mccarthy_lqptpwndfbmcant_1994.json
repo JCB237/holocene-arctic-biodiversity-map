@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "McCarthy, F. M. G.; Mudie, P. J."
-            },
-            "Title": {
-              "item": "Late Quaternary Pollen Transport Processes, Western North-Atlantic - Data from Box Models, Cross-Margin and N-S Transects"
-            },
-            "Year": 1994,
-            "Volume": 118,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "McCarthy, F. M. G.; Mudie, P. J."
+              },
+              "Title": {
+                "item": "Late Quaternary Pollen Transport Processes, Western North-Atlantic - Data from Box Models, Cross-Margin and N-S Transects"
+              },
+              "Year": 1994,
+              "Volume": 118,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsOceanic",
+          {
+            "item": "Seabed cores studying terrestrial pollen transport"
           }
-        }
+        ]
       }
     }
   ],

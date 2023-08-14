@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Potzger, J. E."
-            },
-            "Title": {
-              "item": "Pollen profiles as indicators in the history of lake filling and bog formation"
-            },
-            "Year": 1956,
-            "Volume": 37,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Potzger, J. E."
+              },
+              "Title": {
+                "item": "Pollen profiles as indicators in the history of lake filling and bog formation"
+              },
+              "Year": 1956,
+              "Volume": 37,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "General principles of lake filling; case study of lake in Indiana, USA."
           }
-        }
+        ]
       }
     }
   ],

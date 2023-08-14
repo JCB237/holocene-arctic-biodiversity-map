@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Brouwers, E. M."
-            },
-            "Title": {
-              "item": "Systematic paleontology of Quaternary ostracode assemblages from the Gulf of Alaska, part 3 - Family Cytheruridae"
-            },
-            "Year": 1994,
-            "Volume": 1544,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Brouwers, E. M."
+              },
+              "Title": {
+                "item": "Systematic paleontology of Quaternary ostracode assemblages from the Gulf of Alaska, part 3 - Family Cytheruridae"
+              },
+              "Year": 1994,
+              "Volume": 1544,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Not within region; also marine continental shelf"
           }
-        }
+        ]
       }
     }
   ],

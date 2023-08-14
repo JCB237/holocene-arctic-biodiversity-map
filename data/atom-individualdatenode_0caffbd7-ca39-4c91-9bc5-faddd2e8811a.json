@@ -1,0 +1,125 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "0caffbd7-ca39-4c91-9bc5-faddd2e8811a"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 8035.0,
+              "CalibrationCurve": {
+                "item": "IntCal04"
+              },
+              "UncalibratedDate": {
+                "Date": 7260.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 75.0
+                }
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 125.0
+          },
+          "MaterialDated": {
+            "item": "Terrestrial macrofossil"
+          },
+          "SampleDepth": {
+            "DepthPoint": {
+              "_depth": 111.0
+            }
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "0caffbd7-ca39-4c91-9bc5-faddd2e8811a"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "7910ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "CalYrBP": [
+              7910.0,
+              {
+                "item": "IntCal04"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "0caffbd7-ca39-4c91-9bc5-faddd2e8811a"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8160ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "CalYrBP": [
+              8160.0,
+              {
+                "item": "IntCal04"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "0caffbd7-ca39-4c91-9bc5-faddd2e8811a"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8035ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              8035.0,
+              {
+                "item": "IntCal04"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

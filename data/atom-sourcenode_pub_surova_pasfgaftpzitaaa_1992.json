@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Surova, T. G.; Troitskiy, L. S.; Vtyurin, B. I."
-            },
-            "Title": {
-              "item": "Pollen and spores from glaciers and from the proglacial zone in the arctic and antarctica"
-            },
-            "Year": 1992,
-            "Volume": 16,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Surova, T. G.; Troitskiy, L. S.; Vtyurin, B. I."
+              },
+              "Title": {
+                "item": "Pollen and spores from glaciers and from the proglacial zone in the arctic and antarctica"
+              },
+              "Year": 1992,
+              "Volume": 16,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "IDing of contemporary surface pollen found on glaciers"
           }
-        }
+        ]
       }
     }
   ],

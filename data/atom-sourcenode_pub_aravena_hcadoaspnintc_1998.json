@@ -8,21 +8,52 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Aravena, R.; Vardy, S. R.; Warner, B. G."
-            },
-            "Title": {
-              "item": "Holocene climate and development of a subarctic peatland near inuvik, northwest territories, Canada"
-            },
-            "Year": 1998,
-            "Volume": 40,
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Aravena, R.; Vardy, S. R.; Warner, B. G."
+              },
+              "Title": {
+                "item": "Holocene climate and development of a subarctic peatland near inuvik, northwest territories, Canada"
+              },
+              "Year": 1998,
+              "Volume": 40,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              },
+              {
+                "item": "exposure"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_aravena_hcadoaspnintc_1998"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "61c31908-7743-412f-82a3-410844b2adbc"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

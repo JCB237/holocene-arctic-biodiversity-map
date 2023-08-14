@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Mager, K. H."
-            },
-            "Title": {
-              "item": "\"I'd Be Foolish to Tell You They Were Caribou\": Local Knowledge of Historical Interactions between Reindeer and Caribou in Barrow, Alaska"
-            },
-            "Year": 2012,
-            "Volume": 49,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Mager, K. H."
+              },
+              "Title": {
+                "item": "\"I'd Be Foolish to Tell You They Were Caribou\": Local Knowledge of Historical Interactions between Reindeer and Caribou in Barrow, Alaska"
+              },
+              "Year": 2012,
+              "Volume": 49,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "Oral histories of reindeer populations"
           }
-        }
+        ]
       }
     }
   ],
