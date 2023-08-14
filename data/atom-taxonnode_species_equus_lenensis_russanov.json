@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_equus_lenensis_russanov"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Equus"
+            },
+            {
+              "item": "lenensis"
+            },
+            {
+              "item": "Russanov"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_equus_lenensis_russanov"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_equus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_cymbella_cistula_ehrenberg"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Cymbella"
+            },
+            {
+              "item": "cistula"
+            },
+            {
+              "item": "Ehrenberg"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_cymbella_cistula_ehrenberg"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_cymbella"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

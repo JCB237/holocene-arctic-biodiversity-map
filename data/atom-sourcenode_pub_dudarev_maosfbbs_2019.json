@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Dudarev, O. V.; Karnaukh, V. N.; Obrezkova, M. S.; Semiletov, I. P.; Tsoy, I. B.; Vagina, N. K."
-            },
-            "Title": {
-              "item": "Micropaleontological assessment of sediments from Buor-Khaya Bay (Laptev Sea)"
-            },
-            "Year": 2019,
-            "Volume": 508,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Dudarev, O. V.; Karnaukh, V. N.; Obrezkova, M. S.; Semiletov, I. P.; Tsoy, I. B.; Vagina, N. K."
+              },
+              "Title": {
+                "item": "Micropaleontological assessment of sediments from Buor-Khaya Bay (Laptev Sea)"
+              },
+              "Year": 2019,
+              "Volume": 508,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsOceanic",
+          {
+            "item": "Study of subsea permafrost in the Laptev Sea"
           }
-        }
+        ]
       }
     }
   ],

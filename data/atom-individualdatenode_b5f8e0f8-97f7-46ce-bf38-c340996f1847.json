@@ -1,0 +1,128 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "b5f8e0f8-97f7-46ce-bf38-c340996f1847"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 4345.0,
+              "CalibrationCurve": {
+                "item": "IntCal04"
+              },
+              "UncalibratedDate": {
+                "Date": 3890.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 35.0
+                }
+              }
+            }
+          },
+          "MeasurementError": "NoDatingErrorSpecified",
+          "MaterialDated": {
+            "item": "Sphagnum bulk peat"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 155.0
+              },
+              {
+                "_depth": 156.0
+              }
+            ]
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "b5f8e0f8-97f7-46ce-bf38-c340996f1847"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "4260ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "CalYrBP": [
+              4260.0,
+              {
+                "item": "IntCal04"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "b5f8e0f8-97f7-46ce-bf38-c340996f1847"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "4410ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "CalYrBP": [
+              4410.0,
+              {
+                "item": "IntCal04"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "b5f8e0f8-97f7-46ce-bf38-c340996f1847"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "4345ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              4345.0,
+              {
+                "item": "IntCal04"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

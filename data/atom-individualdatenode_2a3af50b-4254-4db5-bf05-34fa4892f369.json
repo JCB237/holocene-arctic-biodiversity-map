@@ -1,0 +1,128 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "2a3af50b-4254-4db5-bf05-34fa4892f369"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 6095.0,
+              "CalibrationCurve": {
+                "item": "IntCal04"
+              },
+              "UncalibratedDate": {
+                "Date": 5320.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 90.0
+                }
+              }
+            }
+          },
+          "MeasurementError": "NoDatingErrorSpecified",
+          "MaterialDated": {
+            "item": "Not stated"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 129.0
+              },
+              {
+                "_depth": 130.0
+              }
+            ]
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "2a3af50b-4254-4db5-bf05-34fa4892f369"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "5950ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "CalYrBP": [
+              5950.0,
+              {
+                "item": "IntCal04"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "2a3af50b-4254-4db5-bf05-34fa4892f369"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "6200ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "CalYrBP": [
+              6200.0,
+              {
+                "item": "IntCal04"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "2a3af50b-4254-4db5-bf05-34fa4892f369"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "6095ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              6095.0,
+              {
+                "item": "IntCal04"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

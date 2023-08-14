@@ -1,0 +1,104 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "882a067f-62e2-4fe9-bad5-76f3d682f707"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 10550.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 240.0
+          },
+          "MaterialDated": {
+            "item": "Bulk sediment"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 1121.5
+              },
+              {
+                "_depth": 1122.5
+              }
+            ]
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "882a067f-62e2-4fe9-bad5-76f3d682f707"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "10310ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 10310.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "882a067f-62e2-4fe9-bad5-76f3d682f707"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "10790ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 10790.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "882a067f-62e2-4fe9-bad5-76f3d682f707"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "10550ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 10550.0
+          }
+        }
+      }
+    ]
+  ]
+]

@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_fratercula_corniculata_naumann"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Fratercula"
+            },
+            {
+              "item": "corniculata"
+            },
+            {
+              "item": "Naumann"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_fratercula_corniculata_naumann"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_fratercula"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

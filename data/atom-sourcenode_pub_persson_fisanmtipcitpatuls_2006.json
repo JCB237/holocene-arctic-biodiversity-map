@@ -8,21 +8,70 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Persson, P.; Rosen, P."
-            },
-            "Title": {
-              "item": "Fourier-transform infrared spectroscopy (FTIRS), a new method to infer past changes in tree-line position and TOC using lake sediment"
-            },
-            "Year": 2006,
-            "Volume": 35,
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Persson, P.; Rosen, P."
+              },
+              "Title": {
+                "item": "Fourier-transform infrared spectroscopy (FTIRS), a new method to infer past changes in tree-line position and TOC using lake sediment"
+              },
+              "Year": 2006,
+              "Volume": 35,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "exposure"
+              },
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_persson_fisanmtipcitpatuls_2006"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "94c52755-85af-4462-91b1-90674105d101"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_persson_fisanmtipcitpatuls_2006"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_seppa_hvalcitftaadbpadrfltf_1999"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

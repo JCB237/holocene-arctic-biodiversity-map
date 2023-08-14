@@ -1,0 +1,99 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "dd58d591-8f05-4bda-833b-c588bc3097f7"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 1.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 50.0
+          },
+          "MaterialDated": {
+            "item": "Algal gyttja"
+          },
+          "SampleDepth": {
+            "DepthPoint": {
+              "_depth": 2.0
+            }
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "dd58d591-8f05-4bda-833b-c588bc3097f7"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "-49ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": -49.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "dd58d591-8f05-4bda-833b-c588bc3097f7"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "51ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 51.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "dd58d591-8f05-4bda-833b-c588bc3097f7"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "1ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 1.0
+          }
+        }
+      }
+    ]
+  ]
+]

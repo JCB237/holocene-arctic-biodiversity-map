@@ -8,18 +8,24 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Ekrem, T.; Stur, E."
-            },
-            "Title": {
-              "item": "Exploring unknown life stages of Arctic Tanytarsini (Diptera: Chironomidae) with DNA barcoding"
-            },
-            "Year": 2011,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Ekrem, T.; Stur, E."
+              },
+              "Title": {
+                "item": "Exploring unknown life stages of Arctic Tanytarsini (Diptera: Chironomidae) with DNA barcoding"
+              },
+              "Year": 2011,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Morphological description of captured larvae from Svalbard; no time series / dates present"
           }
-        }
+        ]
       }
     }
   ],

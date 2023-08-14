@@ -1,0 +1,99 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "2ddc6e76-0a79-456e-98bf-521d31a5f1c1"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 9180.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 210.0
+          },
+          "MaterialDated": {
+            "item": "Mosses"
+          },
+          "SampleDepth": {
+            "DepthPoint": {
+              "_depth": 1060.0
+            }
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "2ddc6e76-0a79-456e-98bf-521d31a5f1c1"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8970ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 8970.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "2ddc6e76-0a79-456e-98bf-521d31a5f1c1"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "9390ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 9390.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "2ddc6e76-0a79-456e-98bf-521d31a5f1c1"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "9180ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 9180.0
+          }
+        }
+      }
+    ]
+  ]
+]

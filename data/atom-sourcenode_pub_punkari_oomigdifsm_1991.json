@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Punkari, M."
-            },
-            "Title": {
-              "item": "Old organic matter inside glacial deposits in Finland: sedimentation models"
-            },
-            "Year": 1991,
-            "Volume": 34,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Punkari, M."
+              },
+              "Title": {
+                "item": "Old organic matter inside glacial deposits in Finland: sedimentation models"
+              },
+              "Year": 1991,
+              "Volume": 34,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Depth but no age; only dates are from pre-Holocene"
           }
-        }
+        ]
       }
     }
   ],

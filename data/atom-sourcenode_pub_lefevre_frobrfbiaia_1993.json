@@ -8,21 +8,43 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Lefevre, C.; Siegel-Causey, D."
-            },
-            "Title": {
-              "item": "First report on bird remains from Buldir Island, Aleutian Islands, Alaska"
-            },
-            "Year": 1993,
-            "Volume": 2,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Lefevre, C.; Siegel-Causey, D."
+              },
+              "Title": {
+                "item": "First report on bird remains from Buldir Island, Aleutian Islands, Alaska"
+              },
+              "Year": 1993,
+              "Volume": 2,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedAll"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_lefevre_frobrfbiaia_1993"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "3dcb37c6-69d8-429d-a37b-775bd82aea72"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]
