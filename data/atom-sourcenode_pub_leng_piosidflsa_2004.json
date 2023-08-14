@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Leng, M. J.; Marshall, J. D."
-            },
-            "Title": {
-              "item": "Palaeoclimate interpretation of stable isotope data from lake sediment archives"
-            },
-            "Year": 2004,
-            "Volume": 23,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Leng, M. J.; Marshall, J. D."
+              },
+              "Title": {
+                "item": "Palaeoclimate interpretation of stable isotope data from lake sediment archives"
+              },
+              "Year": 2004,
+              "Volume": 23,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Nothing but general reference to 'trees', 'shrubs' etc."
           }
-        }
+        ]
       }
     }
   ],

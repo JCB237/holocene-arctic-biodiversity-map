@@ -1,0 +1,104 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "fc4ac72e-8fac-424f-a3f0-cea5962fd8c1"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonUncalibrated": 8390.0
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 80.0
+          },
+          "MaterialDated": {
+            "item": "Organic/mineral sediment"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 186.0
+              },
+              {
+                "_depth": 192.0
+              }
+            ]
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "fc4ac72e-8fac-424f-a3f0-cea5962fd8c1"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8310ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "BP": 8310.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "fc4ac72e-8fac-424f-a3f0-cea5962fd8c1"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8470ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "BP": 8470.0
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "fc4ac72e-8fac-424f-a3f0-cea5962fd8c1"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8390ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "BP": 8390.0
+          }
+        }
+      }
+    ]
+  ]
+]

@@ -1,0 +1,128 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "b6cddb18-b5a2-44a3-b736-2899045be683"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 4845.0,
+              "CalibrationCurve": {
+                "item": "IntCal04"
+              },
+              "UncalibratedDate": {
+                "Date": 4260.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 45.0
+                }
+              }
+            }
+          },
+          "MeasurementError": "NoDatingErrorSpecified",
+          "MaterialDated": {
+            "item": "Picea needles, Larix needles and Ericaceae leaves"
+          },
+          "SampleDepth": {
+            "DepthBand": [
+              {
+                "_depth": 136.0
+              },
+              {
+                "_depth": 138.0
+              }
+            ]
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "b6cddb18-b5a2-44a3-b736-2899045be683"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "4670ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "CalYrBP": [
+              4670.0,
+              {
+                "item": "IntCal04"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "b6cddb18-b5a2-44a3-b736-2899045be683"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "4870ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "CalYrBP": [
+              4870.0,
+              {
+                "item": "IntCal04"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "b6cddb18-b5a2-44a3-b736-2899045be683"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "4845ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              4845.0,
+              {
+                "item": "IntCal04"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

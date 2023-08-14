@@ -8,18 +8,24 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Dahl, E."
-            },
-            "Title": {
-              "item": "The Nunatak Theory Reconsidered"
-            },
-            "Year": 1987,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Dahl, E."
+              },
+              "Title": {
+                "item": "The Nunatak Theory Reconsidered"
+              },
+              "Year": 1987,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Review and synthesis of contemporaneous literature"
           }
-        }
+        ]
       }
     }
   ],

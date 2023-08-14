@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Betts-Piper, A.; Smol, J. P.; Zeeb, B. A."
-            },
-            "Title": {
-              "item": "Distribution and autecology of chrysophyte cysts from high Arctic Svalbard lakes: preliminary evidence of recent environmental change"
-            },
-            "Year": 2004,
-            "Volume": 31,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Betts-Piper, A.; Smol, J. P.; Zeeb, B. A."
+              },
+              "Title": {
+                "item": "Distribution and autecology of chrysophyte cysts from high Arctic Svalbard lakes: preliminary evidence of recent environmental change"
+              },
+              "Year": 2004,
+              "Volume": 31,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Study of golden algae (not within Plantae)"
           }
-        }
+        ]
       }
     }
   ],

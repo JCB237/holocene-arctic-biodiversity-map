@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Cumming, B. F.; Hart, J. S.; Heinrichs, M. L.; Laird, K. R."
-            },
-            "Title": {
-              "item": "Diatom- and chironomid-inferred eutrophication of Bouchie Lake, British Columbia"
-            },
-            "Year": 2005,
-            "Volume": 40,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Cumming, B. F.; Hart, J. S.; Heinrichs, M. L.; Laird, K. R."
+              },
+              "Title": {
+                "item": "Diatom- and chironomid-inferred eutrophication of Bouchie Lake, British Columbia"
+              },
+              "Year": 2005,
+              "Volume": 40,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Bouchie Lake is towards the South of British Columbia, outside the inclusion zone"
           }
-        }
+        ]
       }
     }
   ],

@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_coelodonta_antiquitatis_blumenbach"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Coelodonta"
+            },
+            {
+              "item": "antiquitatis"
+            },
+            {
+              "item": "Blumenbach"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_coelodonta_antiquitatis_blumenbach"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_coelodonta"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

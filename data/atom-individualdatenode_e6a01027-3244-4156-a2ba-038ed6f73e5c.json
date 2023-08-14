@@ -1,0 +1,125 @@
+[
+  [
+    {
+      "UUID": [
+        "individualdatenode",
+        "e6a01027-3244-4156-a2ba-038ed6f73e5c"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "DateNode": {
+          "Date": {
+            "RadiocarbonCalibrated": {
+              "CalibratedDate": 4582.0,
+              "CalibrationCurve": {
+                "item": "IntCal04"
+              },
+              "UncalibratedDate": {
+                "Date": 4030.0,
+                "UncalibratedDateError": {
+                  "DatingErrorPlusMinus": 60.0
+                }
+              }
+            }
+          },
+          "MeasurementError": {
+            "DatingErrorPlusMinus": 228.0
+          },
+          "MaterialDated": {
+            "item": "Bulk sediment"
+          },
+          "SampleDepth": {
+            "DepthPoint": {
+              "_depth": 62.0
+            }
+          },
+          "Discarded": false
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "e6a01027-3244-4156-a2ba-038ed6f73e5c"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "4354ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyYoungest": {
+            "CalYrBP": [
+              4354.0,
+              {
+                "item": "IntCal04"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "e6a01027-3244-4156-a2ba-038ed6f73e5c"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "4810ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "UncertaintyOldest": {
+            "CalYrBP": [
+              4810.0,
+              {
+                "item": "IntCal04"
+              }
+            ]
+          }
+        }
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualdatenode",
+          "e6a01027-3244-4156-a2ba-038ed6f73e5c"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "4582ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "TimeEstimate": {
+            "CalYrBP": [
+              4582.0,
+              {
+                "item": "IntCal04"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]
