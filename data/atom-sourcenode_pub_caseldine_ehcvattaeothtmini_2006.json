@@ -8,21 +8,79 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Caseldine, C.; Holmes, N.; Langdon, P."
-            },
-            "Title": {
-              "item": "Early Holocene climate variability and the timing and extent of the Holocene thermal maximum (HTM) in northern Iceland"
-            },
-            "Year": 2006,
-            "Volume": 25,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Caseldine, C.; Holmes, N.; Langdon, P."
+              },
+              "Title": {
+                "item": "Early Holocene climate variability and the timing and extent of the Holocene thermal maximum (HTM) in northern Iceland"
+              },
+              "Year": 2006,
+              "Volume": 25,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedAll"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_caseldine_ehcvattaeothtmini_2006"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "1a2fec80-0b36-418a-9a5f-04b7b33dfd4b"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_caseldine_ehcvattaeothtmini_2006"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "a428a4b4-0724-4b9a-adf8-fb6d1d2001c9"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_caseldine_ehcvattaeothtmini_2006"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_wastl_rohvotulotosbginiboefvt_2001"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]
