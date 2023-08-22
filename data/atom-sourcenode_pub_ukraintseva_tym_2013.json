@@ -8,18 +8,24 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Ukraintseva, V. V.; Ukraintseva, V. V."
-            },
-            "Title": {
-              "item": "The Yuribei mammoth"
-            },
-            "Year": 2013,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Ukraintseva, V. V.; Ukraintseva, V. V."
+              },
+              "Title": {
+                "item": "The Yuribei mammoth"
+              },
+              "Year": 2013,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Description of singular mammoth find"
           }
-        }
+        ]
       }
     }
   ],

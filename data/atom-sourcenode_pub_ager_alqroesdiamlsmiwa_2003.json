@@ -8,7 +8,7 @@
     },
     {
       "SourceNode": {
-        "Included": [
+        "Excluded": [
           {
             "Bibliographic": {
               "Author": {
@@ -22,35 +22,13 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
+          "BiotaNotPresent",
           {
-            "InProgress": [
-              {
-                "item": "source-primary-or-secondary"
-              }
-            ]
+            "item": "Geochemical study of lake sediments; no biota included"
           }
         ]
       }
     }
   ],
-  [
-    [
-      {
-        "FriendlyKey": [
-          "sourcenode",
-          "pub_ager_alqroesdiamlsmiwa_2003"
-        ]
-      },
-      {
-        "UUID": [
-          "individualtimelinenode",
-          "f33f24d9-2445-4f39-b048-67432470084a"
-        ]
-      },
-      1,
-      {
-        "Source": "HasTemporalExtent"
-      }
-    ]
-  ]
+  []
 ]

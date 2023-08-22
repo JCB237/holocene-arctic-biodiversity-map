@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Andreasen, C.; Bennike, O."
-            },
-            "Title": {
-              "item": "Radiocarbon dating of walrus (Odobenus rosmarus) remains from Greenland"
-            },
-            "Year": 2007,
-            "Volume": 43,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Andreasen, C.; Bennike, O."
+              },
+              "Title": {
+                "item": "Radiocarbon dating of walrus (Odobenus rosmarus) remains from Greenland"
+              },
+              "Year": 2007,
+              "Volume": 43,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "OtherExclusionReason",
+          {
+            "item": "Dating undertaken of museum specimens; no time series from single location"
           }
-        }
+        ]
       }
     }
   ],

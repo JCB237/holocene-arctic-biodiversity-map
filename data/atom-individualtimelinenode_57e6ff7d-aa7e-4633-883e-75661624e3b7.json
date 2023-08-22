@@ -1,0 +1,100 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "57e6ff7d-aa7e-4633-883e-75661624e3b7"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "57e6ff7d-aa7e-4633-883e-75661624e3b7"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossil_mammals"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "57e6ff7d-aa7e-4633-883e-75661624e3b7"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "a98f6587-903d-4d38-a449-75a3cf21b430"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "57e6ff7d-aa7e-4633-883e-75661624e3b7"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "9530ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "57e6ff7d-aa7e-4633-883e-75661624e3b7"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "qualitativelabeloutofscopenode",
+          "pre-holocene_by_global stratotype section and point"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentEarliestOutOfScope": {
+            "CalYrBP": [
+              11935.0,
+              {
+                "item": "IntCal09"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

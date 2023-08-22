@@ -1,0 +1,118 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "db7fd117-d4f7-47ca-9cfe-189969425df0"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "db7fd117-d4f7-47ca-9cfe-189969425df0"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossil_mammals"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "db7fd117-d4f7-47ca-9cfe-189969425df0"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_pollen"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "db7fd117-d4f7-47ca-9cfe-189969425df0"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "88c9cb0e-9e80-49a4-a3a6-ed50d087ec84"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "db7fd117-d4f7-47ca-9cfe-189969425df0"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "9846ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "db7fd117-d4f7-47ca-9cfe-189969425df0"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "qualitativelabeloutofscopenode",
+          "pre-holocene_by_global stratotype section and point"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentEarliestOutOfScope": {
+            "CalYrBP": [
+              11767.0,
+              {
+                "item": "IntCal09"
+              }
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]
