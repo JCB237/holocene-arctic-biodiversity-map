@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Alliksaar, T.; Amon, L.; Blaus, A.; Heinsalu, A.; Lapshina, E.; Liiv, M.; Reitalu, T.; Vassiljev, J.; Veski, S."
-            },
-            "Title": {
-              "item": "Postglacial flooding and vegetation history on the Ob River terrace, central Western Siberia based on the palaeoecological record from Lake Svetlenkoye"
-            },
-            "Year": 2020,
-            "Volume": 30,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Alliksaar, T.; Amon, L.; Blaus, A.; Heinsalu, A.; Lapshina, E.; Liiv, M.; Reitalu, T.; Vassiljev, J.; Veski, S."
+              },
+              "Title": {
+                "item": "Postglacial flooding and vegetation history on the Ob River terrace, central Western Siberia based on the palaeoecological record from Lake Svetlenkoye"
+              },
+              "Year": 2020,
+              "Volume": 30,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Study lake South-West of Khanty-Mansiysk, Russia"
           }
-        }
+        ]
       }
     }
   ],

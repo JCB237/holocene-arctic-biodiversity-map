@@ -1,0 +1,95 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "0e4f8373-1034-490b-a16d-551d55fa5e4f"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0e4f8373-1034-490b-a16d-551d55fa5e4f"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_pollen"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0e4f8373-1034-490b-a16d-551d55fa5e4f"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "21e7df24-d5dd-496b-a58b-f5dc344af7e4"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0e4f8373-1034-490b-a16d-551d55fa5e4f"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "8762ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0e4f8373-1034-490b-a16d-551d55fa5e4f"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "qualitativelabeloutofscopenode",
+          "pre-holocene_by_global stratotype section and point"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentEarliestOutOfScope": {
+            "BP": 27200.0
+          }
+        }
+      }
+    ]
+  ]
+]

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bryan, M. S."
-            },
-            "Title": {
-              "item": "Interglacial pollen spectra from Greenland"
-            },
-            "Year": 1954,
-            "Volume": 80,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bryan, M. S."
+              },
+              "Title": {
+                "item": "Interglacial pollen spectra from Greenland"
+              },
+              "Year": 1954,
+              "Volume": 80,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "No dating undertaken, no dates present"
           }
-        }
+        ]
       }
     }
   ],

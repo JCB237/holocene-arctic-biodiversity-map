@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Snowball, I. F."
-            },
-            "Title": {
-              "item": "Holocene environmental change in the Abisko region of northern Sweden recorded by the mineral magnetic stratigraphy of lake sediments"
-            },
-            "Year": 1996,
-            "Volume": 118,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Snowball, I. F."
+              },
+              "Title": {
+                "item": "Holocene environmental change in the Abisko region of northern Sweden recorded by the mineral magnetic stratigraphy of lake sediments"
+              },
+              "Year": 1996,
+              "Volume": 118,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Geochemical study on magnetisation of minerals; no taxa studied"
           }
-        }
+        ]
       }
     }
   ],
