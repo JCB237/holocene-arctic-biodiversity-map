@@ -1,0 +1,95 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "56af88d9-2606-4675-9bb3-ce658e2d39c3"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "56af88d9-2606-4675-9bb3-ce658e2d39c3"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_diatom"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "56af88d9-2606-4675-9bb3-ce658e2d39c3"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "6b232ae1-f9e3-4d91-941d-36a0e8ad6044"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "56af88d9-2606-4675-9bb3-ce658e2d39c3"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "1ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "56af88d9-2606-4675-9bb3-ce658e2d39c3"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "qualitativelabeloutofscopenode",
+          "pre-holocene_by_global stratotype section and point"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentEarliestOutOfScope": {
+            "BP": 38000.0
+          }
+        }
+      }
+    ]
+  ]
+]
