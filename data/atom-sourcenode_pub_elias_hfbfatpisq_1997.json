@@ -8,21 +8,61 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Elias, S. A.; Lavoie, C.; Payette, S."
-            },
-            "Title": {
-              "item": "Holocene fossil beetles from a treeline peatland in subarctic Quebec"
-            },
-            "Year": 1997,
-            "Volume": 75,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Elias, S. A.; Lavoie, C.; Payette, S."
+              },
+              "Title": {
+                "item": "Holocene fossil beetles from a treeline peatland in subarctic Quebec"
+              },
+              "Year": 1997,
+              "Volume": 75,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedNone"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_elias_hfbfatpisq_1997"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_payette_trlobtsiqaeapi_1993"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_elias_hfbfatpisq_1997"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "88834fa3-b40e-45f8-8b5d-2c8a02e16680"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

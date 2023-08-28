@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Birkeland, P. W."
-            },
-            "Title": {
-              "item": "Soil Development as an Indication of Relative Age of Quaternary Deposits Baffin Island Northwest-Territories Canada"
-            },
-            "Year": 1978,
-            "Volume": 10,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Birkeland, P. W."
+              },
+              "Title": {
+                "item": "Soil Development as an Indication of Relative Age of Quaternary Deposits Baffin Island Northwest-Territories Canada"
+              },
+              "Year": 1978,
+              "Volume": 10,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Individual samples from separate sites, only dated to rough approximate qualitative periods (\"Duval\", \"Wisconsin\" etc.)"
           }
-        }
+        ]
       }
     }
   ],
