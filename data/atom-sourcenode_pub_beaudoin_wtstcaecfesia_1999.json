@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Beaudoin, A. B."
-            },
-            "Title": {
-              "item": "What they saw: The climatic and environmental context for Euro-Canadian settlement in Alberta"
-            },
-            "Year": 1999,
-            "Volume": 24,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Beaudoin, A. B."
+              },
+              "Title": {
+                "item": "What they saw: The climatic and environmental context for Euro-Canadian settlement in Alberta"
+              },
+              "Year": 1999,
+              "Volume": 24,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "No sources occur much further north than Edmonton"
           }
-        }
+        ]
       }
     }
   ],

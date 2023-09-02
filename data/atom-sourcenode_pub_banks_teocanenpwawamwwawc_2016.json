@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Banks, W. E.; Giraudeau, J.; Goni, M. F. S.; Hanquiez, V.; Leroyer, C.; Ortu, E."
-            },
-            "Title": {
-              "item": "The expansion of Central and Northern European Neolithic populations was associated with a multi-century warm winter and wetter climate"
-            },
-            "Year": 2016,
-            "Volume": 26,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Banks, W. E.; Giraudeau, J.; Goni, M. F. S.; Hanquiez, V.; Leroyer, C.; Ortu, E."
+              },
+              "Title": {
+                "item": "The expansion of Central and Northern European Neolithic populations was associated with a multi-century warm winter and wetter climate"
+              },
+              "Year": 2016,
+              "Volume": 26,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Primary data is marine. Secondary data constrained to latitude of Germany"
           }
-        }
+        ]
       }
     }
   ],

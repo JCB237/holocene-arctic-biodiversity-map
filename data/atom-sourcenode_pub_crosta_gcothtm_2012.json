@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Crosta, X.; Goosse, H.; Renssen, H.; Roche, D. M.; Seppa, H."
-            },
-            "Title": {
-              "item": "Global characterization of the Holocene Thermal Maximum"
-            },
-            "Year": 2012,
-            "Volume": 48,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Crosta, X.; Goosse, H.; Renssen, H.; Roche, D. M.; Seppa, H."
+              },
+              "Title": {
+                "item": "Global characterization of the Holocene Thermal Maximum"
+              },
+              "Year": 2012,
+              "Volume": 48,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Simulation only (no model-data comparison)"
           }
-        }
+        ]
       }
     }
   ],

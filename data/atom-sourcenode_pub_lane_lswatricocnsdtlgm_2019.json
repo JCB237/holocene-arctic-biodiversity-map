@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Lane, C. S.; Van Der Bilt, W. G. M."
-            },
-            "Title": {
-              "item": "Lake sediments with Azorean tephra reveal ice-free conditions on coastal northwest Spitsbergen during the Last Glacial Maximum"
-            },
-            "Year": 2019,
-            "Volume": 5,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Lane, C. S.; Van Der Bilt, W. G. M."
+              },
+              "Title": {
+                "item": "Lake sediments with Azorean tephra reveal ice-free conditions on coastal northwest Spitsbergen during the Last Glacial Maximum"
+              },
+              "Year": 2019,
+              "Volume": 5,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Only use three unspecified plant macrofossils for radiocarbon dating"
           }
-        }
+        ]
       }
     }
   ],

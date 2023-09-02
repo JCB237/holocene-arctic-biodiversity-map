@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Elias, S. A.; Phillips, R. L.; Short, S. K."
-            },
-            "Title": {
-              "item": "Paleoecology of late-glacial peats from the Bering land bridge, Chukchi Sea shelf region, northwestern Alaska"
-            },
-            "Year": 1992,
-            "Volume": 38,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Elias, S. A.; Phillips, R. L.; Short, S. K."
+              },
+              "Title": {
+                "item": "Paleoecology of late-glacial peats from the Bering land bridge, Chukchi Sea shelf region, northwestern Alaska"
+              },
+              "Year": 1992,
+              "Volume": 38,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsOceanic",
+          {
+            "item": "Non-marine pollen and insects from marine core"
           }
-        }
+        ]
       }
     }
   ],

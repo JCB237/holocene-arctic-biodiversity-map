@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Levac, E.; de Vernal, A."
-            },
-            "Title": {
-              "item": "Postglacial changes of terrestrial and marine environments along the Labrador coast: palynological evidence from cores 91-045-005 and 91-045-006, Cartwright Saddle"
-            },
-            "Year": 1997,
-            "Volume": 34,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Levac, E.; de Vernal, A."
+              },
+              "Title": {
+                "item": "Postglacial changes of terrestrial and marine environments along the Labrador coast: palynological evidence from cores 91-045-005 and 91-045-006, Cartwright Saddle"
+              },
+              "Year": 1997,
+              "Volume": 34,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsOceanic",
+          {
+            "item": "Two marine cores containing terrestrial pollen"
           }
-        }
+        ]
       }
     }
   ],

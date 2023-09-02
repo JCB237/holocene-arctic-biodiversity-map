@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Karst-Riddoch, T. L.; Pisaric, M. F. J.; Smol, J. P."
-            },
-            "Title": {
-              "item": "Diatom responses to 20th century climate-related environmental changes in high-elevation mountain lakes of the northern Canadian Cordillera"
-            },
-            "Year": 2005,
-            "Volume": 33,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Karst-Riddoch, T. L.; Pisaric, M. F. J.; Smol, J. P."
+              },
+              "Title": {
+                "item": "Diatom responses to 20th century climate-related environmental changes in high-elevation mountain lakes of the northern Canadian Cordillera"
+              },
+              "Year": 2005,
+              "Volume": 33,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Three lakes with max. latitude at 60°26 N, 131°32 W"
           }
-        }
+        ]
       }
     }
   ],

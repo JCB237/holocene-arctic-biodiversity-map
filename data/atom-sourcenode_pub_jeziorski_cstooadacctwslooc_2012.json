@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Jeziorski, A.; Paterson, A. M.; Smol, J. P."
-            },
-            "Title": {
-              "item": "Changes since the onset of acid deposition among calcium-sensitive cladoceran taxa within softwater lakes of Ontario, Canada"
-            },
-            "Year": 2012,
-            "Volume": 48,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Jeziorski, A.; Paterson, A. M.; Smol, J. P."
+              },
+              "Title": {
+                "item": "Changes since the onset of acid deposition among calcium-sensitive cladoceran taxa within softwater lakes of Ontario, Canada"
+              },
+              "Year": 2012,
+              "Volume": 48,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Near Algonquin Park, ON, Canada"
           }
-        }
+        ]
       }
     }
   ],

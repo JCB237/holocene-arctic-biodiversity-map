@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Jonsson, C.; Karlen, W.; Rosqvist, G.; Shemesh, A.; Yam, R."
-            },
-            "Title": {
-              "item": "Diatom oxygen isotopes in pro-glacial lake sediments from northern Sweden: a 5000 year record of atmospheric circulation"
-            },
-            "Year": 2004,
-            "Volume": 23,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Jonsson, C.; Karlen, W.; Rosqvist, G.; Shemesh, A.; Yam, R."
+              },
+              "Title": {
+                "item": "Diatom oxygen isotopes in pro-glacial lake sediments from northern Sweden: a 5000 year record of atmospheric circulation"
+              },
+              "Year": 2004,
+              "Volume": 23,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoBiodiversityMeasure",
+          {
+            "item": "Only diatom isotpe record; no taxon IDs in results. Methods states: \"Diatoms consisted mainly of different species of Fragilaria and Aulacoseira.\""
           }
-        }
+        ]
       }
     }
   ],

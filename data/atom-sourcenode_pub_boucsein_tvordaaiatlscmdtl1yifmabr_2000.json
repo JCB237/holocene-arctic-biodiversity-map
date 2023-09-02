@@ -8,18 +8,24 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Boucsein, B.; Fahl, K.; Stein, R."
-            },
-            "Title": {
-              "item": "The variability of river discharge and Atlantic-water inflow at the Laptev Sea continental margin during the last 15,000 years: Implications from maceral and biomarker records"
-            },
-            "Year": 2000,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Boucsein, B.; Fahl, K.; Stein, R."
+              },
+              "Title": {
+                "item": "The variability of river discharge and Atlantic-water inflow at the Laptev Sea continental margin during the last 15,000 years: Implications from maceral and biomarker records"
+              },
+              "Year": 2000,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsOceanic",
+          {
+            "item": "Two cores from continental shelf"
           }
-        }
+        ]
       }
     }
   ],

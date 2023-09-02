@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Luoto, T. P.; Nevalainen, L."
-            },
-            "Title": {
-              "item": "Late Holocene precipitation and temperature changes in Northern Europe linked with North Atlantic forcing"
-            },
-            "Year": 2015,
-            "Volume": 66,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Luoto, T. P.; Nevalainen, L."
+              },
+              "Title": {
+                "item": "Late Holocene precipitation and temperature changes in Northern Europe linked with North Atlantic forcing"
+              },
+              "Year": 2015,
+              "Volume": 66,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Two lakes at 64N in Finland"
           }
-        }
+        ]
       }
     }
   ],

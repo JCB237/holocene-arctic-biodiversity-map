@@ -8,15 +8,21 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Title": {
-              "item": "Surficial geology of the glenyon map area, Yukon territory"
-            },
-            "Year": 2000,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Title": {
+                "item": "Surficial geology of the glenyon map area, Yukon territory"
+              },
+              "Year": 2000,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "\"Glenlyon map area (NTS 105 L), located between 62° and 63°N and 134° and 136°W in central Yukon Territory\""
           }
-        }
+        ]
       }
     }
   ],

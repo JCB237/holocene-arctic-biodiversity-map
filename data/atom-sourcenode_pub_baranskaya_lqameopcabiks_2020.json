@@ -8,18 +8,24 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Baranskaya, A.; Novikova, A.; Ogorodov, S.; Romanenko, F.; Shabanova, N."
-            },
-            "Title": {
-              "item": "Late Quaternary and Modern Evolution of Permafrost Coasts at Beliy Island, Kara Sea"
-            },
-            "Year": 2020,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Baranskaya, A.; Novikova, A.; Ogorodov, S.; Romanenko, F.; Shabanova, N."
+              },
+              "Title": {
+                "item": "Late Quaternary and Modern Evolution of Permafrost Coasts at Beliy Island, Kara Sea"
+              },
+              "Year": 2020,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Driftwood and peat present, but no taxonomic labels / inference to taxa"
           }
-        }
+        ]
       }
     }
   ],

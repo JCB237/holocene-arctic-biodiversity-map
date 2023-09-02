@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Berglund, M."
-            },
-            "Title": {
-              "item": "Time-transgressive early Holocene vegetational succession following shore displacement: a case study from central Sweden"
-            },
-            "Year": 2008,
-            "Volume": 37,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Berglund, M."
+              },
+              "Title": {
+                "item": "Time-transgressive early Holocene vegetational succession following shore displacement: a case study from central Sweden"
+              },
+              "Year": 2008,
+              "Volume": 37,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "NA"
           }
-        }
+        ]
       }
     }
   ],

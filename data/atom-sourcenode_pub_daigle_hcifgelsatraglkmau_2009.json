@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Daigle, T. A.; Kaufman, D. S."
-            },
-            "Title": {
-              "item": "Holocene climate inferred from glacier extent, lake sediment and tree rings at Goat Lake, Kenai Mountains, Alaska, USA"
-            },
-            "Year": 2009,
-            "Volume": 24,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Daigle, T. A.; Kaufman, D. S."
+              },
+              "Title": {
+                "item": "Holocene climate inferred from glacier extent, lake sediment and tree rings at Goat Lake, Kenai Mountains, Alaska, USA"
+              },
+              "Year": 2009,
+              "Volume": 24,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "On Kenai Peninsula"
           }
-        }
+        ]
       }
     }
   ],

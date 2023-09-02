@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Asada, T.; Clogg-Wright, K. P.; Edwards, T. W. D.; Hall, R. I.; Johnston, J. W.; Karst-Riddoch, T. L.; Last, W. M.; Sinnatamby, R. N.; Sokal, M. A.; Vardy, S. R.; Wolfe, B. B.; Yi, Y."
-            },
-            "Title": {
-              "item": "Historical and paleolimnological evidence for expansion of Lake Athabasca (Canada) during the Little Ice Age"
-            },
-            "Year": 2010,
-            "Volume": 43,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Asada, T.; Clogg-Wright, K. P.; Edwards, T. W. D.; Hall, R. I.; Johnston, J. W.; Karst-Riddoch, T. L.; Last, W. M.; Sinnatamby, R. N.; Sokal, M. A.; Vardy, S. R.; Wolfe, B. B.; Yi, Y."
+              },
+              "Title": {
+                "item": "Historical and paleolimnological evidence for expansion of Lake Athabasca (Canada) during the Little Ice Age"
+              },
+              "Year": 2010,
+              "Volume": 43,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Just south of Arctic area at 58.774333, -111.324667"
           }
-        }
+        ]
       }
     }
   ],

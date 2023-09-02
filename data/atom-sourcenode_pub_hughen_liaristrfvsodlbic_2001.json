@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hughen, K. A.; Miller, G. H.; Moore, J. J.; Overpeck, J. T."
-            },
-            "Title": {
-              "item": "Little Ice Age recorded in summer temperature reconstruction from varved sediments of Donard Lake, Baffin Island, Canada"
-            },
-            "Year": 2001,
-            "Volume": 25,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hughen, K. A.; Miller, G. H.; Moore, J. J.; Overpeck, J. T."
+              },
+              "Title": {
+                "item": "Little Ice Age recorded in summer temperature reconstruction from varved sediments of Donard Lake, Baffin Island, Canada"
+              },
+              "Year": 2001,
+              "Volume": 25,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Varve thickness as proxy for summer warmth"
           }
-        }
+        ]
       }
     }
   ],

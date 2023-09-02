@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Carrivick, J. L.; Knudsen, N. T.; Kronborg, C.; Yde, J. C."
-            },
-            "Title": {
-              "item": "Ice-dammed lake and ice-margin evolution during the Holocene in the Kangerlussuaq area of west Greenland"
-            },
-            "Year": 2018,
-            "Volume": 50,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Carrivick, J. L.; Knudsen, N. T.; Kronborg, C.; Yde, J. C."
+              },
+              "Title": {
+                "item": "Ice-dammed lake and ice-margin evolution during the Holocene in the Kangerlussuaq area of west Greenland"
+              },
+              "Year": 2018,
+              "Volume": 50,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "No more specific label than 'plants'"
           }
-        }
+        ]
       }
     }
   ],

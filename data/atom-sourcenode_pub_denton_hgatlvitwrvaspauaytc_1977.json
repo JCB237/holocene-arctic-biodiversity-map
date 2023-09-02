@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Denton, G. H.; Karlen, W."
-            },
-            "Title": {
-              "item": "Holocene Glacial and Tree Line Variations in the White River Valley and Skolai Pass Alaska USA and Yukon Territory Canada"
-            },
-            "Year": 1977,
-            "Volume": 7,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Denton, G. H.; Karlen, W."
+              },
+              "Title": {
+                "item": "Holocene Glacial and Tree Line Variations in the White River Valley and Skolai Pass Alaska USA and Yukon Territory Canada"
+              },
+              "Year": 1977,
+              "Volume": 7,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Southern Alaska and Yukon south-east of Wragnell Mountains"
           }
-        }
+        ]
       }
     }
   ],

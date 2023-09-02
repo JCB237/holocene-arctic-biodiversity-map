@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "De Vernal, A.; Ledu, D.; Rochon, A.; St-Onge, G."
-            },
-            "Title": {
-              "item": "Paly nological evidence of Holocene climate change in the eastern Arctic: A possible shift in the Arctic oscillation at the millennial time scale"
-            },
-            "Year": 2008,
-            "Volume": 45,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "De Vernal, A.; Ledu, D.; Rochon, A.; St-Onge, G."
+              },
+              "Title": {
+                "item": "Paly nological evidence of Holocene climate change in the eastern Arctic: A possible shift in the Arctic oscillation at the millennial time scale"
+              },
+              "Year": 2008,
+              "Volume": 45,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsOceanic",
+          {
+            "item": "Two cores from Lancaster Sound"
           }
-        }
+        ]
       }
     }
   ],

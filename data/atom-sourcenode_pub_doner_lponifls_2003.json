@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Doner, L."
-            },
-            "Title": {
-              "item": "Late-Holocene paleoenvironments of northwest Iceland from lake sediments"
-            },
-            "Year": 2003,
-            "Volume": 193,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Doner, L."
+              },
+              "Title": {
+                "item": "Late-Holocene paleoenvironments of northwest Iceland from lake sediments"
+              },
+              "Year": 2003,
+              "Volume": 193,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "No biotic proxies. Only single macrofossil for radiocarbon dating"
           }
-        }
+        ]
       }
     }
   ],

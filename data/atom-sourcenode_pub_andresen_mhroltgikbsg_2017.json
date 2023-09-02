@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Andresen, C. S.; Bjork, A. A.; Dyke, L. M.; Hiemstra, J. F.; Hughes, A. L. C.; Murray, T.; Seidenkrantz, M. S.; Sutherland, D. A.; Vermassen, F."
-            },
-            "Title": {
-              "item": "Minimal Holocene retreat of large tidewater glaciers in Koge Bugt, southeast Greenland"
-            },
-            "Year": 2017,
-            "Volume": 7,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Andresen, C. S.; Bjork, A. A.; Dyke, L. M.; Hiemstra, J. F.; Hughes, A. L. C.; Murray, T.; Seidenkrantz, M. S.; Sutherland, D. A.; Vermassen, F."
+              },
+              "Title": {
+                "item": "Minimal Holocene retreat of large tidewater glaciers in Koge Bugt, southeast Greenland"
+              },
+              "Year": 2017,
+              "Volume": 7,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsOceanic",
+          {
+            "item": "Deep marine core from Køge Bugt"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Haflidason, H.; Mangerud, J.; Regnell, C.; Svendsen, J. I."
-            },
-            "Title": {
-              "item": "Glacial and climate history of the last 24000years in the Polar Ural Mountains, Arctic Russia, inferred from partly varved lake sediments"
-            },
-            "Year": 2019,
-            "Volume": 48,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Haflidason, H.; Mangerud, J.; Regnell, C.; Svendsen, J. I."
+              },
+              "Title": {
+                "item": "Glacial and climate history of the last 24000years in the Polar Ural Mountains, Arctic Russia, inferred from partly varved lake sediments"
+              },
+              "Year": 2019,
+              "Volume": 48,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Only geochronology and physical properties of core"
           }
-        }
+        ]
       }
     }
   ],

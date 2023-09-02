@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Beltrami, H.; Mareschal, J. C.; Pickler, C."
-            },
-            "Title": {
-              "item": "Climate trends in northern Ontario and Quebec from borehole temperature profiles"
-            },
-            "Year": 2016,
-            "Volume": 12,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Beltrami, H.; Mareschal, J. C.; Pickler, C."
+              },
+              "Title": {
+                "item": "Climate trends in northern Ontario and Quebec from borehole temperature profiles"
+              },
+              "Year": 2016,
+              "Volume": 12,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "No biota in method / results"
           }
-        }
+        ]
       }
     }
   ],

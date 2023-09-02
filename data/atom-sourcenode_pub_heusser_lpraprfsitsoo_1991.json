@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Heusser, L. E.; Morley, J. J.; Shackleton, N. J."
-            },
-            "Title": {
-              "item": "Late Pleistocene/Holocene Radiolarian and Pollen Records from Sediments in the Sea of Okhotsk"
-            },
-            "Year": 1991,
-            "Volume": 6,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Heusser, L. E.; Morley, J. J.; Shackleton, N. J."
+              },
+              "Title": {
+                "item": "Late Pleistocene/Holocene Radiolarian and Pollen Records from Sediments in the Sea of Okhotsk"
+              },
+              "Year": 1991,
+              "Volume": 6,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsOceanic",
+          {
+            "item": "Sea of Okhotsk cores"
           }
-        }
+        ]
       }
     }
   ],

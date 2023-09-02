@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Mangerud, J.; Svendsen, J. I."
-            },
-            "Title": {
-              "item": "The Holocene Thermal Maximum around Svalbard, Arctic North Atlantic; molluscs show early and exceptional warmth"
-            },
-            "Year": 2018,
-            "Volume": 28,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Mangerud, J.; Svendsen, J. I."
+              },
+              "Title": {
+                "item": "The Holocene Thermal Maximum around Svalbard, Arctic North Atlantic; molluscs show early and exceptional warmth"
+              },
+              "Year": 2018,
+              "Volume": 28,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsOceanic",
+          {
+            "item": "NA"
           }
-        }
+        ]
       }
     }
   ],

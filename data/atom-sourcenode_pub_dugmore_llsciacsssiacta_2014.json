@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Dugmore, A.; Streeter, R."
-            },
-            "Title": {
-              "item": "Late-Holocene land surface change in a coupled social-ecological system, southern Iceland: a cross-scale tephrochronology approach"
-            },
-            "Year": 2014,
-            "Volume": 86,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Dugmore, A.; Streeter, R."
+              },
+              "Title": {
+                "item": "Late-Holocene land surface change in a coupled social-ecological system, southern Iceland: a cross-scale tephrochronology approach"
+              },
+              "Year": 2014,
+              "Volume": 86,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoBiodiversityMeasure",
+          {
+            "item": "Talks of land use change but no quantification of plants etc. in analysis"
           }
-        }
+        ]
       }
     }
   ],

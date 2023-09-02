@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Cwynar, L. C.; Levesque, A. J.; Mayle, F. E.; Walker, I. R."
-            },
-            "Title": {
-              "item": "The Amphi-Atlantic Oscillation - a Proposed Late-Glacial Climatic Event"
-            },
-            "Year": 1993,
-            "Volume": 12,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Cwynar, L. C.; Levesque, A. J.; Mayle, F. E.; Walker, I. R."
+              },
+              "Title": {
+                "item": "The Amphi-Atlantic Oscillation - a Proposed Late-Glacial Climatic Event"
+              },
+              "Year": 1993,
+              "Volume": 12,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Nova Scotia, New Brunswick and Newfoundland"
           }
-        }
+        ]
       }
     }
   ],
