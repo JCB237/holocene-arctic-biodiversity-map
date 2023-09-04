@@ -9,6 +9,14 @@ type IndividualMeasureCsv = CsvProvider<
 
 let unwrap (f:float<_>) = float f
 
+let origin = function
+    | Population.Context.LakeSediment _ -> "Lake sediment core"
+    | Population.Context.PeatCore _ -> "Peat core"
+    | Population.Context.Excavation _ -> "Excavation"
+    | Population.Context.Subfossil -> "Subfossil material"
+    | Population.Context.LivingOrganism -> "Living organism"
+    | Population.Context.OtherOrigin (a,_) -> "Other"
+
 let run () = 
     result {
         printfn "Loading graph"
@@ -65,8 +73,9 @@ let run () =
                     match source with
                     | Sources.Bibliographic meta ->
                         (Some (fst node).AsString), (meta.Title |> Option.map(fun v -> v.Value)), meta.Year
+                    | Sources.GreyLiterature g -> None, Some g.Title.Value, None
+                    | Sources.DatabaseEntry d -> Some <| sprintf "%s - %s" d.DatabaseAbbreviation.Value d.UniqueIdentifierInDatabase.Value, d.Title |> Option.map(fun v -> v.Value), None
                     | _ -> None, None, None
-
                 temporalExtentIds
                 |> Storage.loadAtoms graph.Directory (typeof<Exposure.StudyTimeline.IndividualTimelineNode>.Name)
                 |> Result.lift(fun extents -> extents |> List.map(fun e -> sourceId, sourceName, year, e))
@@ -192,22 +201,14 @@ let run () =
                         biodiversityOutcomes
                         |> Result.lift(fun ls ->
                             ls |> List.map(fun (from, using, by, taxon) ->
-                                sId, sourceName, year, context.Name.Value, unwrap lat.Value, unwrap lon.Value, from, using, by, taxon, context.SampleOrigin.ToString(), earliestExtent, latestExtent))
+                                sId, sourceName, year, context.Name.Value, unwrap lat.Value, unwrap lon.Value, from, using, by, taxon, origin context.SampleOrigin, earliestExtent, latestExtent))
                     | FieldDataTypes.Geography.Area poly ->
                         let lat = poly.Value |> List.map fst |> List.averageBy(fun v -> v.Value |> unwrap)
                         let lon = poly.Value |> List.map snd |> List.averageBy(fun v -> v.Value |> unwrap)
                         biodiversityOutcomes
                         |> Result.lift(fun ls ->
                             ls |> List.map(fun (from, using, by, taxon) ->
-                                let origin =
-                                    match context.SampleOrigin with
-                                    | Population.Context.LakeSediment _ -> "Lake sediment core"
-                                    | Population.Context.PeatCore _ -> "Peat core"
-                                    | Population.Context.Excavation _ -> "Excavation"
-                                    | Population.Context.Subfossil -> "Subfossil material"
-                                    | Population.Context.LivingOrganism -> "Living organism"
-                                    | Population.Context.OtherOrigin (a,_) -> "Other"
-                                sId, sourceName, year, context.Name.Value, lat, lon, from, using, by, taxon, origin, earliestExtent, latestExtent))
+                                sId, sourceName, year, context.Name.Value, lat, lon, from, using, by, taxon, origin context.SampleOrigin , earliestExtent, latestExtent))
                     | _ -> Ok [])
                 |> Result.lift(fun l -> l)
             ) |> List.choose Result.toOption |> List.concat
