@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_numenius_hudsonicus_latham"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Numenius"
+            },
+            {
+              "item": "hudsonicus"
+            },
+            {
+              "item": "Latham"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_numenius_hudsonicus_latham"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_numenius"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

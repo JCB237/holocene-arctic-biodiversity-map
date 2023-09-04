@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_poa_glauca_vahl"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Poa"
+            },
+            {
+              "item": "glauca"
+            },
+            {
+              "item": "Vahl"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_poa_glauca_vahl"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_poa"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

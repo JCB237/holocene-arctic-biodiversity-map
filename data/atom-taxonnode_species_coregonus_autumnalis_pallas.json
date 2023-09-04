@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_coregonus_autumnalis_pallas"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Coregonus"
+            },
+            {
+              "item": "autumnalis"
+            },
+            {
+              "item": "Pallas"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_coregonus_autumnalis_pallas"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_coregonus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

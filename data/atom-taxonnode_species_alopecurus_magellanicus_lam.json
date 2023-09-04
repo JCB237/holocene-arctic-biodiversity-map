@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_alopecurus_magellanicus_lam"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Alopecurus"
+            },
+            {
+              "item": "magellanicus"
+            },
+            {
+              "item": "Lam"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_alopecurus_magellanicus_lam"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_alopecurus"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

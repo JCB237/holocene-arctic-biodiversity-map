@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_carex_nardina_fr"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Carex"
+            },
+            {
+              "item": "nardina"
+            },
+            {
+              "item": "Fr."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_carex_nardina_fr"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_carex"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]
