@@ -103,7 +103,7 @@ let run () =
                         match r with
                         | GraphStructure.Relation.Exposure r ->
                             match r with
-                            | Exposure.ExposureRelation.ExtentEarliest -> true
+                            | Exposure.ExposureRelation.ExtentLatest -> true
                             | _ -> false
                         | _ -> false)
                     |> Option.map(fun (_,sink,_,_) ->
