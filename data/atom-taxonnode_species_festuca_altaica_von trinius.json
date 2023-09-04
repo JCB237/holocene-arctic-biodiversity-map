@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_festuca_altaica_von trinius"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Festuca"
+            },
+            {
+              "item": "altaica"
+            },
+            {
+              "item": "von Trinius"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_festuca_altaica_von trinius"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_festuca"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

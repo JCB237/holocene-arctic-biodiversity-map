@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kenward, H.; King, G. A.; Schmidt, E.; Smith, D."
-            },
-            "Title": {
-              "item": "Six-legged Hitchhikers: An Archaeobiogeographical Account of the Early Dispersal of Grain Beetles"
-            },
-            "Year": 2014,
-            "Volume": 23,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kenward, H.; King, G. A.; Schmidt, E.; Smith, D."
+              },
+              "Title": {
+                "item": "Six-legged Hitchhikers: An Archaeobiogeographical Account of the Early Dispersal of Grain Beetles"
+              },
+              "Year": 2014,
+              "Volume": 23,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Qualitative Literature Review"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Cerling, T. E.; Harris, J. M.; Macfadden, B. J.; Prado, J."
-            },
-            "Title": {
-              "item": "Ancient latitudinal gradients of C3/C4 grasses interpreted from stable isotopes of New World Pleistocene horse (Equus) teeth"
-            },
-            "Year": 1999,
-            "Volume": 8,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Cerling, T. E.; Harris, J. M.; Macfadden, B. J.; Prado, J."
+              },
+              "Title": {
+                "item": "Ancient latitudinal gradients of C3/C4 grasses interpreted from stable isotopes of New World Pleistocene horse (Equus) teeth"
+              },
+              "Year": 1999,
+              "Volume": 8,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Pleistocene"
           }
-        }
+        ]
       }
     }
   ],

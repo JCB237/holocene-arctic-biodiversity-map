@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_festuca_kolymensis_drobow"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Festuca"
+            },
+            {
+              "item": "kolymensis"
+            },
+            {
+              "item": "Drobow"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_festuca_kolymensis_drobow"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_festuca"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

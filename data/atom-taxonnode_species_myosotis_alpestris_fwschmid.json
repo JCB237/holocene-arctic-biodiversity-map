@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_myosotis_alpestris_fwschmid"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Myosotis"
+            },
+            {
+              "item": "alpestris"
+            },
+            {
+              "item": "F.W.Schmid"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_myosotis_alpestris_fwschmid"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_myosotis"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

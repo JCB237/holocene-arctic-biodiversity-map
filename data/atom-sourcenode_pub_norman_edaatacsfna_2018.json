@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Norman, L. E. Y."
-            },
-            "Title": {
-              "item": "Ethnohistoric documents as analogical tools: A case study from northwest Alaska"
-            },
-            "Year": 2018,
-            "Volume": 51,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Norman, L. E. Y."
+              },
+              "Title": {
+                "item": "Ethnohistoric documents as analogical tools: A case study from northwest Alaska"
+              },
+              "Year": 2018,
+              "Volume": 51,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Only one date"
           }
-        }
+        ]
       }
     }
   ],

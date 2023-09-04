@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_canis_latrans_say"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Canis"
+            },
+            {
+              "item": "latrans"
+            },
+            {
+              "item": "Say"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_canis_latrans_say"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_canis"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]
