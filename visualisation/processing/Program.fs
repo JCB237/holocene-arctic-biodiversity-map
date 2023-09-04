@@ -199,7 +199,15 @@ let run () =
                         biodiversityOutcomes
                         |> Result.lift(fun ls ->
                             ls |> List.map(fun (from, using, by, taxon) ->
-                                sId, sourceName, year, context.Name.Value, lat, lon, from, using, by, taxon, context.SampleOrigin.ToString(), earliestExtent, latestExtent))
+                                let origin =
+                                    match context.SampleOrigin with
+                                    | Population.Context.LakeSediment _ -> "Lake sediment core"
+                                    | Population.Context.PeatCore _ -> "Peat core"
+                                    | Population.Context.Excavation _ -> "Excavation"
+                                    | Population.Context.Subfossil -> "Subfossil material"
+                                    | Population.Context.LivingOrganism -> "Living organism"
+                                    | Population.Context.OtherOrigin (a,_) -> "Other"
+                                sId, sourceName, year, context.Name.Value, lat, lon, from, using, by, taxon, origin, earliestExtent, latestExtent))
                     | _ -> Ok [])
                 |> Result.lift(fun l -> l)
             ) |> List.choose Result.toOption |> List.concat
