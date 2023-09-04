@@ -1,0 +1,87 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "64a9624b-6171-4b00-a5c8-126d0d011a54"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "64a9624b-6171-4b00-a5c8-126d0d011a54"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "presence"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "64a9624b-6171-4b00-a5c8-126d0d011a54"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_larix_gmelinii_rupr kuzen"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "64a9624b-6171-4b00-a5c8-126d0d011a54"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "implicit"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "64a9624b-6171-4b00-a5c8-126d0d011a54"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "direct_larixgmeliniiruprkuzen"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]

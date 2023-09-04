@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kullman, L."
-            },
-            "Title": {
-              "item": "Dynamics of altitudinal tree-limits in sweden: A review"
-            },
-            "Year": 1990,
-            "Volume": 44,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kullman, L."
+              },
+              "Title": {
+                "item": "Dynamics of altitudinal tree-limits in sweden: A review"
+              },
+              "Year": 1990,
+              "Volume": 44,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "not in Arctic"
           }
-        }
+        ]
       }
     }
   ],

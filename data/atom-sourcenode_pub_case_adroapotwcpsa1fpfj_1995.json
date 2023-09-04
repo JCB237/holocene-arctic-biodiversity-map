@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Case, R. A.; MacDonald, G. M."
-            },
-            "Title": {
-              "item": "A dendroclimatic reconstruction of annual precipitation on the Western Canadian Prairies since A.D. 1505 from Pinus flexilis James"
-            },
-            "Year": 1995,
-            "Volume": 44,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Case, R. A.; MacDonald, G. M."
+              },
+              "Title": {
+                "item": "A dendroclimatic reconstruction of annual precipitation on the Western Canadian Prairies since A.D. 1505 from Pinus flexilis James"
+              },
+              "Year": 1995,
+              "Volume": 44,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "not Arctic"
           }
-        }
+        ]
       }
     }
   ],

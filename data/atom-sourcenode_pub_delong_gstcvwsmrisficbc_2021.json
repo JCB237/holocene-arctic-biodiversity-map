@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "DeLong, S. C.; Foord, V.; Griesbauer, H.; Rogers, B."
-            },
-            "Title": {
-              "item": "Growth sensitivity to climate varies with soil moisture regime in spruce-fir forests in central British Columbia"
-            },
-            "Year": 2021,
-            "Volume": 35,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "DeLong, S. C.; Foord, V.; Griesbauer, H.; Rogers, B."
+              },
+              "Title": {
+                "item": "Growth sensitivity to climate varies with soil moisture regime in spruce-fir forests in central British Columbia"
+              },
+              "Year": 2021,
+              "Volume": 35,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "not Arctic"
           }
-        }
+        ]
       }
     }
   ],
