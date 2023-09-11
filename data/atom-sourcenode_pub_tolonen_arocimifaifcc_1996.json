@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Tolonen, K.; Turunen, J."
-            },
-            "Title": {
-              "item": "Accumulation rates of carbon in mires in Finland and implications for climate change"
-            },
-            "Year": 1996,
-            "Volume": 6,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Tolonen, K.; Turunen, J."
+              },
+              "Title": {
+                "item": "Accumulation rates of carbon in mires in Finland and implications for climate change"
+              },
+              "Year": 1996,
+              "Volume": 6,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "mentions \"pine bogs\" but no spp mentioned"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Segerstrom, U.; Stedingk, H. v"
-            },
-            "Title": {
-              "item": "Early-Holocene spruce, Picea abies (L.) Karst., in west central Sweden as revealed by pollen analysis"
-            },
-            "Year": 2003,
-            "Volume": 13,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Segerstrom, U.; Stedingk, H. v"
+              },
+              "Title": {
+                "item": "Early-Holocene spruce, Picea abies (L.) Karst., in west central Sweden as revealed by pollen analysis"
+              },
+              "Year": 2003,
+              "Volume": 13,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "not arctic"
           }
-        }
+        ]
       }
     }
   ],
