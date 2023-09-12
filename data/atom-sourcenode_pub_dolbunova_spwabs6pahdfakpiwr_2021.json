@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Dolbunova, E.; Gauthier, E.; Kittel, P.; Kramkowski, M.; Kublitskiy, Y.; Lamentowicz, M.; Lucow, D.; Marcisz, K.; Mazurkevich, A.; Mroczkowska, A.; Obremska, M.; Plociennik, M.; Slowinski, M."
-            },
-            "Title": {
-              "item": "Small peatland with a big story: 600-year paleoecological and historical data from a kettle-hole peatland in Western Russia"
-            },
-            "Year": 2021,
-            "Volume": 31,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Dolbunova, E.; Gauthier, E.; Kittel, P.; Kramkowski, M.; Kublitskiy, Y.; Lamentowicz, M.; Lucow, D.; Marcisz, K.; Mazurkevich, A.; Mroczkowska, A.; Obremska, M.; Plociennik, M.; Slowinski, M."
+              },
+              "Title": {
+                "item": "Small peatland with a big story: 600-year paleoecological and historical data from a kettle-hole peatland in Western Russia"
+              },
+              "Year": 2021,
+              "Volume": 31,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "not in arctic"
           }
-        }
+        ]
       }
     }
   ],
