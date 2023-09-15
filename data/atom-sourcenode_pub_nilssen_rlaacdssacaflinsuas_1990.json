@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Nilssen, J. P.; Sandoy, S."
-            },
-            "Title": {
-              "item": "Recent Lake Acidification and Cladoceran Dynamics Surface Sediment and Core Analyses from Lakes in Norway Scotland Uk and Sweden"
-            },
-            "Year": 1990,
-            "Volume": 327,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Nilssen, J. P.; Sandoy, S."
+              },
+              "Title": {
+                "item": "Recent Lake Acidification and Cladoceran Dynamics Surface Sediment and Core Analyses from Lakes in Norway Scotland Uk and Sweden"
+              },
+              "Year": 1990,
+              "Volume": 327,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "No dating of core sample presented in paper"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Froese, D.; Golding, G. B.; King, C.; Poinar, H. N.; Porter, T. M.; Zazula, G."
-            },
-            "Title": {
-              "item": "Amplicon pyrosequencing late Pleistocene permafrost: the removal of putative contaminant sequences and small-scale reproducibility"
-            },
-            "Year": 2013,
-            "Volume": 13,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Froese, D.; Golding, G. B.; King, C.; Poinar, H. N.; Porter, T. M.; Zazula, G."
+              },
+              "Title": {
+                "item": "Amplicon pyrosequencing late Pleistocene permafrost: the removal of putative contaminant sequences and small-scale reproducibility"
+              },
+              "Year": 2013,
+              "Volume": 13,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Samples taken from near Bear Creek, East of Dawson City, on Klondike River."
           }
-        }
+        ]
       }
     }
   ],

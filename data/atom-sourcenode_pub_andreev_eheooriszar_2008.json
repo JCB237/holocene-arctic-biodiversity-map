@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Andreev, A. A.; Bobrov, A. A.; Forman, S. L.; Ingolfsson, O.; Lubinski, D. J.; Moller, P.; Tarasov, P. E."
-            },
-            "Title": {
-              "item": "Early Holocene environments on October Revolution Island, Severnaya Zemlya, Arctic Russia"
-            },
-            "Year": 2008,
-            "Volume": 267,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Andreev, A. A.; Bobrov, A. A.; Forman, S. L.; Ingolfsson, O.; Lubinski, D. J.; Moller, P.; Tarasov, P. E."
+              },
+              "Title": {
+                "item": "Early Holocene environments on October Revolution Island, Severnaya Zemlya, Arctic Russia"
+              },
+              "Year": 2008,
+              "Volume": 267,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "No included taxa; study of testate amoebae"
           }
-        }
+        ]
       }
     }
   ],

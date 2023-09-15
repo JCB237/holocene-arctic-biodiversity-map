@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Frolova, L. A.; Ibragimova, A. G.; Ulrich, M.; Wetterich, S."
-            },
-            "Title": {
-              "item": "Reconstruction of the history of a thermokarst lake in the Mid-Holocene based on an analysis of subfossil Cladocera (Siberia, Central Yakutia)"
-            },
-            "Year": 2017,
-            "Volume": 10,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Frolova, L. A.; Ibragimova, A. G.; Ulrich, M.; Wetterich, S."
+              },
+              "Title": {
+                "item": "Reconstruction of the history of a thermokarst lake in the Mid-Holocene based on an analysis of subfossil Cladocera (Siberia, Central Yakutia)"
+              },
+              "Year": 2017,
+              "Volume": 10,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Only studies Cladocera, and excluded taxa"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kusilman, M. V.; Mazei, N. G.; Novenko, E. Y."
-            },
-            "Title": {
-              "item": "The Occurrence of Carpinus, Fagus, Tilia, and Quercus Pollen in Subrecent Spore-Pollen Spectra from the East European Plain: On the Possibility of Long-Distance Pollen Transfer"
-            },
-            "Year": 2018,
-            "Volume": 49,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kusilman, M. V.; Mazei, N. G.; Novenko, E. Y."
+              },
+              "Title": {
+                "item": "The Occurrence of Carpinus, Fagus, Tilia, and Quercus Pollen in Subrecent Spore-Pollen Spectra from the East European Plain: On the Possibility of Long-Distance Pollen Transfer"
+              },
+              "Year": 2018,
+              "Volume": 49,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Development of distribution ranges for several plant species' pollen"
           }
-        }
+        ]
       }
     }
   ],

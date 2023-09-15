@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Brodin, Y. W."
-            },
-            "Title": {
-              "item": "Midge fauna development in acidified lakes in northern Europe"
-            },
-            "Year": 1990,
-            "Volume": 327,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Brodin, Y. W."
+              },
+              "Title": {
+                "item": "Midge fauna development in acidified lakes in northern Europe"
+              },
+              "Year": 1990,
+              "Volume": 327,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "OtherExclusionReason",
+          {
+            "item": "Cannot confirm location beyond 'Norway' and/or 'Sweden'; no information provided"
           }
-        }
+        ]
       }
     }
   ],

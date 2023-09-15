@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Alexander, D.; Driver, J. C.; Fladmark, K. R."
-            },
-            "Title": {
-              "item": "The Paleoindian Component at Charlie Lake Cave (HbRf 39), British Columbia"
-            },
-            "Year": 1988,
-            "Volume": 53,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Alexander, D.; Driver, J. C.; Fladmark, K. R."
+              },
+              "Title": {
+                "item": "The Paleoindian Component at Charlie Lake Cave (HbRf 39), British Columbia"
+              },
+              "Year": 1988,
+              "Volume": 53,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Site at Southernmost tip of Charlie Lake, putting it ~2km outside the inclusion area"
           }
-        }
+        ]
       }
     }
   ],
