@@ -4,8 +4,8 @@ open BiodiversityCoder.Core.GraphStructure
 open FSharp.Data
 
 type IndividualMeasureCsv = CsvProvider<
-    Sample = "source_id, source_title, source_year, site_name, LatDD, LonDD, inferred_from, inferred_using, biodiversity_measure, inferred_as, sample_origin, earliest_extent, latest_extent, proxy_category",
-    Schema = "source_id (string option), source_title (string option), source_year (int option), site_name (string), LatDD (float), LonDD (float), inferred_from (string option), inferred_using (string option), biodiversity_measure (string option), inferred_as (string), sample_origin (string), earliest_extent (int option), latest_extent (int option), proxy_category (string)", HasHeaders = true>
+    Sample = "source_id, source_title, source_year, source_authors, source_type, site_name, LatDD, LonDD, inferred_from, inferred_using, biodiversity_measure, inferred_as, sample_origin, earliest_extent, latest_extent, proxy_category",
+    Schema = "source_id (string option), source_title (string option), source_year (int option), source_authors (string option), source_type (string), site_name (string), LatDD (float), LonDD (float), inferred_from (string option), inferred_using (string option), biodiversity_measure (string option), inferred_as (string), sample_origin (string), earliest_extent (int option), latest_extent (int option), proxy_category (string)", HasHeaders = true>
 
 let unwrap (f:float<_>) = float f
 
@@ -25,6 +25,24 @@ let proxyToGroup = function
         | Population.BioticProxies.Macrofossil _-> "Marcofossil"
         | Population.BioticProxies.Megafossil _ -> "Megafossil"
         | Population.BioticProxies.Microfossil (g,_) -> g.ToString()
+
+let extractLatLon sampleLocation =
+    match sampleLocation with
+    | FieldDataTypes.Geography.Site (lat: FieldDataTypes.Geography.Latitude,lon) -> 
+        unwrap lat.Value, unwrap lon.Value
+    | FieldDataTypes.Geography.SiteDMS coord -> 
+        let m = System.Text.RegularExpressions.Regex.Match(coord.Value, "^([0-9]{1,2})[:|°]([0-9]{1,2})[:|'|′]?([0-9]{1,2}(?:\.[0-9]+){0,1})?[\"|″]([N|S]),([0-9]{1,3})[:|°]([0-9]{1,2})[:|'|′]?([0-9]{1,2}(?:\.[0-9]+){0,1})?[\"|″]([E|W])$")
+        let deg, min, sec, dir = m.Groups.[1].Value, m.Groups.[2].Value, m.Groups.[3].Value, m.Groups.[4].Value
+        let degLon, minLon, secLon, dirLon = m.Groups.[5].Value, m.Groups.[6].Value, m.Groups.[7].Value, m.Groups.[8].Value
+        let lat = (float deg + float min / 60. + float sec / (60. * 60.)) * (if dir = "S" then -1. else 1.)
+        let lon = (float degLon + float minLon / 60. + float secLon / (60. * 60.)) * (if dirLon = "W" then -1. else 1.)
+        lat, lon
+    | FieldDataTypes.Geography.Area poly -> 
+        let lat = poly.Value |> List.map fst |> List.averageBy(fun v -> v.Value |> unwrap)
+        let lon = poly.Value |> List.map snd |> List.averageBy(fun v -> v.Value |> unwrap)
+        lat, lon
+    | _ -> nan, nan
+
 
 let run () = 
     result {
@@ -78,23 +96,24 @@ let run () =
                         | _ -> None
                     )
 
-                let sourceId, sourceName, year =
+                let sourceId, sourceName, year, authors, sourceType =
                     match source with
                     | Sources.Bibliographic meta ->
-                        (Some (fst node).AsString), (meta.Title |> Option.map(fun v -> v.Value)), meta.Year
-                    | Sources.GreyLiterature g -> None, Some g.Title.Value, None
-                    | Sources.DatabaseEntry d -> Some <| sprintf "%s - %s" d.DatabaseAbbreviation.Value d.UniqueIdentifierInDatabase.Value, d.Title |> Option.map(fun v -> v.Value), None
-                    | _ -> None, None, None
+                        (Some (fst node).AsString), (meta.Title |> Option.map(fun v -> v.Value)), meta.Year, meta.Author |> Option.map (fun o -> o.Value), "Bibliographic"
+                    | Sources.GreyLiterature g -> None, Some g.Title.Value, None, Some <| sprintf "%s., %s" g.Contact.LastName.Value g.Contact.FirstName.Value, "Grey literature"
+                    | Sources.DatabaseEntry d -> Some <| sprintf "%s - %s" d.DatabaseAbbreviation.Value d.UniqueIdentifierInDatabase.Value, d.Title |> Option.map(fun v -> v.Value), None, (d.Investigators |> List.map(fun p -> sprintf "%s., %s" p.LastName.Value p.FirstName.Value) |> String.concat ";" |> Some), "Database entry"
+                    | Sources.DarkData d -> None, Some d.Details.Value, None, Some <| sprintf "%s., %s" d.Contact.LastName.Value d.Contact.FirstName.Value, "Dark data"
+                    | _ -> None, None, None, None, "None"
                 temporalExtentIds
                 |> Storage.loadAtoms graph.Directory (typeof<Exposure.StudyTimeline.IndividualTimelineNode>.Name)
-                |> Result.lift(fun extents -> extents |> List.map(fun e -> sourceId, sourceName, year, e))
+                |> Result.lift(fun extents -> extents |> List.map(fun e -> sourceId, sourceName, year, authors, sourceType, e))
             ) |> Result.ofList
         
         // Attach spatial context information to each row
         let withSpatialContextAndOutcomes =
             temporalExtents
             |> List.collect id
-            |> List.map(fun (sId, sourceName, year, extent) ->
+            |> List.map(fun (sId, sourceName, year, authors, sourceType, extent) ->
 
                 // Get temporal extent values. Based on links that are always present.
                 let earliestExtent = 
@@ -250,21 +269,13 @@ let run () =
                             | _ -> Error "not a context node"
                         | _ -> Error "not a context node" )
                     |> Result.bind(fun context ->
-                        match context.SamplingLocation with
-                        | FieldDataTypes.Geography.Site (lat: FieldDataTypes.Geography.Latitude,lon) -> 
-                            // Multiply out for each biodiversity outcome record.
-                            biodiversityOutcomes
-                            |> Result.lift(fun ls ->
-                                ls |> List.map(fun (from, using, by, taxon, groups) ->
-                                    sId, sourceName, year, context.Name.Value, unwrap lat.Value, unwrap lon.Value, from, using, by, taxon, origin context.SampleOrigin, earliestExtent, latestExtent, groups |> forceOk |> String.concat ";"))
-                        | FieldDataTypes.Geography.Area poly ->
-                            let lat = poly.Value |> List.map fst |> List.averageBy(fun v -> v.Value |> unwrap)
-                            let lon = poly.Value |> List.map snd |> List.averageBy(fun v -> v.Value |> unwrap)
-                            biodiversityOutcomes
-                            |> Result.lift(fun ls ->
-                                ls |> List.map(fun (from, using, by, taxon, groups) ->
-                                    sId, sourceName, year, context.Name.Value, lat, lon, from, using, by, taxon, origin context.SampleOrigin , earliestExtent, latestExtent, groups |> forceOk |> String.concat ";"))
-                        | _ -> Ok [])
+                        let lat, lon = extractLatLon context.SamplingLocation
+                        // Multiply out for each biodiversity outcome record.
+                        biodiversityOutcomes
+                        |> Result.lift(fun ls ->
+                            ls |> List.map(fun (from, using, by, taxon, groups) ->
+                                sId, sourceName, year, authors, sourceType, context.Name.Value, lat, lon, from, using, by, taxon, origin context.SampleOrigin, earliestExtent, latestExtent, groups |> forceOk |> String.concat ";"))
+                    )
 
                 let includedSites =
                     spatialRelation
@@ -277,30 +288,17 @@ let run () =
                             | _ -> Error "not a context node"
                         | _ -> Error "not a context node" )
                     |> Result.bind(fun context ->
-                        match context.SamplingLocation with
-                        | FieldDataTypes.Geography.Site (lat: FieldDataTypes.Geography.Latitude,lon) -> 
-                            // Multiply out for each biodiversity outcome record.
-                            biodiversityOutcomes
-                            |> Result.lift(fun ls ->
-                                let from = ls |> List.choose(fun (from, using, by, taxa, groups) -> from) |> List.distinct |> String.concat ";"
-                                let using = ls |> List.choose(fun (from, using, by, taxa, groups) -> using) |> List.distinct |> String.concat ";"
-                                let by = ls |> List.choose(fun (from, using, by, taxa, groups) -> by) |> List.distinct |> String.concat ";"
-                                let taxa = ls |> List.map(fun (from, using, by, taxa, groups) -> taxa) |> List.distinct |> String.concat ";"
-                                [ sId, sourceName, year, context.Name.Value, unwrap lat.Value, unwrap lon.Value, Some from, Some using, Some by, taxa, origin context.SampleOrigin , earliestExtent, latestExtent, allProxyGroups |> forceOk ]
-                                )
-                        | FieldDataTypes.Geography.Area poly -> 
-                            let lat = poly.Value |> List.map fst |> List.averageBy(fun v -> v.Value |> unwrap)
-                            let lon = poly.Value |> List.map snd |> List.averageBy(fun v -> v.Value |> unwrap)
-                            // Multiply out for each biodiversity outcome record.
-                            biodiversityOutcomes
-                            |> Result.lift(fun ls ->
-                                let from = ls |> List.choose(fun (from, using, by, taxa, groups) -> from) |> List.distinct |> String.concat ";"
-                                let using = ls |> List.choose(fun (from, using, by, taxa, groups) -> using) |> List.distinct |> String.concat ";"
-                                let by = ls |> List.choose(fun (from, using, by, taxa, groups) -> by) |> List.distinct |> String.concat ";"
-                                let taxa = ls |> List.map(fun (from, using, by, taxa, groups) -> taxa) |> List.distinct |> String.concat ";"
-                                [ sId, sourceName, year, context.Name.Value, lat, lon, Some from, Some using, Some by, taxa, origin context.SampleOrigin , earliestExtent, latestExtent, allProxyGroups |> forceOk ]
-                                )
-                        | _ -> Ok [])
+                        let lat, lon = extractLatLon context.SamplingLocation
+                        // Multiply out for each biodiversity outcome record.
+                        biodiversityOutcomes
+                        |> Result.lift(fun ls ->
+                            let from = ls |> List.choose(fun (from, using, by, taxa, groups) -> from) |> List.distinct |> String.concat ";"
+                            let using = ls |> List.choose(fun (from, using, by, taxa, groups) -> using) |> List.distinct |> String.concat ";"
+                            let by = ls |> List.choose(fun (from, using, by, taxa, groups) -> by) |> List.distinct |> String.concat ";"
+                            let taxa = ls |> List.map(fun (from, using, by, taxa, groups) -> taxa) |> List.distinct |> String.concat ";"
+                            [ sId, sourceName, year, authors, sourceType, context.Name.Value, lat, lon, Some from, Some using, Some by, taxa, origin context.SampleOrigin , earliestExtent, latestExtent, allProxyGroups |> forceOk ]
+                            )
+                        )
 
                 (match individualRecords with | Ok i -> i | Error _ -> []),
                 (match includedSites with | Ok i -> i | Error e -> printfn "Error was %s" e; [])

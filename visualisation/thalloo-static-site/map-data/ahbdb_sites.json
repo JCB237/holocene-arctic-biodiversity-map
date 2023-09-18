@@ -23,6 +23,24 @@
     }],
     "Fields": [
         {
+            "Column": "proxy_category",
+            "Name": "Types of biotic proxy applied",
+            "DataType": "string",
+            "Description": "A broad label for the types of biotic proxies used to infer biodiversity change over time."
+        },
+        {
+            "Column": "source_authors",
+            "Name": "Authors / Investigators",
+            "DataType": "string",
+            "Description": "Persons involved with the production of the source."
+        },
+        {
+            "Column": "source_type",
+            "Name": "Nature of publication",
+            "DataType": "string",
+            "Description": "Indicates whether the source of the information is published or unpublished, and through which method."
+        },
+        {
             "Column": "inferred_as",
             "Name": "Taxon (inferred as)",
             "DataType": "string",
