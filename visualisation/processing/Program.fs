@@ -7,6 +7,12 @@ type IndividualMeasureCsv = CsvProvider<
     Sample = "source_id, source_title, source_year, source_authors, source_type, site_name, LatDD, LonDD, inferred_from, inferred_using, biodiversity_measure, inferred_as, sample_origin, earliest_extent, latest_extent, proxy_category",
     Schema = "source_id (string option), source_title (string option), source_year (int option), source_authors (string option), source_type (string), site_name (string), LatDD (float), LonDD (float), inferred_from (string option), inferred_using (string option), biodiversity_measure (string option), inferred_as (string), sample_origin (string), earliest_extent (int option), latest_extent (int option), proxy_category (string)", HasHeaders = true>
 
+type IndividualSiteCsv = CsvProvider<
+    Sample = "source_id, source_title, source_year, source_authors, source_type, site_name, LatDD, LonDD, inferred_from, inferred_using, biodiversity_measure, inferred_as, sample_origin, earliest_extent, latest_extent, proxy_category, variability_temp, variability_precip, max_temp, max_precip, min_temp, min_precip",
+    Schema = "source_id (string option), source_title (string option), source_year (int option), source_authors (string option), source_type (string), site_name (string), LatDD (float), LonDD (float), inferred_from (string option), inferred_using (string option), biodiversity_measure (string option), inferred_as (string), sample_origin (string), earliest_extent (int option), latest_extent (int option), proxy_category (string), variability_temp (float), variability_precip (float), max_temp (float), max_precip (float), min_temp (float), min_precip (float)", HasHeaders = true>
+
+type CryosphereData = CsvProvider<"../../src/cryo-db/cryo_db.csv">
+
 let unwrap (f:float<_>) = float f
 
 let origin = function
@@ -46,6 +52,11 @@ let extractLatLon sampleLocation =
 
 let run () = 
     result {
+
+        // NB FSharp.Data uses relative path from net6.0 folder
+        printfn "Loading cryospheric dataset"
+        let cryoDataset = CryosphereData.Load "../../../../../src/cryo-db/cryo_db.csv"
+
         printfn "Loading graph"
         let! graph = Storage.loadOrInitGraph "../../data/"
 
@@ -289,6 +300,25 @@ let run () =
                         | _ -> Error "not a context node" )
                     |> Result.bind(fun context ->
                         let lat, lon = extractLatLon context.SamplingLocation
+                        
+                        // Cryosphere database - link here
+                        let varTemp, varPrecip, maxTemp, maxPrecip, minTemp, minPrecip =
+                            if earliestExtent.IsSome && latestExtent.IsSome then
+                                let cryoData = 
+                                    cryoDataset.Rows |> Seq.filter(fun row ->
+                                        float row.LatDD = lat && float row.LonDD = lon )
+                                    |> Seq.filter(fun c -> 
+                                        float c.Year_kBP * 1000. <= float earliestExtent.Value && float c.Year_kBP * 1000. >= float latestExtent.Value)
+                                if cryoData |> Seq.isEmpty then nan, nan, nan, nan, nan, nan
+                                else
+                                    let temps = cryoData |> Seq.map(fun c -> float c.CHELSA_TraCE21k_temp)
+                                    let precips = cryoData |> Seq.map(fun c -> float c.CHELSA_TraCE21k_precip)
+                                    // Some valid cryosphere data exists for the time-series extent
+                                    abs ((temps |> Seq.max) - (temps |> Seq.min)),
+                                    abs ((precips |> Seq.max) - (precips |> Seq.min)),
+                                    temps |> Seq.max, precips |> Seq.max, temps |> Seq.min, precips |> Seq.min
+                            else nan, nan, nan, nan, nan, nan
+                        
                         // Multiply out for each biodiversity outcome record.
                         biodiversityOutcomes
                         |> Result.lift(fun ls ->
@@ -296,7 +326,7 @@ let run () =
                             let using = ls |> List.choose(fun (from, using, by, taxa, groups) -> using) |> List.distinct |> String.concat ";"
                             let by = ls |> List.choose(fun (from, using, by, taxa, groups) -> by) |> List.distinct |> String.concat ";"
                             let taxa = ls |> List.map(fun (from, using, by, taxa, groups) -> taxa) |> List.distinct |> String.concat ";"
-                            [ sId, sourceName, year, authors, sourceType, context.Name.Value, lat, lon, Some from, Some using, Some by, taxa, origin context.SampleOrigin , earliestExtent, latestExtent, allProxyGroups |> forceOk ]
+                            [ sId, sourceName, year, authors, sourceType, context.Name.Value, lat, lon, Some from, Some using, Some by, taxa, origin context.SampleOrigin , earliestExtent, latestExtent, allProxyGroups |> forceOk, varTemp, varPrecip, maxTemp, maxPrecip, minTemp, minPrecip ]
                             )
                         )
 
@@ -320,7 +350,7 @@ let run () =
             |> List.map snd
             |> List.concat
         printfn "Generated %i sites(s)" siteRecords.Length
-        let csv = new IndividualMeasureCsv (siteRecords |> List.map IndividualMeasureCsv.Row)
+        let csv = new IndividualSiteCsv (siteRecords |> List.map IndividualSiteCsv.Row)
         let csvStr = csv.SaveToString('\t')
         System.IO.File.WriteAllText("../thalloo-static-site/map-data/ahbdb_sites.txt", csvStr)
 

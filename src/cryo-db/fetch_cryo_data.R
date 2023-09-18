@@ -31,9 +31,12 @@ cat("done.\n")
 
 ## Load site coordinates from ahbddb.txt
 cat("Loading ahbdb coordinates...")
-ahbdb <- read_delim("../visualisation/thalloo-static-site/map-data/ahbdb.txt",
+ahbdb <- read_delim("../../visualisation/thalloo-static-site/map-data/ahbdb_sites.txt",
                     delim = "\t",
                     show_col_types = FALSE)
+
+ahbdb <- ahbdb[which(!is.na(ahbdb$LatDD) & !is.na(ahbdb$LonDD)),]
+
 # Parse and convert as vect
 ahbdb <- st_as_sf(ahbdb, 
                   coords = c("LonDD", "LatDD"), 
