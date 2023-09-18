@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Delwaide, A.; Payette, S."
-            },
-            "Title": {
-              "item": "Secular variations of the water level of the Riviere Boniface watershed (northern Quebec): a dendroecological analysis"
-            },
-            "Year": 1991,
-            "Volume": 45,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Delwaide, A.; Payette, S."
+              },
+              "Title": {
+                "item": "Secular variations of the water level of the Riviere Boniface watershed (northern Quebec): a dendroecological analysis"
+              },
+              "Year": 1991,
+              "Volume": 45,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "OtherExclusionReason",
+          {
+            "item": "French"
           }
-        }
+        ]
       }
     }
   ],
