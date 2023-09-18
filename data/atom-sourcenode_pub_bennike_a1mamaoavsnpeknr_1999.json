@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bennike, O.; Brunnberg, L.; Demidov, I.; Possnert, G.; Vyahirev, S.; Wohlfarth, B."
-            },
-            "Title": {
-              "item": "AMS 14C measurements and macrofossil analyses of a varved sequence near Pudozh, eastern Karelia, NW Russia"
-            },
-            "Year": 1999,
-            "Volume": 28,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bennike, O.; Brunnberg, L.; Demidov, I.; Possnert, G.; Vyahirev, S.; Wohlfarth, B."
+              },
+              "Title": {
+                "item": "AMS 14C measurements and macrofossil analyses of a varved sequence near Pudozh, eastern Karelia, NW Russia"
+              },
+              "Year": 1999,
+              "Volume": 28,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Study site is near Lake Onega in Finland"
           }
-        }
+        ]
       }
     }
   ],

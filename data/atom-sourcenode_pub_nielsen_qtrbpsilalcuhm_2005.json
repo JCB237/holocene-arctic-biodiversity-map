@@ -8,18 +8,24 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Nielsen, A. B."
-            },
-            "Title": {
-              "item": "Quantifying the relationship between pollen sediment-ation in lakes and land cover using historical maps"
-            },
-            "Year": 2005,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Nielsen, A. B."
+              },
+              "Title": {
+                "item": "Quantifying the relationship between pollen sediment-ation in lakes and land cover using historical maps"
+              },
+              "Year": 2005,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Samples from lakes in Denmark. Furthermore, no time series - modelled reconstruction based on secondary data not provided in paper."
           }
-        }
+        ]
       }
     }
   ],

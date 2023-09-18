@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Charman, D. J."
-            },
-            "Title": {
-              "item": "Testate amoebae and the fossil record: Issues in biodiversity"
-            },
-            "Year": 1999,
-            "Volume": 26,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Charman, D. J."
+              },
+              "Title": {
+                "item": "Testate amoebae and the fossil record: Issues in biodiversity"
+              },
+              "Year": 1999,
+              "Volume": 26,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "No included taxa present (study of testate amoebae)"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Manurung, A."
-            },
-            "Title": {
-              "item": "Ip25 and Brassicasterol: The Biomarker as Ice Proxy for the Sea Ice Covering in the Arctic Ocean"
-            },
-            "Year": 2016,
-            "Volume": 78,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Manurung, A."
+              },
+              "Title": {
+                "item": "Ip25 and Brassicasterol: The Biomarker as Ice Proxy for the Sea Ice Covering in the Arctic Ocean"
+              },
+              "Year": 2016,
+              "Volume": 78,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Molecular study of biochemical markers in Arctic sea ice"
           }
-        }
+        ]
       }
     }
   ],

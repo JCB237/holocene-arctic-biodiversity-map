@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Matthews Jr, J. V."
-            },
-            "Title": {
-              "item": "A method for comparison of northern fossil insect assemblages"
-            },
-            "Year": 1983,
-            "Volume": 37,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Matthews Jr, J. V."
+              },
+              "Title": {
+                "item": "A method for comparison of northern fossil insect assemblages"
+              },
+              "Year": 1983,
+              "Volume": 37,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Characterisation of insect assemblages from several sites; individual dates provided for different sites, but no time series (at least two dates) for any given site."
           }
-        }
+        ]
       }
     }
   ],

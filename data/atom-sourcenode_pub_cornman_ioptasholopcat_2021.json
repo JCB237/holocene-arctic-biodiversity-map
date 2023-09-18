@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Cornman, R. S.; Fuller, C.; Hoefke, K.; Jones, M. C.; Leewis, M. C.; Manies, K. L.; Waldrop, M. P."
-            },
-            "Title": {
-              "item": "Influence of Permafrost Type and Site History on Losses of Permafrost Carbon After Thaw"
-            },
-            "Year": 2021,
-            "Volume": 126,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Cornman, R. S.; Fuller, C.; Hoefke, K.; Jones, M. C.; Leewis, M. C.; Manies, K. L.; Waldrop, M. P."
+              },
+              "Title": {
+                "item": "Influence of Permafrost Type and Site History on Losses of Permafrost Carbon After Thaw"
+              },
+              "Year": 2021,
+              "Volume": 126,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Study site near Fairbanks, Alaska"
           }
-        }
+        ]
       }
     }
   ],

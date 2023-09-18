@@ -8,21 +8,85 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bennike, O.; Hedenas, L."
-            },
-            "Title": {
-              "item": "Early Holocene land floras and faunas from Edgeoya, eastern Svalbard"
-            },
-            "Year": 1995,
-            "Volume": 14,
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bennike, O.; Hedenas, L."
+              },
+              "Title": {
+                "item": "Early Holocene land floras and faunas from Edgeoya, eastern Svalbard"
+              },
+              "Year": 1995,
+              "Volume": 14,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_bennike_ehlfaffees_1995"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "91f7fceb-5feb-4c74-9ca6-9b7232b1516f"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_bennike_ehlfaffees_1995"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_möller_tqhovees_1997"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_bennike_ehlfaffees_1995"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_kronborg_lwtehsiasfsveesgdadas_1995"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

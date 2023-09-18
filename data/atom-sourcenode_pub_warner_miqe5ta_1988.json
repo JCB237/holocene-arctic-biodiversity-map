@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Warner, B. G."
-            },
-            "Title": {
-              "item": "Methods in Quaternary ecology 5. Testate amoebae (Protozoa)"
-            },
-            "Year": 1988,
-            "Volume": 15,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Warner, B. G."
+              },
+              "Title": {
+                "item": "Methods in Quaternary ecology 5. Testate amoebae (Protozoa)"
+              },
+              "Year": 1988,
+              "Volume": 15,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Only time series (and non-primary; summary from another paper) is in New Brunswick"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Grosse, G.; Hubberten, H. W.; Overduin, P. P.; Schirrmeister, L.; Schuur, E. A. G.; Strauss, J.; Wetterich, S."
-            },
-            "Title": {
-              "item": "Fossil organic matter characteristics in permafrost deposits of the northeast Siberian Arctic"
-            },
-            "Year": 2011,
-            "Volume": 116,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Grosse, G.; Hubberten, H. W.; Overduin, P. P.; Schirrmeister, L.; Schuur, E. A. G.; Strauss, J.; Wetterich, S."
+              },
+              "Title": {
+                "item": "Fossil organic matter characteristics in permafrost deposits of the northeast Siberian Arctic"
+              },
+              "Year": 2011,
+              "Volume": 116,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Refers to measures of organic carbon, but no discrete taxa. No timeline either, beyond general qualitative deep time periods."
           }
-        }
+        ]
       }
     }
   ],
