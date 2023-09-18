@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "McClymont, E. L.; Ronkainen, T.; Tuittila, E. S.; Valiranta, M."
-            },
-            "Title": {
-              "item": "Plant macrofossil and biomarker evidence of fen-bog transition and associated changes in vegetation in two Finnish peatlands"
-            },
-            "Year": 2014,
-            "Volume": 24,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "McClymont, E. L.; Ronkainen, T.; Tuittila, E. S.; Valiranta, M."
+              },
+              "Title": {
+                "item": "Plant macrofossil and biomarker evidence of fen-bog transition and associated changes in vegetation in two Finnish peatlands"
+              },
+              "Year": 2014,
+              "Volume": 24,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "not arctic"
           }
-        }
+        ]
       }
     }
   ],

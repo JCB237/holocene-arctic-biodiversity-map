@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Baker, J.; Clarke, C.; Edwards, M.; Franklin-Smith, L.; Gallagher, K.; Hill, S."
-            },
-            "Title": {
-              "item": "The role of fire in the mid-Holocene arrival and expansion of lodgepole pine (Pinus contorta var. latifolia Engelm. ex S. Watson) in Yukon, Canada"
-            },
-            "Year": 2015,
-            "Volume": 25,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Baker, J.; Clarke, C.; Edwards, M.; Franklin-Smith, L.; Gallagher, K.; Hill, S."
+              },
+              "Title": {
+                "item": "The role of fire in the mid-Holocene arrival and expansion of lodgepole pine (Pinus contorta var. latifolia Engelm. ex S. Watson) in Yukon, Canada"
+              },
+              "Year": 2015,
+              "Volume": 25,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "not arctic"
           }
-        }
+        ]
       }
     }
   ],

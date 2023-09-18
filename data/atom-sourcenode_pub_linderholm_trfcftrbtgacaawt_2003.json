@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Linderholm, H. W.; Lindholm, M.; Solberg, B. O."
-            },
-            "Title": {
-              "item": "Tree-ring records from central Fennoscandia: the relationship between tree growth and climate along a west-east transect"
-            },
-            "Year": 2003,
-            "Volume": 13,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Linderholm, H. W.; Lindholm, M.; Solberg, B. O."
+              },
+              "Title": {
+                "item": "Tree-ring records from central Fennoscandia: the relationship between tree growth and climate along a west-east transect"
+              },
+              "Year": 2003,
+              "Volume": 13,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "not arctic"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Dabakk, E.; Hall, R.; Nilsson, M.; Renberg, I.; Rosen, P."
-            },
-            "Title": {
-              "item": "Near-infrared spectrometry (NIRS): a new tool for inferring past climatic changes from lake sediments"
-            },
-            "Year": 2000,
-            "Volume": 10,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Dabakk, E.; Hall, R.; Nilsson, M.; Renberg, I.; Rosen, P."
+              },
+              "Title": {
+                "item": "Near-infrared spectrometry (NIRS): a new tool for inferring past climatic changes from lake sediments"
+              },
+              "Year": 2000,
+              "Volume": 10,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsExperimentalDesign",
+          {
+            "item": "testing new method"
           }
-        }
+        ]
       }
     }
   ],

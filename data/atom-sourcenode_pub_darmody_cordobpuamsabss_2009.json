@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Darmody, R. D.; Dixon, J. C.; Holmqvist, J.; Jull, A. J. T.; Schlyter, P.; Thorn, C. E."
-            },
-            "Title": {
-              "item": "Comparison of radiocarbon dating of buried paleosols using arbuscular mycorrhizae spores and bulk soil samples"
-            },
-            "Year": 2009,
-            "Volume": 19,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Darmody, R. D.; Dixon, J. C.; Holmqvist, J.; Jull, A. J. T.; Schlyter, P.; Thorn, C. E."
+              },
+              "Title": {
+                "item": "Comparison of radiocarbon dating of buried paleosols using arbuscular mycorrhizae spores and bulk soil samples"
+              },
+              "Year": 2009,
+              "Volume": 19,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "spores not ID'd"
           }
-        }
+        ]
       }
     }
   ],
