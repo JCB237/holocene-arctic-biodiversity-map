@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Begin, Y."
-            },
-            "Title": {
-              "item": "Ice-push disturbances in high-Boreal and Subarctic lakeshore ecosystems since AD 1830, northern Quebec, Canada"
-            },
-            "Year": 2000,
-            "Volume": 10,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Begin, Y."
+              },
+              "Title": {
+                "item": "Ice-push disturbances in high-Boreal and Subarctic lakeshore ecosystems since AD 1830, northern Quebec, Canada"
+              },
+              "Year": 2000,
+              "Volume": 10,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "no biota"
           }
-        }
+        ]
       }
     }
   ],

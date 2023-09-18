@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Lahtinen, M.; Oinonen, M.; Rowley-Conwy, P.; Tallavaara, M.; Walker, J. W. P."
-            },
-            "Title": {
-              "item": "The advance of cultivation at its northern European limit: Process or event?"
-            },
-            "Year": 2017,
-            "Volume": 27,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Lahtinen, M.; Oinonen, M.; Rowley-Conwy, P.; Tallavaara, M.; Walker, J. W. P."
+              },
+              "Title": {
+                "item": "The advance of cultivation at its northern European limit: Process or event?"
+              },
+              "Year": 2017,
+              "Volume": 27,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "not arctic"
           }
-        }
+        ]
       }
     }
   ],

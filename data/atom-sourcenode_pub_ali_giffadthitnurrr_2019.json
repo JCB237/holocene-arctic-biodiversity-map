@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Ali, A. A.; Alleaume, S.; Barhoumi, C.; Brossier, B.; Drobyshev, I.; Girardin, M. P.; Joannin, S.; Kryshen, A.; Paradis, L.; Pastor, T.; Peyron, O.; Subetto, D."
-            },
-            "Title": {
-              "item": "Gradually increasing forest fire activity during the Holocene in the northern Ural region (Komi Republic, Russia)"
-            },
-            "Year": 2019,
-            "Volume": 29,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Ali, A. A.; Alleaume, S.; Barhoumi, C.; Brossier, B.; Drobyshev, I.; Girardin, M. P.; Joannin, S.; Kryshen, A.; Paradis, L.; Pastor, T.; Peyron, O.; Subetto, D."
+              },
+              "Title": {
+                "item": "Gradually increasing forest fire activity during the Holocene in the northern Ural region (Komi Republic, Russia)"
+              },
+              "Year": 2019,
+              "Volume": 29,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "not arctic"
           }
-        }
+        ]
       }
     }
   ],

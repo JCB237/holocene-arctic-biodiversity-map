@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Dawson, A. G.; Emeis, K. C."
-            },
-            "Title": {
-              "item": "Holocene palaeoclimate records over Europe and the North Atlantic"
-            },
-            "Year": 2003,
-            "Volume": 13,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Dawson, A. G.; Emeis, K. C."
+              },
+              "Title": {
+                "item": "Holocene palaeoclimate records over Europe and the North Atlantic"
+              },
+              "Year": 2003,
+              "Volume": 13,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "editorial intro paper"
           }
-        }
+        ]
       }
     }
   ],

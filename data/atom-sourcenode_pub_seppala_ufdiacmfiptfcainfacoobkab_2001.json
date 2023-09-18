@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Seppala, M."
-            },
-            "Title": {
-              "item": "Unsatisfactory field data in a calibration model for inferring past temperatures from chironomid assemblages in northern Fennoscandia: a comment on Olander, Birks, Korhola and Blom"
-            },
-            "Year": 2001,
-            "Volume": 11,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Seppala, M."
+              },
+              "Title": {
+                "item": "Unsatisfactory field data in a calibration model for inferring past temperatures from chironomid assemblages in northern Fennoscandia: a comment on Olander, Birks, Korhola and Blom"
+              },
+              "Year": 2001,
+              "Volume": 11,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "OtherExclusionReason",
+          {
+            "item": "comment article"
           }
-        }
+        ]
       }
     }
   ],

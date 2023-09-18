@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Gunnarson, B. E.; Linderholm, H. W."
-            },
-            "Title": {
-              "item": "Low-frequency summer temperature variation in central Sweden since the tenth century inferred from tree rings"
-            },
-            "Year": 2002,
-            "Volume": 12,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Gunnarson, B. E.; Linderholm, H. W."
+              },
+              "Title": {
+                "item": "Low-frequency summer temperature variation in central Sweden since the tenth century inferred from tree rings"
+              },
+              "Year": 2002,
+              "Volume": 12,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "not arctic"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Blikra, L. H.; Selvik, S. F."
-            },
-            "Title": {
-              "item": "Climatic signals recorded in snow avalanche-dominated colluvium in western Norway: depositional facies successions and pollen records"
-            },
-            "Year": 1998,
-            "Volume": 8,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Blikra, L. H.; Selvik, S. F."
+              },
+              "Title": {
+                "item": "Climatic signals recorded in snow avalanche-dominated colluvium in western Norway: depositional facies successions and pollen records"
+              },
+              "Year": 1998,
+              "Volume": 8,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "not arctic"
           }
-        }
+        ]
       }
     }
   ],
