@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Fritz, M.; Lantuit, H.; Lenz, J.; Pollard, W. H.; Schirrmeister, L.; Wetterich, S.; Wooller, M. J."
-            },
-            "Title": {
-              "item": "Periglacial landscape dynamics in the western Canadian Arctic: Results from a thermokarst lake record on a push moraine (Herschel Island, Yukon Territory)"
-            },
-            "Year": 2013,
-            "Volume": 381,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Fritz, M.; Lantuit, H.; Lenz, J.; Pollard, W. H.; Schirrmeister, L.; Wetterich, S.; Wooller, M. J."
+              },
+              "Title": {
+                "item": "Periglacial landscape dynamics in the western Canadian Arctic: Results from a thermokarst lake record on a push moraine (Herschel Island, Yukon Territory)"
+              },
+              "Year": 2013,
+              "Volume": 381,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Geochemical analysis of lake sediments; no biota examined"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Amsinck, S. L.; Christoffersen, K. S.; Davidson, T. A.; Geertz-Hansen, P.; Jeppesen, E.; Landkildehus, F.; Lauridsen, T. L.; Riget, F.; Sondergaard, M."
-            },
-            "Title": {
-              "item": "The structuring role of fish in Greenland lakes: an overview based on contemporary and paleoecological studies of 87 lakes from the low and the high Arctic"
-            },
-            "Year": 2017,
-            "Volume": 800,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Amsinck, S. L.; Christoffersen, K. S.; Davidson, T. A.; Geertz-Hansen, P.; Jeppesen, E.; Landkildehus, F.; Lauridsen, T. L.; Riget, F.; Sondergaard, M."
+              },
+              "Title": {
+                "item": "The structuring role of fish in Greenland lakes: an overview based on contemporary and paleoecological studies of 87 lakes from the low and the high Arctic"
+              },
+              "Year": 2017,
+              "Volume": 800,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Contemporary biodiversity survey of Greenland lakes"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Dickman, M. D.; Jones, R.; Mott, R. J.; Ouellet, M."
-            },
-            "Title": {
-              "item": "Late Quaternary diatom and chemical profiles from a meromictic lake in Quebec, Canada"
-            },
-            "Year": 1984,
-            "Volume": 44,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Dickman, M. D.; Jones, R.; Mott, R. J.; Ouellet, M."
+              },
+              "Title": {
+                "item": "Late Quaternary diatom and chemical profiles from a meromictic lake in Quebec, Canada"
+              },
+              "Year": 1984,
+              "Volume": 44,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Study site is Pink Lake, near Ottawa, Canada"
           }
-        }
+        ]
       }
     }
   ],

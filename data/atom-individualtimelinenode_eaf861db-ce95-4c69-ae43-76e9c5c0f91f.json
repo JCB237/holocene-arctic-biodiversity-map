@@ -1,0 +1,134 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "eaf861db-ce95-4c69-ae43-76e9c5c0f91f"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "eaf861db-ce95-4c69-ae43-76e9c5c0f91f"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_diatom"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "eaf861db-ce95-4c69-ae43-76e9c5c0f91f"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "e8fe6340-ce18-4257-a581-2fbdc64d589e"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "eaf861db-ce95-4c69-ae43-76e9c5c0f91f"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "790ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatestUncertainty"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "eaf861db-ce95-4c69-ae43-76e9c5c0f91f"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "1330ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatestUncertainty"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "eaf861db-ce95-4c69-ae43-76e9c5c0f91f"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "1060ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "eaf861db-ce95-4c69-ae43-76e9c5c0f91f"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "qualitativelabeloutofscopenode",
+          "pre-holocene_by_global stratotype section and point"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentEarliestOutOfScope": {
+            "CalYrBP": [
+              12340.0,
+              null
+            ]
+          }
+        }
+      }
+    ]
+  ]
+]

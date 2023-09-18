@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bennett, B.; Boone, R. D.; Edwards, M.; Froese, D. G.; Parker, C.; Wooller, M. J.; Zazula, G. D."
-            },
-            "Title": {
-              "item": "Stable carbon isotope compositions of Eastern Beringian grasses and sedges: Investigating their potential as paleoenvironmental indicators"
-            },
-            "Year": 2007,
-            "Volume": 39,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bennett, B.; Boone, R. D.; Edwards, M.; Froese, D. G.; Parker, C.; Wooller, M. J.; Zazula, G. D."
+              },
+              "Title": {
+                "item": "Stable carbon isotope compositions of Eastern Beringian grasses and sedges: Investigating their potential as paleoenvironmental indicators"
+              },
+              "Year": 2007,
+              "Volume": 39,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Samples are museum specimens, else taken from several individual sites, each presenting only one date."
           }
-        }
+        ]
       }
     }
   ],

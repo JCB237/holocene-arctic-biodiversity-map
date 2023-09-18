@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Perren, B. B.; Wolfe, A. P."
-            },
-            "Title": {
-              "item": "Chrysophyte microfossils record marked responses to recent environmental changes in high- and mid-Arctic lakes"
-            },
-            "Year": 2001,
-            "Volume": 79,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Perren, B. B.; Wolfe, A. P."
+              },
+              "Title": {
+                "item": "Chrysophyte microfossils record marked responses to recent environmental changes in high- and mid-Arctic lakes"
+              },
+              "Year": 2001,
+              "Volume": 79,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Taxa studied (Chrysophytes) aren't included in eligibility criteria"
           }
-        }
+        ]
       }
     }
   ],

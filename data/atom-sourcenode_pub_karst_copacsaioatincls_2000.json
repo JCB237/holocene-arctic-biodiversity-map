@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Karst, T.; Pisaric, M. F. J.; Smol, J. P.; Szeicz, J. M."
-            },
-            "Title": {
-              "item": "Comparison of pollen and conifer stomates as indicators of alpine treeline in northwestern Canadian lake sediments"
-            },
-            "Year": 2000,
-            "Volume": 78,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Karst, T.; Pisaric, M. F. J.; Smol, J. P.; Szeicz, J. M."
+              },
+              "Title": {
+                "item": "Comparison of pollen and conifer stomates as indicators of alpine treeline in northwestern Canadian lake sediments"
+              },
+              "Year": 2000,
+              "Volume": 78,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Comparison of contemporary pollen assemblages from 20 lakes; sediments taken, but not dated nor any time series from a single location presented."
           }
-        }
+        ]
       }
     }
   ],

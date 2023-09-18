@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bobrovsky, M. V.; Khanina, L. G.; Kupriaynov, D. A."
-            },
-            "Title": {
-              "item": "Anthracological and morphological analysis of soils for the reconstruction of the forest ecosystem history (Meshchera Lowlands, Russia)"
-            },
-            "Year": 2019,
-            "Volume": 516,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bobrovsky, M. V.; Khanina, L. G.; Kupriaynov, D. A."
+              },
+              "Title": {
+                "item": "Anthracological and morphological analysis of soils for the reconstruction of the forest ecosystem history (Meshchera Lowlands, Russia)"
+              },
+              "Year": 2019,
+              "Volume": 516,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Study sites in Meshchera Lowlands, South-East of Moscow."
           }
-        }
+        ]
       }
     }
   ],
