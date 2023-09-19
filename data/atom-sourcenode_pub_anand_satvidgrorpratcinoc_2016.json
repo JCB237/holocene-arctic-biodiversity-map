@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Anand, M.; Ashiq, M. W."
-            },
-            "Title": {
-              "item": "Spatial and temporal variability in dendroclimatic growth response of red pine (Pinus resinosa Ait.) to climate in northern Ontario, Canada"
-            },
-            "Year": 2016,
-            "Volume": 372,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Anand, M.; Ashiq, M. W."
+              },
+              "Title": {
+                "item": "Spatial and temporal variability in dendroclimatic growth response of red pine (Pinus resinosa Ait.) to climate in northern Ontario, Canada"
+              },
+              "Year": 2016,
+              "Volume": 372,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Southern Ontario"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "D'Arrigo, R.; Villalba, R.; Wiles, G."
-            },
-            "Title": {
-              "item": "Tree-ring estimates of Pacific decadal climate variability"
-            },
-            "Year": 2001,
-            "Volume": 18,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "D'Arrigo, R.; Villalba, R.; Wiles, G."
+              },
+              "Title": {
+                "item": "Tree-ring estimates of Pacific decadal climate variability"
+              },
+              "Year": 2001,
+              "Volume": 18,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "South-east Alaska"
           }
-        }
+        ]
       }
     }
   ],

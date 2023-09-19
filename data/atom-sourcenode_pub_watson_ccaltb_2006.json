@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Watson, P."
-            },
-            "Title": {
-              "item": "Climate change and low temperature bioscience"
-            },
-            "Year": 2006,
-            "Volume": 27,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Watson, P."
+              },
+              "Title": {
+                "item": "Climate change and low temperature bioscience"
+              },
+              "Year": 2006,
+              "Volume": 27,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "A letter with no references or data"
           }
-        }
+        ]
       }
     }
   ],

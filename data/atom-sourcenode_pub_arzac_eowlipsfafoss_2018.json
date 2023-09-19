@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Arzac, A.; Babushkina, E. A.; Fonti, P.; Slobodchikova, V.; Sviderskaya, I. V.; Vaganov, E. A."
-            },
-            "Title": {
-              "item": "Evidences of wider latewood in Pinus sylvestris from a forest-steppe of Southern Siberia"
-            },
-            "Year": 2018,
-            "Volume": 49,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Arzac, A.; Babushkina, E. A.; Fonti, P.; Slobodchikova, V.; Sviderskaya, I. V.; Vaganov, E. A."
+              },
+              "Title": {
+                "item": "Evidences of wider latewood in Pinus sylvestris from a forest-steppe of Southern Siberia"
+              },
+              "Year": 2018,
+              "Volume": 49,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "53°43′N, 91°47′E"
           }
-        }
+        ]
       }
     }
   ],

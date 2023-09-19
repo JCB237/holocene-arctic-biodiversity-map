@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Au, R.; Tardif, J. C."
-            },
-            "Title": {
-              "item": "Drought signals inferred from ring-width and stable carbon isotope chronologies from Thuja occidentalis trees growing at their northwestern distribution limit, central Canada"
-            },
-            "Year": 2012,
-            "Volume": 42,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Au, R.; Tardif, J. C."
+              },
+              "Title": {
+                "item": "Drought signals inferred from ring-width and stable carbon isotope chronologies from Thuja occidentalis trees growing at their northwestern distribution limit, central Canada"
+              },
+              "Year": 2012,
+              "Volume": 42,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Near Lake Winnipeg"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Alam, S. A.; Chen, L.; Comeau, P. G.; Dawson, A.; Huang, J.; Stadt, K. J.; Zhai, L."
-            },
-            "Title": {
-              "item": "Drought explains variation in the radial growth of white spruce in western Canada"
-            },
-            "Year": 2017,
-            "Volume": 233,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Alam, S. A.; Chen, L.; Comeau, P. G.; Dawson, A.; Huang, J.; Stadt, K. J.; Zhai, L."
+              },
+              "Title": {
+                "item": "Drought explains variation in the radial growth of white spruce in western Canada"
+              },
+              "Year": 2017,
+              "Volume": 233,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "58N, 116W"
           }
-        }
+        ]
       }
     }
   ],

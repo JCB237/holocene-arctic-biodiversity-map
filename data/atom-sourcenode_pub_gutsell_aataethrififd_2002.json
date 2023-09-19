@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Gutsell, S. L.; Johnson, E. A."
-            },
-            "Title": {
-              "item": "Accurately ageing trees and examining their height-growth rates: Implications for interpreting forest dynamics"
-            },
-            "Year": 2002,
-            "Volume": 90,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Gutsell, S. L.; Johnson, E. A."
+              },
+              "Title": {
+                "item": "Accurately ageing trees and examining their height-growth rates: Implications for interpreting forest dynamics"
+              },
+              "Year": 2002,
+              "Volume": 90,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "54.400000, -107.866667"
           }
-        }
+        ]
       }
     }
   ],

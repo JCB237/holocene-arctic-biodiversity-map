@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kullman, L."
-            },
-            "Title": {
-              "item": "Rise and demise of cold-climate Picea abies forest in Sweden"
-            },
-            "Year": 1996,
-            "Volume": 134,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kullman, L."
+              },
+              "Title": {
+                "item": "Rise and demise of cold-climate Picea abies forest in Sweden"
+              },
+              "Year": 1996,
+              "Volume": 134,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Site at 63.250000, 12.433333"
           }
-        }
+        ]
       }
     }
   ],

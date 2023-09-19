@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bradshaw, R. H. W.; Giesecke, T.; Miller, P. A.; Ojala, A. E. K.; Seppa, H.; Sykes, M. T."
-            },
-            "Title": {
-              "item": "The effect of past changes in inter-annual temperature variability on tree distribution limits"
-            },
-            "Year": 2010,
-            "Volume": 37,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bradshaw, R. H. W.; Giesecke, T.; Miller, P. A.; Ojala, A. E. K.; Seppa, H.; Sykes, M. T."
+              },
+              "Title": {
+                "item": "The effect of past changes in inter-annual temperature variability on tree distribution limits"
+              },
+              "Year": 2010,
+              "Volume": 37,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Southern Sweden and Finland"
           }
-        }
+        ]
       }
     }
   ],

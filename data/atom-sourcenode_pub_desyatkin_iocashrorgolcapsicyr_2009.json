@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Desyatkin, A. R.; Fedorov, P. P.; Nikolaev, A. N."
-            },
-            "Title": {
-              "item": "Influence of climate and soil hydrothermal regime on radial growth of Larix cajanderi and Pinus sylvestris in Central Yakutia, Russia"
-            },
-            "Year": 2009,
-            "Volume": 24,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Desyatkin, A. R.; Fedorov, P. P.; Nikolaev, A. N."
+              },
+              "Title": {
+                "item": "Influence of climate and soil hydrothermal regime on radial growth of Larix cajanderi and Pinus sylvestris in Central Yakutia, Russia"
+              },
+              "Year": 2009,
+              "Volume": 24,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Located at 62.133333, 130.516667 and another close site"
           }
-        }
+        ]
       }
     }
   ],

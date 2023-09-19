@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Linderholm, H. W."
-            },
-            "Title": {
-              "item": "Twentieth-century Scots pine growth variations in the central Scandinavian Mountains related to climate change"
-            },
-            "Year": 2002,
-            "Volume": 34,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Linderholm, H. W."
+              },
+              "Title": {
+                "item": "Twentieth-century Scots pine growth variations in the central Scandinavian Mountains related to climate change"
+              },
+              "Year": 2002,
+              "Volume": 34,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "South of Duved, Sweden"
           }
-        }
+        ]
       }
     }
   ],

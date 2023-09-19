@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kullman, L."
-            },
-            "Title": {
-              "item": "Late Holocene Reproductional Patterns of Pinus-Sylvestris and Picea-Abies at the Forest Limit in Central Sweden"
-            },
-            "Year": 1986,
-            "Volume": 64,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kullman, L."
+              },
+              "Title": {
+                "item": "Late Holocene Reproductional Patterns of Pinus-Sylvestris and Picea-Abies at the Forest Limit in Central Sweden"
+              },
+              "Year": 1986,
+              "Volume": 64,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "~63N"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Green, D. S.; Griesbauer, H. P."
-            },
-            "Title": {
-              "item": "Regional and ecological patterns in interior Douglas-fir climate-growth relationships in British Columbia, Canada"
-            },
-            "Year": 2010,
-            "Volume": 40,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Green, D. S.; Griesbauer, H. P."
+              },
+              "Title": {
+                "item": "Regional and ecological patterns in interior Douglas-fir climate-growth relationships in British Columbia, Canada"
+              },
+              "Year": 2010,
+              "Volume": 40,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Southern and Central British Columbia"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Luckman, B. H.; Watson, E."
-            },
-            "Title": {
-              "item": "An investigation of the snowpack signal in moisture-sensitive trees from the Southern Canadian Cordillera"
-            },
-            "Year": 2016,
-            "Volume": 38,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Luckman, B. H.; Watson, E."
+              },
+              "Title": {
+                "item": "An investigation of the snowpack signal in moisture-sensitive trees from the Southern Canadian Cordillera"
+              },
+              "Year": 2016,
+              "Volume": 38,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Southern BC"
           }
-        }
+        ]
       }
     }
   ],
