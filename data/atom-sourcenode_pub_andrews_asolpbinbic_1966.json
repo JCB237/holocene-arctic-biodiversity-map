@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Andrews, J. T.; Terasmae, J.; Webber, P. J."
-            },
-            "Title": {
-              "item": "A study of late-Quaternary plant-bearing beds in north-central Baffin Island, Canada"
-            },
-            "Year": 1966,
-            "Volume": 19,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Andrews, J. T.; Terasmae, J.; Webber, P. J."
+              },
+              "Title": {
+                "item": "A study of late-Quaternary plant-bearing beds in north-central Baffin Island, Canada"
+              },
+              "Year": 1966,
+              "Volume": 19,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "pre-Holocene"
           }
-        }
+        ]
       }
     }
   ],
