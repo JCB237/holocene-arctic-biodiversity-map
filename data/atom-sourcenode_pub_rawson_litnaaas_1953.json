@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Rawson, D. S."
-            },
-            "Title": {
-              "item": "Limnology in the North American Arctic and Subarctic"
-            },
-            "Year": 1953,
-            "Volume": 6,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Rawson, D. S."
+              },
+              "Title": {
+                "item": "Limnology in the North American Arctic and Subarctic"
+              },
+              "Year": 1953,
+              "Volume": 6,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "review paper"
           }
-        }
+        ]
       }
     }
   ],
