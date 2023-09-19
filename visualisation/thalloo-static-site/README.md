@@ -1,2 +1,3 @@
-# thalloo-starter
-A forkable template for creating a Thalloo mapping static site
+# thalloo maps for holocene arctic biodiversity database
+
+A static github pages website based on the thalloo mapping template from andrewiom/thalloo-starter .
