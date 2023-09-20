@@ -72,20 +72,6 @@
             "Description": "The parent material from which the biodiversity measure was observed."
         },
         {
-            "Column": ["min_temp", "max_temp"],
-            "Name": "Air Temperature",
-            "DataType": "float",
-            "Unit": "degrees Celsuis",
-            "Description": "The temperature at any point in the time-series, as given by CHELSA. CHELSA data is at 100-year temporal resolution."
-        },
-        {
-            "Column": ["min_precip", "max_precip"],
-            "Name": "Precipitation Sum",
-            "DataType": "float",
-            "Unit": "millimetres",
-            "Description": "The precipitation sum at any point in the time-series, as given by CHELSA. CHELSA data is at 100-year temporal resolution."
-        },
-        {
             "Column": ["latest_extent", "earliest_extent"],
             "Name": "Temporal Extent of Biodiversity Time-Series",
             "DataType": "float",
@@ -93,17 +79,45 @@
             "Description": "The temporal extent (range) of each biodiversity time-series in the AHBDB. Dates are as reported by the authors / sources on a common cal yr BP timescale."
         },
         {
+            "Column": ["min_temp", "max_temp"],
+            "Name": "Air Temperature",
+            "DataType": "float",
+            "Unit": "°C",
+            "Description": "The temperature at any point in the time-series, as given by CHELSA. CHELSA data is at 100-year temporal resolution."
+        },
+        {
+            "Column": ["min_precip", "max_precip"],
+            "Name": "Annual Precipitation Sum",
+            "DataType": "float",
+            "Unit": "kg m-2 year-1",
+            "Description": "The annual precipitation sum at any point in the time-series, as modelled by CHELSA. CHELSA data is at 100-year temporal resolution."
+        },
+        {
+            "Column": ["dist_to_land_ice_min", "dist_to_land_ice_max"],
+            "Name": "Distance to ice (on land)",
+            "DataType": "float",
+            "Unit": "kilometres",
+            "Description": "The range of distances between the biodiversity time-series' location and the nearest ice on land during its existence, as modelled by CHELSA. CHELSA data is at 100-year temporal resolution."
+        },
+        {
+            "Column": "elevation_change",
+            "Name": "Elevation change over temporal extent",
+            "DataType": "float",
+            "Unit": "metres",
+            "Description": "Given a biodiversity time-series, the change in elevation between the start time and end time (as modelled by CHELSA). CHELSA data is at 100-year temporal resolution."
+        },
+        {
             "Column": "variability_temp",
             "Name": "Temperature Variability",
             "DataType": "float",
-            "Unit": "degrees Celsuis",
+            "Unit": "°C",
             "Description": "The difference between the maximum and minimum temperature during the time series"
         },
         {
             "Column": "variability_precip",
-            "Name": "Precipitation Sum Variability",
+            "Name": "Annual Precipitation Sum Variability",
             "DataType": "float",
-            "Unit": "millimetres",
+            "Unit": "kg m-2 year-1",
             "Description": "The difference between the maximum and minimum precipitation sum during the time series"
         },
         {
@@ -111,7 +125,7 @@
             "Name": "Publication Year",
             "DataType": "float",
             "Unit": "years",
-            "Description": "The year in which the source was published"
+            "Description": "The year in which the source was published. Note: only displays published sources."
         }
     ],
     "DataPalettes": [{
