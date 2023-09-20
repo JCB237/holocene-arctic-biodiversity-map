@@ -72,60 +72,39 @@
             "Description": "The parent material from which the biodiversity measure was observed."
         },
         {
-            "Column": "earliest_extent",
-            "Name": "Temporal extent - earliest date",
+            "Column": ["min_temp", "max_temp"],
+            "Name": "Air Temperature",
             "DataType": "float",
-            "Unit": "cal years BP",
-            "Description": "The earliest (i.e. oldest) date in the time-series"
+            "Unit": "degrees Celsuis",
+            "Description": "The temperature at any point in the time-series, as given by CHELSA. CHELSA data is at 100-year temporal resolution."
         },
         {
-            "Column": "latest_extent",
-            "Name": "Temporal extent - latest date",
+            "Column": ["min_precip", "max_precip"],
+            "Name": "Precipitation Sum",
+            "DataType": "float",
+            "Unit": "millimetres",
+            "Description": "The precipitation sum at any point in the time-series, as given by CHELSA. CHELSA data is at 100-year temporal resolution."
+        },
+        {
+            "Column": ["latest_extent", "earliest_extent"],
+            "Name": "Temporal Extent of Biodiversity Time-Series",
             "DataType": "float",
             "Unit": "cal years BP",
-            "Description": "The latest (most recent) date in the time-series"
+            "Description": "The temporal extent (range) of each biodiversity time-series in the AHBDB. Dates are as reported by the authors / sources on a common cal yr BP timescale."
         },
         {
             "Column": "variability_temp",
-            "Name": "Temperature Range",
+            "Name": "Temperature Variability",
             "DataType": "float",
             "Unit": "degrees Celsuis",
             "Description": "The difference between the maximum and minimum temperature during the time series"
         },
         {
             "Column": "variability_precip",
-            "Name": "Precipitation Sum Range",
+            "Name": "Precipitation Sum Variability",
             "DataType": "float",
             "Unit": "millimetres",
             "Description": "The difference between the maximum and minimum precipitation sum during the time series"
-        },
-        {
-            "Column": "max_temp",
-            "Name": "Temperature - maximum",
-            "DataType": "float",
-            "Unit": "degrees Celsuis",
-            "Description": "The maximum temperature at any point in the time-series, as given by CHELSA"
-        },
-        {
-            "Column": "min_temp",
-            "Name": "Temperature - minimum",
-            "DataType": "float",
-            "Unit": "degrees Celsuis",
-            "Description": "The minimum temperature at any point in the time-series, as given by CHELSA"
-        },
-        {
-            "Column": "max_precip",
-            "Name": "Precipitation sum - maximum",
-            "DataType": "float",
-            "Unit": "millimetres",
-            "Description": "The maximum precipitation sum at any point in the time-series, as given by CHELSA"
-        },
-        {
-            "Column": "min_precip",
-            "Name": "Precipitation sum - minimum",
-            "DataType": "float",
-            "Unit": "millimetres",
-            "Description": "The minimum precipitation sum at any point in the time-series, as given by CHELSA"
         },
         {
             "Column": "source_year",
