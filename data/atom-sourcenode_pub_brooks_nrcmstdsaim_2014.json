@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Brooks, S. J.; Diekmann, B.; Herzschuh, U.; Nazarova, L.; Self, A. E.; van Hardenbroek, M."
-            },
-            "Title": {
-              "item": "Northern Russian chironomid-based modern summer temperature data set and inference models"
-            },
-            "Year": 2014,
-            "Volume": 134,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Brooks, S. J.; Diekmann, B.; Herzschuh, U.; Nazarova, L.; Self, A. E.; van Hardenbroek, M."
+              },
+              "Title": {
+                "item": "Northern Russian chironomid-based modern summer temperature data set and inference models"
+              },
+              "Year": 2014,
+              "Volume": 134,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "N/A"
           }
-        }
+        ]
       }
     }
   ],
