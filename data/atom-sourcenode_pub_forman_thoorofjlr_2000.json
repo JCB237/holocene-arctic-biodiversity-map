@@ -8,21 +8,43 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Forman, S. L.; Lubinski, D.; Weihe, R. R."
-            },
-            "Title": {
-              "item": "The Holocene occurrence of reindeer on Franz Josef Land, Russia"
-            },
-            "Year": 2000,
-            "Volume": 10,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Forman, S. L.; Lubinski, D.; Weihe, R. R."
+              },
+              "Title": {
+                "item": "The Holocene occurrence of reindeer on Franz Josef Land, Russia"
+              },
+              "Year": 2000,
+              "Volume": 10,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedAll"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_forman_thoorofjlr_2000"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "81fd2da6-ba15-4651-b0fb-adbe3c559808"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

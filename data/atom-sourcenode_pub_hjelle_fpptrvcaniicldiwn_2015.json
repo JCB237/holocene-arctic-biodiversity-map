@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hjelle, K. L.; Mehl, I. K."
-            },
-            "Title": {
-              "item": "From pollen percentage to regional vegetation cover - A new insight into cultural landscape development in western Norway"
-            },
-            "Year": 2015,
-            "Volume": 217,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hjelle, K. L.; Mehl, I. K."
+              },
+              "Title": {
+                "item": "From pollen percentage to regional vegetation cover - A new insight into cultural landscape development in western Norway"
+              },
+              "Year": 2015,
+              "Volume": 217,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Not in arctic"
           }
-        }
+        ]
       }
     }
   ],

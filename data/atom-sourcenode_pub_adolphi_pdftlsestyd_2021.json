@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Adolphi, F.; Buntgen, U.; Cherubini, P.; Engels, S.; Esper, J.; Guidobaldi, G.; Joris, O.; Land, A.; Lane, C.; Nievergelt, D.; Oppenheimer, C.; Pfanz, H.; Reinig, F.; Remmele, S.; Sigl, M.; Sookdeo, A.; Wacker, L."
-            },
-            "Title": {
-              "item": "Precise date for the Laacher See eruption synchronizes the Younger Dryas"
-            },
-            "Year": 2021,
-            "Volume": 595,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Adolphi, F.; Buntgen, U.; Cherubini, P.; Engels, S.; Esper, J.; Guidobaldi, G.; Joris, O.; Land, A.; Lane, C.; Nievergelt, D.; Oppenheimer, C.; Pfanz, H.; Reinig, F.; Remmele, S.; Sigl, M.; Sookdeo, A.; Wacker, L."
+              },
+              "Title": {
+                "item": "Precise date for the Laacher See eruption synchronizes the Younger Dryas"
+              },
+              "Year": 2021,
+              "Volume": 595,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Focus Younger Dryas"
           }
-        }
+        ]
       }
     }
   ],
