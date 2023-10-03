@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Elliott, D. L.; Short, S. K."
-            },
-            "Title": {
-              "item": "The Northern Limit of Trees in Labrador Canada a Discussion"
-            },
-            "Year": 1979,
-            "Volume": 32,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Elliott, D. L.; Short, S. K."
+              },
+              "Title": {
+                "item": "The Northern Limit of Trees in Labrador Canada a Discussion"
+              },
+              "Year": 1979,
+              "Volume": 32,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "based on human records"
           }
-        }
+        ]
       }
     }
   ],

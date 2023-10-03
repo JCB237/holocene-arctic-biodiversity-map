@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Jacobs, J. D.; Sabo, G., III"
-            },
-            "Title": {
-              "item": "Aspects of Thule Culture Adaptations in Southern Baffin Island Canada"
-            },
-            "Year": 1980,
-            "Volume": 33,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Jacobs, J. D.; Sabo, G., III"
+              },
+              "Title": {
+                "item": "Aspects of Thule Culture Adaptations in Southern Baffin Island Canada"
+              },
+              "Year": 1980,
+              "Volume": 33,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "not a time series"
           }
-        }
+        ]
       }
     }
   ],

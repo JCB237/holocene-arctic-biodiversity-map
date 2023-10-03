@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Yesner, D. R."
-            },
-            "Title": {
-              "item": "Moose Hunters of the Boreal Forest a Re-Examination of Subsistence Patterns in the Western Subarctic"
-            },
-            "Year": 1989,
-            "Volume": 42,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Yesner, D. R."
+              },
+              "Title": {
+                "item": "Moose Hunters of the Boreal Forest a Re-Examination of Subsistence Patterns in the Western Subarctic"
+              },
+              "Year": 1989,
+              "Volume": 42,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "not time series"
           }
-        }
+        ]
       }
     }
   ],

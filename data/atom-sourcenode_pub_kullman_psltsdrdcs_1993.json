@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kullman, L."
-            },
-            "Title": {
-              "item": "Pine (Pinus sylvestris L.) tree-limit surveillance during recent decades, central Sweden"
-            },
-            "Year": 1993,
-            "Volume": 25,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kullman, L."
+              },
+              "Title": {
+                "item": "Pine (Pinus sylvestris L.) tree-limit surveillance during recent decades, central Sweden"
+              },
+              "Year": 1993,
+              "Volume": 25,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "not arctic"
           }
-        }
+        ]
       }
     }
   ],
