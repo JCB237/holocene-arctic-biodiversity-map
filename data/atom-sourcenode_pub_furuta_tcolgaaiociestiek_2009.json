@@ -22,10 +22,59 @@
               "DataAvailability": "NotAttachedToSource"
             }
           },
-          "CompletedNone"
+          "CompletedAll"
         ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_furuta_tcolgaaiociestiek_2009"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "2b067f55-0d48-4815-a86e-4c56bc731d87"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_furuta_tcolgaaiociestiek_2009"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "database_itrdb"
+        ]
+      },
+      1,
+      {
+        "Source": {
+          "UsedDatabase": [
+            null,
+            {
+              "SpecificRecords": [
+                {
+                  "item": "RUSS014"
+                },
+                []
+              ]
+            }
+          ]
+        }
+      }
+    ]
+  ]
 ]

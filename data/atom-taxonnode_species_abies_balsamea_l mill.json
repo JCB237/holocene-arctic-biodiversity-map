@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_abies_balsamea_l mill"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Abies"
+            },
+            {
+              "item": "balsamea"
+            },
+            {
+              "item": "(L.) Mill."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_abies_balsamea_l mill"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_abies"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]
