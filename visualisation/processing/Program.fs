@@ -78,6 +78,46 @@ let crawlTaxonomicTree relations (graph:Storage.FileBasedGraph<'a,'b>) =
         | None -> Ok atoms
     crawl relations []
 
+module UnifiedTaxonomy =
+
+    type PlantNameCache = CsvProvider<
+        Sample = "taxon_id, family, genus, species, auth",
+        Schema = "taxon_id (string), family (string), genus (string), species (string), auth (string)">
+
+    let taxonRank t =
+        match t with
+        | Population.Taxonomy.Family _ -> "Family"
+        | Population.Taxonomy.Genus _ -> "Genus"
+        | Population.Taxonomy.Species _ -> "Species"
+        | _ -> "Not supported"
+
+    /// Attempts to lookup the current name using the taxonomic backbone directly, rather than
+    /// relations within the graph database. Uses a cache file to reduce http requests.
+    let tryLookupWithCache taxonId taxonNode family genus species auth =
+        let rank = taxonRank taxonNode
+        if rank = "Not supported" then None
+        else 
+            // 1. Use value from cache if it exists
+            let cache = PlantNameCache.Load "../../../plant-name-cache.csv"
+            match cache.Rows |> Seq.tryFind(fun r -> r.Taxon_id = taxonId) with
+            | Some cached -> Some (cached.Family, cached.Genus, sprintf "%s %s" cached.Species cached.Auth)
+            | None ->
+                let result = TaxonomicBackbone.GlobalPollenProject.lookup rank family genus species auth
+                match result with
+                | Error e -> 
+                    printfn "Taxonomic backbone returned an error: %s" e
+                    None
+                | Ok r ->
+                    let accepted = 
+                        if r.Length = 1 && r.[0].TaxonomicStatus = "accepted" 
+                        then Some r.[0]
+                        else if r.Length = 0 then None
+                        else r |> Seq.tryFind(fun r -> r.TaxonomicStatus = "accepted")
+                    accepted
+                    |> Option.bind(fun accepted ->
+                        cache.Append([PlantNameCache.Row(taxonId, accepted.Family, accepted.Genus, accepted.Species, accepted.NamedBy)]).Save("plant-name-cache.csv")
+                        Some (accepted.Family, accepted.Genus, sprintf "%s %s" accepted.Species accepted.NamedBy))
+
 
 let run () = 
     result {
@@ -269,6 +309,11 @@ let run () =
                                 | Some s -> s :: list |> List.distinct
                                 | None -> list
 
+                            let optToStr s = 
+                                match s with
+                                | Some s -> s
+                                | None -> ""
+
                             // Inferred as is any rank. Move up tree
                             let kingdoms, families, genera, species = 
                                 inferredAs |> Result.bind(fun manyTaxa -> 
@@ -280,8 +325,14 @@ let run () =
                                                 let kingdom = allTaxa |> Seq.tryPick(fun x -> match snd x with | Population.Taxonomy.Kingdom k -> Some k.Value | _ -> None)
                                                 let family = allTaxa |> Seq.tryPick(fun x -> match snd x with | Population.Taxonomy.Family f -> Some f.Value | _ -> None)
                                                 let genus = allTaxa |> Seq.tryPick(fun x -> match snd x with | Population.Taxonomy.Genus g -> Some g.Value | _ -> None)
-                                                let species = allTaxa |> Seq.tryPick(fun x -> match snd x with | Population.Taxonomy.Species (g,s,a) -> Some (sprintf "%s %s %s" g.Value s.Value a.Value) | _ -> None)
-                                                kingdom, family, genus, species )
+                                                let speciesFull = allTaxa |> Seq.tryPick(fun x -> match snd x with | Population.Taxonomy.Species (g,s,a) -> Some (sprintf "%s %s %s" g.Value s.Value a.Value) | _ -> None)
+                                                let species = allTaxa |> Seq.tryPick(fun x -> match snd x with | Population.Taxonomy.Species (g,s,a) -> Some s.Value | _ -> None)
+                                                let auth = allTaxa |> Seq.tryPick(fun x -> match snd x with | Population.Taxonomy.Species (g,s,a) -> Some a.Value | _ -> None)
+                                                
+                                                // Run through backbone to harmonise taxon names
+                                                match UnifiedTaxonomy.tryLookupWithCache (atom |> fst |> fst).AsString (snd t) (optToStr family) (optToStr genus) (optToStr species) (optToStr auth) with
+                                                | Some (f,g,s) -> kingdom, Some f, Some g, Some s
+                                                | None -> kingdom, family, genus, speciesFull )
                                         )
                                     ) |> Result.ofList
                                 ) 
