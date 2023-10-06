@@ -4,6 +4,7 @@
     "PublicationReference": "Martin, A.C., Assmann, J.J., Bradshaw, R.H.W., Kuoppamaa, M., Kuosmanen, N.I., Normand, S., Speed, J.D.M., Macias- Fauria, M., 2022. What evidence exists for temporal variability in Arctic terrestrial and freshwater biodiversity throughout the Holocene? A systematic map protocol. Environ Evid 11, 13 (2022).",
     "PublicationUrl": "https://doi.org/10.1186/s13750-022-00267-x",
     "Logos": [
+        { "File": "ahbm", "Name": "Arctic Holocene Biodiversity Map", "ExternalUrl": "" },
         { "File": "charter", "Name": "CHARTER - A Horizon 2020 consortium", "ExternalUrl": "charter-arctic.org" },
         { "File": "oxford", "Name": "University of Oxford", "ExternalUrl": "ox.ac.uk" }
     ],
@@ -46,6 +47,30 @@
             "Name": "Taxon (inferred as)",
             "DataType": "string",
             "Description": "The taxon / taxa that the biotic proxy has been inferred as."
+        },
+        {
+            "Column": "taxon_kingdom",
+            "Name": "Taxon (inferred as) - kingdom",
+            "DataType": "string",
+            "Description": "The kingdom of the taxon / taxa with information in this time-series."
+        },
+        {
+            "Column": "taxon_family",
+            "Name": "Taxon (inferred as) - family",
+            "DataType": "string",
+            "Description": "The family of the taxon / taxa with information in this time-series."
+        },
+        {
+            "Column": "taxon_genus",
+            "Name": "Taxon (inferred as) - genus",
+            "DataType": "string",
+            "Description": "The genus of the taxon / taxa with information in this time-series."
+        },
+        {
+            "Column": "taxon_species",
+            "Name": "Taxon (inferred as) - species",
+            "DataType": "string",
+            "Description": "The species of the taxon / taxa with information in this time-series."
         },
         {
             "Column": "inferred_from",
