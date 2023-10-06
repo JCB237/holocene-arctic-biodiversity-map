@@ -1,0 +1,87 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "00b8883a-4c58-4be2-b780-e9b1e5fdc6c4"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "00b8883a-4c58-4be2-b780-e9b1e5fdc6c4"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "presence"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "00b8883a-4c58-4be2-b780-e9b1e5fdc6c4"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_salix_lanata_l"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "00b8883a-4c58-4be2-b780-e9b1e5fdc6c4"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "implicit"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "00b8883a-4c58-4be2-b780-e9b1e5fdc6c4"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "direct_salixlanatal"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]

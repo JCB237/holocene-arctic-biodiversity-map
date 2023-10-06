@@ -8,18 +8,24 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Plotnikov, I. V."
-            },
-            "Title": {
-              "item": "FEATURES OF THE RADIAL GROWTH OF SHRUBS <i>BETULA NANA</i> AND <i>SALIX LANATA</i> ON VARIOUS LANDSCAPE ELEMENTS IN THE SOUTHERN TUNDRA OF YAMAL"
-            },
-            "Year": 2021,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Plotnikov, I. V."
+              },
+              "Title": {
+                "item": "FEATURES OF THE RADIAL GROWTH OF SHRUBS <i>BETULA NANA</i> AND <i>SALIX LANATA</i> ON VARIOUS LANDSCAPE ELEMENTS IN THE SOUTHERN TUNDRA OF YAMAL"
+              },
+              "Year": 2021,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "\"The age of Salix lanata plants in the study areas ranges from 5 to 40 years\""
           }
-        }
+        ]
       }
     }
   ],

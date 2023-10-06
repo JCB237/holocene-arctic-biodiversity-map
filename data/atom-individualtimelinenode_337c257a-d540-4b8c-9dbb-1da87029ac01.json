@@ -1,0 +1,114 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "337c257a-d540-4b8c-9dbb-1da87029ac01"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": {
+            "Regular": [
+              1.0,
+              "WoodAnatomicalFeatures"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "337c257a-d540-4b8c-9dbb-1da87029ac01"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "e2932a2b-7864-40de-b93d-bf1aa0b81911"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "337c257a-d540-4b8c-9dbb-1da87029ac01"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "338a4e41-3042-4784-b8fe-8fd8f00c3684"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "337c257a-d540-4b8c-9dbb-1da87029ac01"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "0f143592-6ddf-4a5d-84d5-36ff5ceb3f44"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "337c257a-d540-4b8c-9dbb-1da87029ac01"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "-9ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "337c257a-d540-4b8c-9dbb-1da87029ac01"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "76ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliest"
+      }
+    ]
+  ]
+]
