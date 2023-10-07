@@ -1,0 +1,118 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "bf59c2db-ac5f-4854-84f1-672dc28a1458"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": {
+            "Regular": [
+              1.0,
+              {
+                "OtherRegularFeature": {
+                  "item": "Patterns in leaf node placement along stem"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "bf59c2db-ac5f-4854-84f1-672dc28a1458"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "3794cc55-fa7e-47cb-9ab2-0d747ba49567"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "bf59c2db-ac5f-4854-84f1-672dc28a1458"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "312d1f92-26d9-408e-86d9-c2cf3508e7c5"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "bf59c2db-ac5f-4854-84f1-672dc28a1458"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "949c9c6b-f146-4f7a-a2fa-b50ed156b6b9"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "bf59c2db-ac5f-4854-84f1-672dc28a1458"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "-43ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "bf59c2db-ac5f-4854-84f1-672dc28a1458"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "32ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliest"
+      }
+    ]
+  ]
+]

@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_picea_glauca_moench"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Picea"
+            },
+            {
+              "item": "glauca"
+            },
+            {
+              "item": "Moench"
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_picea_glauca_moench"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_picea"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

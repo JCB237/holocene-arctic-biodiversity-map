@@ -1,0 +1,87 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "d82b8e6c-cf5f-49a6-8e03-c832531c317d"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "d82b8e6c-cf5f-49a6-8e03-c832531c317d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "presence"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "d82b8e6c-cf5f-49a6-8e03-c832531c317d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_larix_sibirica_ledeb"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "d82b8e6c-cf5f-49a6-8e03-c832531c317d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "implicit"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "d82b8e6c-cf5f-49a6-8e03-c832531c317d"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "direct_larixsibiricaledeb"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]
