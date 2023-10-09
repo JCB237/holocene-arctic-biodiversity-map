@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Whitlock, C."
-            },
-            "Title": {
-              "item": "Vegetational and climatic history of the Pacific Northwest during the last 20000 years: Implications for understanding present-day biodiversity"
-            },
-            "Year": 1992,
-            "Volume": 8,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Whitlock, C."
+              },
+              "Title": {
+                "item": "Vegetational and climatic history of the Pacific Northwest during the last 20000 years: Implications for understanding present-day biodiversity"
+              },
+              "Year": 1992,
+              "Volume": 8,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Focus on Pacific-Northwest USA."
           }
-        }
+        ]
       }
     }
   ],

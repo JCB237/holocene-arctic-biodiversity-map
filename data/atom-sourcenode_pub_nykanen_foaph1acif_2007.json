@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Nykanen, M.; Sarmaja-Korjonen, K."
-            },
-            "Title": {
-              "item": "Findings of Alona protzi Hartwig 1900 (Branchiopoda: Anomopoda, Chydoridae) in Finland"
-            },
-            "Year": 2007,
-            "Volume": 24,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Nykanen, M.; Sarmaja-Korjonen, K."
+              },
+              "Title": {
+                "item": "Findings of Alona protzi Hartwig 1900 (Branchiopoda: Anomopoda, Chydoridae) in Finland"
+              },
+              "Year": 2007,
+              "Volume": 24,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Southern Finland; also deals with excluded taxon (Cladocera)"
           }
-        }
+        ]
       }
     }
   ],

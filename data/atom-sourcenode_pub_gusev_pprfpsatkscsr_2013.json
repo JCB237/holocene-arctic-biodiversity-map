@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Gusev, E. A.; Molodkov, A. N.; Oblogov, G. E.; Streletskaya, I. D.; Vasiliev, A. A."
-            },
-            "Title": {
-              "item": "Pleistocene-Holocene Palaeoenvironmental Records from Permafrost Sequences at the Kara Sea Coast (Nw Siberia, Russia)"
-            },
-            "Year": 2013,
-            "Volume": 6,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Gusev, E. A.; Molodkov, A. N.; Oblogov, G. E.; Streletskaya, I. D.; Vasiliev, A. A."
+              },
+              "Title": {
+                "item": "Pleistocene-Holocene Palaeoenvironmental Records from Permafrost Sequences at the Kara Sea Coast (Nw Siberia, Russia)"
+              },
+              "Year": 2013,
+              "Volume": 6,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Sampling and analysis of sediment and geographic history; no direct analysis / biotic proxies of included taxa."
           }
-        }
+        ]
       }
     }
   ],

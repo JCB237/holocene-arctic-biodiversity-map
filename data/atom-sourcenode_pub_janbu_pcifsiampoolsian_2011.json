@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Janbu, A. D.; Paasche, O.; Talbot, M. R."
-            },
-            "Title": {
-              "item": "Paleoclimate changes inferred from stable isotopes and magnetic properties of organic-rich lake sediments in Arctic Norway"
-            },
-            "Year": 2011,
-            "Volume": 46,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Janbu, A. D.; Paasche, O.; Talbot, M. R."
+              },
+              "Title": {
+                "item": "Paleoclimate changes inferred from stable isotopes and magnetic properties of organic-rich lake sediments in Arctic Norway"
+              },
+              "Year": 2011,
+              "Volume": 46,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Geochemical study of stable isotopes; no biota sampled."
           }
-        }
+        ]
       }
     }
   ],

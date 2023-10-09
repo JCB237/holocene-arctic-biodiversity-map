@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Van Der Knaap, W. O."
-            },
-            "Title": {
-              "item": "Age and Stability of Bird-Manured Vegetation on Spitsbergen Norway"
-            },
-            "Year": 1988,
-            "Volume": 37,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Van Der Knaap, W. O."
+              },
+              "Title": {
+                "item": "Age and Stability of Bird-Manured Vegetation on Spitsbergen Norway"
+              },
+              "Year": 1988,
+              "Volume": 37,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Only single dates given for each of the three sites (760-950, 3685-3745, and 4020-4090 BP)."
           }
-        }
+        ]
       }
     }
   ],

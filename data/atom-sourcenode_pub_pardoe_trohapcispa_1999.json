@@ -8,18 +8,24 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Pardoe, H. S."
-            },
-            "Title": {
-              "item": "The representation of high arctic plant communities in surface pollen assemblages"
-            },
-            "Year": 1999,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Pardoe, H. S."
+              },
+              "Title": {
+                "item": "The representation of high arctic plant communities in surface pollen assemblages"
+              },
+              "Year": 1999,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Conference talk summary; material contains no useful information."
           }
-        }
+        ]
       }
     }
   ],

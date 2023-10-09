@@ -8,21 +8,85 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Mangerud, J.; Svendsen, J. I."
-            },
-            "Title": {
-              "item": "Deglaciation Chronology Inferred from Marine Sediments in a Proglacial Lake Basin Western Spitsbergen Svalbard"
-            },
-            "Year": 1990,
-            "Volume": 19,
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Mangerud, J.; Svendsen, J. I."
+              },
+              "Title": {
+                "item": "Deglaciation Chronology Inferred from Marine Sediments in a Proglacial Lake Basin Western Spitsbergen Svalbard"
+              },
+              "Year": 1990,
+              "Volume": 19,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mangerud_dcifmsiaplbwss_1990"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "ca2dea82-b5e9-44d2-99ba-67b779e2c432"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mangerud_dcifmsiaplbwss_1990"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_short_malqpsofsebiac_1989"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_mangerud_dcifmsiaplbwss_1990"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "ccfab636-b6cb-4be5-a2a0-ba33a3c2d51e"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

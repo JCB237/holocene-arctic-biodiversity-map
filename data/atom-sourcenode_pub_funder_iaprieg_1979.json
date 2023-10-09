@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Funder, S."
-            },
-            "Title": {
-              "item": "Ice Age Plant Refugia in East Greenland"
-            },
-            "Year": 1979,
-            "Volume": 28,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Funder, S."
+              },
+              "Title": {
+                "item": "Ice Age Plant Refugia in East Greenland"
+              },
+              "Year": 1979,
+              "Volume": 28,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "No time series from single locality; further, included dated samples precede Holocene (>15,000yBP)."
           }
-        }
+        ]
       }
     }
   ],

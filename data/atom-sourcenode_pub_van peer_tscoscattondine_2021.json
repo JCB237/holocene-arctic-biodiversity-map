@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Van Peer, P."
-            },
-            "Title": {
-              "item": "The stratigraphic context of Spy Cave and the timing of Neanderthal disappearance in Northwest Europe"
-            },
-            "Year": 2021,
-            "Volume": 118,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Van Peer, P."
+              },
+              "Title": {
+                "item": "The stratigraphic context of Spy Cave and the timing of Neanderthal disappearance in Northwest Europe"
+              },
+              "Year": 2021,
+              "Volume": 118,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Commentary on a Neanderthal cave site publication"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Aldrich, J. M."
-            },
-            "Title": {
-              "item": "European Frit Fly in North America"
-            },
-            "Year": 1920,
-            "Volume": 18,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Aldrich, J. M."
+              },
+              "Title": {
+                "item": "European Frit Fly in North America"
+              },
+              "Year": 1920,
+              "Volume": 18,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "Contemporaneous sampling and distribution of European Frit Flay in USA."
           }
-        }
+        ]
       }
     }
   ],

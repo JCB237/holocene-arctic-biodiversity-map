@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Segerstrale, S. G."
-            },
-            "Title": {
-              "item": "On the immigration of the glacial relicts of Northern Europe, with remarks on their prehistory"
-            },
-            "Year": 1957,
-            "Volume": 16,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Segerstrale, S. G."
+              },
+              "Title": {
+                "item": "On the immigration of the glacial relicts of Northern Europe, with remarks on their prehistory"
+              },
+              "Year": 1957,
+              "Volume": 16,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "OtherExclusionReason",
+          {
+            "item": "Single page with no data."
           }
-        }
+        ]
       }
     }
   ],

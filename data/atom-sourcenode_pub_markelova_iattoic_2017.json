@@ -8,18 +8,24 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Markelova, O. A."
-            },
-            "Title": {
-              "item": "Iceland at the time of initial colonization"
-            },
-            "Year": 2017,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Markelova, O. A."
+              },
+              "Title": {
+                "item": "Iceland at the time of initial colonization"
+              },
+              "Year": 2017,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Chapter in book; no data to encode."
           }
-        }
+        ]
       }
     }
   ],
