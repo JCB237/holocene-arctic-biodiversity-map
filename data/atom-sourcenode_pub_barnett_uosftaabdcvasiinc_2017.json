@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Barnett, R. L.; Charman, D. J.; Edwards, R. J.; Hawkes, A. D.; Horton, B. P.; Kemp, A. C.; King, A. N.; Mooney, H. C.; Sameshima, C.; Wright, A. J.; van de Plassche, O."
-            },
-            "Title": {
-              "item": "Utility of salt-marsh foraminifera, testate amoebae and bulk-sediment delta C-13 values as sea-level indicators in Newfoundland, Canada"
-            },
-            "Year": 2017,
-            "Volume": 130,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Barnett, R. L.; Charman, D. J.; Edwards, R. J.; Hawkes, A. D.; Horton, B. P.; Kemp, A. C.; King, A. N.; Mooney, H. C.; Sameshima, C.; Wright, A. J.; van de Plassche, O."
+              },
+              "Title": {
+                "item": "Utility of salt-marsh foraminifera, testate amoebae and bulk-sediment delta C-13 values as sea-level indicators in Newfoundland, Canada"
+              },
+              "Year": 2017,
+              "Volume": 130,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Concerned solely with Forminifera (not an eligible taxa)"
           }
-        }
+        ]
       }
     }
   ],

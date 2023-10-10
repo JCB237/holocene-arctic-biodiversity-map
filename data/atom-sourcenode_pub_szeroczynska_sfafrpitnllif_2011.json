@@ -8,18 +8,24 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Szeroczynska, K.; Zawisza, E."
-            },
-            "Title": {
-              "item": "Subfossil faunal and floral remains (Cladocera, Pediastrum) in two northern Lobelia lakes in Finland"
-            },
-            "Year": 2011,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Szeroczynska, K.; Zawisza, E."
+              },
+              "Title": {
+                "item": "Subfossil faunal and floral remains (Cladocera, Pediastrum) in two northern Lobelia lakes in Finland"
+              },
+              "Year": 2011,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "No included taxa (Cladocera and Pediastrum only)."
           }
-        }
+        ]
       }
     }
   ],

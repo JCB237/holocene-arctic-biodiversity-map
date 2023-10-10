@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Sablin, M. V."
-            },
-            "Title": {
-              "item": "Large mammal faunas of the European part of Russia in Quaternary"
-            },
-            "Year": 2020,
-            "Volume": 19,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Sablin, M. V."
+              },
+              "Title": {
+                "item": "Large mammal faunas of the European part of Russia in Quaternary"
+              },
+              "Year": 2020,
+              "Volume": 19,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "OtherExclusionReason",
+          {
+            "item": "Overview of taxa across Quaternary; no specific locations nor time series within Holocene."
           }
-        }
+        ]
       }
     }
   ],

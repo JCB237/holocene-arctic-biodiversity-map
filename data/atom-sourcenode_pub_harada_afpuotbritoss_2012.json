@@ -8,18 +8,24 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Harada, N.; Ijiri, A.; Kawamura, K.; Nakatsuka, T.; Sato, M.; Seki, O."
-            },
-            "Title": {
-              "item": "Assessment for paleoclimatic utility of terrestrial biomarker records in the Okhotsk Sea sediments"
-            },
-            "Year": 2012,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Harada, N.; Ijiri, A.; Kawamura, K.; Nakatsuka, T.; Sato, M.; Seki, O."
+              },
+              "Title": {
+                "item": "Assessment for paleoclimatic utility of terrestrial biomarker records in the Okhotsk Sea sediments"
+              },
+              "Year": 2012,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsOceanic",
+          {
+            "item": "Sediment cores taken from Okhotsk Sea"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Evans, D. J. A."
-            },
-            "Title": {
-              "item": "An Early Holocene Narwhal Tusk from the Canadian High Arctic"
-            },
-            "Year": 1989,
-            "Volume": 18,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Evans, D. J. A."
+              },
+              "Title": {
+                "item": "An Early Holocene Narwhal Tusk from the Canadian High Arctic"
+              },
+              "Year": 1989,
+              "Volume": 18,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "No time series attributed to single location; description of single specimen find."
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Biester, H.; Bigler, C.; Bindler, R.; Lidberg, W.; Meyer-Jacob, C.; Myrstener, E.; Rydberg, J."
-            },
-            "Title": {
-              "item": "Environmental footprint of small-scale, historical mining and metallurgy in the Swedish boreal forest landscape: The Moshyttan blast furnace as microcosm"
-            },
-            "Year": 2019,
-            "Volume": 29,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Biester, H.; Bigler, C.; Bindler, R.; Lidberg, W.; Meyer-Jacob, C.; Myrstener, E.; Rydberg, J."
+              },
+              "Title": {
+                "item": "Environmental footprint of small-scale, historical mining and metallurgy in the Swedish boreal forest landscape: The Moshyttan blast furnace as microcosm"
+              },
+              "Year": 2019,
+              "Volume": 29,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Study sites from Bergslagen region, central Sweden."
           }
-        }
+        ]
       }
     }
   ],

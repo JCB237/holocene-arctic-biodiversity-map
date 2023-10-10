@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bjornstad, G.; Flagstad, O.; Hufthammer, A. K.; Roed, K. H."
-            },
-            "Title": {
-              "item": "Ancient DNA reveals a major genetic change during the transition from hunting economy to reindeer husbandry in northern Scandinavia"
-            },
-            "Year": 2012,
-            "Volume": 39,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bjornstad, G.; Flagstad, O.; Hufthammer, A. K.; Roed, K. H."
+              },
+              "Title": {
+                "item": "Ancient DNA reveals a major genetic change during the transition from hunting economy to reindeer husbandry in northern Scandinavia"
+              },
+              "Year": 2012,
+              "Volume": 39,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "aDNA samples from disparate sites across a wide area; no time series for any given locale."
           }
-        }
+        ]
       }
     }
   ],

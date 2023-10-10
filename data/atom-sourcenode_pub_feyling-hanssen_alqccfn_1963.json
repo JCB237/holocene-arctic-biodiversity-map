@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Feyling-Hanssen, R. W."
-            },
-            "Title": {
-              "item": "A late Quaternary correlation chart for Norway"
-            },
-            "Year": 1963,
-            "Volume": 223,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Feyling-Hanssen, R. W."
+              },
+              "Title": {
+                "item": "A late Quaternary correlation chart for Norway"
+              },
+              "Year": 1963,
+              "Volume": 223,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Chart presentation; results from several papers, but no useful data for encoding."
           }
-        }
+        ]
       }
     }
   ],
