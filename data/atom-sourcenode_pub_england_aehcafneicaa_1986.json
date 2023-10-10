@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "England, J.; Stewart, T. G."
-            },
-            "Title": {
-              "item": "An Early Holocene Caribou Antler from Northern Ellesmere Island Canadian Arctic Archipelago"
-            },
-            "Year": 1986,
-            "Volume": 15,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "England, J.; Stewart, T. G."
+              },
+              "Title": {
+                "item": "An Early Holocene Caribou Antler from Northern Ellesmere Island Canadian Arctic Archipelago"
+              },
+              "Year": 1986,
+              "Volume": 15,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Description of a single antler specimen; no time series"
           }
-        }
+        ]
       }
     }
   ],

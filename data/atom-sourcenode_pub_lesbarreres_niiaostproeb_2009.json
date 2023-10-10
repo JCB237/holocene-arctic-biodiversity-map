@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Lesbarreres, D."
-            },
-            "Title": {
-              "item": "New insight into an old story: the post-glacial recolonization of European biota"
-            },
-            "Year": 2009,
-            "Volume": 102,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Lesbarreres, D."
+              },
+              "Title": {
+                "item": "New insight into an old story: the post-glacial recolonization of European biota"
+              },
+              "Year": 2009,
+              "Volume": 102,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "OtherExclusionReason",
+          {
+            "item": "Short commentary on a paper; no data to encode."
           }
-        }
+        ]
       }
     }
   ],

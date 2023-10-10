@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Miller, R. F."
-            },
-            "Title": {
-              "item": "Late-Glacial Coleoptera in maritime Canada and the transition to the Younger Dryas chronozone"
-            },
-            "Year": 1997,
-            "Volume": 5,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Miller, R. F."
+              },
+              "Title": {
+                "item": "Late-Glacial Coleoptera in maritime Canada and the transition to the Younger Dryas chronozone"
+              },
+              "Year": 1997,
+              "Volume": 5,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Sampled locations are in Nova Scotia, Canada."
           }
-        }
+        ]
       }
     }
   ],

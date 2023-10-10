@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bachura, O. P.; Kosintsev, P. A."
-            },
-            "Title": {
-              "item": "The Ranges of Mammals in the Urals at the End of the Late Pleistocene"
-            },
-            "Year": 2019,
-            "Volume": 98,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bachura, O. P.; Kosintsev, P. A."
+              },
+              "Title": {
+                "item": "The Ranges of Mammals in the Urals at the End of the Late Pleistocene"
+              },
+              "Year": 2019,
+              "Volume": 98,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Description of distribution ranges; no time series for any given site"
           }
-        }
+        ]
       }
     }
   ],

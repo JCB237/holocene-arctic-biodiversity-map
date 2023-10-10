@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Saarnisto, M.; Uusinoka, R."
-            },
-            "Title": {
-              "item": "Note on a Clay Deposit at Pienempi Kuivajarvi Finnish Lapland"
-            },
-            "Year": 1976,
-            "Volume": 48,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Saarnisto, M.; Uusinoka, R."
+              },
+              "Title": {
+                "item": "Note on a Clay Deposit at Pienempi Kuivajarvi Finnish Lapland"
+              },
+              "Year": 1976,
+              "Volume": 48,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "No dating undertaken"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bolshiyanov, D. Y.; Mol, D.; Tikhonov, A. N.; van der Plicht, J."
-            },
-            "Title": {
-              "item": "Discoveries of woolly mammoth, Mammuthus primigenius (Proboscidea: Elephantidae) and some other Pleistocene mammals on the Taimyr Peninsula"
-            },
-            "Year": 2003,
-            "Volume": 2,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bolshiyanov, D. Y.; Mol, D.; Tikhonov, A. N.; van der Plicht, J."
+              },
+              "Title": {
+                "item": "Discoveries of woolly mammoth, Mammuthus primigenius (Proboscidea: Elephantidae) and some other Pleistocene mammals on the Taimyr Peninsula"
+              },
+              "Year": 2003,
+              "Volume": 2,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Reporting on individual mammoth carcasses found from the Late Pleistocene"
           }
-        }
+        ]
       }
     }
   ],

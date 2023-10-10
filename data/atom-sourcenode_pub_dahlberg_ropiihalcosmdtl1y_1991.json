@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Dahlberg, B.; Ohlson, M."
-            },
-            "Title": {
-              "item": "Rate of Peat Increment in Hummock and Lawn Communities on Swedish Mires during the Last 150 Years"
-            },
-            "Year": 1991,
-            "Volume": 61,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Dahlberg, B.; Ohlson, M."
+              },
+              "Title": {
+                "item": "Rate of Peat Increment in Hummock and Lawn Communities on Swedish Mires during the Last 150 Years"
+              },
+              "Year": 1991,
+              "Volume": 61,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "No direct time measurement; inferred from an age-depth / dendrochronological model for 2/11 eligible Arctic sites."
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Foster, D. R.; King, G. A.; Thelaus, M.; Wright, H. E., Jr."
-            },
-            "Title": {
-              "item": "Bog development and landform dynamics in central Sweden and south-eastern Labrador, Canada"
-            },
-            "Year": 1988,
-            "Volume": 76,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Foster, D. R.; King, G. A.; Thelaus, M.; Wright, H. E., Jr."
+              },
+              "Title": {
+                "item": "Bog development and landform dynamics in central Sweden and south-eastern Labrador, Canada"
+              },
+              "Year": 1988,
+              "Volume": 76,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Gilbert Bog, the only site within the Arctic region, lacked any time series."
           }
-        }
+        ]
       }
     }
   ],

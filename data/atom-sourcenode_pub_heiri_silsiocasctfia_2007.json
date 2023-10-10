@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Heiri, O.; Lotter, A. F."
-            },
-            "Title": {
-              "item": "Sciaridae in lake sediments: indicators of catchment and stream contribution to fossil insect assemblages"
-            },
-            "Year": 2007,
-            "Volume": 38,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Heiri, O.; Lotter, A. F."
+              },
+              "Title": {
+                "item": "Sciaridae in lake sediments: indicators of catchment and stream contribution to fossil insect assemblages"
+              },
+              "Year": 2007,
+              "Volume": 38,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Chironomid data from two Southern Norwegian lakes"
           }
-        }
+        ]
       }
     }
   ],

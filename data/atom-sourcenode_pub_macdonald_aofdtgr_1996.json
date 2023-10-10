@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "MacDonald, G. M.; Moser, K. A.; Smol, J. P."
-            },
-            "Title": {
-              "item": "Applications of freshwater diatoms to geographical research"
-            },
-            "Year": 1996,
-            "Volume": 20,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "MacDonald, G. M.; Moser, K. A.; Smol, J. P."
+              },
+              "Title": {
+                "item": "Applications of freshwater diatoms to geographical research"
+              },
+              "Year": 1996,
+              "Volume": 20,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Review / methodology article; no case studies from within Arctic."
           }
-        }
+        ]
       }
     }
   ],
