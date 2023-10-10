@@ -8,12 +8,13 @@ type IndividualMeasureCsv = CsvProvider<
     Schema = "source_id (string option), source_title (string option), source_year (int option), source_authors (string option), source_type (string), site_name (string), LatDD (float), LonDD (float), inferred_from (string option), inferred_using (string option), biodiversity_measure (string option), inferred_as (string), taxon_kingdom (string), taxon_family (string), taxon_genus (string), taxon_species (string), sample_origin (string), earliest_extent (int option), latest_extent (int option), proxy_category (string)", HasHeaders = true>
 
 type IndividualSiteCsv = CsvProvider<
-    Sample = "source_id, source_title, source_year, source_authors, source_type, site_name, LatDD, LonDD, inferred_from, inferred_using, biodiversity_measure, inferred_as, taxon_kingdom, taxon_family, taxon_genus, taxon_species, sample_origin, earliest_extent, latest_extent, proxy_category, variability_temp, variability_precip, max_temp, max_precip, min_temp, min_precip, elevation_change, dist_to_land_ice_max, dist_to_land_ice_min",
-    Schema = "source_id (string option), source_title (string option), source_year (int option), source_authors (string option), source_type (string), site_name (string), LatDD (float), LonDD (float), inferred_from (string option), inferred_using (string option), biodiversity_measure (string option), inferred_as (string), taxon_kingdom (string), taxon_family (string), taxon_genus (string), taxon_species (string), sample_origin (string), earliest_extent (int option), latest_extent (int option), proxy_category (string), variability_temp (float), variability_precip (float), max_temp (float), max_precip (float), min_temp (float), min_precip (float), elevation_change (int option), dist_to_land_ice_max (float), dist_to_land_ice_min (float)", HasHeaders = true>
+    Sample = "source_id, source_title, source_year, source_authors, source_type, site_name, LatDD, LonDD, inferred_from, inferred_using, biodiversity_measure, inferred_as, taxon_kingdom, taxon_family, taxon_genus, taxon_species, sample_origin, earliest_extent, latest_extent, proxy_category, variability_temp, variability_precip, max_temp, max_precip, min_temp, min_precip, elevation_change, dist_to_land_ice_max, dist_to_land_ice_min, dating_methods, dating_levels, depth_min, depth_max",
+    Schema = "source_id (string option), source_title (string option), source_year (int option), source_authors (string option), source_type (string), site_name (string), LatDD (float), LonDD (float), inferred_from (string option), inferred_using (string option), biodiversity_measure (string option), inferred_as (string), taxon_kingdom (string), taxon_family (string), taxon_genus (string), taxon_species (string), sample_origin (string), earliest_extent (int option), latest_extent (int option), proxy_category (string), variability_temp (float), variability_precip (float), max_temp (float), max_precip (float), min_temp (float), min_precip (float), elevation_change (int option), dist_to_land_ice_max (float), dist_to_land_ice_min (float), dating_methods (string), dating_levels (string), depth_min (float option), depth_max (float option)", HasHeaders = true>
 
 type CryosphereData = CsvProvider<"../../src/cryo-db/cryo_db.csv">
 
 let unwrap (f:float<_>) = float f
+let removeUnit (x:float<_>) = float x
 
 let origin = function
     | Population.Context.LakeSediment _ -> "Lake sediment core"
@@ -28,9 +29,16 @@ let proxyToGroup = function
     | Population.BioticProxies.AncientDNA _ -> "Ancient DNA"
     | Population.BioticProxies.Morphotype m ->
         match m with
-        | Population.BioticProxies.Macrofossil _-> "Marcofossil"
+        | Population.BioticProxies.Macrofossil _-> "Macrofossil"
         | Population.BioticProxies.Megafossil _ -> "Megafossil"
-        | Population.BioticProxies.Microfossil (g,_) -> g.ToString()
+        | Population.BioticProxies.Microfossil (g,_) ->
+            match g with
+            | Population.BioticProxies.MicrofossilGroup.Diatom -> "Microfossil: Diatom"
+            | Population.BioticProxies.MicrofossilGroup.Ostracod -> "Microfossil: Ostracod"
+            | Population.BioticProxies.MicrofossilGroup.OtherMicrofossilGroup g -> sprintf "Microfossil: %s" g.Value
+            | Population.BioticProxies.MicrofossilGroup.PlantMacrofossil -> "Microfossil: Plant Macrofossil"
+            | Population.BioticProxies.MicrofossilGroup.Pollen -> "Microfossil: Pollen"
+            
 
 let extractLatLon sampleLocation =
     match sampleLocation with
@@ -431,7 +439,74 @@ let run () =
                                     (if elevChange > 1000 || elevChange < -1000 then None else Some elevChange), // Fix problem with -179 degree CHELSA data
                                     distLandIce |> Seq.max, distLandIce |> Seq.min
                             else nan, nan, nan, nan, nan, nan, None, nan, nan
-                        
+
+                        // Extract date information here
+                        let datingMethods, dateLevels =
+                            extent |> snd |> List.choose(fun (_,sinkId,_,r) ->
+                                match r with
+                                | GraphStructure.Relation.Exposure r ->
+                                    match r with
+                                    | Exposure.ExposureRelation.ConstructedWithDate -> Some sinkId
+                                    | _ -> None
+                                | _ -> None)
+                            |> Storage.loadAtoms graph.Directory (typeof<Exposure.StudyTimeline.IndividualDateNode>.Name)
+                            |> Result.bind(fun atoms ->
+                                atoms |> List.map(fun atom ->
+                                    match atom |> fst |> snd with
+                                    | GraphStructure.Node.ExposureNode p ->
+                                        match p with
+                                        | Exposure.ExposureNode.DateNode c -> Ok c
+                                        | _ -> Error "not a date node"
+                                    | _ -> Error "not a date node" ) |> Result.ofList )
+                            |> Result.lift(fun individualDates ->
+                                
+                                let methodsUsed = 
+                                    individualDates |> List.map(fun d ->                        
+                                        match d.Date with
+                                        | FieldDataTypes.OldDate.RadiocarbonUncalibrated _ -> "Radiocarbon (Uncalibrated)"
+                                        | FieldDataTypes.OldDate.RadiocarbonCalibrated _ -> "Radiocarbon (Calibrated)"
+                                        | FieldDataTypes.OldDate.Tephra _ -> "Tephra layer"
+                                        | FieldDataTypes.OldDate.HistoricEvent _ -> "Historical event"
+                                        | FieldDataTypes.OldDate.Lead210 _ -> "Lead210"
+                                        | FieldDataTypes.OldDate.Radiocaesium _ -> "Radiocaesium"
+                                        | FieldDataTypes.OldDate.CollectionDate _ -> "Known collection date"
+                                        | FieldDataTypes.OldDate.DepositionalZone _ -> "Depositional zone"
+                                    ) |> List.distinct
+
+                                let datedLevels =
+                                    individualDates |> List.map(fun d ->                        
+                                        match d.SampleDepth with
+                                        | Some l ->
+                                            match l with
+                                            | FieldDataTypes.StratigraphicSequence.DepthInCore.DepthNotStated -> None
+                                            | FieldDataTypes.StratigraphicSequence.DepthInCore.DepthBand (l,u) -> Some l.Value
+                                            | FieldDataTypes.StratigraphicSequence.DepthInCore.DepthPoint d -> Some d.Value
+                                            | FieldDataTypes.StratigraphicSequence.DepthInCore.DepthQualitativeLevel _ -> None
+                                        | None -> None
+                                    ) |> List.choose id |> List.map(fun d -> (removeUnit d).ToString())
+                                
+                                methodsUsed, datedLevels
+                            ) |> Result.lower 
+                                (fun (methods, levels) -> methods |> String.concat ";", levels |> String.concat ";")
+                                (fun _ -> "", "")
+
+                        let depthMax, depthMin = 
+                            match context.SampleOrigin with
+                            | Population.Context.SampleOrigin.LakeSediment d
+                            | Population.Context.SampleOrigin.PeatCore d
+                            | Population.Context.SampleOrigin.Excavation d ->
+                                match d with
+                                | FieldDataTypes.StratigraphicSequence.DepthExtent.DepthRangeNotStated -> None, None
+                                | FieldDataTypes.StratigraphicSequence.DepthExtent.DepthRange (top, bottom) -> Some (removeUnit bottom.Value), Some (removeUnit top.Value)
+                            | Population.Context.SampleOrigin.OtherOrigin (_,d) ->
+                                match d with
+                                | Some d ->
+                                    match d with
+                                    | FieldDataTypes.StratigraphicSequence.DepthExtent.DepthRangeNotStated -> None, None
+                                    | FieldDataTypes.StratigraphicSequence.DepthExtent.DepthRange (top, bottom) -> Some (removeUnit bottom.Value), Some (removeUnit top.Value)
+                                | None -> None, None
+                            | _ -> None, None
+
                         // Multiply out for each biodiversity outcome record.
                         biodiversityOutcomes
                         |> Result.lift(fun ls ->
@@ -443,7 +518,7 @@ let run () =
                             let family = ls |> List.map(fun (from, using, by, taxa, groups,_,f,_,_) -> f) |> List.distinct |> List.concat |> String.concat ";"
                             let genus = ls |> List.map(fun (from, using, by, taxa, groups,_,_,g,_) -> g) |> List.distinct |> List.concat |> String.concat ";"
                             let species = ls |> List.map(fun (from, using, by, taxa, groups,_,_,_,s) -> s) |> List.distinct |> List.concat |> String.concat ";"
-                            [ sId, sourceName, year, authors, sourceType, context.Name.Value, lat, lon, Some from, Some using, Some by, taxa, kingdom, family, genus, species, origin context.SampleOrigin , earliestExtent, latestExtent, allProxyGroups |> forceOk, varTemp, varPrecip, maxTemp, maxPrecip, minTemp, minPrecip, elevationChange, distIceMax / 1000., distIceMin / 1000. ]
+                            [ sId, sourceName, year, authors, sourceType, context.Name.Value, lat, lon, Some from, Some using, Some by, taxa, kingdom, family, genus, species, origin context.SampleOrigin , earliestExtent, latestExtent, allProxyGroups |> forceOk, varTemp, varPrecip, maxTemp, maxPrecip, minTemp, minPrecip, elevationChange, distIceMax / 1000., distIceMin / 1000., datingMethods, dateLevels, depthMin, depthMax ]
                             )
                         )
 
