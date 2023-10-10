@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Anderson, K. H.; Andrews, J. T.; Elias, S. A."
-            },
-            "Title": {
-              "item": "Insights on the climatic constraints on the beetle fauna of Coastal Alaska, U.S.A., derived from the Mutual Climatic Range method of paleoclimate reconstruction"
-            },
-            "Year": 1999,
-            "Volume": 31,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Anderson, K. H.; Andrews, J. T.; Elias, S. A."
+              },
+              "Title": {
+                "item": "Insights on the climatic constraints on the beetle fauna of Coastal Alaska, U.S.A., derived from the Mutual Climatic Range method of paleoclimate reconstruction"
+              },
+              "Year": 1999,
+              "Volume": 31,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "no specific dates mentioned"
           }
-        }
+        ]
       }
     }
   ],

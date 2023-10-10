@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Calkin, P. E.; Kaufman, D. S.; Peck, B. J.; Przybyl, B. J.; Whitford, W. B."
-            },
-            "Title": {
-              "item": "Glacier regimes, perigincial landforms, anti Holocene climate change in the Kigluaik Mountains, Seward Peninsula, Alaska, USA"
-            },
-            "Year": 1998,
-            "Volume": 30,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Calkin, P. E.; Kaufman, D. S.; Peck, B. J.; Przybyl, B. J.; Whitford, W. B."
+              },
+              "Title": {
+                "item": "Glacier regimes, perigincial landforms, anti Holocene climate change in the Kigluaik Mountains, Seward Peninsula, Alaska, USA"
+              },
+              "Year": 1998,
+              "Volume": 30,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "only one date given at each site"
           }
-        }
+        ]
       }
     }
   ],

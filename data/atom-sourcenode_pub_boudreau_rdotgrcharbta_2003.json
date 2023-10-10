@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Boudreau, S.; Couturier, S.; Morneau, C.; Payette, S."
-            },
-            "Title": {
-              "item": "Recent decline of the George River caribou herd as revealed by tree-ring analysis"
-            },
-            "Year": 2003,
-            "Volume": 35,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Boudreau, S.; Couturier, S.; Morneau, C.; Payette, S."
+              },
+              "Title": {
+                "item": "Recent decline of the George River caribou herd as revealed by tree-ring analysis"
+              },
+              "Year": 2003,
+              "Volume": 35,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "more recent"
           }
-        }
+        ]
       }
     }
   ],
