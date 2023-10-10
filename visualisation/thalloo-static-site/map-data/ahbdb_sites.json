@@ -91,6 +91,12 @@
             "Description": "The dimension of biodiversity (or 'measure') interpreted from the biotic proxy."
         },
         {
+            "Column": "dating_methods",
+            "Name": "Dating - methods used",
+            "DataType": "string",
+            "Description": "The methods used to determine the temporal properties of the timeline."
+        },
+        {
             "Column": "sample_origin",
             "Name": "Origin of Sample",
             "DataType": "string",
@@ -144,6 +150,13 @@
             "DataType": "float",
             "Unit": "kg m-2 year-1",
             "Description": "The difference between the maximum and minimum precipitation sum during the time series"
+        },
+        {
+            "Column": ["depth_min", "depth_max"],
+            "Name": "Depth of sequence - if relevant",
+            "DataType": "float",
+            "Unit": "centimetres",
+            "Description": "For cores (e.g. lake sediment, peat core) and other records with a recored depth sequence (e.g. digs), the depth range from which biodiversity indicators have been sampled."
         },
         {
             "Column": "source_year",
