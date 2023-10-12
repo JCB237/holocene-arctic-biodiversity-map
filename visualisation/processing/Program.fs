@@ -160,7 +160,10 @@ let run () =
                             | Sources.CodingProgress.InProgress _
                             | Sources.CodingProgress.Stalled _
                             | Sources.CodingProgress.CompletedAll -> Some (s |> fst, i, s |> snd)
-                            | _ -> None
+                            | Sources.CodingProgress.CompletedNone -> Some (s |> fst, i, s |> snd)
+                        | Sources.SourceNode.Excluded (_,because,reason) ->
+                            printfn "%A" because
+                            None
                         | _ -> None
                     | _ -> 
                         printfn "Source is %A" (s |> fst |> fst)                        
