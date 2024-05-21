@@ -8,21 +8,121 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Macdonald, G. M."
-            },
-            "Title": {
-              "item": "Postglacial Vegetation History of the Mackenzie River Basin Canada"
-            },
-            "Year": 1987,
-            "Volume": 28,
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Macdonald, G. M."
+              },
+              "Title": {
+                "item": "Postglacial Vegetation History of the Mackenzie River Basin Canada"
+              },
+              "Year": 1987,
+              "Volume": 28,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_macdonald_pvhotmrbc_1987"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "5c511ab3-f234-466b-8c12-c10a26e0f891"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_macdonald_pvhotmrbc_1987"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "97984662-2c19-479d-a691-651009017421"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_macdonald_pvhotmrbc_1987"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_matthews_pojkbflrsdom_1980"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_macdonald_pvhotmrbc_1987"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_ritchie_tpapvotfnoc_1984"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_macdonald_pvhotmrbc_1987"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_slater_paopsfeldomnc_1985"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]
