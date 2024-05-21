@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Laliberte, A. C.; Payette, S."
-            },
-            "Title": {
-              "item": "Primary succession of subarctic vegetation and soil on the fast-rising coast of eastern Hudson Bay, Canada"
-            },
-            "Year": 2008,
-            "Volume": 35,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Laliberte, A. C.; Payette, S."
+              },
+              "Title": {
+                "item": "Primary succession of subarctic vegetation and soil on the fast-rising coast of eastern Hudson Bay, Canada"
+              },
+              "Year": 2008,
+              "Volume": 35,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsSpaceForTime",
+          {
+            "item": "chronosequence"
           }
-        }
+        ]
       }
     }
   ],

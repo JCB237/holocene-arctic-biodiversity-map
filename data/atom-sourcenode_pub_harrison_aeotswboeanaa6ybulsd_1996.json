@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Harrison, S. P.; Yu, G."
-            },
-            "Title": {
-              "item": "An evaluation of the simulated water balance of Eurasia and northern Africa at 6000 y BP using lake status data"
-            },
-            "Year": 1996,
-            "Volume": 12,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Harrison, S. P.; Yu, G."
+              },
+              "Title": {
+                "item": "An evaluation of the simulated water balance of Eurasia and northern Africa at 6000 y BP using lake status data"
+              },
+              "Year": 1996,
+              "Volume": 12,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "no taxa"
           }
-        }
+        ]
       }
     }
   ],

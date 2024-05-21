@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Brown, C. D.; Laroque, C. P.; Mamet, S. D.; Trant, A. J."
-            },
-            "Title": {
-              "item": "Shifting global Larix distributions: Northern expansion and southern retraction as species respond to changing climate"
-            },
-            "Year": 2019,
-            "Volume": 46,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Brown, C. D.; Laroque, C. P.; Mamet, S. D.; Trant, A. J."
+              },
+              "Title": {
+                "item": "Shifting global Larix distributions: Northern expansion and southern retraction as species respond to changing climate"
+              },
+              "Year": 2019,
+              "Volume": 46,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "not time series"
           }
-        }
+        ]
       }
     }
   ],

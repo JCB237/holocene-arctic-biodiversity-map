@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kullman, L."
-            },
-            "Title": {
-              "item": "Long-term dynamics of high-altitude populations of Pinus sylvestris in the Swedish Scandes"
-            },
-            "Year": 1987,
-            "Volume": 14,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kullman, L."
+              },
+              "Title": {
+                "item": "Long-term dynamics of high-altitude populations of Pinus sylvestris in the Swedish Scandes"
+              },
+              "Year": 1987,
+              "Volume": 14,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "not in arctic"
           }
-        }
+        ]
       }
     }
   ],

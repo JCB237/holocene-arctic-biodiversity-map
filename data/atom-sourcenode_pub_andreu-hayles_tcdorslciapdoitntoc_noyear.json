@@ -8,19 +8,59 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Andreu-Hayles, L.; Boucher, E.; D'Arrigo, R. D.; Field, R. D.; Gennaretti, F.; Hermoso, I.; Lavergne, A.; Levesque, M.; Luckman, B. H.; Morimoto, D.; Oelkers, R."
-            },
-            "Title": {
-              "item": "Tree-ring cellulose delta O-18 records similar large-scale climate influences as precipitation delta O-18 in the Northwest Territories of Canada"
-            },
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Andreu-Hayles, L.; Boucher, E.; D'Arrigo, R. D.; Field, R. D.; Gennaretti, F.; Hermoso, I.; Lavergne, A.; Levesque, M.; Luckman, B. H.; Morimoto, D.; Oelkers, R."
+              },
+              "Title": {
+                "item": "Tree-ring cellulose delta O-18 records similar large-scale climate influences as precipitation delta O-18 in the Northwest Territories of Canada"
+              },
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedAll"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_andreu-hayles_tcdorslciapdoitntoc_noyear"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "a74243aa-fa19-4af5-a3ee-1c51670fc2c9"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_andreu-hayles_tcdorslciapdoitntoc_noyear"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_morimoto_dsowsitytc_2015"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

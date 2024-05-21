@@ -8,18 +8,24 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Ivanovsky, A. B.; Shishov, V. V.; Tychkov, I."
-            },
-            "Title": {
-              "item": "Optimal tree-ring growing parameters for Siberian boreal forests"
-            },
-            "Year": 2011,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Ivanovsky, A. B.; Shishov, V. V.; Tychkov, I."
+              },
+              "Title": {
+                "item": "Optimal tree-ring growing parameters for Siberian boreal forests"
+              },
+              "Year": 2011,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "model introduction paper"
           }
-        }
+        ]
       }
     }
   ],

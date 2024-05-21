@@ -8,21 +8,61 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kasatkina, E. A.; Shumilov, O. I.; Timonen, M."
-            },
-            "Title": {
-              "item": "Solar activity imprints in tree ring-data from northwestern Russia"
-            },
-            "Year": 2019,
-            "Volume": 193,
-            "DataAvailability": "NotAttachedToSource"
-          }
-        }
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kasatkina, E. A.; Shumilov, O. I.; Timonen, M."
+              },
+              "Title": {
+                "item": "Solar activity imprints in tree ring-data from northwestern Russia"
+              },
+              "Year": 2019,
+              "Volume": 193,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "CompletedAll"
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_kasatkina_saiitrfnr_2019"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "4740e431-60cc-4331-8214-1b74c5cd9bbf"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_kasatkina_saiitrfnr_2019"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_kasatkina_iopveasaotcatac_2018"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

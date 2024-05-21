@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Boudreau, S.; Boulanger-Lapointe, N.; Henry, G. H. R.; Levesque, E.; Schmidt, N. M."
-            },
-            "Title": {
-              "item": "Population structure and dynamics of Arctic willow (Salix arctica) in the High Arctic"
-            },
-            "Year": 2014,
-            "Volume": 41,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Boudreau, S.; Boulanger-Lapointe, N.; Henry, G. H. R.; Levesque, E.; Schmidt, N. M."
+              },
+              "Title": {
+                "item": "Population structure and dynamics of Arctic willow (Salix arctica) in the High Arctic"
+              },
+              "Year": 2014,
+              "Volume": 41,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "not a time series"
           }
-        }
+        ]
       }
     }
   ],

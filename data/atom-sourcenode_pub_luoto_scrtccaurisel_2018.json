@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Luoto, T.; Nevalainen, L.; Rantala, M.; Rautio, M."
-            },
-            "Title": {
-              "item": "Spatio-temporal cladoceran (Branchiopoda) responses to climate change and UV radiation in subarctic ecotonal lakes"
-            },
-            "Year": 2018,
-            "Volume": 45,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Luoto, T.; Nevalainen, L.; Rantala, M.; Rautio, M."
+              },
+              "Title": {
+                "item": "Spatio-temporal cladoceran (Branchiopoda) responses to climate change and UV radiation in subarctic ecotonal lakes"
+              },
+              "Year": 2018,
+              "Volume": 45,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "OtherExclusionReason",
+          {
+            "item": "biota excluded"
           }
-        }
+        ]
       }
     }
   ],
