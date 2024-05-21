@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Jarvis, D. S.; Kulakowski, D."
-            },
-            "Title": {
-              "item": "Long-term history and synchrony of mountain pine beetle outbreaks in lodgepole pine forests"
-            },
-            "Year": 2015,
-            "Volume": 42,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Jarvis, D. S.; Kulakowski, D."
+              },
+              "Title": {
+                "item": "Long-term history and synchrony of mountain pine beetle outbreaks in lodgepole pine forests"
+              },
+              "Year": 2015,
+              "Volume": 42,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Western Colorado"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Campbell, L. J.; Laroque, C. P."
-            },
-            "Title": {
-              "item": "Decay progression and classification in two old-growth forests in Atlantic Canada"
-            },
-            "Year": 2007,
-            "Volume": 238,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Campbell, L. J.; Laroque, C. P."
+              },
+              "Title": {
+                "item": "Decay progression and classification in two old-growth forests in Atlantic Canada"
+              },
+              "Year": 2007,
+              "Volume": 238,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Cape Breton Highlands and Newfoundland"
           }
-        }
+        ]
       }
     }
   ],

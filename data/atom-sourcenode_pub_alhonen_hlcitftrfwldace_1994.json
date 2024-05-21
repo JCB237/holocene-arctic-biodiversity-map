@@ -8,21 +8,67 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Alhonen, P.; Hyvarinen, H."
-            },
-            "Title": {
-              "item": "Holocene lake-level changes in the Fennoscandian tree-line region, Finnish western Lapland: diatom and cladoceran evidence"
-            },
-            "Year": 1994,
-            "Volume": 4,
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Alhonen, P.; Hyvarinen, H."
+              },
+              "Title": {
+                "item": "Holocene lake-level changes in the Fennoscandian tree-line region, Finnish western Lapland: diatom and cladoceran evidence"
+              },
+              "Year": 1994,
+              "Volume": 4,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_alhonen_hlcitftrfwldace_1994"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "e9d28ac2-3c0f-4774-9f5e-540439605aaf"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_alhonen_hlcitftrfwldace_1994"
+        ]
+      },
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "c7959c56-5d49-4685-ae25-ddde64d63915"
+        ]
+      },
+      1,
+      {
+        "Source": "HasTemporalExtent"
+      }
+    ]
+  ]
 ]

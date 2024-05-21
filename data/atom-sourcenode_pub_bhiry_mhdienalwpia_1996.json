@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bhiry, N.; Filion, L."
-            },
-            "Title": {
-              "item": "Mid-Holocene hemlock decline in eastern North America linked with phytophagous insect activity"
-            },
-            "Year": 1996,
-            "Volume": 45,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bhiry, N.; Filion, L."
+              },
+              "Title": {
+                "item": "Mid-Holocene hemlock decline in eastern North America linked with phytophagous insect activity"
+              },
+              "Year": 1996,
+              "Volume": 45,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Saint-Flavien, Que´bec"
           }
-        }
+        ]
       }
     }
   ],

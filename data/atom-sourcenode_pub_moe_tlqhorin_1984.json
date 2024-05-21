@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Moe, D."
-            },
-            "Title": {
-              "item": "The Late Quaternary History of Rhamnus-Frangula in Norway"
-            },
-            "Year": 1984,
-            "Volume": 4,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Moe, D."
+              },
+              "Title": {
+                "item": "The Late Quaternary History of Rhamnus-Frangula in Norway"
+              },
+              "Year": 1984,
+              "Volume": 4,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Source results in Bergen, Norway. 65.13. N, 12.46 E"
           }
-        }
+        ]
       }
     }
   ],

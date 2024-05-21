@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Lemna, W. K.; Messersmith, C. G."
-            },
-            "Title": {
-              "item": "The biology of Canadian weeds. 94. Sonchus arvensis L"
-            },
-            "Year": 1990,
-            "Volume": 70,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Lemna, W. K.; Messersmith, C. G."
+              },
+              "Title": {
+                "item": "The biology of Canadian weeds. 94. Sonchus arvensis L"
+              },
+              "Year": 1990,
+              "Volume": 70,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "No time points or years in Halocene"
           }
-        }
+        ]
       }
     }
   ],
