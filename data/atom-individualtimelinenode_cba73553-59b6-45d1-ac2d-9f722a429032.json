@@ -1,0 +1,114 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "cba73553-59b6-45d1-ac2d-9f722a429032"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": {
+            "Regular": [
+              1.0,
+              "WoodAnatomicalFeatures"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "cba73553-59b6-45d1-ac2d-9f722a429032"
+        ]
+      },
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "fe6af0f9-c774-4628-8734-5cd4706bd9ac"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyInfo"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "cba73553-59b6-45d1-ac2d-9f722a429032"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "2daef343-fd75-4cd9-b570-6f63ae946c71"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "cba73553-59b6-45d1-ac2d-9f722a429032"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "bb2fe647-dc90-44f8-ac49-cf3fad20b54a"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "cba73553-59b6-45d1-ac2d-9f722a429032"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "-55ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "cba73553-59b6-45d1-ac2d-9f722a429032"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "171ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliest"
+      }
+    ]
+  ]
+]

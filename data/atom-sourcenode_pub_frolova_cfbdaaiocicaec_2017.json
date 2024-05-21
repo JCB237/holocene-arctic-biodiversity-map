@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Frolova, L. A.; Iop"
-            },
-            "Title": {
-              "item": "Cladocera from bottom deposits as an indicator of changes in climate and ecological conditions"
-            },
-            "Year": 2017,
-            "Volume": 107,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Frolova, L. A.; Iop"
+              },
+              "Title": {
+                "item": "Cladocera from bottom deposits as an indicator of changes in climate and ecological conditions"
+              },
+              "Year": 2017,
+              "Volume": 107,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "review paper"
           }
-        }
+        ]
       }
     }
   ],

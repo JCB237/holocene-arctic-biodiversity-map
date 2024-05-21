@@ -1,0 +1,96 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "0a5b2f8b-3fd0-4e30-b0de-a28ce518de62"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": {
+            "Regular": [
+              1.0,
+              "WoodAnatomicalFeatures"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0a5b2f8b-3fd0-4e30-b0de-a28ce518de62"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "2b855b73-4aed-48e8-9f99-b2206f7e7023"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0a5b2f8b-3fd0-4e30-b0de-a28ce518de62"
+        ]
+      },
+      {
+        "UUID": [
+          "individualdatenode",
+          "ac81c913-0023-4ea4-b431-d07d3254136b"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ConstructedWithDate"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0a5b2f8b-3fd0-4e30-b0de-a28ce518de62"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "-24ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0a5b2f8b-3fd0-4e30-b0de-a28ce518de62"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "321ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliest"
+      }
+    ]
+  ]
+]

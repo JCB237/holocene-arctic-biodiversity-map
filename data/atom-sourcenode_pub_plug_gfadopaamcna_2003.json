@@ -8,18 +8,24 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Plug, L. J."
-            },
-            "Title": {
-              "item": "Ground-ice features and depth of peat across a mire chronosequence, NW Alaska"
-            },
-            "Year": 2003,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Plug, L. J."
+              },
+              "Title": {
+                "item": "Ground-ice features and depth of peat across a mire chronosequence, NW Alaska"
+              },
+              "Year": 2003,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "no biota present"
           }
-        }
+        ]
       }
     }
   ],
