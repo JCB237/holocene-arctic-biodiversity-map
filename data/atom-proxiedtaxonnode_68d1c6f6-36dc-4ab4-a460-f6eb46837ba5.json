@@ -1,0 +1,87 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "68d1c6f6-36dc-4ab4-a460-f6eb46837ba5"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "68d1c6f6-36dc-4ab4-a460-f6eb46837ba5"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "abundance"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "68d1c6f6-36dc-4ab4-a460-f6eb46837ba5"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_alnus"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "68d1c6f6-36dc-4ab4-a460-f6eb46837ba5"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "atlas_explicit - several used yet not assigned to specific taxon"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "68d1c6f6-36dc-4ab4-a460-f6eb46837ba5"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_pollen_alnus"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]

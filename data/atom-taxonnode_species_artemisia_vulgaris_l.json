@@ -1,0 +1,47 @@
+[
+  [
+    {
+      "FriendlyKey": [
+        "taxonnode",
+        "species_artemisia_vulgaris_l"
+      ]
+    },
+    {
+      "PopulationNode": {
+        "TaxonomyNode": {
+          "Species": [
+            {
+              "item": "Artemisia"
+            },
+            {
+              "item": "vulgaris"
+            },
+            {
+              "item": "L."
+            }
+          ]
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "species_artemisia_vulgaris_l"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_artemisia"
+        ]
+      },
+      1,
+      {
+        "Population": "IsA"
+      }
+    ]
+  ]
+]

@@ -1,0 +1,87 @@
+[
+  [
+    {
+      "UUID": [
+        "proxiedtaxonnode",
+        "658fa14c-133f-4fe3-8a4d-6920f0d2f061"
+      ]
+    },
+    {
+      "PopulationNode": "ProxiedTaxonNode"
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "658fa14c-133f-4fe3-8a4d-6920f0d2f061"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "biodiversitydimensionnode",
+          "abundance"
+        ]
+      },
+      1,
+      {
+        "Population": "MeasuredBy"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "658fa14c-133f-4fe3-8a4d-6920f0d2f061"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "taxonnode",
+          "genus_nuphar"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredAs"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "658fa14c-133f-4fe3-8a4d-6920f0d2f061"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "inferencemethodnode",
+          "atlas_explicit - several used yet not assigned to specific taxon"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredUsing"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "proxiedtaxonnode",
+          "658fa14c-133f-4fe3-8a4d-6920f0d2f061"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxynode",
+          "morphotype_pollen_nuphar"
+        ]
+      },
+      1,
+      {
+        "Population": "InferredFrom"
+      }
+    ]
+  ]
+]
