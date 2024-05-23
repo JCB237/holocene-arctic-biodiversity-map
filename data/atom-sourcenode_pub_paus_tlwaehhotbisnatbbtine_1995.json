@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Paus, A."
-            },
-            "Title": {
-              "item": "The late Weichselian and early Holocene history of tree birch in south Norway and the Bolling Betula time-lag in northwest Europe"
-            },
-            "Year": 1995,
-            "Volume": 85,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Paus, A."
+              },
+              "Title": {
+                "item": "The late Weichselian and early Holocene history of tree birch in south Norway and the Bolling Betula time-lag in northwest Europe"
+              },
+              "Year": 1995,
+              "Volume": 85,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Western Norway"
           }
-        }
+        ]
       }
     }
   ],
