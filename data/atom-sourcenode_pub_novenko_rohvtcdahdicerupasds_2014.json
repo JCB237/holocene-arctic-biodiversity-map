@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Novenko, E. Y.; Eremeeva, A. P.; Chepurnaya, A. A."
-            },
-            "Title": {
-              "item": "Reconstruction of Holocene vegetation, tree cover dynamics and human disturbances in central European Russia, using pollen and satellite data sets"
-            },
-            "Journal": {
-              "item": "Vegetation History and Archaeobotany"
-            },
-            "Year": 2014,
-            "Volume": 23,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Novenko, E. Y.; Eremeeva, A. P.; Chepurnaya, A. A."
+              },
+              "Title": {
+                "item": "Reconstruction of Holocene vegetation, tree cover dynamics and human disturbances in central European Russia, using pollen and satellite data sets"
+              },
+              "Journal": {
+                "item": "Vegetation History and Archaeobotany"
+              },
+              "Year": 2014,
+              "Volume": 23,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Podkosmovo mire (53.67027°N, 38.59055°E)"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Golyeva, A."
-            },
-            "Title": {
-              "item": "Biomorphic analysis as a part of soil morphological investigations"
-            },
-            "Journal": {
-              "item": "Catena"
-            },
-            "Year": 2001,
-            "Volume": 43,
-            "Pages": [
-              217,
-              230
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Golyeva, A."
+              },
+              "Title": {
+                "item": "Biomorphic analysis as a part of soil morphological investigations"
+              },
+              "Journal": {
+                "item": "Catena"
+              },
+              "Year": 2001,
+              "Volume": 43,
+              "Pages": [
+                217,
+                230
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Northermost example site at 60.666667, 50.833333"
           }
-        }
+        ]
       }
     }
   ],

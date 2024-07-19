@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Andersson, S.; Schoning, K."
-            },
-            "Title": {
-              "item": "Surface wetness and mire development during the late Holocene in central Sweden"
-            },
-            "Journal": {
-              "item": "Boreas (Oslo)"
-            },
-            "Year": 2010,
-            "Volume": 39,
-            "Pages": [
-              749,
-              760
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Andersson, S.; Schoning, K."
+              },
+              "Title": {
+                "item": "Surface wetness and mire development during the late Holocene in central Sweden"
+              },
+              "Journal": {
+                "item": "Boreas (Oslo)"
+              },
+              "Year": 2010,
+              "Volume": 39,
+              "Pages": [
+                749,
+                760
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Lilla Backsjömyren (informal name), a mire at 62 41 N, 14 32 E"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hjelle, K. L.; Halvorsen, L. S.; Prosch-Danielsen, L.; Sugita, S.; Paus, A.; Kaland, P. E.; Mehl, I. K.; Overland, A.; Danielsen, R.; Hoeg, H. I.; Midtbo, I."
-            },
-            "Title": {
-              "item": "Long-term changes in regional vegetation cover along the west coast of southern Norway: The importance of human impact"
-            },
-            "Journal": {
-              "item": "Journal of Vegetation Science"
-            },
-            "Year": 2018,
-            "Volume": 29,
-            "Pages": [
-              404,
-              415
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hjelle, K. L.; Halvorsen, L. S.; Prosch-Danielsen, L.; Sugita, S.; Paus, A.; Kaland, P. E.; Mehl, I. K.; Overland, A.; Danielsen, R.; Hoeg, H. I.; Midtbo, I."
+              },
+              "Title": {
+                "item": "Long-term changes in regional vegetation cover along the west coast of southern Norway: The importance of human impact"
+              },
+              "Journal": {
+                "item": "Journal of Vegetation Science"
+              },
+              "Year": 2018,
+              "Volume": 29,
+              "Pages": [
+                404,
+                415
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Southern Norway"
           }
-        }
+        ]
       }
     }
   ],

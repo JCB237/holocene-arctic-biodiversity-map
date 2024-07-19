@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Pisaric, M. F. J.; Holt, C.; Szeicz, J. M.; Karst, T.; Smol, J. P."
-            },
-            "Title": {
-              "item": "Holocene treeline dynamics in the mountains of northeastern British Columbia, Canada, inferred from fossil pollen and stomata"
-            },
-            "Journal": {
-              "item": "Holocene"
-            },
-            "Year": 2003,
-            "Volume": 13,
-            "Pages": [
-              161,
-              173
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Pisaric, M. F. J.; Holt, C.; Szeicz, J. M.; Karst, T.; Smol, J. P."
+              },
+              "Title": {
+                "item": "Holocene treeline dynamics in the mountains of northeastern British Columbia, Canada, inferred from fossil pollen and stomata"
+              },
+              "Journal": {
+                "item": "Holocene"
+              },
+              "Year": 2003,
+              "Volume": 13,
+              "Pages": [
+                161,
+                173
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "58°34'00.0\"N 124°32'00.0\"W and 58°28'00.0\"N 124°28'00.0\"W"
           }
-        }
+        ]
       }
     }
   ],

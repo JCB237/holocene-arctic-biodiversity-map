@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Malavin, S.; Shmakova, L.; Claverie, J. M.; Rivkina, E."
-            },
-            "Title": {
-              "item": "Frozen Zoo: A collection of permafrost samples containing viable protists and their viruses"
-            },
-            "Journal": {
-              "item": "Biodiversity Data Journal"
-            },
-            "Year": 2018,
-            "Volume": 8,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Malavin, S.; Shmakova, L.; Claverie, J. M.; Rivkina, E."
+              },
+              "Title": {
+                "item": "Frozen Zoo: A collection of permafrost samples containing viable protists and their viruses"
+              },
+              "Journal": {
+                "item": "Biodiversity Data Journal"
+              },
+              "Year": 2018,
+              "Volume": 8,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Only Holocene info is for amoeba taxa"
           }
-        }
+        ]
       }
     }
   ],

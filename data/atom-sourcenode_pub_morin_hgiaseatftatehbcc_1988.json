@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Morin, H.; Payette, S."
-            },
-            "Title": {
-              "item": "Holocene Gelifluction in a Snow-Patch Environment at the Forest-Tundra Transition Along the Eastern Hudson Bay Coast Canada"
-            },
-            "Journal": {
-              "item": "Boreas (Oslo)"
-            },
-            "Year": 1988,
-            "Volume": 17,
-            "Pages": [
-              79,
-              88
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Morin, H.; Payette, S."
+              },
+              "Title": {
+                "item": "Holocene Gelifluction in a Snow-Patch Environment at the Forest-Tundra Transition Along the Eastern Hudson Bay Coast Canada"
+              },
+              "Journal": {
+                "item": "Boreas (Oslo)"
+              },
+              "Year": 1988,
+              "Volume": 17,
+              "Pages": [
+                79,
+                88
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Dating of organic horizon chronosequence by unspecified root / plant material"
           }
-        }
+        ]
       }
     }
   ],

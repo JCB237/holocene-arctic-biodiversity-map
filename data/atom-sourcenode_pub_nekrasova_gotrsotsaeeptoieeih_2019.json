@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Nekrasova, O.; Yanish, Y.; Tytar, V.; Pupins, M."
-            },
-            "Title": {
-              "item": "GIS-modeling of the Range Shifts of the Sub-fossil and Extant European Pond Turtle (Emys orbicularis) in Eastern Europe in Holocene"
-            },
-            "Journal": {
-              "item": "Diversity-Basel"
-            },
-            "Year": 2019,
-            "Volume": 11,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Nekrasova, O.; Yanish, Y.; Tytar, V.; Pupins, M."
+              },
+              "Title": {
+                "item": "GIS-modeling of the Range Shifts of the Sub-fossil and Extant European Pond Turtle (Emys orbicularis) in Eastern Europe in Holocene"
+              },
+              "Journal": {
+                "item": "Diversity-Basel"
+              },
+              "Year": 2019,
+              "Volume": 11,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "\"The age of the sites spans from the Neolithic to the Middle Ages, covering the territory from Crimea and the western regions of present Ukraine to Lipetsk and Voronezh regions of the Russian Federation\""
           }
-        }
+        ]
       }
     }
   ],

@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Flower, R. H."
-            },
-            "Title": {
-              "item": "An arctic faunule from the Cynthiana of Kentucky"
-            },
-            "Journal": {
-              "item": "Bulls Amer Paleontol"
-            },
-            "Year": 1942,
-            "Volume": 27,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Flower, R. H."
+              },
+              "Title": {
+                "item": "An arctic faunule from the Cynthiana of Kentucky"
+              },
+              "Journal": {
+                "item": "Bulls Amer Paleontol"
+              },
+              "Year": 1942,
+              "Volume": 27,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Kentucky"
           }
-        }
+        ]
       }
     }
   ],

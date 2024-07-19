@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Payne, R.; Blackford, J."
-            },
-            "Title": {
-              "item": "Distal volcanic impacts on peatlands: palaeoecological evidence from Alaska"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 2008,
-            "Volume": 27,
-            "Pages": [
-              2012,
-              2030
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Payne, R.; Blackford, J."
+              },
+              "Title": {
+                "item": "Distal volcanic impacts on peatlands: palaeoecological evidence from Alaska"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 2008,
+              "Volume": 27,
+              "Pages": [
+                2012,
+                2030
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Kenai Peninsula, Alaska"
           }
-        }
+        ]
       }
     }
   ],

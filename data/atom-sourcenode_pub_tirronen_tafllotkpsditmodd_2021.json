@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Tirronen, K.; Ehrich, D.; Panchenko, D.; Dalén, L.; Angerbjörn, A."
-            },
-            "Title": {
-              "item": "The Arctic fox (Vulpes lagopus L.) on the Kola Peninsula (Russia): silently disappearing in the mist of data deficiency?"
-            },
-            "Journal": {
-              "item": "Polar Biology"
-            },
-            "Year": 2021,
-            "Volume": 44,
-            "Pages": [
-              913,
-              925
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Tirronen, K.; Ehrich, D.; Panchenko, D.; Dalén, L.; Angerbjörn, A."
+              },
+              "Title": {
+                "item": "The Arctic fox (Vulpes lagopus L.) on the Kola Peninsula (Russia): silently disappearing in the mist of data deficiency?"
+              },
+              "Journal": {
+                "item": "Polar Biology"
+              },
+              "Year": 2021,
+              "Volume": 44,
+              "Pages": [
+                913,
+                925
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "Time-series of fur sales and other observational data, but no reconstructed / palaeo data"
           }
-        }
+        ]
       }
     }
   ],

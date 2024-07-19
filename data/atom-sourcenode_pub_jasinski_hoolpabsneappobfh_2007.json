@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Jasinski, J. P. P.; Payette, S."
-            },
-            "Title": {
-              "item": "Holocene occurrence of Lophodermium piceae, a black spruce needle endophyte and possible paleoindicator of boreal forest health"
-            },
-            "Journal": {
-              "item": "Quaternary Research"
-            },
-            "Year": 2007,
-            "Volume": 67,
-            "Pages": [
-              50,
-              56
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Jasinski, J. P. P.; Payette, S."
+              },
+              "Title": {
+                "item": "Holocene occurrence of Lophodermium piceae, a black spruce needle endophyte and possible paleoindicator of boreal forest health"
+              },
+              "Journal": {
+                "item": "Quaternary Research"
+              },
+              "Year": 2007,
+              "Volume": 67,
+              "Pages": [
+                50,
+                56
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Parc national des Grands-Jardins (“Park”; 47°49′N, 70°59′W) "
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Murchie, T. J.; Kuch, M.; Duggan, A. T.; Ledger, M. L.; Roche, K.; Klunk, J.; Karpinski, E.; Hackenberger, D.; Sadoway, T.; MacPhee, R.; Froese, D.; Poinar, H."
-            },
-            "Title": {
-              "item": "Optimizing extraction and targeted capture of ancient environmental DNA for reconstructing past environments using the PalaeoChip Arctic-1.0 bait-set"
-            },
-            "Journal": {
-              "item": "Quaternary Research (Orlando)"
-            },
-            "Year": 2021,
-            "Volume": 99,
-            "Pages": [
-              305,
-              328
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Murchie, T. J.; Kuch, M.; Duggan, A. T.; Ledger, M. L.; Roche, K.; Klunk, J.; Karpinski, E.; Hackenberger, D.; Sadoway, T.; MacPhee, R.; Froese, D.; Poinar, H."
+              },
+              "Title": {
+                "item": "Optimizing extraction and targeted capture of ancient environmental DNA for reconstructing past environments using the PalaeoChip Arctic-1.0 bait-set"
+              },
+              "Journal": {
+                "item": "Quaternary Research (Orlando)"
+              },
+              "Year": 2021,
+              "Volume": 99,
+              "Pages": [
+                305,
+                328
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Sampling sites south of Dawson City, Canada"
           }
-        }
+        ]
       }
     }
   ],

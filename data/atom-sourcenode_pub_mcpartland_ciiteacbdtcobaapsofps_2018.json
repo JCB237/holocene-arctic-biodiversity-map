@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "McPartland, J. M.; Guy, G. W.; Hegman, W."
-            },
-            "Title": {
-              "item": "Cannabis is indigenous to Europe and cultivation began during the Copper or Bronze age: a probabilistic synthesis of fossil pollen studies"
-            },
-            "Journal": {
-              "item": "Vegetation History and Archaeobotany"
-            },
-            "Year": 2018,
-            "Volume": 27,
-            "Pages": [
-              635,
-              648
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "McPartland, J. M.; Guy, G. W.; Hegman, W."
+              },
+              "Title": {
+                "item": "Cannabis is indigenous to Europe and cultivation began during the Copper or Bronze age: a probabilistic synthesis of fossil pollen studies"
+              },
+              "Journal": {
+                "item": "Vegetation History and Archaeobotany"
+              },
+              "Year": 2018,
+              "Volume": 27,
+              "Pages": [
+                635,
+                648
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Too far south in Sweden"
           }
-        }
+        ]
       }
     }
   ],

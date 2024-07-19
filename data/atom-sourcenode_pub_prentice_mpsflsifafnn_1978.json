@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Prentice, I. C."
-            },
-            "Title": {
-              "item": "Modern Pollen Spectra from Lake Sediments in Finland and Finnmark North Norway"
-            },
-            "Journal": {
-              "item": "Boreas (Oslo)"
-            },
-            "Year": 1978,
-            "Volume": 7,
-            "Pages": [
-              131,
-              153
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Prentice, I. C."
+              },
+              "Title": {
+                "item": "Modern Pollen Spectra from Lake Sediments in Finland and Finnmark North Norway"
+              },
+              "Journal": {
+                "item": "Boreas (Oslo)"
+              },
+              "Year": 1978,
+              "Volume": 7,
+              "Pages": [
+                131,
+                153
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Modern pollen spectra only"
           }
-        }
+        ]
       }
     }
   ],

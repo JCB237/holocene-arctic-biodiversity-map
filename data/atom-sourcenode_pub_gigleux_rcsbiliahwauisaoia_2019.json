@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Gigleux, C.; Grimes, V.; Tutken, T.; Knecht, R.; Britton, K."
-            },
-            "Title": {
-              "item": "Reconstructing caribou seasonal biogeography in Little Ice Age (late Holocene) Western Alaska using intra-tooth strontium and oxygen isotope analysis"
-            },
-            "Journal": {
-              "item": "Journal of Archaeological Science-Reports"
-            },
-            "Year": 2019,
-            "Volume": 23,
-            "Pages": [
-              1043,
-              1054
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Gigleux, C.; Grimes, V.; Tutken, T.; Knecht, R.; Britton, K."
+              },
+              "Title": {
+                "item": "Reconstructing caribou seasonal biogeography in Little Ice Age (late Holocene) Western Alaska using intra-tooth strontium and oxygen isotope analysis"
+              },
+              "Journal": {
+                "item": "Journal of Archaeological Science-Reports"
+              },
+              "Year": 2019,
+              "Volume": 23,
+              "Pages": [
+                1043,
+                1054
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Four reindeers' teeth analysed for strontium, but no dates presented as age model was incomplete"
           }
-        }
+        ]
       }
     }
   ],

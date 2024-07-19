@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "McLeod, B. A.; Frasier, T. R.; Lucas, Z."
-            },
-            "Title": {
-              "item": "Assessment of the Extirpated Maritimes Walrus Using Morphological and Ancient DNA Analysis"
-            },
-            "Journal": {
-              "item": "PLoS One"
-            },
-            "Year": 2014,
-            "Volume": 9,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "McLeod, B. A.; Frasier, T. R.; Lucas, Z."
+              },
+              "Title": {
+                "item": "Assessment of the Extirpated Maritimes Walrus Using Morphological and Ancient DNA Analysis"
+              },
+              "Journal": {
+                "item": "PLoS One"
+              },
+              "Year": 2014,
+              "Volume": 9,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "No dates for samples except those in New Brunswick"
           }
-        }
+        ]
       }
     }
   ],

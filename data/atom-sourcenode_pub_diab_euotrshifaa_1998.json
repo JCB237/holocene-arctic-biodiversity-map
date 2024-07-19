@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Diab, M. C."
-            },
-            "Title": {
-              "item": "Economic utility of the ringed seal (Phoca hispida): Implications for arctic archaeology"
-            },
-            "Journal": {
-              "item": "Journal of Archaeological Science"
-            },
-            "Year": 1998,
-            "Volume": 25,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Diab, M. C."
+              },
+              "Title": {
+                "item": "Economic utility of the ringed seal (Phoca hispida): Implications for arctic archaeology"
+              },
+              "Journal": {
+                "item": "Journal of Archaeological Science"
+              },
+              "Year": 1998,
+              "Volume": 25,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Four seals harvested 1991"
           }
-        }
+        ]
       }
     }
   ],

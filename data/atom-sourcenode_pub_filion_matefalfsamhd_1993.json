@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Filion, L.; Quinty, F."
-            },
-            "Title": {
-              "item": "Macrofossil and tree-ring evidence for a long-term forest succession and mid-Holocene hemlock decline"
-            },
-            "Journal": {
-              "item": "Quaternary Research (Orlando)"
-            },
-            "Year": 1993,
-            "Volume": 40,
-            "Pages": [
-              89,
-              97
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Filion, L.; Quinty, F."
+              },
+              "Title": {
+                "item": "Macrofossil and tree-ring evidence for a long-term forest succession and mid-Holocene hemlock decline"
+              },
+              "Journal": {
+                "item": "Quaternary Research (Orlando)"
+              },
+              "Year": 1993,
+              "Volume": 40,
+              "Pages": [
+                89,
+                97
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Saint Flavien, south of St Lawrence river"
           }
-        }
+        ]
       }
     }
   ],

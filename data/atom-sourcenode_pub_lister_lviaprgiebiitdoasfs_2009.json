@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Lister, D. L.; Thaw, S.; Bower, M. A.; Jones, H.; Charles, M. P.; Jones, G.; Smith, L. M. J.; Howe, C. J.; Brown, T. A.; Jones, M. K."
-            },
-            "Title": {
-              "item": "Latitudinal variation in a photoperiod response gene in European barley: insight into the dynamics of agricultural spread from 'historic' specimens"
-            },
-            "Journal": {
-              "item": "Journal of Archaeological Science"
-            },
-            "Year": 2009,
-            "Volume": 36,
-            "Pages": [
-              1092,
-              1098
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Lister, D. L.; Thaw, S.; Bower, M. A.; Jones, H.; Charles, M. P.; Jones, G.; Smith, L. M. J.; Howe, C. J.; Brown, T. A.; Jones, M. K."
+              },
+              "Title": {
+                "item": "Latitudinal variation in a photoperiod response gene in European barley: insight into the dynamics of agricultural spread from 'historic' specimens"
+              },
+              "Journal": {
+                "item": "Journal of Archaeological Science"
+              },
+              "Year": 2009,
+              "Volume": 36,
+              "Pages": [
+                1092,
+                1098
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "Herbarium specimens used with collection date of material"
           }
-        }
+        ]
       }
     }
   ],

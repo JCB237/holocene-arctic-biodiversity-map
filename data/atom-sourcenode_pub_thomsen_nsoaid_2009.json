@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Thomsen, P. F.; Elias, S.; Gilbert, M. T. P.; Haile, J.; Munch, K.; Kuzmina, S.; Froese, D. G.; Sher, A.; Holdaway, R. N.; Willerslev, E."
-            },
-            "Title": {
-              "item": "Non-Destructive Sampling of Ancient Insect DNA"
-            },
-            "Journal": {
-              "item": "PLoS One"
-            },
-            "Year": 2009,
-            "Volume": 4,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Thomsen, P. F.; Elias, S.; Gilbert, M. T. P.; Haile, J.; Munch, K.; Kuzmina, S.; Froese, D. G.; Sher, A.; Holdaway, R. N.; Willerslev, E."
+              },
+              "Title": {
+                "item": "Non-Destructive Sampling of Ancient Insect DNA"
+              },
+              "Journal": {
+                "item": "PLoS One"
+              },
+              "Year": 2009,
+              "Volume": 4,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Only Chukotka relevant, but dated to 26,000 yBP"
           }
-        }
+        ]
       }
     }
   ],

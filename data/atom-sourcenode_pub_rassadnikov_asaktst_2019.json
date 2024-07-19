@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Rassadnikov, A. Y."
-            },
-            "Title": {
-              "item": "Archaeozoological Studies at Konoplyanka, the Southern Trans-Urals"
-            },
-            "Journal": {
-              "item": "Archaeology, Ethnology & Anthropology of Eurasia"
-            },
-            "Year": 2019,
-            "Volume": 47,
-            "Pages": [
-              33,
-              39
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Rassadnikov, A. Y."
+              },
+              "Title": {
+                "item": "Archaeozoological Studies at Konoplyanka, the Southern Trans-Urals"
+              },
+              "Journal": {
+                "item": "Archaeology, Ethnology & Anthropology of Eurasia"
+              },
+              "Year": 2019,
+              "Volume": 47,
+              "Pages": [
+                33,
+                39
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Chelyabinsk Region"
           }
-        }
+        ]
       }
     }
   ],

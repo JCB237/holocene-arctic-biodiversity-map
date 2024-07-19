@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Groom, Q. J."
-            },
-            "Title": {
-              "item": "Piecing together the biogeographic history of Chenopodium vulvaria L. using botanical literature and collections"
-            },
-            "Journal": {
-              "item": "PeerJ"
-            },
-            "Year": 2015,
-            "Volume": 3,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Groom, Q. J."
+              },
+              "Title": {
+                "item": "Piecing together the biogeographic history of Chenopodium vulvaria L. using botanical literature and collections"
+              },
+              "Journal": {
+                "item": "PeerJ"
+              },
+              "Year": 2015,
+              "Volume": 3,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "Synthesis of previously published observations"
           }
-        }
+        ]
       }
     }
   ],

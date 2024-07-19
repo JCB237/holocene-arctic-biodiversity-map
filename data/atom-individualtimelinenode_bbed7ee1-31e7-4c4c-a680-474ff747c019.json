@@ -1,0 +1,96 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "bbed7ee1-31e7-4c4c-a680-474ff747c019"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": {
+            "Regular": [
+              1.0,
+              "WoodAnatomicalFeatures"
+            ]
+          }
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "bbed7ee1-31e7-4c4c-a680-474ff747c019"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "contemporary_plants"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "bbed7ee1-31e7-4c4c-a680-474ff747c019"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "2873f9a8-4185-4437-8655-b5cace1502e4"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "bbed7ee1-31e7-4c4c-a680-474ff747c019"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "-40ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "bbed7ee1-31e7-4c4c-a680-474ff747c019"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "130ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentEarliest"
+      }
+    ]
+  ]
+]

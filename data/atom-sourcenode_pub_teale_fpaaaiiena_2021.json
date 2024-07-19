@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Teale, C.; Chang, J."
-            },
-            "Title": {
-              "item": "Fabaceae (legume) pollen as an anthropogenic indicator in eastern North America"
-            },
-            "Journal": {
-              "item": "Vegetation History and Archaeobotany"
-            },
-            "Year": 2021,
-            "Volume": 30,
-            "Pages": [
-              703,
-              709
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Teale, C.; Chang, J."
+              },
+              "Title": {
+                "item": "Fabaceae (legume) pollen as an anthropogenic indicator in eastern North America"
+              },
+              "Journal": {
+                "item": "Vegetation History and Archaeobotany"
+              },
+              "Year": 2021,
+              "Volume": 30,
+              "Pages": [
+                703,
+                709
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Nova Scotia, Prince Edward Island, New Brunswick, the New England States, New York, NJ and Penn."
           }
-        }
+        ]
       }
     }
   ],

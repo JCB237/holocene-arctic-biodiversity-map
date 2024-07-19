@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Pospelov, I. N.; Pospelova, E. B."
-            },
-            "Title": {
-              "item": "Some repeated inventory results of the putorana plateau vascular flora"
-            },
-            "Journal": {
-              "item": "BIO Web of Conferences"
-            },
-            "Year": 2021,
-            "Volume": 38,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Pospelov, I. N.; Pospelova, E. B."
+              },
+              "Title": {
+                "item": "Some repeated inventory results of the putorana plateau vascular flora"
+              },
+              "Journal": {
+                "item": "BIO Web of Conferences"
+              },
+              "Year": 2021,
+              "Volume": 38,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "Repeated field inventories"
           }
-        }
+        ]
       }
     }
   ],

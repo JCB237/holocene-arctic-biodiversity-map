@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Andersson, R.; Östlund, L.; Törnlund, E."
-            },
-            "Title": {
-              "item": "The last European landscape to be colonised: A case study of land-use change in the far north of Sweden 1850-1930"
-            },
-            "Journal": {
-              "item": "Environment and History"
-            },
-            "Year": 2005,
-            "Volume": 11,
-            "Pages": [
-              293,
-              318
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Andersson, R.; Östlund, L.; Törnlund, E."
+              },
+              "Title": {
+                "item": "The last European landscape to be colonised: A case study of land-use change in the far north of Sweden 1850-1930"
+              },
+              "Journal": {
+                "item": "Environment and History"
+              },
+              "Year": 2005,
+              "Volume": 11,
+              "Pages": [
+                293,
+                318
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "\"The study is based on an interdisciplinary approach in which primary histori- cal sources (maps, delineation documents, forest management plans and parish registrations) are combined with modern vegetation and topographical maps and a field study to express historical land-use patterns in ecological terms, and to link them as strongly as possible to landscape features.\""
           }
-        }
+        ]
       }
     }
   ],

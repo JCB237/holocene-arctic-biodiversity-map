@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Rosvold, J.; Roed, K. H.; Hufthammer, A. K.; Andersen, R.; Stenoien, H. K."
-            },
-            "Title": {
-              "item": "Reconstructing the history of a fragmented and heavily exploited red deer population using ancient and contemporary DNA"
-            },
-            "Journal": {
-              "item": "BMC Evolutionary Biology"
-            },
-            "Year": 2012,
-            "Volume": 12,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Rosvold, J.; Roed, K. H.; Hufthammer, A. K.; Andersen, R.; Stenoien, H. K."
+              },
+              "Title": {
+                "item": "Reconstructing the history of a fragmented and heavily exploited red deer population using ancient and contemporary DNA"
+              },
+              "Journal": {
+                "item": "BMC Evolutionary Biology"
+              },
+              "Year": 2012,
+              "Volume": 12,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Non-Arctic Norway"
           }
-        }
+        ]
       }
     }
   ],

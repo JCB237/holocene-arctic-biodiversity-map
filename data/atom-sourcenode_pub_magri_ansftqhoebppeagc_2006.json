@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Magri, D.; Vendramin, G. G.; Comps, B.; Dupanloup, I.; Geburek, T.; Gomory, D.; Latalowa, M.; Litt, T.; Paule, L.; Roure, J. M.; Tantau, I.; Knaap, W. O. v d; Petit, R. J.; Beaulieu, J. L. d"
-            },
-            "Title": {
-              "item": "A new scenario for the Quaternary history of European beech populations: palaeobotanical evidence and genetic consequences"
-            },
-            "Journal": {
-              "item": "New Phytologist"
-            },
-            "Year": 2006,
-            "Volume": 171,
-            "Pages": [
-              199,
-              221
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Magri, D.; Vendramin, G. G.; Comps, B.; Dupanloup, I.; Geburek, T.; Gomory, D.; Latalowa, M.; Litt, T.; Paule, L.; Roure, J. M.; Tantau, I.; Knaap, W. O. v d; Petit, R. J.; Beaulieu, J. L. d"
+              },
+              "Title": {
+                "item": "A new scenario for the Quaternary history of European beech populations: palaeobotanical evidence and genetic consequences"
+              },
+              "Journal": {
+                "item": "New Phytologist"
+              },
+              "Year": 2006,
+              "Volume": 171,
+              "Pages": [
+                199,
+                221
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Only goes north to 55N"
           }
-        }
+        ]
       }
     }
   ],

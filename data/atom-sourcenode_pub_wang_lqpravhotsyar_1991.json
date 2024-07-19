@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Wang, X. C.; Geurts, M. A."
-            },
-            "Title": {
-              "item": "Late Quaternary Pollen Records and Vegetation History of the Southwest Yukon-Territory - a Review"
-            },
-            "Journal": {
-              "item": "Geographie Physique Et Quaternaire"
-            },
-            "Year": 1991,
-            "Volume": 45,
-            "Pages": [
-              175,
-              193
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Wang, X. C.; Geurts, M. A."
+              },
+              "Title": {
+                "item": "Late Quaternary Pollen Records and Vegetation History of the Southwest Yukon-Territory - a Review"
+              },
+              "Journal": {
+                "item": "Geographie Physique Et Quaternaire"
+              },
+              "Year": 1991,
+              "Volume": 45,
+              "Pages": [
+                175,
+                193
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "SW Yukon South of Stewart River"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Honka, J.; Heino, M. T.; Kvist, L.; Askeyev, I. V.; Shaymuratova, D. N.; Askeyev, O. V.; Askeyev, A. O.; Heikkinen, M. E.; Searle, J. B.; Aspi, J."
-            },
-            "Title": {
-              "item": "Over a Thousand Years of Evolutionary History of Domestic Geese from Russian Archaeological Sites, Analysed Using Ancient DNA"
-            },
-            "Journal": {
-              "item": "Genes"
-            },
-            "Year": 2018,
-            "Volume": 9,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Honka, J.; Heino, M. T.; Kvist, L.; Askeyev, I. V.; Shaymuratova, D. N.; Askeyev, O. V.; Askeyev, A. O.; Heikkinen, M. E.; Searle, J. B.; Aspi, J."
+              },
+              "Title": {
+                "item": "Over a Thousand Years of Evolutionary History of Domestic Geese from Russian Archaeological Sites, Analysed Using Ancient DNA"
+              },
+              "Journal": {
+                "item": "Genes"
+              },
+              "Year": 2018,
+              "Volume": 9,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Leningrad and more southern regions"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Cramp, L. J. E.; Evershed, R. P.; Lavento, M.; Halinen, P.; Mannermaa, K.; Oinonen, M.; Kettunen, J.; Perola, M.; Onkamo, P.; Heyd, V."
-            },
-            "Title": {
-              "item": "Neolithic dairy farming at the extreme of agriculture in northern Europe"
-            },
-            "Journal": {
-              "item": "Proceedings of the Royal Society Biological Sciences Series B"
-            },
-            "Year": 2014,
-            "Volume": 281,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Cramp, L. J. E.; Evershed, R. P.; Lavento, M.; Halinen, P.; Mannermaa, K.; Oinonen, M.; Kettunen, J.; Perola, M.; Onkamo, P.; Heyd, V."
+              },
+              "Title": {
+                "item": "Neolithic dairy farming at the extreme of agriculture in northern Europe"
+              },
+              "Journal": {
+                "item": "Proceedings of the Royal Society Biological Sciences Series B"
+              },
+              "Year": 2014,
+              "Volume": 281,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Fats as proxy for 'dairy' or 'marine' only. Also no sites in Arctic."
           }
-        }
+        ]
       }
     }
   ],

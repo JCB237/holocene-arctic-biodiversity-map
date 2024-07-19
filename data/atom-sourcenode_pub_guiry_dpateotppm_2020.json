@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Guiry, E. J.; Orchard, T. J.; Royle, T. C. A.; Cheung, C.; Yang, D. Y."
-            },
-            "Title": {
-              "item": "Dietary plasticity and the extinction of the passenger pigeon (Ectopistes migratorius)"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 2020,
-            "Volume": 233,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Guiry, E. J.; Orchard, T. J.; Royle, T. C. A.; Cheung, C.; Yang, D. Y."
+              },
+              "Title": {
+                "item": "Dietary plasticity and the extinction of the passenger pigeon (Ectopistes migratorius)"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 2020,
+              "Volume": 233,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Lake Ontario region"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Rousseau, D. D.; Limondin, N.; Magnin, F.; Puissegur, J. J."
-            },
-            "Title": {
-              "item": "Temperature Oscillations over the Last 10,000 Years in Western-Europe Estimated from Terrestrial Mollusk Assemblages"
-            },
-            "Journal": {
-              "item": "Boreas"
-            },
-            "Year": 1994,
-            "Volume": 23,
-            "Pages": [
-              66,
-              73
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Rousseau, D. D.; Limondin, N.; Magnin, F.; Puissegur, J. J."
+              },
+              "Title": {
+                "item": "Temperature Oscillations over the Last 10,000 Years in Western-Europe Estimated from Terrestrial Mollusk Assemblages"
+              },
+              "Journal": {
+                "item": "Boreas"
+              },
+              "Year": 1994,
+              "Volume": 23,
+              "Pages": [
+                66,
+                73
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "France"
           }
-        }
+        ]
       }
     }
   ],

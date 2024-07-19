@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Shortle, W. C.; Smith, K. T.; Minocha, R.; Alexeyev, V. A."
-            },
-            "Title": {
-              "item": "Similar patterns of change in stemwood calcium concentration in red spruce and Siberian fir"
-            },
-            "Journal": {
-              "item": "Journal of Biogeography"
-            },
-            "Year": 1995,
-            "Volume": 22,
-            "Pages": [
-              467,
-              473
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Shortle, W. C.; Smith, K. T.; Minocha, R.; Alexeyev, V. A."
+              },
+              "Title": {
+                "item": "Similar patterns of change in stemwood calcium concentration in red spruce and Siberian fir"
+              },
+              "Journal": {
+                "item": "Journal of Biogeography"
+              },
+              "Year": 1995,
+              "Volume": 22,
+              "Pages": [
+                467,
+                473
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Southern Siberia"
           }
-        }
+        ]
       }
     }
   ],

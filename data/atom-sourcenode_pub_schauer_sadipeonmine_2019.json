@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Schauer, P.; Shennan, S.; Bevan, A.; Cook, G.; Edinborough, K.; Fyfe, R.; Kerig, T.; Parker Pearson, M."
-            },
-            "Title": {
-              "item": "Supply and demand in prehistory? Economics of Neolithic mining in northwest Europe"
-            },
-            "Journal": {
-              "item": "Journal of Anthropological Archaeology"
-            },
-            "Year": 2019,
-            "Volume": 54,
-            "Pages": [
-              149,
-              160
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Schauer, P.; Shennan, S.; Bevan, A.; Cook, G.; Edinborough, K.; Fyfe, R.; Kerig, T.; Parker Pearson, M."
+              },
+              "Title": {
+                "item": "Supply and demand in prehistory? Economics of Neolithic mining in northwest Europe"
+              },
+              "Journal": {
+                "item": "Journal of Anthropological Archaeology"
+              },
+              "Year": 2019,
+              "Volume": 54,
+              "Pages": [
+                149,
+                160
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Britain and Denmark"
           }
-        }
+        ]
       }
     }
   ],

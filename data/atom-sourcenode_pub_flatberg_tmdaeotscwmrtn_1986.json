@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Flatberg, K. I."
-            },
-            "Title": {
-              "item": "Taxonomy Morphovariation Distribution and Ecology of the Sphagnum-Imbricatum Complex with Main Reference to Norway"
-            },
-            "Journal": {
-              "item": "Gunneria"
-            },
-            "Year": 1986,
-            "Pages": [
-              1,
-              118
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Flatberg, K. I."
+              },
+              "Title": {
+                "item": "Taxonomy Morphovariation Distribution and Ecology of the Sphagnum-Imbricatum Complex with Main Reference to Norway"
+              },
+              "Journal": {
+                "item": "Gunneria"
+              },
+              "Year": 1986,
+              "Pages": [
+                1,
+                118
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Peat profile from Sør-Trøndelag"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Friesen, T. M.; Stewart, A."
-            },
-            "Title": {
-              "item": "To freeze or to dry: Seasonal variability in caribou processing and storage in the barrenlands of Northern Canada"
-            },
-            "Journal": {
-              "item": "Anthropozoologica"
-            },
-            "Year": 2013,
-            "Volume": 48,
-            "Pages": [
-              89,
-              109
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Friesen, T. M.; Stewart, A."
+              },
+              "Title": {
+                "item": "To freeze or to dry: Seasonal variability in caribou processing and storage in the barrenlands of Northern Canada"
+              },
+              "Journal": {
+                "item": "Anthropozoologica"
+              },
+              "Year": 2013,
+              "Volume": 48,
+              "Pages": [
+                89,
+                109
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "No dates on bone caches. \"Most of these assem- blages are difficult to date, since they are composed exclusively of bone, and are assumed to be too recent to date with radiocarbon methods\""
           }
-        }
+        ]
       }
     }
   ],
