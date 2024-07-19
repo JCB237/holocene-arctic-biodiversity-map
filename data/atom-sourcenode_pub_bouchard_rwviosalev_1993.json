@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bouchard, A.; Jean, M."
-            },
-            "Title": {
-              "item": "Riverine wetland vegetation: importance of small‚Äêscale and large‚Äêscale environmental variation"
-            },
-            "Year": 1993,
-            "Volume": 4,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bouchard, A.; Jean, M."
+              },
+              "Title": {
+                "item": "Riverine wetland vegetation: importance of small‚Äêscale and large‚Äêscale environmental variation"
+              },
+              "Year": 1993,
+              "Volume": 4,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in Lake Saint-Francois, Quebec"
           }
-        }
+        ]
       }
     }
   ],

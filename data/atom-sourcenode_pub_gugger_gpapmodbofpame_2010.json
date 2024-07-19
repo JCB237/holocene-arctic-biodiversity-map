@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Gugger, P. F.; Sugita, S."
-            },
-            "Title": {
-              "item": "Glacial populations and postglacial migration of Douglas-fir based on fossil pollen and macrofossil evidence"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 2010,
-            "Volume": 29,
-            "Pages": [
-              2052,
-              2070
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Gugger, P. F.; Sugita, S."
+              },
+              "Title": {
+                "item": "Glacial populations and postglacial migration of Douglas-fir based on fossil pollen and macrofossil evidence"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 2010,
+              "Volume": 29,
+              "Pages": [
+                2052,
+                2070
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in western North America"
           }
-        }
+        ]
       }
     }
   ],

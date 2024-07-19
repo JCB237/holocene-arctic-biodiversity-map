@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Brown, K. J.; Nielsen, A. B.; Fitton, R. J.; Hebda, R. J."
-            },
-            "Title": {
-              "item": "Postglacial evolution and spatial differentiation of seasonal temperate rainforest in western Canada"
-            },
-            "Journal": {
-              "item": "Holocene"
-            },
-            "Year": 2008,
-            "Volume": 18,
-            "Pages": [
-              715,
-              727
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Brown, K. J.; Nielsen, A. B.; Fitton, R. J.; Hebda, R. J."
+              },
+              "Title": {
+                "item": "Postglacial evolution and spatial differentiation of seasonal temperate rainforest in western Canada"
+              },
+              "Journal": {
+                "item": "Holocene"
+              },
+              "Year": 2008,
+              "Volume": 18,
+              "Pages": [
+                715,
+                727
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in Vancouver Island, Western Canada"
           }
-        }
+        ]
       }
     }
   ],

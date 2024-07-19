@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Ratnikov, V. Y."
-            },
-            "Title": {
-              "item": "Dynamics of East European modern amphibian and reptile species distribution areas and their potential use in Quaternary stratigraphy"
-            },
-            "Journal": {
-              "item": "Comptes Rendus - Palevol"
-            },
-            "Year": 2016,
-            "Volume": 15,
-            "Pages": [
-              721,
-              730
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Ratnikov, V. Y."
+              },
+              "Title": {
+                "item": "Dynamics of East European modern amphibian and reptile species distribution areas and their potential use in Quaternary stratigraphy"
+              },
+              "Journal": {
+                "item": "Comptes Rendus - Palevol"
+              },
+              "Year": 2016,
+              "Volume": 15,
+              "Pages": [
+                721,
+                730
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in Eastern Europe"
           }
-        }
+        ]
       }
     }
   ],

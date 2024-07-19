@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Cooper, W. S."
-            },
-            "Title": {
-              "item": "Vegetation of the Prince William Sound region, Alaska, with a brief excursion into post-Pleistocene climatic history"
-            },
-            "Journal": {
-              "item": "Ecological Monographs"
-            },
-            "Year": 1942,
-            "Volume": 12,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Cooper, W. S."
+              },
+              "Title": {
+                "item": "Vegetation of the Prince William Sound region, Alaska, with a brief excursion into post-Pleistocene climatic history"
+              },
+              "Journal": {
+                "item": "Ecological Monographs"
+              },
+              "Year": 1942,
+              "Volume": 12,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Located in Prince William Sound Region, Alaska"
           }
-        }
+        ]
       }
     }
   ],

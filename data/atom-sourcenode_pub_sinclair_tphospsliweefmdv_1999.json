@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Sinclair, W. T.; Morman, J. D.; Ennos, R. A."
-            },
-            "Title": {
-              "item": "The postglacial history of Scots pine (Pinus sylvestris L.) in western Europe: Evidence from mitochondrial DNA variation"
-            },
-            "Journal": {
-              "item": "Molecular Ecology"
-            },
-            "Year": 1999,
-            "Volume": 8,
-            "Pages": [
-              83,
-              88
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Sinclair, W. T.; Morman, J. D.; Ennos, R. A."
+              },
+              "Title": {
+                "item": "The postglacial history of Scots pine (Pinus sylvestris L.) in western Europe: Evidence from mitochondrial DNA variation"
+              },
+              "Journal": {
+                "item": "Molecular Ecology"
+              },
+              "Year": 1999,
+              "Volume": 8,
+              "Pages": [
+                83,
+                88
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "one location in the artic with no data sets"
           }
-        }
+        ]
       }
     }
   ],

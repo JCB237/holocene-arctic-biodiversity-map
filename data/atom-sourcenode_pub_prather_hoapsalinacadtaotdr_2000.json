@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Prather, C.; Hickman, M."
-            },
-            "Title": {
-              "item": "History of a presently slightly acidic lake in northeastern Alberta, Canada as determined through analysis of the diatom record"
-            },
-            "Journal": {
-              "item": "Journal of Paleolimnology"
-            },
-            "Year": 2000,
-            "Volume": 24,
-            "Pages": [
-              183,
-              198
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Prather, C.; Hickman, M."
+              },
+              "Title": {
+                "item": "History of a presently slightly acidic lake in northeastern Alberta, Canada as determined through analysis of the diatom record"
+              },
+              "Journal": {
+                "item": "Journal of Paleolimnology"
+              },
+              "Year": 2000,
+              "Volume": 24,
+              "Pages": [
+                183,
+                198
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in Otasan Lake, Alberta"
           }
-        }
+        ]
       }
     }
   ],

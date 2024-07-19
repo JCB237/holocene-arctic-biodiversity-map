@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bajolle, L.; Larocque-Tobler, I.; Ali, A. A.; Lavoie, M.; Bergeron, Y.; Gandouin, E."
-            },
-            "Title": {
-              "item": "A chironomid-inferred Holocene temperature record from a shallow Canadian boreal lake: potentials and pitfalls"
-            },
-            "Journal": {
-              "item": "Journal of Paleolimnology"
-            },
-            "Year": 2019,
-            "Volume": 61,
-            "Pages": [
-              69,
-              84
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bajolle, L.; Larocque-Tobler, I.; Ali, A. A.; Lavoie, M.; Bergeron, Y.; Gandouin, E."
+              },
+              "Title": {
+                "item": "A chironomid-inferred Holocene temperature record from a shallow Canadian boreal lake: potentials and pitfalls"
+              },
+              "Journal": {
+                "item": "Journal of Paleolimnology"
+              },
+              "Year": 2019,
+              "Volume": 61,
+              "Pages": [
+                69,
+                84
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in western Quebec"
           }
-        }
+        ]
       }
     }
   ],

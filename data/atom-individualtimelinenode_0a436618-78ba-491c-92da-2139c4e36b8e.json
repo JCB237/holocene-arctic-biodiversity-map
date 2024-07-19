@@ -1,0 +1,113 @@
+[
+  [
+    {
+      "UUID": [
+        "individualtimelinenode",
+        "0a436618-78ba-491c-92da-2139c4e36b8e"
+      ]
+    },
+    {
+      "ExposureNode": {
+        "TimelineNode": {
+          "Continuous": "Irregular"
+        }
+      }
+    }
+  ],
+  [
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0a436618-78ba-491c-92da-2139c4e36b8e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_plantmacrofossil"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0a436618-78ba-491c-92da-2139c4e36b8e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "bioticproxycategorynode",
+          "fossilmicro_pollen"
+        ]
+      },
+      1,
+      {
+        "Exposure": "HasProxyCategory"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0a436618-78ba-491c-92da-2139c4e36b8e"
+        ]
+      },
+      {
+        "UUID": [
+          "contextnode",
+          "1ce0829e-9455-4f72-a615-fa5176a0e8d8"
+        ]
+      },
+      1,
+      {
+        "Exposure": "IsLocatedAt"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0a436618-78ba-491c-92da-2139c4e36b8e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "calyearnode",
+          "0ybp"
+        ]
+      },
+      1,
+      {
+        "Exposure": "ExtentLatest"
+      }
+    ],
+    [
+      {
+        "UUID": [
+          "individualtimelinenode",
+          "0a436618-78ba-491c-92da-2139c4e36b8e"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "qualitativelabeloutofscopenode",
+          "pre-holocene_by_global stratotype section and point"
+        ]
+      },
+      1,
+      {
+        "Exposure": {
+          "ExtentEarliestOutOfScope": {
+            "BP": 12000.0
+          }
+        }
+      }
+    ]
+  ]
+]
