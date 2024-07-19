@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Nolin, A. F.; Tardif, J. C.; Conciatori, F.; Kames, S.; Meko, D. M.; Bergeron, Y."
-            },
-            "Title": {
-              "item": "Multi-century tree-ring anatomical evidence reveals increasing frequency and magnitude of spring discharge and floods in eastern boreal Canada"
-            },
-            "Journal": {
-              "item": "Global and Planetary Change"
-            },
-            "Year": 2021,
-            "Volume": 199,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Nolin, A. F.; Tardif, J. C.; Conciatori, F.; Kames, S.; Meko, D. M.; Bergeron, Y."
+              },
+              "Title": {
+                "item": "Multi-century tree-ring anatomical evidence reveals increasing frequency and magnitude of spring discharge and floods in eastern boreal Canada"
+              },
+              "Journal": {
+                "item": "Global and Planetary Change"
+              },
+              "Year": 2021,
+              "Volume": 199,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in Lake Duparquet"
           }
-        }
+        ]
       }
     }
   ],

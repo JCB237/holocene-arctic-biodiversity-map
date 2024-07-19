@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Seppa, H.; Alenius, T.; Bradshaw, R. H. W.; Giesecke, T.; Heikkila, M.; Muukkonen, P."
-            },
-            "Title": {
-              "item": "Invasion of Norway spruce (Picea abies) and the rise of the boreal ecosystem in Fennoscandia"
-            },
-            "Journal": {
-              "item": "Journal of Ecology"
-            },
-            "Year": 2009,
-            "Volume": 97,
-            "Pages": [
-              629,
-              640
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Seppa, H.; Alenius, T.; Bradshaw, R. H. W.; Giesecke, T.; Heikkila, M.; Muukkonen, P."
+              },
+              "Title": {
+                "item": "Invasion of Norway spruce (Picea abies) and the rise of the boreal ecosystem in Fennoscandia"
+              },
+              "Journal": {
+                "item": "Journal of Ecology"
+              },
+              "Year": 2009,
+              "Volume": 97,
+              "Pages": [
+                629,
+                640
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in eastern Finland and central Sweden"
           }
-        }
+        ]
       }
     }
   ],

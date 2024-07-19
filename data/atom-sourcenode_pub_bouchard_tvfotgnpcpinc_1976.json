@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bouchard, A.; Hay, S."
-            },
-            "Title": {
-              "item": "The Vascular Flora of the Gros-Morne National Park Coastal Plain in Newfoundland Canada"
-            },
-            "Journal": {
-              "item": "Rhodora"
-            },
-            "Year": 1976,
-            "Volume": 78,
-            "Pages": [
-              207,
-              260
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bouchard, A.; Hay, S."
+              },
+              "Title": {
+                "item": "The Vascular Flora of the Gros-Morne National Park Coastal Plain in Newfoundland Canada"
+              },
+              "Journal": {
+                "item": "Rhodora"
+              },
+              "Year": 1976,
+              "Volume": 78,
+              "Pages": [
+                207,
+                260
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Gros Morne National Park, Newfoundland"
           }
-        }
+        ]
       }
     }
   ],

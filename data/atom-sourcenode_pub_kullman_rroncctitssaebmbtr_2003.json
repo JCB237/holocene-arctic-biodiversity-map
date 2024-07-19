@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kullman, L."
-            },
-            "Title": {
-              "item": "Recent reversal of Neoglacial climate cooling trend in the Swedish Scandes as evidenced by mountain birch tree-limit rise"
-            },
-            "Journal": {
-              "item": "Global and Planetary Change"
-            },
-            "Year": 2003,
-            "Volume": 36,
-            "Pages": [
-              77,
-              88
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kullman, L."
+              },
+              "Title": {
+                "item": "Recent reversal of Neoglacial climate cooling trend in the Swedish Scandes as evidenced by mountain birch tree-limit rise"
+              },
+              "Journal": {
+                "item": "Global and Planetary Change"
+              },
+              "Year": 2003,
+              "Volume": 36,
+              "Pages": [
+                77,
+                88
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in southern Scandes, Handolan Valley"
           }
-        }
+        ]
       }
     }
   ],

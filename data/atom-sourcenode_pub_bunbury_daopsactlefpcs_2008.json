@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bunbury, J.; Gajewski, K."
-            },
-            "Title": {
-              "item": "Does a one point sample adequately characterize the lake environment for paleoenvironmental calibration studies?"
-            },
-            "Journal": {
-              "item": "Journal of Paleolimnology"
-            },
-            "Year": 2008,
-            "Volume": 39,
-            "Pages": [
-              511,
-              531
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bunbury, J.; Gajewski, K."
+              },
+              "Title": {
+                "item": "Does a one point sample adequately characterize the lake environment for paleoenvironmental calibration studies?"
+              },
+              "Journal": {
+                "item": "Journal of Paleolimnology"
+              },
+              "Year": 2008,
+              "Volume": 39,
+              "Pages": [
+                511,
+                531
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in Southwest Yukon"
           }
-        }
+        ]
       }
     }
   ],

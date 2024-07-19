@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Nelson, D. E.; Heinemeier, J.; Lynnerup, N.; Sveinbjörnsdóttir, A. E.; Arneborg, J."
-            },
-            "Title": {
-              "item": "An isotopic analysis of the diet of the Greenland Norse"
-            },
-            "Journal": {
-              "item": "Journal of the North Atlantic"
-            },
-            "Year": 2012,
-            "Pages": [
-              93,
-              118
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Nelson, D. E.; Heinemeier, J.; Lynnerup, N.; Sveinbjörnsdóttir, A. E.; Arneborg, J."
+              },
+              "Title": {
+                "item": "An isotopic analysis of the diet of the Greenland Norse"
+              },
+              "Journal": {
+                "item": "Journal of the North Atlantic"
+              },
+              "Year": 2012,
+              "Pages": [
+                93,
+                118
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "no data sets/ years in the Holocene"
           }
-        }
+        ]
       }
     }
   ],

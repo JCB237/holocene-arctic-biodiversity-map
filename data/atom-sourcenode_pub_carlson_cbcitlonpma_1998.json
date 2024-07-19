@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Carlson, R. L."
-            },
-            "Title": {
-              "item": "Coastal British Columbia in the light of North Pacific maritime adaptations"
-            },
-            "Journal": {
-              "item": "Arctic Anthropology"
-            },
-            "Year": 1998,
-            "Volume": 35,
-            "Pages": [
-              23,
-              35
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Carlson, R. L."
+              },
+              "Title": {
+                "item": "Coastal British Columbia in the light of North Pacific maritime adaptations"
+              },
+              "Journal": {
+                "item": "Arctic Anthropology"
+              },
+              "Year": 1998,
+              "Volume": 35,
+              "Pages": [
+                23,
+                35
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in British Columbia"
           }
-        }
+        ]
       }
     }
   ],

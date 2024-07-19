@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Shuman, B."
-            },
-            "Title": {
-              "item": "Controls on loss-on-ignition variation in cores from two shallow lakes in the northeastern United States"
-            },
-            "Journal": {
-              "item": "Journal of Paleolimnology"
-            },
-            "Year": 2003,
-            "Volume": 30,
-            "Pages": [
-              371,
-              385
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Shuman, B."
+              },
+              "Title": {
+                "item": "Controls on loss-on-ignition variation in cores from two shallow lakes in the northeastern United States"
+              },
+              "Journal": {
+                "item": "Journal of Paleolimnology"
+              },
+              "Year": 2003,
+              "Volume": 30,
+              "Pages": [
+                371,
+                385
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in Massachussets and New Hampshire"
           }
-        }
+        ]
       }
     }
   ],

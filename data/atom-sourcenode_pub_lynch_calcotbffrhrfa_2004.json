@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Lynch, J. A.; Hollis, J. L.; Hu, F. S."
-            },
-            "Title": {
-              "item": "Climatic and landscape controls of the boreal forest fire regime: Holocene records from Alaska"
-            },
-            "Journal": {
-              "item": "Journal of Ecology"
-            },
-            "Year": 2004,
-            "Volume": 92,
-            "Pages": [
-              477,
-              489
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Lynch, J. A.; Hollis, J. L.; Hu, F. S."
+              },
+              "Title": {
+                "item": "Climatic and landscape controls of the boreal forest fire regime: Holocene records from Alaska"
+              },
+              "Journal": {
+                "item": "Journal of Ecology"
+              },
+              "Year": 2004,
+              "Volume": 92,
+              "Pages": [
+                477,
+                489
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in Moose and Chokasna, south-central Alaska"
           }
-        }
+        ]
       }
     }
   ],

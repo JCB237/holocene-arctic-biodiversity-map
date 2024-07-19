@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Antonsson, K.; Brooks, S. J.; Seppa, H.; Telford, R. J.; Birks, H. J. B."
-            },
-            "Title": {
-              "item": "Quantitative palaeotemperature records inferred from fossil pollen and chironomid assemblages from Lake Gilltjarnen, northern central Sweden"
-            },
-            "Journal": {
-              "item": "Journal of Quaternary Science"
-            },
-            "Year": 2006,
-            "Volume": 21,
-            "Pages": [
-              831,
-              841
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Antonsson, K.; Brooks, S. J.; Seppa, H.; Telford, R. J.; Birks, H. J. B."
+              },
+              "Title": {
+                "item": "Quantitative palaeotemperature records inferred from fossil pollen and chironomid assemblages from Lake Gilltjarnen, northern central Sweden"
+              },
+              "Journal": {
+                "item": "Journal of Quaternary Science"
+              },
+              "Year": 2006,
+              "Volume": 21,
+              "Pages": [
+                831,
+                841
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in Lake Gilltjarnen, northern central Sweden"
           }
-        }
+        ]
       }
     }
   ],

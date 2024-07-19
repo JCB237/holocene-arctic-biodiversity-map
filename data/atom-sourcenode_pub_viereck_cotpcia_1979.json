@@ -8,28 +8,59 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Viereck, L. A."
-            },
-            "Title": {
-              "item": "Characteristics of treeline plant communities in Alaska"
-            },
-            "Journal": {
-              "item": "Ecography"
-            },
-            "Year": 1979,
-            "Volume": 2,
-            "Pages": [
-              228,
-              238
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Viereck, L. A."
+              },
+              "Title": {
+                "item": "Characteristics of treeline plant communities in Alaska"
+              },
+              "Journal": {
+                "item": "Ecography"
+              },
+              "Year": 1979,
+              "Volume": 2,
+              "Pages": [
+                228,
+                238
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "outcome"
+              },
+              {
+                "item": "exposure"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_viereck_cotpcia_1979"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "book_viereck_l_taoustv2atacs_1975"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

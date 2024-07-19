@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hebda, R. J.; Burns, J. A.; Geertsema, M.; Jull, A. J. T."
-            },
-            "Title": {
-              "item": "AMS-dated late Pleistocene taiga vole (Rodentia : Microtus xanthognathus) from northeast British Columbia, Canada: a cautionary lesson in chronology"
-            },
-            "Journal": {
-              "item": "Canadian Journal of Earth Sciences"
-            },
-            "Year": 2008,
-            "Volume": 45,
-            "Pages": [
-              611,
-              618
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hebda, R. J.; Burns, J. A.; Geertsema, M.; Jull, A. J. T."
+              },
+              "Title": {
+                "item": "AMS-dated late Pleistocene taiga vole (Rodentia : Microtus xanthognathus) from northeast British Columbia, Canada: a cautionary lesson in chronology"
+              },
+              "Journal": {
+                "item": "Canadian Journal of Earth Sciences"
+              },
+              "Year": 2008,
+              "Volume": 45,
+              "Pages": [
+                611,
+                618
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located near Peace River, British Columbia"
           }
-        }
+        ]
       }
     }
   ],

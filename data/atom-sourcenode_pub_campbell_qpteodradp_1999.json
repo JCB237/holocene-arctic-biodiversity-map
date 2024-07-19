@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Campbell, I. D."
-            },
-            "Title": {
-              "item": "Quaternary pollen taphonomy: Examples of differential redeposition and differential preservation"
-            },
-            "Journal": {
-              "item": "Palaeogeography Palaeoclimatology Palaeoecology"
-            },
-            "Year": 1999,
-            "Volume": 149,
-            "Pages": [
-              245,
-              256
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Campbell, I. D."
+              },
+              "Title": {
+                "item": "Quaternary pollen taphonomy: Examples of differential redeposition and differential preservation"
+              },
+              "Journal": {
+                "item": "Palaeogeography Palaeoclimatology Palaeoecology"
+              },
+              "Year": 1999,
+              "Volume": 149,
+              "Pages": [
+                245,
+                256
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in Northwestern Canada"
           }
-        }
+        ]
       }
     }
   ],

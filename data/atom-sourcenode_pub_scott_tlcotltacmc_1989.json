@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Scott, P. A.; Hansell, R. I. C."
-            },
-            "Title": {
-              "item": "The Lemming Community on the Lichen-Heath Tundra at Churchill Manitoba Canada"
-            },
-            "Journal": {
-              "item": "Canadian Field-Naturalist"
-            },
-            "Year": 1989,
-            "Volume": 103,
-            "Pages": [
-              358,
-              362
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Scott, P. A.; Hansell, R. I. C."
+              },
+              "Title": {
+                "item": "The Lemming Community on the Lichen-Heath Tundra at Churchill Manitoba Canada"
+              },
+              "Journal": {
+                "item": "Canadian Field-Naturalist"
+              },
+              "Year": 1989,
+              "Volume": 103,
+              "Pages": [
+                358,
+                362
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "small mammal fauna sampled by snap trapping during a 16-day period"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Vangengeim, E. A.; Sher, A. V."
-            },
-            "Title": {
-              "item": "Siberian Equivalents of the Tiraspol Faunal Complex"
-            },
-            "Journal": {
-              "item": "Palaeogeography Palaeoclimatology Palaeoecology"
-            },
-            "Year": 1970,
-            "Volume": 8,
-            "Pages": [
-              197,
-              207
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Vangengeim, E. A.; Sher, A. V."
+              },
+              "Title": {
+                "item": "Siberian Equivalents of the Tiraspol Faunal Complex"
+              },
+              "Journal": {
+                "item": "Palaeogeography Palaeoclimatology Palaeoecology"
+              },
+              "Year": 1970,
+              "Volume": 8,
+              "Pages": [
+                197,
+                207
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "modern data and no time series"
           }
-        }
+        ]
       }
     }
   ],

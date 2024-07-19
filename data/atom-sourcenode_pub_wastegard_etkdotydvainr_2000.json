@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Wastegard, S.; Wohlfarth, B.; Subetto, D. A.; Sapelko, T. V."
-            },
-            "Title": {
-              "item": "Extending the known distribution of the Younger Dryas Vedde Ash into northwestern Russia"
-            },
-            "Journal": {
-              "item": "Journal of Quaternary Science"
-            },
-            "Year": 2000,
-            "Volume": 15,
-            "Pages": [
-              581,
-              586
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Wastegard, S.; Wohlfarth, B.; Subetto, D. A.; Sapelko, T. V."
+              },
+              "Title": {
+                "item": "Extending the known distribution of the Younger Dryas Vedde Ash into northwestern Russia"
+              },
+              "Journal": {
+                "item": "Journal of Quaternary Science"
+              },
+              "Year": 2000,
+              "Volume": 15,
+              "Pages": [
+                581,
+                586
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in northwestern Russia"
           }
-        }
+        ]
       }
     }
   ],
