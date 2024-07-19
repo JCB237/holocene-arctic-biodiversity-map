@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Prentice, I. C.; Harrison, S. P.; Bartlein, P. J."
-            },
-            "Title": {
-              "item": "Global vegetation and terrestrial carbon cycle changes after the last ice age"
-            },
-            "Journal": {
-              "item": "New Phytologist"
-            },
-            "Year": 2011,
-            "Volume": 189,
-            "Pages": [
-              988,
-              998
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Prentice, I. C.; Harrison, S. P.; Bartlein, P. J."
+              },
+              "Title": {
+                "item": "Global vegetation and terrestrial carbon cycle changes after the last ice age"
+              },
+              "Journal": {
+                "item": "New Phytologist"
+              },
+              "Year": 2011,
+              "Volume": 189,
+              "Pages": [
+                988,
+                998
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Global snapshot of pre-industrial holocene"
           }
-        }
+        ]
       }
     }
   ],

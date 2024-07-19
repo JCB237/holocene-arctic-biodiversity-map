@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Yan, M.; Wang, Z. Y.; Kaplan, J. O.; Liu, J.; Min, S.; Wang, S. M."
-            },
-            "Title": {
-              "item": "Comparison Between Reconstructions of Global Anthropogenic Land Cover Change over Past Two Millennia"
-            },
-            "Journal": {
-              "item": "Chinese Geographical Science"
-            },
-            "Year": 2013,
-            "Volume": 23,
-            "Pages": [
-              131,
-              146
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Yan, M.; Wang, Z. Y.; Kaplan, J. O.; Liu, J.; Min, S.; Wang, S. M."
+              },
+              "Title": {
+                "item": "Comparison Between Reconstructions of Global Anthropogenic Land Cover Change over Past Two Millennia"
+              },
+              "Journal": {
+                "item": "Chinese Geographical Science"
+              },
+              "Year": 2013,
+              "Volume": 23,
+              "Pages": [
+                131,
+                146
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Global landcover database comparison - no biota"
           }
-        }
+        ]
       }
     }
   ],

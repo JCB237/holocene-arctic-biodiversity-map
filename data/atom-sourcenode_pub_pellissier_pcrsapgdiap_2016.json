@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Pellissier, L.; Eidesen, P. B.; Ehrich, D.; Descombes, P.; Schoenswetter, P.; Tribsch, A.; Westergaard, K. B.; Alvarez, N.; Guisan, A.; Zimmermann, N. E.; Normand, S.; Vittoz, P.; Luoto, M.; Damgaard, C.; Brochmann, C.; Wisz, M. S.; Alsos, I. G."
-            },
-            "Title": {
-              "item": "Past climate-driven range shifts and population genetic diversity in arctic plants"
-            },
-            "Journal": {
-              "item": "Journal of Biogeography"
-            },
-            "Year": 2016,
-            "Volume": 43,
-            "Pages": [
-              461,
-              470
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Pellissier, L.; Eidesen, P. B.; Ehrich, D.; Descombes, P.; Schoenswetter, P.; Tribsch, A.; Westergaard, K. B.; Alvarez, N.; Guisan, A.; Zimmermann, N. E.; Normand, S.; Vittoz, P.; Luoto, M.; Damgaard, C.; Brochmann, C.; Wisz, M. S.; Alsos, I. G."
+              },
+              "Title": {
+                "item": "Past climate-driven range shifts and population genetic diversity in arctic plants"
+              },
+              "Journal": {
+                "item": "Journal of Biogeography"
+              },
+              "Year": 2016,
+              "Volume": 43,
+              "Pages": [
+                461,
+                470
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "IsNotProxyMethod",
+          {
+            "item": "Statistical modelling study"
           }
-        }
+        ]
       }
     }
   ],

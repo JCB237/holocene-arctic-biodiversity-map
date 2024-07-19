@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Desellas, A. M.; Paterson, A. M.; Sweetman, J. N.; Smol, J. P."
-            },
-            "Title": {
-              "item": "Assessing the effects of multiple environmental stressors on zooplankton assemblages in Boreal Shield lakes since pre-industrial times"
-            },
-            "Journal": {
-              "item": "Journal of Limnology"
-            },
-            "Year": 2011,
-            "Volume": 70,
-            "Pages": [
-              41,
-              56
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Desellas, A. M.; Paterson, A. M.; Sweetman, J. N.; Smol, J. P."
+              },
+              "Title": {
+                "item": "Assessing the effects of multiple environmental stressors on zooplankton assemblages in Boreal Shield lakes since pre-industrial times"
+              },
+              "Journal": {
+                "item": "Journal of Limnology"
+              },
+              "Year": 2011,
+              "Volume": 70,
+              "Pages": [
+                41,
+                56
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Southern Ontario"
           }
-        }
+        ]
       }
     }
   ],

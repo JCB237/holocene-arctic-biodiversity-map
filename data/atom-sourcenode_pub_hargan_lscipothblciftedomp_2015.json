@@ -8,28 +8,74 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hargan, K. E.; Ruehland, K. M.; Paterson, A. M.; Holmquist, J.; MacDonald, G. M.; Bunbury, J.; Finkelstein, S. A.; Smol, J. P."
-            },
-            "Title": {
-              "item": "Long-term successional changes in peatlands of the Hudson Bay Lowlands, Canada inferred from the ecological dynamics of multiple proxies"
-            },
-            "Journal": {
-              "item": "Holocene"
-            },
-            "Year": 2015,
-            "Volume": 25,
-            "Pages": [
-              92,
-              107
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Included": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hargan, K. E.; Ruehland, K. M.; Paterson, A. M.; Holmquist, J.; MacDonald, G. M.; Bunbury, J.; Finkelstein, S. A.; Smol, J. P."
+              },
+              "Title": {
+                "item": "Long-term successional changes in peatlands of the Hudson Bay Lowlands, Canada inferred from the ecological dynamics of multiple proxies"
+              },
+              "Journal": {
+                "item": "Holocene"
+              },
+              "Year": 2015,
+              "Volume": 25,
+              "Pages": [
+                92,
+                107
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          {
+            "InProgress": [
+              {
+                "item": "source-primary-or-secondary"
+              }
+            ]
           }
-        }
+        ]
       }
     }
   ],
-  []
+  [
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_hargan_lscipothblciftedomp_2015"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_dredge_hprapdnm_2003"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ],
+    [
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_hargan_lscipothblciftedomp_2015"
+        ]
+      },
+      {
+        "FriendlyKey": [
+          "sourcenode",
+          "pub_glaser_rpadfpdithblnoc_2004"
+        ]
+      },
+      1,
+      {
+        "Source": "UsesPrimarySource"
+      }
+    ]
+  ]
 ]

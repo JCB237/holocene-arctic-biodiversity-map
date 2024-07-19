@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Oshima, K.; Ogata, K.; Park, H.; Tachibana, Y."
-            },
-            "Title": {
-              "item": "Influence of atmospheric internal variability on the long-term Siberian water cycle during the past 2 centuries"
-            },
-            "Journal": {
-              "item": "Earth System Dynamics"
-            },
-            "Year": 2018,
-            "Volume": 9,
-            "Pages": [
-              497,
-              506
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Oshima, K.; Ogata, K.; Park, H.; Tachibana, Y."
+              },
+              "Title": {
+                "item": "Influence of atmospheric internal variability on the long-term Siberian water cycle during the past 2 centuries"
+              },
+              "Journal": {
+                "item": "Earth System Dynamics"
+              },
+              "Year": 2018,
+              "Volume": 9,
+              "Pages": [
+                497,
+                506
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "River discharge reconstruction study"
           }
-        }
+        ]
       }
     }
   ],

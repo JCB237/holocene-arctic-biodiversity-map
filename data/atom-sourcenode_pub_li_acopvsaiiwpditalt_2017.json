@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Li, B."
-            },
-            "Title": {
-              "item": "A clash of plants: vegetation succession and its interaction with permafrost dynamics in the Arctic lowland tundra"
-            },
-            "Year": 2017,
-            "Volume": 100,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Li, B."
+              },
+              "Title": {
+                "item": "A clash of plants: vegetation succession and its interaction with permafrost dynamics in the Arctic lowland tundra"
+              },
+              "Year": 2017,
+              "Volume": 100,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Modern studies (PhD thesis)"
           }
-        }
+        ]
       }
     }
   ],

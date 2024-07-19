@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Thomas, M. G."
-            },
-            "Title": {
-              "item": "The flickering genes of the last mammoths"
-            },
-            "Journal": {
-              "item": "Molecular Ecology"
-            },
-            "Year": 2012,
-            "Volume": 21,
-            "Pages": [
-              3379,
-              3381
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Thomas, M. G."
+              },
+              "Title": {
+                "item": "The flickering genes of the last mammoths"
+              },
+              "Journal": {
+                "item": "Molecular Ecology"
+              },
+              "Year": 2012,
+              "Volume": 21,
+              "Pages": [
+                3379,
+                3381
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Journal overview of relevant paper (Nystrom et al., 2012)"
           }
-        }
+        ]
       }
     }
   ],

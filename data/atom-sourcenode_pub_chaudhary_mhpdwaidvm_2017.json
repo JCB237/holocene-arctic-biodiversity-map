@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Chaudhary, N.; Miller, P. A.; Smith, B."
-            },
-            "Title": {
-              "item": "Modelling Holocene peatland dynamics with an individual-based dynamic vegetation model"
-            },
-            "Journal": {
-              "item": "Biogeosciences"
-            },
-            "Year": 2017,
-            "Volume": 14,
-            "Pages": [
-              2571,
-              2596
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Chaudhary, N.; Miller, P. A.; Smith, B."
+              },
+              "Title": {
+                "item": "Modelling Holocene peatland dynamics with an individual-based dynamic vegetation model"
+              },
+              "Journal": {
+                "item": "Biogeosciences"
+              },
+              "Year": 2017,
+              "Volume": 14,
+              "Pages": [
+                2571,
+                2596
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Modelling study"
           }
-        }
+        ]
       }
     }
   ],

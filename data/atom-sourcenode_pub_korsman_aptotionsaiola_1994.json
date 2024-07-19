@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Korsman, T.; Renberg, I.; Anderson, N. J."
-            },
-            "Title": {
-              "item": "A palaeolimnological test of the influence of Norway spruce (Picea abies) immigration on lake-water acidity"
-            },
-            "Journal": {
-              "item": "The Holocene"
-            },
-            "Year": 1994,
-            "Volume": 4,
-            "Pages": [
-              132,
-              140
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Korsman, T.; Renberg, I.; Anderson, N. J."
+              },
+              "Title": {
+                "item": "A palaeolimnological test of the influence of Norway spruce (Picea abies) immigration on lake-water acidity"
+              },
+              "Journal": {
+                "item": "The Holocene"
+              },
+              "Year": 1994,
+              "Volume": 4,
+              "Pages": [
+                132,
+                140
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "64°06'00.0\"N 17°36'00.0\"E"
           }
-        }
+        ]
       }
     }
   ],

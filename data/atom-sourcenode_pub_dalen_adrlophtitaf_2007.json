@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Dalen, L.; Nystrom, V.; Valdiosera, C.; Germonpre, M.; Sablin, M.; Turner, E.; Angerbjorn, A.; Arcuaga, J. L.; Gotherstrom, A."
-            },
-            "Title": {
-              "item": "Ancient DNA reveals lack of postglacial habitat tracking in the arctic fox"
-            },
-            "Journal": {
-              "item": "Proceedings of the National Academy of Sciences of the United States of America"
-            },
-            "Year": 2007,
-            "Volume": 104,
-            "Pages": [
-              6726,
-              6729
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Dalen, L.; Nystrom, V.; Valdiosera, C.; Germonpre, M.; Sablin, M.; Turner, E.; Angerbjorn, A.; Arcuaga, J. L.; Gotherstrom, A."
+              },
+              "Title": {
+                "item": "Ancient DNA reveals lack of postglacial habitat tracking in the arctic fox"
+              },
+              "Journal": {
+                "item": "Proceedings of the National Academy of Sciences of the United States of America"
+              },
+              "Year": 2007,
+              "Volume": 104,
+              "Pages": [
+                6726,
+                6729
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Sample sites in Europe and Central South Russia"
           }
-        }
+        ]
       }
     }
   ],

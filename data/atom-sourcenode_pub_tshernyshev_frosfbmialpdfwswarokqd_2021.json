@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Tshernyshev, S. E.; Dudko, R. Y.; Gurina, A. A.; Legalov, A. A."
-            },
-            "Title": {
-              "item": "First record of soft-winged flower beetles (Coleoptera, Malachiidae) in a late Pleistocene deposit from West Siberia with a review of known Quaternary data"
-            },
-            "Journal": {
-              "item": "Acta Biologica Sibirica"
-            },
-            "Year": 2021,
-            "Volume": 7,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Tshernyshev, S. E.; Dudko, R. Y.; Gurina, A. A.; Legalov, A. A."
+              },
+              "Title": {
+                "item": "First record of soft-winged flower beetles (Coleoptera, Malachiidae) in a late Pleistocene deposit from West Siberia with a review of known Quaternary data"
+              },
+              "Journal": {
+                "item": "Acta Biologica Sibirica"
+              },
+              "Year": 2021,
+              "Volume": 7,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "51°15'38.0'' N, 81°28'57.2'' E"
           }
-        }
+        ]
       }
     }
   ],

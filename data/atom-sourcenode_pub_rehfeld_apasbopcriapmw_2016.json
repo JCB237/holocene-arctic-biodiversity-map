@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Rehfeld, K.; Trachsel, M.; Telford, R. J.; Laepple, T."
-            },
-            "Title": {
-              "item": "Assessing performance and seasonal bias of pollen-based climate reconstructions in a perfect model world"
-            },
-            "Journal": {
-              "item": "Climate of the Past"
-            },
-            "Year": 2016,
-            "Volume": 12,
-            "Pages": [
-              2255,
-              2270
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Rehfeld, K.; Trachsel, M.; Telford, R. J.; Laepple, T."
+              },
+              "Title": {
+                "item": "Assessing performance and seasonal bias of pollen-based climate reconstructions in a perfect model world"
+              },
+              "Journal": {
+                "item": "Climate of the Past"
+              },
+              "Year": 2016,
+              "Volume": 12,
+              "Pages": [
+                2255,
+                2270
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Global modelling study"
           }
-        }
+        ]
       }
     }
   ],

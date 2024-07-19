@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Shanahan, T. M.; Hughen, K. A.; Ampel, L.; Sauer, P. E.; Fornace, K."
-            },
-            "Title": {
-              "item": "Environmental controls on the H-2/H-1 values of terrestrial leaf waxes in the eastern Canadian Arctic"
-            },
-            "Journal": {
-              "item": "Geochimica Et Cosmochimica Acta"
-            },
-            "Year": 2013,
-            "Volume": 119,
-            "Pages": [
-              286,
-              301
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Shanahan, T. M.; Hughen, K. A.; Ampel, L.; Sauer, P. E.; Fornace, K."
+              },
+              "Title": {
+                "item": "Environmental controls on the H-2/H-1 values of terrestrial leaf waxes in the eastern Canadian Arctic"
+              },
+              "Journal": {
+                "item": "Geochimica Et Cosmochimica Acta"
+              },
+              "Year": 2013,
+              "Volume": 119,
+              "Pages": [
+                286,
+                301
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "No biodiversity measure"
           }
-        }
+        ]
       }
     }
   ],

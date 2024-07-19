@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Tremblay, V.; Larocque-Tobler, I.; Sirois, P."
-            },
-            "Title": {
-              "item": "Historical variability of subfossil chironomids (Diptera: Chironomidae) in three lakes impacted by natural and anthropogenic disturbances"
-            },
-            "Journal": {
-              "item": "Journal of Paleolimnology"
-            },
-            "Year": 2010,
-            "Volume": 44,
-            "Pages": [
-              483,
-              495
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Tremblay, V.; Larocque-Tobler, I.; Sirois, P."
+              },
+              "Title": {
+                "item": "Historical variability of subfossil chironomids (Diptera: Chironomidae) in three lakes impacted by natural and anthropogenic disturbances"
+              },
+              "Journal": {
+                "item": "Journal of Paleolimnology"
+              },
+              "Year": 2010,
+              "Volume": 44,
+              "Pages": [
+                483,
+                495
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "50°33N, 72°33W"
           }
-        }
+        ]
       }
     }
   ],

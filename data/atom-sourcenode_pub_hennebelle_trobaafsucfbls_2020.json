@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hennebelle, A.; Aleman, J. C.; Ali, A. A.; Bergeron, Y.; Carcaillet, C.; Grondin, P.; Landry, J.; Blarquez, O."
-            },
-            "Title": {
-              "item": "The reconstruction of burned area and fire severity using charcoal from boreal lake sediments"
-            },
-            "Journal": {
-              "item": "Holocene"
-            },
-            "Year": 2020,
-            "Volume": 30,
-            "Pages": [
-              1400,
-              1409
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hennebelle, A.; Aleman, J. C.; Ali, A. A.; Bergeron, Y.; Carcaillet, C.; Grondin, P.; Landry, J.; Blarquez, O."
+              },
+              "Title": {
+                "item": "The reconstruction of burned area and fire severity using charcoal from boreal lake sediments"
+              },
+              "Journal": {
+                "item": "Holocene"
+              },
+              "Year": 2020,
+              "Volume": 30,
+              "Pages": [
+                1400,
+                1409
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Charcoal analysis"
           }
-        }
+        ]
       }
     }
   ],

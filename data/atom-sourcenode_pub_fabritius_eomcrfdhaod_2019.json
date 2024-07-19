@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Fabritius, H.; Singer, A.; Pennanen, J.; Snall, T."
-            },
-            "Title": {
-              "item": "Estimation of metapopulation colonization rates from disturbance history and occurrence-pattern data"
-            },
-            "Journal": {
-              "item": "Ecology"
-            },
-            "Year": 2019,
-            "Volume": 100,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Fabritius, H.; Singer, A.; Pennanen, J.; Snall, T."
+              },
+              "Title": {
+                "item": "Estimation of metapopulation colonization rates from disturbance history and occurrence-pattern data"
+              },
+              "Journal": {
+                "item": "Ecology"
+              },
+              "Year": 2019,
+              "Volume": 100,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Modelling study"
           }
-        }
+        ]
       }
     }
   ],

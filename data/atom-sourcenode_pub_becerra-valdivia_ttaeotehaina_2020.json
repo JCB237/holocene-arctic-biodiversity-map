@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Becerra-Valdivia, L.; Higham, T."
-            },
-            "Title": {
-              "item": "The timing and effect of the earliest human arrivals in North America"
-            },
-            "Journal": {
-              "item": "Nature (London)"
-            },
-            "Year": 2020,
-            "Volume": 584,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Becerra-Valdivia, L.; Higham, T."
+              },
+              "Title": {
+                "item": "The timing and effect of the earliest human arrivals in North America"
+              },
+              "Journal": {
+                "item": "Nature (London)"
+              },
+              "Year": 2020,
+              "Volume": 584,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Homo sapiens bayesian modelling study"
           }
-        }
+        ]
       }
     }
   ],

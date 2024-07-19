@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Davis, B. A. S.; Brewer, S."
-            },
-            "Title": {
-              "item": "Orbital forcing and role of the latitudinal insolation/temperature gradient"
-            },
-            "Journal": {
-              "item": "Climate Dynamics"
-            },
-            "Year": 2009,
-            "Volume": 32,
-            "Pages": [
-              143,
-              165
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Davis, B. A. S.; Brewer, S."
+              },
+              "Title": {
+                "item": "Orbital forcing and role of the latitudinal insolation/temperature gradient"
+              },
+              "Journal": {
+                "item": "Climate Dynamics"
+              },
+              "Year": 2009,
+              "Volume": 32,
+              "Pages": [
+                143,
+                165
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Uses European Pollen Database (Davis et al., 2003) but only for temperature reconstruction"
           }
-        }
+        ]
       }
     }
   ],

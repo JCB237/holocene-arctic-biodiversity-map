@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Prince, T. J.; Pisaric, M. F. J.; Turner, K. W."
-            },
-            "Title": {
-              "item": "Postglacial Reconstruction of Fire History Using Sedimentary Charcoal and Pollen From a Small Lake in Southwest Yukon Territory, Canada"
-            },
-            "Journal": {
-              "item": "Frontiers in Ecology and Evolution"
-            },
-            "Year": 2018,
-            "Volume": 6,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Prince, T. J.; Pisaric, M. F. J.; Turner, K. W."
+              },
+              "Title": {
+                "item": "Postglacial Reconstruction of Fire History Using Sedimentary Charcoal and Pollen From a Small Lake in Southwest Yukon Territory, Canada"
+              },
+              "Journal": {
+                "item": "Frontiers in Ecology and Evolution"
+              },
+              "Year": 2018,
+              "Volume": 6,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "60°18′6.03″N, 134°59′40.33″W"
           }
-        }
+        ]
       }
     }
   ],

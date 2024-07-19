@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Steinnes, E.; Anderssor, E. M."
-            },
-            "Title": {
-              "item": "Atmosperic deposition of mercury in Norway: temporal and spatial trends"
-            },
-            "Journal": {
-              "item": "Water, Air, & Soil Pollution"
-            },
-            "Year": 1991,
-            "Volume": 56,
-            "Pages": [
-              391,
-              404
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Steinnes, E.; Anderssor, E. M."
+              },
+              "Title": {
+                "item": "Atmosperic deposition of mercury in Norway: temporal and spatial trends"
+              },
+              "Journal": {
+                "item": "Water, Air, & Soil Pollution"
+              },
+              "Year": 1991,
+              "Volume": 56,
+              "Pages": [
+                391,
+                404
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Mercury deposition study"
           }
-        }
+        ]
       }
     }
   ],

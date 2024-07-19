@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Gajewski, K.; Kriesche, B.; Chaput, M. A.; Kulik, R.; Schmidt, V."
-            },
-            "Title": {
-              "item": "Human-vegetation interactions during the Holocene in North America"
-            },
-            "Journal": {
-              "item": "Vegetation History and Archaeobotany"
-            },
-            "Year": 2019,
-            "Volume": 28,
-            "Pages": [
-              635,
-              647
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Gajewski, K.; Kriesche, B.; Chaput, M. A.; Kulik, R.; Schmidt, V."
+              },
+              "Title": {
+                "item": "Human-vegetation interactions during the Holocene in North America"
+              },
+              "Journal": {
+                "item": "Vegetation History and Archaeobotany"
+              },
+              "Year": 2019,
+              "Volume": 28,
+              "Pages": [
+                635,
+                647
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Spatial-temporal cross correlation"
           }
-        }
+        ]
       }
     }
   ],

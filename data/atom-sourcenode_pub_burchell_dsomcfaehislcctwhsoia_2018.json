@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Burchell, M.; Stopp, M. P.; Cannon, A.; Hallmann, N.; Schone, B. R."
-            },
-            "Title": {
-              "item": "Determining seasonality of mussel collection from an early historic Inuit site, Labrador, Canada: Comparing thin-sections with high-resolution stable oxygen isotope analysis"
-            },
-            "Journal": {
-              "item": "Journal of Archaeological Science-Reports"
-            },
-            "Year": 2018,
-            "Volume": 21,
-            "Pages": [
-              1215,
-              1224
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Burchell, M.; Stopp, M. P.; Cannon, A.; Hallmann, N.; Schone, B. R."
+              },
+              "Title": {
+                "item": "Determining seasonality of mussel collection from an early historic Inuit site, Labrador, Canada: Comparing thin-sections with high-resolution stable oxygen isotope analysis"
+              },
+              "Journal": {
+                "item": "Journal of Archaeological Science-Reports"
+              },
+              "Year": 2018,
+              "Volume": 21,
+              "Pages": [
+                1215,
+                1224
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "only one holocene record"
           }
-        }
+        ]
       }
     }
   ],

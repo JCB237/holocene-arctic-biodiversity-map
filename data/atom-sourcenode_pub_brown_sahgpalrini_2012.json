@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Brown, J. L.; Simpson, I. A.; Morrison, S. J. L.; Adderley, W. P.; Tisdall, E.; Vesteinsson, O."
-            },
-            "Title": {
-              "item": "Shieling Areas: Historical Grazing Pressures and Landscape Responses in Northern Iceland"
-            },
-            "Journal": {
-              "item": "Human Ecology"
-            },
-            "Year": 2012,
-            "Volume": 40,
-            "Pages": [
-              81,
-              99
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Brown, J. L.; Simpson, I. A.; Morrison, S. J. L.; Adderley, W. P.; Tisdall, E.; Vesteinsson, O."
+              },
+              "Title": {
+                "item": "Shieling Areas: Historical Grazing Pressures and Landscape Responses in Northern Iceland"
+              },
+              "Journal": {
+                "item": "Human Ecology"
+              },
+              "Year": 2012,
+              "Volume": 40,
+              "Pages": [
+                81,
+                99
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Soil accumulation chronology - no biota"
           }
-        }
+        ]
       }
     }
   ],

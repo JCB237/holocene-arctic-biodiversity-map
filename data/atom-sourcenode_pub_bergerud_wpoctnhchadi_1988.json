@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bergerud, A. T.; Ballard, W. B."
-            },
-            "Title": {
-              "item": "Wolf Predation of Caribou the Nelchina Herd Case History a Different Interpretation"
-            },
-            "Journal": {
-              "item": "Journal of Wildlife Management"
-            },
-            "Year": 1988,
-            "Volume": 52,
-            "Pages": [
-              344,
-              357
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bergerud, A. T.; Ballard, W. B."
+              },
+              "Title": {
+                "item": "Wolf Predation of Caribou the Nelchina Herd Case History a Different Interpretation"
+              },
+              "Journal": {
+                "item": "Journal of Wildlife Management"
+              },
+              "Year": 1988,
+              "Volume": 52,
+              "Pages": [
+                344,
+                357
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "post-1950"
           }
-        }
+        ]
       }
     }
   ],

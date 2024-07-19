@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Morneau, C.; Payette, S."
-            },
-            "Title": {
-              "item": "A dendroecological method to evaluate past caribou (Rangifer tarandus L.) activity"
-            },
-            "Journal": {
-              "item": "Ecoscience"
-            },
-            "Year": 1998,
-            "Volume": 5,
-            "Pages": [
-              64,
-              76
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Morneau, C.; Payette, S."
+              },
+              "Title": {
+                "item": "A dendroecological method to evaluate past caribou (Rangifer tarandus L.) activity"
+              },
+              "Journal": {
+                "item": "Ecoscience"
+              },
+              "Year": 1998,
+              "Volume": 5,
+              "Pages": [
+                64,
+                76
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "1960s onwards"
           }
-        }
+        ]
       }
     }
   ],

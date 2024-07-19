@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Ukraintseva, V. V.; Ukraintseva, V. V."
-            },
-            "Title": {
-              "item": "Mammoths and the Environment Conclusions"
-            },
-            "Journal": {
-              "item": "Mammoths and the Environment"
-            },
-            "Year": 2013,
-            "Pages": [
-              314,
-              316
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Ukraintseva, V. V.; Ukraintseva, V. V."
+              },
+              "Title": {
+                "item": "Mammoths and the Environment Conclusions"
+              },
+              "Journal": {
+                "item": "Mammoths and the Environment"
+              },
+              "Year": 2013,
+              "Pages": [
+                314,
+                316
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Book conclusion"
           }
-        }
+        ]
       }
     }
   ],

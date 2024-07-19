@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hynynen, J.; Merilainen, J. J."
-            },
-            "Title": {
-              "item": "Recovery from acidification in boreal lakes inferred from macroinvertebrates and subfossil chironomids"
-            },
-            "Journal": {
-              "item": "Hydrobiologia"
-            },
-            "Year": 2005,
-            "Volume": 541,
-            "Pages": [
-              155,
-              173
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hynynen, J.; Merilainen, J. J."
+              },
+              "Title": {
+                "item": "Recovery from acidification in boreal lakes inferred from macroinvertebrates and subfossil chironomids"
+              },
+              "Journal": {
+                "item": "Hydrobiologia"
+              },
+              "Year": 2005,
+              "Volume": 541,
+              "Pages": [
+                155,
+                173
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Southern Finland"
           }
-        }
+        ]
       }
     }
   ],

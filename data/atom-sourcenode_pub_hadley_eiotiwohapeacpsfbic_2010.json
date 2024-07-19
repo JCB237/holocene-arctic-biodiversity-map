@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hadley, K. R.; Douglas, M. S. V.; McGhee, R.; Blais, J. M.; Smol, J. P."
-            },
-            "Title": {
-              "item": "Ecological influences of Thule Inuit whalers on high Arctic pond ecosystems: a comparative paleolimnological study from Bathurst Island (Nunavut, Canada)"
-            },
-            "Journal": {
-              "item": "Journal of Paleolimnology"
-            },
-            "Year": 2010,
-            "Volume": 44,
-            "Pages": [
-              85,
-              93
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hadley, K. R.; Douglas, M. S. V.; McGhee, R.; Blais, J. M.; Smol, J. P."
+              },
+              "Title": {
+                "item": "Ecological influences of Thule Inuit whalers on high Arctic pond ecosystems: a comparative paleolimnological study from Bathurst Island (Nunavut, Canada)"
+              },
+              "Journal": {
+                "item": "Journal of Paleolimnology"
+              },
+              "Year": 2010,
+              "Volume": 44,
+              "Pages": [
+                85,
+                93
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Not dated"
           }
-        }
+        ]
       }
     }
   ],

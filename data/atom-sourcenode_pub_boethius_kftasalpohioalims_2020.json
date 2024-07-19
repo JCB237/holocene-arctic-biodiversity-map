@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Boethius, A.; Bergsvik, K. A.; Nilsson, B."
-            },
-            "Title": {
-              "item": "Knowledge from the ancient sea - a long-term perspective of human impact on aquatic life in Mesolithic Scandinavia"
-            },
-            "Journal": {
-              "item": "Holocene"
-            },
-            "Year": 2020,
-            "Volume": 30,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Boethius, A.; Bergsvik, K. A.; Nilsson, B."
+              },
+              "Title": {
+                "item": "Knowledge from the ancient sea - a long-term perspective of human impact on aquatic life in Mesolithic Scandinavia"
+              },
+              "Journal": {
+                "item": "Holocene"
+              },
+              "Year": 2020,
+              "Volume": 30,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Southern Sweden"
           }
-        }
+        ]
       }
     }
   ],

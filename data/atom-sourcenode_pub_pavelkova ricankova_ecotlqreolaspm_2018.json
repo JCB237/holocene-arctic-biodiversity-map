@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Pavelkova Ricankova, V.; Horsak, M.; Hais, M.; Robovsky, J.; Chytry, M."
-            },
-            "Title": {
-              "item": "Environmental correlates of the Late Quaternary regional extinctions of large and small Palaearctic mammals"
-            },
-            "Journal": {
-              "item": "Ecography"
-            },
-            "Year": 2018,
-            "Volume": 41,
-            "Pages": [
-              516,
-              527
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Pavelkova Ricankova, V.; Horsak, M.; Hais, M.; Robovsky, J.; Chytry, M."
+              },
+              "Title": {
+                "item": "Environmental correlates of the Late Quaternary regional extinctions of large and small Palaearctic mammals"
+              },
+              "Journal": {
+                "item": "Ecography"
+              },
+              "Year": 2018,
+              "Volume": 41,
+              "Pages": [
+                516,
+                527
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Faunal extinctions not dated"
           }
-        }
+        ]
       }
     }
   ],

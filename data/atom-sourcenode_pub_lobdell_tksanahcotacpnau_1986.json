@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Lobdell, J. E."
-            },
-            "Title": {
-              "item": "The Kuparuk-Pingo Site a Northern Archaic Hunting Camp of the Arctic Coastal Plain North Alaska USA"
-            },
-            "Journal": {
-              "item": "Arctic"
-            },
-            "Year": 1986,
-            "Volume": 39,
-            "Pages": [
-              47,
-              51
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Lobdell, J. E."
+              },
+              "Title": {
+                "item": "The Kuparuk-Pingo Site a Northern Archaic Hunting Camp of the Arctic Coastal Plain North Alaska USA"
+              },
+              "Journal": {
+                "item": "Arctic"
+              },
+              "Year": 1986,
+              "Volume": 39,
+              "Pages": [
+                47,
+                51
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Only one date in holocene"
           }
-        }
+        ]
       }
     }
   ],

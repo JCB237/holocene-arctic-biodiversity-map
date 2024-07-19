@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kluender, M. H.; Hippler, D.; Witbaard, R.; Frei, D."
-            },
-            "Title": {
-              "item": "Laser ablation analysis of bivalve shells - archives of environmental information"
-            },
-            "Journal": {
-              "item": "Geological Survey of Denmark and Greenland Bulletin"
-            },
-            "Year": 2008,
-            "Pages": [
-              89,
-              92
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kluender, M. H.; Hippler, D.; Witbaard, R.; Frei, D."
+              },
+              "Title": {
+                "item": "Laser ablation analysis of bivalve shells - archives of environmental information"
+              },
+              "Journal": {
+                "item": "Geological Survey of Denmark and Greenland Bulletin"
+              },
+              "Year": 2008,
+              "Pages": [
+                89,
+                92
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Samples collected from Netherlands and Denmark"
           }
-        }
+        ]
       }
     }
   ],

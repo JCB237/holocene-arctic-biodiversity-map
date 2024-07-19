@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hargan, K. E.; Nelligan, C.; Jeziorski, A.; Ruhland, K. M.; Paterson, A. M.; Keller, W.; Smol, J. P."
-            },
-            "Title": {
-              "item": "Tracking the long-term responses of diatoms and cladocerans to climate warming and human influences across lakes of the Ring of Fire in the Far North of Ontario, Canada"
-            },
-            "Journal": {
-              "item": "Journal of Paleolimnology"
-            },
-            "Year": 2016,
-            "Volume": 56,
-            "Pages": [
-              153,
-              172
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hargan, K. E.; Nelligan, C.; Jeziorski, A.; Ruhland, K. M.; Paterson, A. M.; Keller, W.; Smol, J. P."
+              },
+              "Title": {
+                "item": "Tracking the long-term responses of diatoms and cladocerans to climate warming and human influences across lakes of the Ring of Fire in the Far North of Ontario, Canada"
+              },
+              "Journal": {
+                "item": "Journal of Paleolimnology"
+              },
+              "Year": 2016,
+              "Volume": 56,
+              "Pages": [
+                153,
+                172
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "52°47'00.0\"N 86°30'00.0\"W"
           }
-        }
+        ]
       }
     }
   ],

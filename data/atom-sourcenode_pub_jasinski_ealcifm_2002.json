@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Jasinski, K."
-            },
-            "Title": {
-              "item": "Ecological and landscape considerations in forest management"
-            },
-            "Journal": {
-              "item": "Acta Universitatis Agriculturae Sueciae Silvestria"
-            },
-            "Year": 2002,
-            "Volume": 238,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Jasinski, K."
+              },
+              "Title": {
+                "item": "Ecological and landscape considerations in forest management"
+              },
+              "Journal": {
+                "item": "Acta Universitatis Agriculturae Sueciae Silvestria"
+              },
+              "Year": 2002,
+              "Volume": 238,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "OtherExclusionReason",
+          {
+            "item": "PhD thesis summary paper - relevant work is published in Jasinski and Angelstam (2002), will screen this seperately"
           }
-        }
+        ]
       }
     }
   ],

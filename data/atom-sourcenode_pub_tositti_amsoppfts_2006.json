@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Tositti, L.; Mingozzi, M.; Sandrini, S.; Forlani, L.; Buoso, M. C.; De Poli, M.; Ceccato, D.; Zafiropoulos, D."
-            },
-            "Title": {
-              "item": "A multitracer study of peat profiles from Tunguska, Siberia"
-            },
-            "Journal": {
-              "item": "Global and Planetary Change"
-            },
-            "Year": 2006,
-            "Volume": 53,
-            "Pages": [
-              278,
-              289
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Tositti, L.; Mingozzi, M.; Sandrini, S.; Forlani, L.; Buoso, M. C.; De Poli, M.; Ceccato, D.; Zafiropoulos, D."
+              },
+              "Title": {
+                "item": "A multitracer study of peat profiles from Tunguska, Siberia"
+              },
+              "Journal": {
+                "item": "Global and Planetary Change"
+              },
+              "Year": 2006,
+              "Volume": 53,
+              "Pages": [
+                278,
+                289
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "60.903056, 101.909722"
           }
-        }
+        ]
       }
     }
   ],

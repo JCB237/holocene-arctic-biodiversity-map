@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Zinovyev, E."
-            },
-            "Title": {
-              "item": "Sub-fossil beetle assemblages associated with the \"mammoth fauna\" in the Late Pleistocene localities of the Ural Mountains and West Siberia"
-            },
-            "Journal": {
-              "item": "ZooKeys"
-            },
-            "Year": 2011,
-            "Pages": [
-              149,
-              169
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Zinovyev, E."
+              },
+              "Title": {
+                "item": "Sub-fossil beetle assemblages associated with the \"mammoth fauna\" in the Late Pleistocene localities of the Ural Mountains and West Siberia"
+              },
+              "Journal": {
+                "item": "ZooKeys"
+              },
+              "Year": 2011,
+              "Pages": [
+                149,
+                169
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Late Pleistocene"
           }
-        }
+        ]
       }
     }
   ],

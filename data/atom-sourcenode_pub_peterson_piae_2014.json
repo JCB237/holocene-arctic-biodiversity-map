@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Peterson, K. M."
-            },
-            "Title": {
-              "item": "Plants in arctic environments"
-            },
-            "Journal": {
-              "item": "Ecology and the Environment"
-            },
-            "Year": 2014,
-            "Pages": [
-              363,
-              388
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Peterson, K. M."
+              },
+              "Title": {
+                "item": "Plants in arctic environments"
+              },
+              "Journal": {
+                "item": "Ecology and the Environment"
+              },
+              "Year": 2014,
+              "Pages": [
+                363,
+                388
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Book chapter overview of modern plants in Arctic"
           }
-        }
+        ]
       }
     }
   ],

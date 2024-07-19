@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Dubatolov, V. V.; Kosterin, O. E."
-            },
-            "Title": {
-              "item": "Nemoral species of Lepidoptera (Insecta) in Siberia: A novel view on their history and the timing of their range disjunctions"
-            },
-            "Journal": {
-              "item": "Entomologica Fennica"
-            },
-            "Year": 2000,
-            "Volume": 11,
-            "Pages": [
-              141,
-              166
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Dubatolov, V. V.; Kosterin, O. E."
+              },
+              "Title": {
+                "item": "Nemoral species of Lepidoptera (Insecta) in Siberia: A novel view on their history and the timing of their range disjunctions"
+              },
+              "Journal": {
+                "item": "Entomologica Fennica"
+              },
+              "Year": 2000,
+              "Volume": 11,
+              "Pages": [
+                141,
+                166
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Synthesis paper - not dated"
           }
-        }
+        ]
       }
     }
   ],

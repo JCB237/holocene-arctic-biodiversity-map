@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Gonzales, L. M.; Williams, J. W.; Kaplan, J. O."
-            },
-            "Title": {
-              "item": "Variations in leaf area index in northern and eastern North America over the past 21,000 years: a data-model comparison"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 2008,
-            "Volume": 27,
-            "Pages": [
-              1453,
-              1466
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Gonzales, L. M.; Williams, J. W.; Kaplan, J. O."
+              },
+              "Title": {
+                "item": "Variations in leaf area index in northern and eastern North America over the past 21,000 years: a data-model comparison"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 2008,
+              "Volume": 27,
+              "Pages": [
+                1453,
+                1466
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Pollen used for Leaf Area Index reconstruction"
           }
-        }
+        ]
       }
     }
   ],

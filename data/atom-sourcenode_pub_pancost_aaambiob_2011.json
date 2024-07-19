@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Pancost, R. D.; McClymont, E. L.; Bingham, E. M.; Roberts, Z.; Charman, D. J.; Hornibrook, E. R. C.; Blundell, A.; Chambers, F. M.; Lim, K. L. H.; Evershed, R. P."
-            },
-            "Title": {
-              "item": "Archaeol as a methanogen biomarker in ombrotrophic bogs"
-            },
-            "Journal": {
-              "item": "Organic Geochemistry"
-            },
-            "Year": 2011,
-            "Volume": 42,
-            "Pages": [
-              1279,
-              1287
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Pancost, R. D.; McClymont, E. L.; Bingham, E. M.; Roberts, Z.; Charman, D. J.; Hornibrook, E. R. C.; Blundell, A.; Chambers, F. M.; Lim, K. L. H.; Evershed, R. P."
+              },
+              "Title": {
+                "item": "Archaeol as a methanogen biomarker in ombrotrophic bogs"
+              },
+              "Journal": {
+                "item": "Organic Geochemistry"
+              },
+              "Year": 2011,
+              "Volume": 42,
+              "Pages": [
+                1279,
+                1287
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Southern Finland"
           }
-        }
+        ]
       }
     }
   ],

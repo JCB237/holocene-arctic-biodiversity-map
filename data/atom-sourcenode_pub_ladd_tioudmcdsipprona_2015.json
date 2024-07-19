@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Ladd, M.; Way, R. G.; Viau, A. E."
-            },
-            "Title": {
-              "item": "The impact of using different modern climate data sets in pollen-based paleoclimate reconstructions of North America"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 2015,
-            "Volume": 112,
-            "Pages": [
-              78,
-              85
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Ladd, M.; Way, R. G.; Viau, A. E."
+              },
+              "Title": {
+                "item": "The impact of using different modern climate data sets in pollen-based paleoclimate reconstructions of North America"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 2015,
+              "Volume": 112,
+              "Pages": [
+                78,
+                85
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Pollen used for temperature reconstruction"
           }
-        }
+        ]
       }
     }
   ],

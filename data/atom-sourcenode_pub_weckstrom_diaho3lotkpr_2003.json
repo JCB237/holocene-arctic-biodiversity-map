@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Weckstrom, J.; Snyder, J. A.; Korhola, A.; Laing, T. E.; MacDonald, G. M."
-            },
-            "Title": {
-              "item": "Diatom inferred acidity history of 32 lakes on the Kola Peninsula, Russia"
-            },
-            "Journal": {
-              "item": "Water Air and Soil Pollution"
-            },
-            "Year": 2003,
-            "Volume": 149,
-            "Pages": [
-              339,
-              361
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Weckstrom, J.; Snyder, J. A.; Korhola, A.; Laing, T. E.; MacDonald, G. M."
+              },
+              "Title": {
+                "item": "Diatom inferred acidity history of 32 lakes on the Kola Peninsula, Russia"
+              },
+              "Journal": {
+                "item": "Water Air and Soil Pollution"
+              },
+              "Year": 2003,
+              "Volume": 149,
+              "Pages": [
+                339,
+                361
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Sediment not dated - assumes 10-24cm depth is 'pre industrial'"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Brown, A. G.; Fallu, D.; Walsh, K.; Cucchiaro, S.; Tarolli, P.; Zhao, P.; Pears, B. R.; Oost, K. v; Snape, L.; Lang, A.; Albert, R. M.; Alsos, I. G.; Waddington, C."
-            },
-            "Title": {
-              "item": "Ending the Cinderella status of terraces and lynchets in Europe: the geomorphology of agricultural terraces and implications for ecosystem services and climate adaptation"
-            },
-            "Journal": {
-              "item": "Geomorphology"
-            },
-            "Year": 2021,
-            "Volume": 379,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Brown, A. G.; Fallu, D.; Walsh, K.; Cucchiaro, S.; Tarolli, P.; Zhao, P.; Pears, B. R.; Oost, K. v; Snape, L.; Lang, A.; Albert, R. M.; Alsos, I. G.; Waddington, C."
+              },
+              "Title": {
+                "item": "Ending the Cinderella status of terraces and lynchets in Europe: the geomorphology of agricultural terraces and implications for ecosystem services and climate adaptation"
+              },
+              "Journal": {
+                "item": "Geomorphology"
+              },
+              "Year": 2021,
+              "Volume": 379,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Review of geomorphology"
           }
-        }
+        ]
       }
     }
   ],

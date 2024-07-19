@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Linden, M. v d; Barke, J.; Vickery, E.; Charman, D. J.; Geel, B. v"
-            },
-            "Title": {
-              "item": "Late holocene human impact and climate change recorded in a North Swedish peat deposit"
-            },
-            "Journal": {
-              "item": "Palaeogeography, Palaeoclimatology, Palaeoecology"
-            },
-            "Year": 2008,
-            "Volume": 258,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Linden, M. v d; Barke, J.; Vickery, E.; Charman, D. J.; Geel, B. v"
+              },
+              "Title": {
+                "item": "Late holocene human impact and climate change recorded in a North Swedish peat deposit"
+              },
+              "Journal": {
+                "item": "Palaeogeography, Palaeoclimatology, Palaeoecology"
+              },
+              "Year": 2008,
+              "Volume": 258,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "64° 09′ 52.95′′N, 19° 34′ 58.66′′E"
           }
-        }
+        ]
       }
     }
   ],

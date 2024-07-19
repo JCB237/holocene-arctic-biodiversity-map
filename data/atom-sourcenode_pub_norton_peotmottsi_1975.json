@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Norton, P. E. P."
-            },
-            "Title": {
-              "item": "Paleo Ecology of the Mollusca of the Tjornes Sequence Iceland"
-            },
-            "Journal": {
-              "item": "Boreas (Oslo)"
-            },
-            "Year": 1975,
-            "Volume": 4,
-            "Pages": [
-              97,
-              110
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Norton, P. E. P."
+              },
+              "Title": {
+                "item": "Paleo Ecology of the Mollusca of the Tjornes Sequence Iceland"
+              },
+              "Journal": {
+                "item": "Boreas (Oslo)"
+              },
+              "Year": 1975,
+              "Volume": 4,
+              "Pages": [
+                97,
+                110
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Horizons not dated"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Yang, Z.; Wang, J.; Yuan, L.; Cheng, W.; Wang, Y.; Xie, Z.; Sun, L."
-            },
-            "Title": {
-              "item": "Total photosynthetic biomass record between 9400 and 2200 BP and its link to temperature changes at a High Arctic site near Ny-Alesund, Svalbard"
-            },
-            "Journal": {
-              "item": "Polar Biology"
-            },
-            "Year": 2019,
-            "Volume": 42,
-            "Pages": [
-              991,
-              1003
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Yang, Z.; Wang, J.; Yuan, L.; Cheng, W.; Wang, Y.; Xie, Z.; Sun, L."
+              },
+              "Title": {
+                "item": "Total photosynthetic biomass record between 9400 and 2200 BP and its link to temperature changes at a High Arctic site near Ny-Alesund, Svalbard"
+              },
+              "Journal": {
+                "item": "Polar Biology"
+              },
+              "Year": 2019,
+              "Volume": 42,
+              "Pages": [
+                991,
+                1003
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Only reconstruct photosynthetic productivity"
           }
-        }
+        ]
       }
     }
   ],

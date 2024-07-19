@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Munoz, S. E.; Gajewski, K."
-            },
-            "Title": {
-              "item": "Distinguishing prehistoric human influence on late-Holocene forests in southern Ontario, Canada"
-            },
-            "Journal": {
-              "item": "Holocene"
-            },
-            "Year": 2010,
-            "Volume": 20,
-            "Pages": [
-              967,
-              981
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Munoz, S. E.; Gajewski, K."
+              },
+              "Title": {
+                "item": "Distinguishing prehistoric human influence on late-Holocene forests in southern Ontario, Canada"
+              },
+              "Journal": {
+                "item": "Holocene"
+              },
+              "Year": 2010,
+              "Volume": 20,
+              "Pages": [
+                967,
+                981
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Southern Ontario"
           }
-        }
+        ]
       }
     }
   ],

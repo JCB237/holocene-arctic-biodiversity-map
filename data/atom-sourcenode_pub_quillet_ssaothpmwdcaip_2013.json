@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Quillet, A.; Garneau, M.; Frolking, S."
-            },
-            "Title": {
-              "item": "Sobol' sensitivity analysis of the Holocene Peat Model: What drives carbon accumulation in peatlands?"
-            },
-            "Journal": {
-              "item": "Journal of Geophysical Research-Biogeosciences"
-            },
-            "Year": 2013,
-            "Volume": 118,
-            "Pages": [
-              203,
-              214
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Quillet, A.; Garneau, M.; Frolking, S."
+              },
+              "Title": {
+                "item": "Sobol' sensitivity analysis of the Holocene Peat Model: What drives carbon accumulation in peatlands?"
+              },
+              "Journal": {
+                "item": "Journal of Geophysical Research-Biogeosciences"
+              },
+              "Year": 2013,
+              "Volume": 118,
+              "Pages": [
+                203,
+                214
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Modelling study"
           }
-        }
+        ]
       }
     }
   ],

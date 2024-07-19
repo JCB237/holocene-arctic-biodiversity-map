@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Nosova, M.; Severova, E.; Volkova, O."
-            },
-            "Title": {
-              "item": "A 6500-year pollen record from the Polistovo-Lovatskaya Mire System (northwest European Russia). Vegetation dynamics and signs of human impact"
-            },
-            "Journal": {
-              "item": "Grana"
-            },
-            "Year": 2017,
-            "Volume": 56,
-            "Pages": [
-              410,
-              423
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Nosova, M.; Severova, E.; Volkova, O."
+              },
+              "Title": {
+                "item": "A 6500-year pollen record from the Polistovo-Lovatskaya Mire System (northwest European Russia). Vegetation dynamics and signs of human impact"
+              },
+              "Journal": {
+                "item": "Grana"
+              },
+              "Year": 2017,
+              "Volume": 56,
+              "Pages": [
+                410,
+                423
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "South West Russia (East of Latvia)"
           }
-        }
+        ]
       }
     }
   ],

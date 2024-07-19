@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Zhang, H.; Amesbury, M. J.; Ronkainen, T.; Charman, D. J.; Gallego-Sala, A. V.; Valiranta, M."
-            },
-            "Title": {
-              "item": "Testate amoeba as palaeohydrological indicators in the permafrost peatlands of north-east European Russia and Finnish Lapland"
-            },
-            "Journal": {
-              "item": "Journal of Quaternary Science"
-            },
-            "Year": 2017,
-            "Volume": 32,
-            "Pages": [
-              976,
-              988
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Zhang, H.; Amesbury, M. J.; Ronkainen, T.; Charman, D. J.; Gallego-Sala, A. V.; Valiranta, M."
+              },
+              "Title": {
+                "item": "Testate amoeba as palaeohydrological indicators in the permafrost peatlands of north-east European Russia and Finnish Lapland"
+              },
+              "Journal": {
+                "item": "Journal of Quaternary Science"
+              },
+              "Year": 2017,
+              "Volume": 32,
+              "Pages": [
+                976,
+                988
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Modern study"
           }
-        }
+        ]
       }
     }
   ],

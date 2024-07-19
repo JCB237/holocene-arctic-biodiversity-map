@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Saulnier-Talbot, E.; Antoniades, D.; Pienitz, R."
-            },
-            "Title": {
-              "item": "Hotspots of biotic compositional change in lakes along vast latitudinal transects in northern Canada"
-            },
-            "Journal": {
-              "item": "Global Change Biology"
-            },
-            "Year": 2020,
-            "Volume": 26,
-            "Pages": [
-              2270,
-              2279
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Saulnier-Talbot, E.; Antoniades, D.; Pienitz, R."
+              },
+              "Title": {
+                "item": "Hotspots of biotic compositional change in lakes along vast latitudinal transects in northern Canada"
+              },
+              "Journal": {
+                "item": "Global Change Biology"
+              },
+              "Year": 2020,
+              "Volume": 26,
+              "Pages": [
+                2270,
+                2279
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Modern study"
           }
-        }
+        ]
       }
     }
   ],

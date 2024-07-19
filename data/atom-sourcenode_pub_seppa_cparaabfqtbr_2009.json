@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Seppa, H.; Alenius, T.; Muukkonen, P.; Giesecke, T.; Miller, P. A.; Ojala, A. E. K."
-            },
-            "Title": {
-              "item": "Calibrated pollen accumulation rates as a basis for quantitative tree biomass reconstructions"
-            },
-            "Journal": {
-              "item": "Holocene"
-            },
-            "Year": 2009,
-            "Volume": 19,
-            "Pages": [
-              209,
-              220
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Seppa, H.; Alenius, T.; Muukkonen, P.; Giesecke, T.; Miller, P. A.; Ojala, A. E. K."
+              },
+              "Title": {
+                "item": "Calibrated pollen accumulation rates as a basis for quantitative tree biomass reconstructions"
+              },
+              "Journal": {
+                "item": "Holocene"
+              },
+              "Year": 2009,
+              "Volume": 19,
+              "Pages": [
+                209,
+                220
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "61°48′N, 24°41′E"
           }
-        }
+        ]
       }
     }
   ],

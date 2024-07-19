@@ -8,19 +8,25 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Gabov, D. N.; Yakovleva, E. V.; Gruzdev, I. V.; Vasilevich, R. S."
-            },
-            "Title": {
-              "item": "Nonspecific organic compounds in permafrost hummocky peatland C3 - IOP Conference Series: Earth and Environmental Science"
-            },
-            "Year": 2021,
-            "Volume": 862,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Gabov, D. N.; Yakovleva, E. V.; Gruzdev, I. V.; Vasilevich, R. S."
+              },
+              "Title": {
+                "item": "Nonspecific organic compounds in permafrost hummocky peatland C3 - IOP Conference Series: Earth and Environmental Science"
+              },
+              "Year": 2021,
+              "Volume": 862,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Sample not dated"
           }
-        }
+        ]
       }
     }
   ],

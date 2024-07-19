@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Zazula, G. D.; Gregory Hare, P.; Storer, J. E."
-            },
-            "Title": {
-              "item": "New radiocarbon-dated vertebrate fossils from Herschel Island: Implications for the palaeoenvironments and glacial chronology of the beaufort sea coastlands"
-            },
-            "Journal": {
-              "item": "Arctic"
-            },
-            "Year": 2009,
-            "Volume": 62,
-            "Pages": [
-              273,
-              280
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Zazula, G. D.; Gregory Hare, P.; Storer, J. E."
+              },
+              "Title": {
+                "item": "New radiocarbon-dated vertebrate fossils from Herschel Island: Implications for the palaeoenvironments and glacial chronology of the beaufort sea coastlands"
+              },
+              "Journal": {
+                "item": "Arctic"
+              },
+              "Year": 2009,
+              "Volume": 62,
+              "Pages": [
+                273,
+                280
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "Only one dated fossil in the holocene"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Ericson, P. G. P.; Tyrberg, T.; Kjellberg, A. S.; Jonsson, L.; Ullen, I."
-            },
-            "Title": {
-              "item": "The earliest record of house sparrows (Passer domesticus) in northern Europe"
-            },
-            "Journal": {
-              "item": "Journal of Archaeological Science"
-            },
-            "Year": 1997,
-            "Volume": 24,
-            "Pages": [
-              183,
-              190
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Ericson, P. G. P.; Tyrberg, T.; Kjellberg, A. S.; Jonsson, L.; Ullen, I."
+              },
+              "Title": {
+                "item": "The earliest record of house sparrows (Passer domesticus) in northern Europe"
+              },
+              "Journal": {
+                "item": "Journal of Archaeological Science"
+              },
+              "Year": 1997,
+              "Volume": 24,
+              "Pages": [
+                183,
+                190
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Uppland, Central Sweden"
           }
-        }
+        ]
       }
     }
   ],

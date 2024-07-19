@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Rydin, H.; Barber, K. E."
-            },
-            "Title": {
-              "item": "Long-term and fine-scale coexistence of closely related species"
-            },
-            "Journal": {
-              "item": "Folia Geobotanica"
-            },
-            "Year": 2001,
-            "Volume": 36,
-            "Pages": [
-              53,
-              61
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Rydin, H.; Barber, K. E."
+              },
+              "Title": {
+                "item": "Long-term and fine-scale coexistence of closely related species"
+              },
+              "Journal": {
+                "item": "Folia Geobotanica"
+              },
+              "Year": 2001,
+              "Volume": 36,
+              "Pages": [
+                53,
+                61
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "General study"
           }
-        }
+        ]
       }
     }
   ],

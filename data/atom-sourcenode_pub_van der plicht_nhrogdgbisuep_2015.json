@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "van der Plicht, J.; Molodin, V. I.; Kuzmin, Y. V.; Vasiliev, S. K.; Postnov, A. V.; Slavinsky, V. S."
-            },
-            "Title": {
-              "item": "New Holocene refugia of giant deer (Megaloceros giganteus Blum.) in Siberia: updated extinction patterns"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 2015,
-            "Volume": 114,
-            "Pages": [
-              182,
-              188
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "van der Plicht, J.; Molodin, V. I.; Kuzmin, Y. V.; Vasiliev, S. K.; Postnov, A. V.; Slavinsky, V. S."
+              },
+              "Title": {
+                "item": "New Holocene refugia of giant deer (Megaloceros giganteus Blum.) in Siberia: updated extinction patterns"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 2015,
+              "Volume": 114,
+              "Pages": [
+                182,
+                188
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Southern Siberia"
           }
-        }
+        ]
       }
     }
   ],

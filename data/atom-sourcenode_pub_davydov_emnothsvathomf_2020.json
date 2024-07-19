@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Davydov, S.; Davydova, A.; Schelchkova, M.; Makarevich, R.; Fyodorov-Davydov, D.; Loranty, M.; Boeskorov, G."
-            },
-            "Title": {
-              "item": "Essential mineral nutrients of the high-latitude steppe vegetation and the herbivores of mammoth fauna"
-            },
-            "Journal": {
-              "item": "Quaternary Science Reviews"
-            },
-            "Year": 2020,
-            "Volume": 228,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Davydov, S.; Davydova, A.; Schelchkova, M.; Makarevich, R.; Fyodorov-Davydov, D.; Loranty, M.; Boeskorov, G."
+              },
+              "Title": {
+                "item": "Essential mineral nutrients of the high-latitude steppe vegetation and the herbivores of mammoth fauna"
+              },
+              "Journal": {
+                "item": "Quaternary Science Reviews"
+              },
+              "Year": 2020,
+              "Volume": 228,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Modern study"
           }
-        }
+        ]
       }
     }
   ],

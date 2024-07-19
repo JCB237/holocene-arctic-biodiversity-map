@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Ilyashuk, B. P.; Ilyashuk, E. A.; Psenner, R.; Tessadri, R.; Koinig, K. A."
-            },
-            "Title": {
-              "item": "Rock glaciers in crystalline catchments: Hidden permafrost-related threats to alpine headwater lakes"
-            },
-            "Journal": {
-              "item": "Global Change Biology"
-            },
-            "Year": 2018,
-            "Volume": 24,
-            "Pages": [
-              1548,
-              1562
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Ilyashuk, B. P.; Ilyashuk, E. A.; Psenner, R.; Tessadri, R.; Koinig, K. A."
+              },
+              "Title": {
+                "item": "Rock glaciers in crystalline catchments: Hidden permafrost-related threats to alpine headwater lakes"
+              },
+              "Journal": {
+                "item": "Global Change Biology"
+              },
+              "Year": 2018,
+              "Volume": 24,
+              "Pages": [
+                1548,
+                1562
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Northern Italy"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Pitkanen, A.; Huttunen, P.; Jungner, H.; Merilainen, J.; Tolonen, K."
-            },
-            "Title": {
-              "item": "Holocene fire history of middle boreal pine forest sites in eastern Finland"
-            },
-            "Journal": {
-              "item": "Annales Botanici Fennici"
-            },
-            "Year": 2003,
-            "Volume": 40,
-            "Pages": [
-              15,
-              33
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Pitkanen, A.; Huttunen, P.; Jungner, H.; Merilainen, J.; Tolonen, K."
+              },
+              "Title": {
+                "item": "Holocene fire history of middle boreal pine forest sites in eastern Finland"
+              },
+              "Journal": {
+                "item": "Annales Botanici Fennici"
+              },
+              "Year": 2003,
+              "Volume": 40,
+              "Pages": [
+                15,
+                33
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "63.159167, 30.816944"
           }
-        }
+        ]
       }
     }
   ],

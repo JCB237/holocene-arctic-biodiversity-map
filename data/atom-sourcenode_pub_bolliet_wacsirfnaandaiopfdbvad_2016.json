@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bolliet, T.; Brockmann, P.; Masson-Delmotte, V.; Bassinot, F.; Daux, V.; Genty, D.; Landais, A.; Lavrieux, M.; Michel, E.; Ortega, P.; Risi, C.; Roche Didier, M. D.; Vimeux, F.; Waelbroeck, C."
-            },
-            "Title": {
-              "item": "Water and carbon stable isotope records from natural archives: A new database and interactive online platform for data browsing, visualizing and downloading"
-            },
-            "Journal": {
-              "item": "Climate of the Past"
-            },
-            "Year": 2016,
-            "Volume": 12,
-            "Pages": [
-              1693,
-              1719
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bolliet, T.; Brockmann, P.; Masson-Delmotte, V.; Bassinot, F.; Daux, V.; Genty, D.; Landais, A.; Lavrieux, M.; Michel, E.; Ortega, P.; Risi, C.; Roche Didier, M. D.; Vimeux, F.; Waelbroeck, C."
+              },
+              "Title": {
+                "item": "Water and carbon stable isotope records from natural archives: A new database and interactive online platform for data browsing, visualizing and downloading"
+              },
+              "Journal": {
+                "item": "Climate of the Past"
+              },
+              "Year": 2016,
+              "Volume": 12,
+              "Pages": [
+                1693,
+                1719
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoBiodiversityMeasure",
+          {
+            "item": "Is database of non biotic proxies"
           }
-        }
+        ]
       }
     }
   ],

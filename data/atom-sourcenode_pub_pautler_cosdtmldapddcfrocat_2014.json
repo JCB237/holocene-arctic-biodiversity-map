@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Pautler, B. G.; Reichart, G. J.; Sanborn, P. T.; Simpson, M. J.; Weijers, J. W. H."
-            },
-            "Title": {
-              "item": "Comparison of soil derived tetraether membrane lipid distributions and plant-wax delta D compositions for reconstruction of Canadian Arctic temperatures"
-            },
-            "Journal": {
-              "item": "Palaeogeography Palaeoclimatology Palaeoecology"
-            },
-            "Year": 2014,
-            "Volume": 404,
-            "Pages": [
-              78,
-              88
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Pautler, B. G.; Reichart, G. J.; Sanborn, P. T.; Simpson, M. J.; Weijers, J. W. H."
+              },
+              "Title": {
+                "item": "Comparison of soil derived tetraether membrane lipid distributions and plant-wax delta D compositions for reconstruction of Canadian Arctic temperatures"
+              },
+              "Journal": {
+                "item": "Palaeogeography Palaeoclimatology Palaeoecology"
+              },
+              "Year": 2014,
+              "Volume": 404,
+              "Pages": [
+                78,
+                88
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Geochemical study"
           }
-        }
+        ]
       }
     }
   ],

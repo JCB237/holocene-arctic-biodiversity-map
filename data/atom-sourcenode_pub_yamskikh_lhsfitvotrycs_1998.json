@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Yamskikh, A. A."
-            },
-            "Title": {
-              "item": "Late holocene soil formation in the valley of the River Yenisei, Central Siberia"
-            },
-            "Journal": {
-              "item": "Catena"
-            },
-            "Year": 1998,
-            "Volume": 34,
-            "Pages": [
-              47,
-              60
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Yamskikh, A. A."
+              },
+              "Title": {
+                "item": "Late holocene soil formation in the valley of the River Yenisei, Central Siberia"
+              },
+              "Journal": {
+                "item": "Catena"
+              },
+              "Year": 1998,
+              "Volume": 34,
+              "Pages": [
+                47,
+                60
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Only land cover change mapped"
           }
-        }
+        ]
       }
     }
   ],

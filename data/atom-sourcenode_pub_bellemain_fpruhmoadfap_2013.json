@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bellemain, E.; Davey, M. L.; Kauserud, H.; Epp, L. S.; Boessenkool, S.; Coissac, E.; Geml, J.; Edwards, M.; Willerslev, E.; Gussarova, G.; Taberlet, P.; Brochmann, C."
-            },
-            "Title": {
-              "item": "Fungal palaeodiversity revealed using high-throughput metabarcoding of ancient DNA from arctic permafrost"
-            },
-            "Journal": {
-              "item": "Environmental Microbiology"
-            },
-            "Year": 2013,
-            "Volume": 15,
-            "Pages": [
-              1176,
-              1189
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bellemain, E.; Davey, M. L.; Kauserud, H.; Epp, L. S.; Boessenkool, S.; Coissac, E.; Geml, J.; Edwards, M.; Willerslev, E.; Gussarova, G.; Taberlet, P.; Brochmann, C."
+              },
+              "Title": {
+                "item": "Fungal palaeodiversity revealed using high-throughput metabarcoding of ancient DNA from arctic permafrost"
+              },
+              "Journal": {
+                "item": "Environmental Microbiology"
+              },
+              "Year": 2013,
+              "Volume": 15,
+              "Pages": [
+                1176,
+                1189
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "min. 16,000 YrBP"
           }
-        }
+        ]
       }
     }
   ],

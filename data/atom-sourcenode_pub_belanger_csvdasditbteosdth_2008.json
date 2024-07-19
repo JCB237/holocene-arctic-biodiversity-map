@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Belanger, N.; Pinno, B. D."
-            },
-            "Title": {
-              "item": "Carbon sequestration, vegetation dynamics and soil development in the Boreal Transition ecoregion of Saskatchewan during the Holocene"
-            },
-            "Journal": {
-              "item": "Catena"
-            },
-            "Year": 2008,
-            "Volume": 74,
-            "Pages": [
-              65,
-              72
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Belanger, N.; Pinno, B. D."
+              },
+              "Title": {
+                "item": "Carbon sequestration, vegetation dynamics and soil development in the Boreal Transition ecoregion of Saskatchewan during the Holocene"
+              },
+              "Journal": {
+                "item": "Catena"
+              },
+              "Year": 2008,
+              "Volume": 74,
+              "Pages": [
+                65,
+                72
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "52° 51′N, 104° 03′W"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Becher, M.; Olid, C.; Klaminder, J."
-            },
-            "Title": {
-              "item": "Buried soil organic inclusions in non-sorted circles fields in northern Sweden: Age and Paleoclimatic context"
-            },
-            "Journal": {
-              "item": "Journal of Geophysical Research-Biogeosciences"
-            },
-            "Year": 2013,
-            "Volume": 118,
-            "Pages": [
-              104,
-              111
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Becher, M.; Olid, C.; Klaminder, J."
+              },
+              "Title": {
+                "item": "Buried soil organic inclusions in non-sorted circles fields in northern Sweden: Age and Paleoclimatic context"
+              },
+              "Journal": {
+                "item": "Journal of Geophysical Research-Biogeosciences"
+              },
+              "Year": 2013,
+              "Volume": 118,
+              "Pages": [
+                104,
+                111
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "OM study"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Loisel, J.; Yu, Z."
-            },
-            "Title": {
-              "item": "Recent acceleration of carbon accumulation in a boreal peatland, south central Alaska"
-            },
-            "Journal": {
-              "item": "Journal of Geophysical Research: Biogeosciences"
-            },
-            "Year": 2013,
-            "Volume": 118,
-            "Pages": [
-              41,
-              53
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Loisel, J.; Yu, Z."
+              },
+              "Title": {
+                "item": "Recent acceleration of carbon accumulation in a boreal peatland, south central Alaska"
+              },
+              "Journal": {
+                "item": "Journal of Geophysical Research: Biogeosciences"
+              },
+              "Year": 2013,
+              "Volume": 118,
+              "Pages": [
+                41,
+                53
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "62\u001425’N, 150\u001441’W"
           }
-        }
+        ]
       }
     }
   ],

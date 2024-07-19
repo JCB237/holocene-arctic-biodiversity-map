@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Shotyk, W.; Bicalho, B.; Grant-Weaver, I.; Stachiw, S."
-            },
-            "Title": {
-              "item": "A geochemical perspective on the natural abundance and predominant sources of trace elements in cranberries (Vaccinium oxycoccus) from remote bogs in the Boreal region of northern Alberta, Canada"
-            },
-            "Journal": {
-              "item": "Science of the Total Environment"
-            },
-            "Year": 2019,
-            "Volume": 650,
-            "Pages": [
-              1652,
-              1663
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Shotyk, W.; Bicalho, B.; Grant-Weaver, I.; Stachiw, S."
+              },
+              "Title": {
+                "item": "A geochemical perspective on the natural abundance and predominant sources of trace elements in cranberries (Vaccinium oxycoccus) from remote bogs in the Boreal region of northern Alberta, Canada"
+              },
+              "Journal": {
+                "item": "Science of the Total Environment"
+              },
+              "Year": 2019,
+              "Volume": 650,
+              "Pages": [
+                1652,
+                1663
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "Geochemical study"
           }
-        }
+        ]
       }
     }
   ],

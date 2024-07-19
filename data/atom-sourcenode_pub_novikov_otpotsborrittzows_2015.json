@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Novikov, V. P."
-            },
-            "Title": {
-              "item": "On the position of the southern boundary of reindeer range in the taiga zone of Western Siberia"
-            },
-            "Journal": {
-              "item": "Russian Journal of Ecology"
-            },
-            "Year": 2015,
-            "Volume": 46,
-            "Pages": [
-              450,
-              455
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Novikov, V. P."
+              },
+              "Title": {
+                "item": "On the position of the southern boundary of reindeer range in the taiga zone of Western Siberia"
+              },
+              "Journal": {
+                "item": "Russian Journal of Ecology"
+              },
+              "Year": 2015,
+              "Volume": 46,
+              "Pages": [
+                450,
+                455
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Southern Tyumen oblast"
           }
-        }
+        ]
       }
     }
   ],

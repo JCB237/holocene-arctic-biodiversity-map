@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Westin, A.; Lennartsson, T.; Bjorklund, J. O."
-            },
-            "Title": {
-              "item": "The historical ecology approach in species conservation - Identifying suitable habitat management for the endangered clouded Apollo butterfly (Parnassius mnemosyne L.) in Sweden"
-            },
-            "Journal": {
-              "item": "Aims Environmental Science"
-            },
-            "Year": 2018,
-            "Volume": 5,
-            "Pages": [
-              244,
-              272
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Westin, A.; Lennartsson, T.; Bjorklund, J. O."
+              },
+              "Title": {
+                "item": "The historical ecology approach in species conservation - Identifying suitable habitat management for the endangered clouded Apollo butterfly (Parnassius mnemosyne L.) in Sweden"
+              },
+              "Journal": {
+                "item": "Aims Environmental Science"
+              },
+              "Year": 2018,
+              "Volume": 5,
+              "Pages": [
+                244,
+                272
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Uppsala, Central-Eastern Sweden"
           }
-        }
+        ]
       }
     }
   ],
