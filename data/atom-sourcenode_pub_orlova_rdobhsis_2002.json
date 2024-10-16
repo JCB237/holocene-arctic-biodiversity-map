@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Orlova, L. A.; Zykina, V. S."
-            },
-            "Title": {
-              "item": "Radiocarbon dating of buried Holocene soils in Siberia"
-            },
-            "Journal": {
-              "item": "Radiocarbon"
-            },
-            "Year": 2002,
-            "Volume": 44,
-            "Pages": [
-              113,
-              122
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Orlova, L. A.; Zykina, V. S."
+              },
+              "Title": {
+                "item": "Radiocarbon dating of buried Holocene soils in Siberia"
+              },
+              "Journal": {
+                "item": "Radiocarbon"
+              },
+              "Year": 2002,
+              "Volume": 44,
+              "Pages": [
+                113,
+                122
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in various Siberian sites but outside of Artic region"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hoffman, B. W.; Czederpiltz, J. M. C.; Partlow, M. A."
-            },
-            "Title": {
-              "item": "Heads or tails: The zooarchaeology of Aleut salmon storage on Unimak Island, Alaska"
-            },
-            "Journal": {
-              "item": "Journal of Archaeological Science"
-            },
-            "Year": 2000,
-            "Volume": 27,
-            "Pages": [
-              699,
-              708
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hoffman, B. W.; Czederpiltz, J. M. C.; Partlow, M. A."
+              },
+              "Title": {
+                "item": "Heads or tails: The zooarchaeology of Aleut salmon storage on Unimak Island, Alaska"
+              },
+              "Journal": {
+                "item": "Journal of Archaeological Science"
+              },
+              "Year": 2000,
+              "Volume": 27,
+              "Pages": [
+                699,
+                708
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "excavations of salmon bones, Alaska. No time series present"
           }
-        }
+        ]
       }
     }
   ],

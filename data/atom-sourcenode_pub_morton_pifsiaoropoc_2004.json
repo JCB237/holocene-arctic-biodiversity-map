@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Morton, J. D.; Schwarcz, H. P."
-            },
-            "Title": {
-              "item": "Palaeodietary implications from stable isotopic analysis of residues on prehistoric Ontario ceramics"
-            },
-            "Journal": {
-              "item": "Journal of Archaeological Science"
-            },
-            "Year": 2004,
-            "Volume": 31,
-            "Pages": [
-              503,
-              517
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Morton, J. D.; Schwarcz, H. P."
+              },
+              "Title": {
+                "item": "Palaeodietary implications from stable isotopic analysis of residues on prehistoric Ontario ceramics"
+              },
+              "Journal": {
+                "item": "Journal of Archaeological Science"
+              },
+              "Year": 2004,
+              "Volume": 31,
+              "Pages": [
+                503,
+                517
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in Northern Ontario"
           }
-        }
+        ]
       }
     }
   ],

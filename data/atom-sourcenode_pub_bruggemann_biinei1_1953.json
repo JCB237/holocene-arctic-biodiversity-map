@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Bruggemann, P. F.; Calder, J. A."
-            },
-            "Title": {
-              "item": "Botanical investigations in northeast Ellesmere Island. 1951"
-            },
-            "Journal": {
-              "item": "Canadian Field Nat"
-            },
-            "Year": 1953,
-            "Volume": 67,
-            "Pages": [
-              157,
-              174
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Bruggemann, P. F.; Calder, J. A."
+              },
+              "Title": {
+                "item": "Botanical investigations in northeast Ellesmere Island. 1951"
+              },
+              "Journal": {
+                "item": "Canadian Field Nat"
+              },
+              "Year": 1953,
+              "Volume": 67,
+              "Pages": [
+                157,
+                174
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "No time series or years pre 1950"
           }
-        }
+        ]
       }
     }
   ],

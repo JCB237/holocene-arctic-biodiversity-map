@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Nichols, D. A."
-            },
-            "Title": {
-              "item": "Post-Pleistocene fossils of the uplifted beaches of the Eastern Arctic regions of Canada"
-            },
-            "Journal": {
-              "item": "Canadian Field Naturalist"
-            },
-            "Year": 1936,
-            "Volume": 50,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Nichols, D. A."
+              },
+              "Title": {
+                "item": "Post-Pleistocene fossils of the uplifted beaches of the Eastern Arctic regions of Canada"
+              },
+              "Journal": {
+                "item": "Canadian Field Naturalist"
+              },
+              "Year": 1936,
+              "Volume": 50,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "No time series or years in Holocene"
           }
-        }
+        ]
       }
     }
   ],

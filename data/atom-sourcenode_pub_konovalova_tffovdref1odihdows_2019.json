@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Konovalova, V. A."
-            },
-            "Title": {
-              "item": "The First Find of Vestalenula danielopoli (Martens, Rossetti et Fuhrmann, 1997) (Crustacea, Ostracoda, Darwinulidae) in Holocene deposits of Western Siberia"
-            },
-            "Journal": {
-              "item": "Paleontological Journal"
-            },
-            "Year": 2019,
-            "Volume": 53,
-            "Pages": [
-              889,
-              893
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Konovalova, V. A."
+              },
+              "Title": {
+                "item": "The First Find of Vestalenula danielopoli (Martens, Rossetti et Fuhrmann, 1997) (Crustacea, Ostracoda, Darwinulidae) in Holocene deposits of Western Siberia"
+              },
+              "Journal": {
+                "item": "Paleontological Journal"
+              },
+              "Year": 2019,
+              "Volume": 53,
+              "Pages": [
+                889,
+                893
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in Bakchar River, Western Siberia"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Wu, H.; Guiot, J.; Brewer, S.; Guo, Z."
-            },
-            "Title": {
-              "item": "Climatic changes in Eurasia and Africa at the last glacial maximum and mid-Holocene: Reconstruction from pollen data using inverse vegetation modelling"
-            },
-            "Journal": {
-              "item": "Climate Dynamics"
-            },
-            "Year": 2007,
-            "Volume": 29,
-            "Pages": [
-              211,
-              229
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Wu, H.; Guiot, J.; Brewer, S.; Guo, Z."
+              },
+              "Title": {
+                "item": "Climatic changes in Eurasia and Africa at the last glacial maximum and mid-Holocene: Reconstruction from pollen data using inverse vegetation modelling"
+              },
+              "Journal": {
+                "item": "Climate Dynamics"
+              },
+              "Year": 2007,
+              "Volume": 29,
+              "Pages": [
+                211,
+                229
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "no specific time series for individual location given"
           }
-        }
+        ]
       }
     }
   ],

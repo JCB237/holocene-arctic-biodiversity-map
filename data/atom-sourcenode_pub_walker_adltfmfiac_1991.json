@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Walker, I. R.; Mott, R. J.; Smol, J. P."
-            },
-            "Title": {
-              "item": "Allerød-Younger Dryas lake temperatures from midge fossils in Atlantic Canada"
-            },
-            "Journal": {
-              "item": "Science"
-            },
-            "Year": 1991,
-            "Volume": 253,
-            "Pages": [
-              1010,
-              1012
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Walker, I. R.; Mott, R. J.; Smol, J. P."
+              },
+              "Title": {
+                "item": "Allerød-Younger Dryas lake temperatures from midge fossils in Atlantic Canada"
+              },
+              "Journal": {
+                "item": "Science"
+              },
+              "Year": 1991,
+              "Volume": 253,
+              "Pages": [
+                1010,
+                1012
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Splan Pond, Canada"
           }
-        }
+        ]
       }
     }
   ],

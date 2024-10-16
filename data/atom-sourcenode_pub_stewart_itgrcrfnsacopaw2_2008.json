@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Stewart, J. R.; Dalen, L."
-            },
-            "Title": {
-              "item": "Is the glacial refugium concept relevant for northern species? A comment on Pruett and Winker 2005"
-            },
-            "Journal": {
-              "item": "Climatic Change"
-            },
-            "Year": 2008,
-            "Volume": 86,
-            "Pages": [
-              19,
-              22
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Stewart, J. R.; Dalen, L."
+              },
+              "Title": {
+                "item": "Is the glacial refugium concept relevant for northern species? A comment on Pruett and Winker 2005"
+              },
+              "Journal": {
+                "item": "Climatic Change"
+              },
+              "Year": 2008,
+              "Volume": 86,
+              "Pages": [
+                19,
+                22
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "No time series present. General analysis "
           }
-        }
+        ]
       }
     }
   ],

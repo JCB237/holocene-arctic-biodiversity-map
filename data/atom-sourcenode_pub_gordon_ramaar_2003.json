@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Gordon, B."
-            },
-            "Title": {
-              "item": "Rangifer and man: An ancient relationship"
-            },
-            "Journal": {
-              "item": "Rangifer"
-            },
-            "Year": 2003,
-            "Pages": [
-              15,
-              28
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Gordon, B."
+              },
+              "Title": {
+                "item": "Rangifer and man: An ancient relationship"
+              },
+              "Journal": {
+                "item": "Rangifer"
+              },
+              "Year": 2003,
+              "Pages": [
+                15,
+                28
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "no time series or specific areas"
           }
-        }
+        ]
       }
     }
   ],

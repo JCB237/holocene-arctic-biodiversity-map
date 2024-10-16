@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Fulton, H. G.; Banham, F. L."
-            },
-            "Title": {
-              "item": "A brief history of the tuber flea beetle, Epitrix tuberis Gent., in British Columbia"
-            },
-            "Journal": {
-              "item": "Proc Ent Soc Brit Columbia"
-            },
-            "Year": 1960,
-            "Volume": 57,
-            "Pages": [
-              47,
-              49
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Fulton, H. G.; Banham, F. L."
+              },
+              "Title": {
+                "item": "A brief history of the tuber flea beetle, Epitrix tuberis Gent., in British Columbia"
+              },
+              "Journal": {
+                "item": "Proc Ent Soc Brit Columbia"
+              },
+              "Year": 1960,
+              "Volume": 57,
+              "Pages": [
+                47,
+                49
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in British Columbia; no time series"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Gunnarson, B. E.; Linderholm, H. W.; Moberg, A."
-            },
-            "Title": {
-              "item": "Improving a tree-ring reconstruction from west-central Scandinavia: 900 years of warm-season temperatures"
-            },
-            "Journal": {
-              "item": "Climate Dynamics"
-            },
-            "Year": 2011,
-            "Volume": 36,
-            "Pages": [
-              97,
-              108
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Gunnarson, B. E.; Linderholm, H. W.; Moberg, A."
+              },
+              "Title": {
+                "item": "Improving a tree-ring reconstruction from west-central Scandinavia: 900 years of warm-season temperatures"
+              },
+              "Journal": {
+                "item": "Climate Dynamics"
+              },
+              "Year": 2011,
+              "Volume": 36,
+              "Pages": [
+                97,
+                108
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Located in Jamtland, Sweden"
           }
-        }
+        ]
       }
     }
   ],

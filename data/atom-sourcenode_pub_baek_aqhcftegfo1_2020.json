@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Baek, S. H.; Smerdon, J. E.; Dobrin, G. C.; Naimark, J. G.; Cook, E. R.; Cook, B. I.; Seager, R.; Cane, M. A.; Scholz, S. R."
-            },
-            "Title": {
-              "item": "A quantitative hydroclimatic context for the European Great Famine of 1315-1317"
-            },
-            "Journal": {
-              "item": "Communications Earth & Environment"
-            },
-            "Year": 2020,
-            "Volume": 1,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Baek, S. H.; Smerdon, J. E.; Dobrin, G. C.; Naimark, J. G.; Cook, E. R.; Cook, B. I.; Seager, R.; Cane, M. A.; Scholz, S. R."
+              },
+              "Title": {
+                "item": "A quantitative hydroclimatic context for the European Great Famine of 1315-1317"
+              },
+              "Journal": {
+                "item": "Communications Earth & Environment"
+              },
+              "Year": 2020,
+              "Volume": 1,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "no specific time series in the Artic"
           }
-        }
+        ]
       }
     }
   ],

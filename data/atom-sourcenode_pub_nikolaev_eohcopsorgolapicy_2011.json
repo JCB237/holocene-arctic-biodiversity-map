@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Nikolaev, A. N.; Fedorov, P. P.; Desyatkin, A. R."
-            },
-            "Title": {
-              "item": "Effect of Hydrothermal Conditions of Permafrost Soil on Radial Growth of Larch and Pine in Central Yakutia"
-            },
-            "Journal": {
-              "item": "Contemporary Problems of Ecology"
-            },
-            "Year": 2011,
-            "Volume": 4,
-            "Pages": [
-              140,
-              149
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Nikolaev, A. N.; Fedorov, P. P.; Desyatkin, A. R."
+              },
+              "Title": {
+                "item": "Effect of Hydrothermal Conditions of Permafrost Soil on Radial Growth of Larch and Pine in Central Yakutia"
+              },
+              "Journal": {
+                "item": "Contemporary Problems of Ecology"
+              },
+              "Year": 2011,
+              "Volume": 4,
+              "Pages": [
+                140,
+                149
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in Central Yakutia"
           }
-        }
+        ]
       }
     }
   ],

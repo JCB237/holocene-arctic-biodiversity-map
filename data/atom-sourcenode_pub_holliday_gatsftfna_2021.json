@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Holliday, V. T."
-            },
-            "Title": {
-              "item": "Geoarchaeology and the search for the first North Americans"
-            },
-            "Journal": {
-              "item": "Geoarchaeology-an International Journal"
-            },
-            "Year": 2021,
-            "Volume": 36,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Holliday, V. T."
+              },
+              "Title": {
+                "item": "Geoarchaeology and the search for the first North Americans"
+              },
+              "Journal": {
+                "item": "Geoarchaeology-an International Journal"
+              },
+              "Year": 2021,
+              "Volume": 36,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in Northern America"
           }
-        }
+        ]
       }
     }
   ],

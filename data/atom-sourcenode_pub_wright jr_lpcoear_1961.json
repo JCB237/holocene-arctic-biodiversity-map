@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Wright Jr, H. E."
-            },
-            "Title": {
-              "item": "Late pleistocene climate of Europe: A review"
-            },
-            "Journal": {
-              "item": "Bulletin of the Geological Society of America"
-            },
-            "Year": 1961,
-            "Volume": 72,
-            "Pages": [
-              933,
-              983
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Wright Jr, H. E."
+              },
+              "Title": {
+                "item": "Late pleistocene climate of Europe: A review"
+              },
+              "Journal": {
+                "item": "Bulletin of the Geological Society of America"
+              },
+              "Year": 1961,
+              "Volume": 72,
+              "Pages": [
+                933,
+                983
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "no time series in Holocene or biota present"
           }
-        }
+        ]
       }
     }
   ],

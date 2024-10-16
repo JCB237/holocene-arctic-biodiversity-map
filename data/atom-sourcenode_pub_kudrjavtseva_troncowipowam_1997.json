@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Kudrjavtseva, E. I.; Litvintseva, A. P."
-            },
-            "Title": {
-              "item": "The role of natural conservation of wood in preservation of wooden architectural monuments"
-            },
-            "Journal": {
-              "item": "Conference on Preservation of Russian Antiquities, Its Impact on Russia's Rejuvenation"
-            },
-            "Year": 1997,
-            "Volume": 1351,
-            "Pages": [
-              116,
-              130
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Kudrjavtseva, E. I.; Litvintseva, A. P."
+              },
+              "Title": {
+                "item": "The role of natural conservation of wood in preservation of wooden architectural monuments"
+              },
+              "Journal": {
+                "item": "Conference on Preservation of Russian Antiquities, Its Impact on Russia's Rejuvenation"
+              },
+              "Year": 1997,
+              "Volume": 1351,
+              "Pages": [
+                116,
+                130
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "no time series present or years in Holocene"
           }
-        }
+        ]
       }
     }
   ],

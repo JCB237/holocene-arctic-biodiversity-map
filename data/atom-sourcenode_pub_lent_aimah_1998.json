@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Lent, P. C."
-            },
-            "Title": {
-              "item": "Alaska's indigenous muskoxen: A history"
-            },
-            "Journal": {
-              "item": "Rangifer"
-            },
-            "Year": 1998,
-            "Volume": 18,
-            "Pages": [
-              133,
-              144
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Lent, P. C."
+              },
+              "Title": {
+                "item": "Alaska's indigenous muskoxen: A history"
+              },
+              "Journal": {
+                "item": "Rangifer"
+              },
+              "Year": 1998,
+              "Volume": 18,
+              "Pages": [
+                133,
+                144
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "no time series or specific data available"
           }
-        }
+        ]
       }
     }
   ],

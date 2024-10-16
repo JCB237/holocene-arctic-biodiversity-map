@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Paterson, A. M.; Cumming, B. F.; Smol, J. P.; Hall, R. I."
-            },
-            "Title": {
-              "item": "Marked recent increases of colonial scaled chrysophytes in boreal lakes: Implications for the management of taste and odour events"
-            },
-            "Journal": {
-              "item": "Freshwater Biology"
-            },
-            "Year": 2004,
-            "Volume": 49,
-            "Pages": [
-              199,
-              207
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Paterson, A. M.; Cumming, B. F.; Smol, J. P.; Hall, R. I."
+              },
+              "Title": {
+                "item": "Marked recent increases of colonial scaled chrysophytes in boreal lakes: Implications for the management of taste and odour events"
+              },
+              "Journal": {
+                "item": "Freshwater Biology"
+              },
+              "Year": 2004,
+              "Volume": 49,
+              "Pages": [
+                199,
+                207
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in Muskoka-Haliburton, Ontario"
           }
-        }
+        ]
       }
     }
   ],

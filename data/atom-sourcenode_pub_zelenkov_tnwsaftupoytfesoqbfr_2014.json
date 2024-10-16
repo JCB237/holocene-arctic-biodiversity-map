@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Zelenkov, N. V.; Kurochkin, E. N."
-            },
-            "Title": {
-              "item": "Two new waterfowl species (Aves: Anseriformes) from the Upper Pleistocene of Yakutia: The first extinct species of Quaternary birds from Russia"
-            },
-            "Journal": {
-              "item": "Paleontological Journal"
-            },
-            "Year": 2014,
-            "Volume": 48,
-            "Pages": [
-              645,
-              654
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Zelenkov, N. V.; Kurochkin, E. N."
+              },
+              "Title": {
+                "item": "Two new waterfowl species (Aves: Anseriformes) from the Upper Pleistocene of Yakutia: The first extinct species of Quaternary birds from Russia"
+              },
+              "Journal": {
+                "item": "Paleontological Journal"
+              },
+              "Year": 2014,
+              "Volume": 48,
+              "Pages": [
+                645,
+                654
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in Aldan River, Yakutia, Russia"
           }
-        }
+        ]
       }
     }
   ],

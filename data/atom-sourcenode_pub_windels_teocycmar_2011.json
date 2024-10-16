@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Windels, S. K.; Flaspohler, D. J."
-            },
-            "Title": {
-              "item": "The ecology of Canada Yew (Taxus canadensis Marsh.): A review"
-            },
-            "Journal": {
-              "item": "Botany"
-            },
-            "Year": 2011,
-            "Volume": 89,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Windels, S. K.; Flaspohler, D. J."
+              },
+              "Title": {
+                "item": "The ecology of Canada Yew (Taxus canadensis Marsh.): A review"
+              },
+              "Journal": {
+                "item": "Botany"
+              },
+              "Year": 2011,
+              "Volume": 89,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "No time series or areas in Artic region"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Colpron-Tremblay, J.; Lavoie, M."
-            },
-            "Title": {
-              "item": "Long-term stand-scale dynamics of a boreal mixed forest in Quebec, Canada"
-            },
-            "Journal": {
-              "item": "Review of Palaeobotany & Palynology"
-            },
-            "Year": 2010,
-            "Volume": 161,
-            "Pages": [
-              43,
-              58
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Colpron-Tremblay, J.; Lavoie, M."
+              },
+              "Title": {
+                "item": "Long-term stand-scale dynamics of a boreal mixed forest in Quebec, Canada"
+              },
+              "Journal": {
+                "item": "Review of Palaeobotany & Palynology"
+              },
+              "Year": 2010,
+              "Volume": 161,
+              "Pages": [
+                43,
+                58
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located near Quebec City"
           }
-        }
+        ]
       }
     }
   ],

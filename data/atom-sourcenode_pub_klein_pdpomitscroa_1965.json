@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Klein, D. R."
-            },
-            "Title": {
-              "item": "Postglacial distribution patterns of mamals in the southern coastal regions of Alaska"
-            },
-            "Journal": {
-              "item": "Arctic J Arctic Inst N Amer"
-            },
-            "Year": 1965,
-            "Volume": 18,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Klein, D. R."
+              },
+              "Title": {
+                "item": "Postglacial distribution patterns of mamals in the southern coastal regions of Alaska"
+              },
+              "Journal": {
+                "item": "Arctic J Arctic Inst N Amer"
+              },
+              "Year": 1965,
+              "Volume": 18,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "no time series and years in Holocene"
           }
-        }
+        ]
       }
     }
   ],

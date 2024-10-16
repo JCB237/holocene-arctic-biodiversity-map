@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Tardif, J. C.; Kames, S.; Nolin, A. F.; Bergeron, Y."
-            },
-            "Title": {
-              "item": "Earlywood Vessels in Black Ash (Fraxinus nigra Marsh.) Trees Show Contrasting Sensitivity to Hydroclimate Variables According to Flood Exposure"
-            },
-            "Journal": {
-              "item": "Frontiers in Plant Science"
-            },
-            "Year": 2021,
-            "Volume": 12,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Tardif, J. C.; Kames, S.; Nolin, A. F.; Bergeron, Y."
+              },
+              "Title": {
+                "item": "Earlywood Vessels in Black Ash (Fraxinus nigra Marsh.) Trees Show Contrasting Sensitivity to Hydroclimate Variables According to Flood Exposure"
+              },
+              "Journal": {
+                "item": "Frontiers in Plant Science"
+              },
+              "Year": 2021,
+              "Volume": 12,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in Lake Duparquet, Quebec"
           }
-        }
+        ]
       }
     }
   ],

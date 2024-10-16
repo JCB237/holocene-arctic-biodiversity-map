@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Morgan, A. V.; Motz, J. E."
-            },
-            "Title": {
-              "item": "Carphorborus andersoni Swaine: Fossil occurrences in North America and comments on its modern distribution (Coleoptera: Scolytidae)"
-            },
-            "Journal": {
-              "item": "Coleopterists Bulletin"
-            },
-            "Year": 1995,
-            "Volume": 49,
-            "Pages": [
-              127,
-              131
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Morgan, A. V.; Motz, J. E."
+              },
+              "Title": {
+                "item": "Carphorborus andersoni Swaine: Fossil occurrences in North America and comments on its modern distribution (Coleoptera: Scolytidae)"
+              },
+              "Journal": {
+                "item": "Coleopterists Bulletin"
+              },
+              "Year": 1995,
+              "Volume": 49,
+              "Pages": [
+                127,
+                131
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "time series available, not in the Artic region (Brampton, Ontario)"
           }
-        }
+        ]
       }
     }
   ],

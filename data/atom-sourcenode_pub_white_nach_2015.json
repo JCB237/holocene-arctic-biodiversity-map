@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "White, S.; Sylvester, K. M.; Tucker, R."
-            },
-            "Title": {
-              "item": "North American climate history"
-            },
-            "Journal": {
-              "item": "Cultural Dynamics of Climate Change and the Environment in Northern America"
-            },
-            "Year": 2015,
-            "Volume": 3,
-            "Pages": [
-              110,
-              136
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "White, S.; Sylvester, K. M.; Tucker, R."
+              },
+              "Title": {
+                "item": "North American climate history"
+              },
+              "Journal": {
+                "item": "Cultural Dynamics of Climate Change and the Environment in Northern America"
+              },
+              "Year": 2015,
+              "Volume": 3,
+              "Pages": [
+                110,
+                136
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "No time series present and very general overview of the North American climate"
           }
-        }
+        ]
       }
     }
   ],

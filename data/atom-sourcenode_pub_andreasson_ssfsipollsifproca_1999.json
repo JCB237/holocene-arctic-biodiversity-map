@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Andreasson, F. P.; Schmitz, B.; Jonsson, E."
-            },
-            "Title": {
-              "item": "Surface-water seasonality from stable isotope profiles of Littorina littorea shells: implications for paleoenvironmental reconstructions of coastal areas"
-            },
-            "Journal": {
-              "item": "Palaios"
-            },
-            "Year": 1999,
-            "Volume": 14,
-            "Pages": [
-              273,
-              281
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Andreasson, F. P.; Schmitz, B.; Jonsson, E."
+              },
+              "Title": {
+                "item": "Surface-water seasonality from stable isotope profiles of Littorina littorea shells: implications for paleoenvironmental reconstructions of coastal areas"
+              },
+              "Journal": {
+                "item": "Palaios"
+              },
+              "Year": 1999,
+              "Volume": 14,
+              "Pages": [
+                273,
+                281
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Located in West coast of Sweden"
           }
-        }
+        ]
       }
     }
   ],

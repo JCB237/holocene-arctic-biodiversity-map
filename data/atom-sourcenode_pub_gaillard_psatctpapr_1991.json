@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Gaillard, M. J.; Digerfeldt, G."
-            },
-            "Title": {
-              "item": "Palaeohydrological Studies and Their Contribution to Palaeoecological and Palaeoclimatic Reconstructions"
-            },
-            "Journal": {
-              "item": "Berglund, B. E."
-            },
-            "Year": 1991,
-            "Pages": [
-              275,
-              282
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Gaillard, M. J.; Digerfeldt, G."
+              },
+              "Title": {
+                "item": "Palaeohydrological Studies and Their Contribution to Palaeoecological and Palaeoclimatic Reconstructions"
+              },
+              "Journal": {
+                "item": "Berglund, B. E."
+              },
+              "Year": 1991,
+              "Pages": [
+                275,
+                282
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Located in southern Sweden"
           }
-        }
+        ]
       }
     }
   ],

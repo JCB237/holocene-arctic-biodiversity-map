@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Pelletier, M.; Allard, M.; Levesque, E."
-            },
-            "Title": {
-              "item": "Ecosystem changes across a gradient of permafrost degradation in subarctic Quebec (Tasiapik Valley, Nunavik, Canada)"
-            },
-            "Journal": {
-              "item": "Arctic Science"
-            },
-            "Year": 2019,
-            "Volume": 5,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Pelletier, M.; Allard, M.; Levesque, E."
+              },
+              "Title": {
+                "item": "Ecosystem changes across a gradient of permafrost degradation in subarctic Quebec (Tasiapik Valley, Nunavik, Canada)"
+              },
+              "Journal": {
+                "item": "Arctic Science"
+              },
+              "Year": 2019,
+              "Volume": 5,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "No time series or years in Holocene"
           }
-        }
+        ]
       }
     }
   ],

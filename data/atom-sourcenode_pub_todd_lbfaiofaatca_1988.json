@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Todd, L. C.; Rapson, D. J."
-            },
-            "Title": {
-              "item": "Long Bone Fragmentation and Interpretation of Faunal Assemblages Approaches to Comparative Analysis"
-            },
-            "Journal": {
-              "item": "Journal of Archaeological Science"
-            },
-            "Year": 1988,
-            "Volume": 15,
-            "Pages": [
-              307,
-              326
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Todd, L. C.; Rapson, D. J."
+              },
+              "Title": {
+                "item": "Long Bone Fragmentation and Interpretation of Faunal Assemblages Approaches to Comparative Analysis"
+              },
+              "Journal": {
+                "item": "Journal of Archaeological Science"
+              },
+              "Year": 1988,
+              "Volume": 15,
+              "Pages": [
+                307,
+                326
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "no time series or time in Holocene"
           }
-        }
+        ]
       }
     }
   ],

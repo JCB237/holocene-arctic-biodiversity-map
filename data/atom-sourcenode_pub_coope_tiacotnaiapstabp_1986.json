@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Coope, G. R."
-            },
-            "Title": {
-              "item": "The Invasion and Colonization of the North Atlantic Islands a Paleoecological Solution to a Biogeographic Problem"
-            },
-            "Journal": {
-              "item": "Philosophical Transactions of the Royal Society of London B Biological Sciences"
-            },
-            "Year": 1986,
-            "Volume": 314,
-            "Pages": [
-              619,
-              635
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Coope, G. R."
+              },
+              "Title": {
+                "item": "The Invasion and Colonization of the North Atlantic Islands a Paleoecological Solution to a Biogeographic Problem"
+              },
+              "Journal": {
+                "item": "Philosophical Transactions of the Royal Society of London B Biological Sciences"
+              },
+              "Year": 1986,
+              "Volume": 314,
+              "Pages": [
+                619,
+                635
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Various locations in Europe/ no time series"
           }
-        }
+        ]
       }
     }
   ],

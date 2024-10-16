@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Shiyatov, S. G.; Terent'ev, M. M.; Fomin, V. V.; Zimmermann, N. E."
-            },
-            "Title": {
-              "item": "Altitudinal and horizontal shifts of the upper boundaries of open and closed forests in the Polar Urals in the 20th century"
-            },
-            "Journal": {
-              "item": "Russian Journal of Ecology"
-            },
-            "Year": 2007,
-            "Volume": 38,
-            "Pages": [
-              223,
-              227
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Shiyatov, S. G.; Terent'ev, M. M.; Fomin, V. V.; Zimmermann, N. E."
+              },
+              "Title": {
+                "item": "Altitudinal and horizontal shifts of the upper boundaries of open and closed forests in the Polar Urals in the 20th century"
+              },
+              "Journal": {
+                "item": "Russian Journal of Ecology"
+              },
+              "Year": 2007,
+              "Volume": 38,
+              "Pages": [
+                223,
+                227
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "no time series "
           }
-        }
+        ]
       }
     }
   ],

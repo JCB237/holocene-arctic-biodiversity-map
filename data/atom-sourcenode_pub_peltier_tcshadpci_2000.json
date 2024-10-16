@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Peltier, W. R."
-            },
-            "Title": {
-              "item": "The climate system history and dynamics program - CSHD: Introduction"
-            },
-            "Journal": {
-              "item": "Canadian Journal of Earth Sciences"
-            },
-            "Year": 2000,
-            "Volume": 37,
-            "Pages": [
-              629,
-              633
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Peltier, W. R."
+              },
+              "Title": {
+                "item": "The climate system history and dynamics program - CSHD: Introduction"
+              },
+              "Journal": {
+                "item": "Canadian Journal of Earth Sciences"
+              },
+              "Year": 2000,
+              "Volume": 37,
+              "Pages": [
+                629,
+                633
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "no time series or biota present"
           }
-        }
+        ]
       }
     }
   ],

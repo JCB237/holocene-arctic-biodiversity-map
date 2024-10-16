@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Helama, S.; Luoto, T. P.; Nevalainen, L.; Edvardsson, J."
-            },
-            "Title": {
-              "item": "Rereading a tree-ring database to illustrate depositional histories of subfossil trees"
-            },
-            "Journal": {
-              "item": "Palaeontologia Electronica"
-            },
-            "Year": 2017,
-            "Volume": 20,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Helama, S.; Luoto, T. P.; Nevalainen, L.; Edvardsson, J."
+              },
+              "Title": {
+                "item": "Rereading a tree-ring database to illustrate depositional histories of subfossil trees"
+              },
+              "Journal": {
+                "item": "Palaeontologia Electronica"
+              },
+              "Year": 2017,
+              "Volume": 20,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in SE Finland, Estonia, Latvia and Lithuania"
           }
-        }
+        ]
       }
     }
   ],

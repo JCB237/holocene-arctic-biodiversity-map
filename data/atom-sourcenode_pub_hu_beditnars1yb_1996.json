@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Hu, F. S.; Brubaker, L. B.; Anderson, P. M."
-            },
-            "Title": {
-              "item": "Boreal ecosystem development in the northwestern Alaska range since 11,000 yr BP"
-            },
-            "Journal": {
-              "item": "Quaternary Research"
-            },
-            "Year": 1996,
-            "Volume": 45,
-            "Pages": [
-              188,
-              201
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Hu, F. S.; Brubaker, L. B.; Anderson, P. M."
+              },
+              "Title": {
+                "item": "Boreal ecosystem development in the northwestern Alaska range since 11,000 yr BP"
+              },
+              "Journal": {
+                "item": "Quaternary Research"
+              },
+              "Year": 1996,
+              "Volume": 45,
+              "Pages": [
+                188,
+                201
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Located in Farewell Lake, Alaska"
           }
-        }
+        ]
       }
     }
   ],

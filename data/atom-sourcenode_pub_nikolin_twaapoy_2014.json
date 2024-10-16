@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Nikolin, E. G."
-            },
-            "Title": {
-              "item": "The weed and alien plants of Yakutia"
-            },
-            "Journal": {
-              "item": "Russian Journal of Biological Invasions"
-            },
-            "Year": 2014,
-            "Volume": 5,
-            "Pages": [
-              86,
-              89
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Nikolin, E. G."
+              },
+              "Title": {
+                "item": "The weed and alien plants of Yakutia"
+              },
+              "Journal": {
+                "item": "Russian Journal of Biological Invasions"
+              },
+              "Year": 2014,
+              "Volume": 5,
+              "Pages": [
+                86,
+                89
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "no times series or years in Holocene"
           }
-        }
+        ]
       }
     }
   ],

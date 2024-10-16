@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Smol, J. P.; Douglas, M. S."
-            },
-            "Title": {
-              "item": "Crossing the final ecological threshold in high Arctic ponds"
-            },
-            "Journal": {
-              "item": "Proceedings of the National Academy of Sciences of the United States of America"
-            },
-            "Year": 2007,
-            "Volume": 104,
-            "Pages": [
-              12395,
-              12397
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Smol, J. P.; Douglas, M. S."
+              },
+              "Title": {
+                "item": "Crossing the final ecological threshold in high Arctic ponds"
+              },
+              "Journal": {
+                "item": "Proceedings of the National Academy of Sciences of the United States of America"
+              },
+              "Year": 2007,
+              "Volume": 104,
+              "Pages": [
+                12395,
+                12397
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "BiotaNotPresent",
+          {
+            "item": "concerns water levels only"
           }
-        }
+        ]
       }
     }
   ],

@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Moore, J. R."
-            },
-            "Title": {
-              "item": "Do Terrestrial Vertebrate Fossil Assemblages Show Consistent Taphonomic Patterns?"
-            },
-            "Journal": {
-              "item": "Palaios"
-            },
-            "Year": 2012,
-            "Volume": 27,
-            "Pages": [
-              220,
-              234
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Moore, J. R."
+              },
+              "Title": {
+                "item": "Do Terrestrial Vertebrate Fossil Assemblages Show Consistent Taphonomic Patterns?"
+              },
+              "Journal": {
+                "item": "Palaios"
+              },
+              "Year": 2012,
+              "Volume": 27,
+              "Pages": [
+                220,
+                234
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "No time series present or fixed area of fossil remains"
           }
-        }
+        ]
       }
     }
   ],

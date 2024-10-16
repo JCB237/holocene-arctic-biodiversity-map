@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Birks, H. J. B.; Webb, T., III; Berti, A. A."
-            },
-            "Title": {
-              "item": "Numerical Analysis of Pollen Samples from Central Canada a Comparison of Methods"
-            },
-            "Journal": {
-              "item": "Review of Palaeobotany and Palynology"
-            },
-            "Year": 1975,
-            "Volume": 20,
-            "Pages": [
-              133,
-              169
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Birks, H. J. B.; Webb, T., III; Berti, A. A."
+              },
+              "Title": {
+                "item": "Numerical Analysis of Pollen Samples from Central Canada a Comparison of Methods"
+              },
+              "Journal": {
+                "item": "Review of Palaeobotany and Palynology"
+              },
+              "Year": 1975,
+              "Volume": 20,
+              "Pages": [
+                133,
+                169
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Located in central Canada and lacking time series in Halocene"
           }
-        }
+        ]
       }
     }
   ],

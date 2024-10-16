@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Ives, J. W.; Froese, D.; Supernant, K.; Yanicki, G."
-            },
-            "Title": {
-              "item": "Vectors, vestiges, and valhallas—rethinking the corridor"
-            },
-            "Journal": {
-              "item": "Paleoamerican Odyssey"
-            },
-            "Year": 2014,
-            "Pages": [
-              149,
-              170
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Ives, J. W.; Froese, D.; Supernant, K.; Yanicki, G."
+              },
+              "Title": {
+                "item": "Vectors, vestiges, and valhallas—rethinking the corridor"
+              },
+              "Journal": {
+                "item": "Paleoamerican Odyssey"
+              },
+              "Year": 2014,
+              "Pages": [
+                149,
+                170
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in northern Canada and Montana"
           }
-        }
+        ]
       }
     }
   ],

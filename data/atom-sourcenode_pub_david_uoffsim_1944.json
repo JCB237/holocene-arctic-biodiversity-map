@@ -8,25 +8,31 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "David, L. R."
-            },
-            "Title": {
-              "item": "Use of fossil fish scales in micropaleontologv"
-            },
-            "Journal": {
-              "item": "Contributions to Palaeontology Carnegie Institute Washington"
-            },
-            "Year": 1944,
-            "Pages": [
-              27,
-              43
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "David, L. R."
+              },
+              "Title": {
+                "item": "Use of fossil fish scales in micropaleontologv"
+              },
+              "Journal": {
+                "item": "Contributions to Palaeontology Carnegie Institute Washington"
+              },
+              "Year": 1944,
+              "Pages": [
+                27,
+                43
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotTimeSeries",
+          {
+            "item": "No time series or years in Holocene"
           }
-        }
+        ]
       }
     }
   ],

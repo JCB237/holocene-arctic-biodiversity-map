@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Navarro, L.; Harvey, A. E.; Ali, A.; Bergeron, Y.; Morin, H."
-            },
-            "Title": {
-              "item": "A Holocene landscape dynamic multiproxy reconstruction: How do interactions between fire and insect outbreaks shape an ecosystem over long time scales?"
-            },
-            "Journal": {
-              "item": "PLoS One"
-            },
-            "Year": 2018,
-            "Volume": 13,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Navarro, L.; Harvey, A. E.; Ali, A.; Bergeron, Y.; Morin, H."
+              },
+              "Title": {
+                "item": "A Holocene landscape dynamic multiproxy reconstruction: How do interactions between fire and insect outbreaks shape an ecosystem over long time scales?"
+              },
+              "Journal": {
+                "item": "PLoS One"
+              },
+              "Year": 2018,
+              "Volume": 13,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Located in Lake Flevy, Quebec"
           }
-        }
+        ]
       }
     }
   ],

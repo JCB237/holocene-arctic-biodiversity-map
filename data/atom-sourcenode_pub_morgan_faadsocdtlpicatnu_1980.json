@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Morgan, A. V.; Morgan, A."
-            },
-            "Title": {
-              "item": "Faunal Assemblages and Distributional Shifts of Coleoptera during the Late Pleistocene in Canada and the Northern United-States"
-            },
-            "Journal": {
-              "item": "Canadian Entomologist"
-            },
-            "Year": 1980,
-            "Volume": 112,
-            "Pages": [
-              1105,
-              1128
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Morgan, A. V.; Morgan, A."
+              },
+              "Title": {
+                "item": "Faunal Assemblages and Distributional Shifts of Coleoptera during the Late Pleistocene in Canada and the Northern United-States"
+              },
+              "Journal": {
+                "item": "Canadian Entomologist"
+              },
+              "Year": 1980,
+              "Volume": 112,
+              "Pages": [
+                1105,
+                1128
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "Pleistocene years only "
           }
-        }
+        ]
       }
     }
   ],

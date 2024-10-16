@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Guyette, R. P.; Dey, D. C.; Stambaugh, M. C.; Muzika, R. M."
-            },
-            "Title": {
-              "item": "Fire scars reveal variability and dynamics of eastern fire regimes"
-            },
-            "Journal": {
-              "item": "General Technical Report Northern Research Station, USDA Forest Service"
-            },
-            "Year": 2006,
-            "Volume": 1,
-            "Pages": [
-              20,
-              39
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Guyette, R. P.; Dey, D. C.; Stambaugh, M. C.; Muzika, R. M."
+              },
+              "Title": {
+                "item": "Fire scars reveal variability and dynamics of eastern fire regimes"
+              },
+              "Journal": {
+                "item": "General Technical Report Northern Research Station, USDA Forest Service"
+              },
+              "Year": 2006,
+              "Volume": 1,
+              "Pages": [
+                20,
+                39
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in eastern North America"
           }
-        }
+        ]
       }
     }
   ],

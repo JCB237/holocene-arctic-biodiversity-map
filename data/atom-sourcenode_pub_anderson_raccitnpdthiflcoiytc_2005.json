@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Anderson, L.; Abbott, M. B.; Finney, B. P.; Burns, S. J."
-            },
-            "Title": {
-              "item": "Regional atmospheric circulation change in the North Pacific during the Holocene inferred from lacustrine carbonate oxygen isotopes, Yukon Territory, Canada"
-            },
-            "Journal": {
-              "item": "Quaternary Research"
-            },
-            "Year": 2005,
-            "Volume": 64,
-            "Pages": [
-              21,
-              35
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Anderson, L.; Abbott, M. B.; Finney, B. P.; Burns, S. J."
+              },
+              "Title": {
+                "item": "Regional atmospheric circulation change in the North Pacific during the Holocene inferred from lacustrine carbonate oxygen isotopes, Yukon Territory, Canada"
+              },
+              "Journal": {
+                "item": "Quaternary Research"
+              },
+              "Year": 2005,
+              "Volume": 64,
+              "Pages": [
+                21,
+                35
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Located in Jellybean Lake, Canada"
           }
-        }
+        ]
       }
     }
   ],

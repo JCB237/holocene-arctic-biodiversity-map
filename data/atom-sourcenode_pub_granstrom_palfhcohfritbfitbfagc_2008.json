@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Granstrom, A.; Niklasson, M."
-            },
-            "Title": {
-              "item": "Potentials and limitations for human control over historic fire regimes in the boreal forest. (Special issue: The boreal forest and global change.)"
-            },
-            "Journal": {
-              "item": "Philosophical Transactions of the Royal Society B. Biological Sciences"
-            },
-            "Year": 2008,
-            "Volume": 363,
-            "Pages": [
-              2353,
-              2358
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Granstrom, A.; Niklasson, M."
+              },
+              "Title": {
+                "item": "Potentials and limitations for human control over historic fire regimes in the boreal forest. (Special issue: The boreal forest and global change.)"
+              },
+              "Journal": {
+                "item": "Philosophical Transactions of the Royal Society B. Biological Sciences"
+              },
+              "Year": 2008,
+              "Volume": 363,
+              "Pages": [
+                2353,
+                2358
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "Logdealven, Northern Sweden"
           }
-        }
+        ]
       }
     }
   ],

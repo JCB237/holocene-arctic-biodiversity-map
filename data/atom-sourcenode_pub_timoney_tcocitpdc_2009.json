@@ -8,26 +8,32 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Timoney, K. P."
-            },
-            "Title": {
-              "item": "Three centuries of change in the Peace-Athabasca Delta, Canada"
-            },
-            "Journal": {
-              "item": "Climatic Change"
-            },
-            "Year": 2009,
-            "Volume": 93,
-            "Pages": [
-              485,
-              515
-            ],
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Timoney, K. P."
+              },
+              "Title": {
+                "item": "Three centuries of change in the Peace-Athabasca Delta, Canada"
+              },
+              "Journal": {
+                "item": "Climatic Change"
+              },
+              "Year": 2009,
+              "Volume": 93,
+              "Pages": [
+                485,
+                515
+              ],
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NotArcticRegion",
+          {
+            "item": "located in Athabasca Delta, Canada"
           }
-        }
+        ]
       }
     }
   ],

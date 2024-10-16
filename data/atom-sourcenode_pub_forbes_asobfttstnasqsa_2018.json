@@ -8,22 +8,28 @@
     },
     {
       "SourceNode": {
-        "Unscreened": {
-          "Bibliographic": {
-            "Author": {
-              "item": "Forbes, V.; Sikes, D."
-            },
-            "Title": {
-              "item": "A survey of beetles (Coleoptera) from the tundra surrounding the Nunalleq archaeological site, Quinhagak, southwestern Alaska"
-            },
-            "Journal": {
-              "item": "Biodiversity Data Journal"
-            },
-            "Year": 2018,
-            "Volume": 6,
-            "DataAvailability": "NotAttachedToSource"
+        "Excluded": [
+          {
+            "Bibliographic": {
+              "Author": {
+                "item": "Forbes, V.; Sikes, D."
+              },
+              "Title": {
+                "item": "A survey of beetles (Coleoptera) from the tundra surrounding the Nunalleq archaeological site, Quinhagak, southwestern Alaska"
+              },
+              "Journal": {
+                "item": "Biodiversity Data Journal"
+              },
+              "Year": 2018,
+              "Volume": 6,
+              "DataAvailability": "NotAttachedToSource"
+            }
+          },
+          "NoYearsInHolocene",
+          {
+            "item": "no years in Holocene or time series"
           }
-        }
+        ]
       }
     }
   ],
